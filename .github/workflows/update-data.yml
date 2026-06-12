@@ -1,0 +1,48 @@
+name: 每日更新 AI 資訊看板
+
+on:
+  schedule:
+    # 每天台灣時間 07:30（UTC 23:30 前一天）
+    - cron: '30 23 * * *'
+  workflow_dispatch:
+    # 也可以在 GitHub Actions 頁面手動觸發
+    inputs:
+      reason:
+        description: '手動觸發原因（選填）'
+        required: false
+        default: '手動更新'
+
+permissions:
+  contents: write   # 允許推送 data.json
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: 📥 Checkout 程式碼
+        uses: actions/checkout@v4
+
+      - name: 🐍 設定 Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: 📦 安裝套件
+        run: pip install anthropic feedparser requests --quiet
+
+      - name: 🤖 抓取並更新 AI 新聞
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/fetch-news.py
+
+      - name: 💾 提交並推送 data.json
+        run: |
+          git config user.name  "AI News Bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data.json
+          # 只有內容有變更才 commit
+          git diff --staged --quiet || git commit -m "🤖 每日更新 AI 資訊 $(date +'%Y-%m-%d')"
+          git push
