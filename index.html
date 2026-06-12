@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI課每日資訊看板</title>
+<style>
+:root{color-scheme:light;--bg:#F0F4F8;--card-bg:#FFFFFF;--accent:#FF6B35;--text-primary:#1A2B3C;--text-secondary:#64748B;--blue-light:#EFF6FF;--purple-light:#F5F3FF;--green-light:#F0FDF4;--blue-accent:#2563EB;--purple-accent:#7C3AED;--green-accent:#16A34A;--shadow:0 1px 4px rgba(0,0,0,.07),0 4px 14px rgba(0,0,0,.06);--radius:12px}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang TC','Microsoft JhengHei','Noto Sans TC',sans-serif;background:var(--bg);color:var(--text-primary);min-height:100vh;font-size:14px}
+.header{background:linear-gradient(135deg,#1E3A5F 0%,#0F2644 100%);color:#fff;padding:18px 22px 14px;position:sticky;top:0;z-index:100;box-shadow:0 2px 12px rgba(0,0,0,.25)}
+.header-row1{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.logo-wrap{display:flex;align-items:center;gap:10px}
+.logo-icon{font-size:1.7rem;line-height:1}
+.logo-text h1{font-size:1.25rem;font-weight:700;letter-spacing:.03em;line-height:1.2}
+.logo-text .sub{font-size:.72rem;opacity:.65;margin-top:2px}
+.header-actions{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.update-time{font-size:.73rem;opacity:.7;background:rgba(255,255,255,.1);padding:4px 10px;border-radius:12px}
+.refresh-btn{background:var(--accent);color:#fff;border:none;padding:7px 16px;border-radius:20px;font-size:.8rem;font-weight:700;cursor:pointer;transition:all .2s;font-family:inherit;display:flex;align-items:center;gap:5px;white-space:nowrap}
+.refresh-btn:hover:not(:disabled){background:#e55a25;transform:translateY(-1px);box-shadow:0 3px 8px rgba(255,107,53,.45)}
+.refresh-btn:disabled{opacity:.65;cursor:not-allowed}
+.header-row2{margin-top:12px;position:relative}
+.search-input{width:100%;max-width:400px;padding:8px 14px 8px 34px;border-radius:20px;border:none;background:rgba(255,255,255,.13);color:#fff;font-size:.82rem;outline:none;font-family:inherit;transition:background .2s}
+.search-input::placeholder{color:rgba(255,255,255,.45)}
+.search-input:focus{background:rgba(255,255,255,.22)}
+.search-icon{position:absolute;left:10px;top:50%;transform:translateY(-50%);font-size:.85rem;opacity:.55;pointer-events:none}
+.tabs{display:flex;gap:4px;padding:10px 22px 0;background:#fff;border-bottom:1px solid #E2E8F0;overflow-x:auto;-webkit-overflow-scrolling:touch}
+.tabs::-webkit-scrollbar{height:3px}.tabs::-webkit-scrollbar-thumb{background:#CBD5E1;border-radius:2px}
+.tab-btn{padding:9px 16px;border-radius:8px 8px 0 0;border:none;background:transparent;color:var(--text-secondary);font-size:.82rem;font-weight:500;cursor:pointer;transition:all .15s;white-space:nowrap;font-family:inherit;position:relative;bottom:-1px}
+.tab-btn:hover{color:var(--text-primary);background:#F1F5F9}
+.tab-btn.active{color:var(--blue-accent);background:#fff;border:1px solid #E2E8F0;border-bottom-color:#fff;font-weight:700}
+.content{padding:18px 22px 30px}
+.section{display:none;margin-bottom:24px}.section.show{display:block}
+.sec-head{display:flex;align-items:center;gap:8px;margin-bottom:14px;padding-bottom:8px;border-bottom:2px solid}
+.sec-head h2{font-size:.95rem;font-weight:700}
+.sec-badge{margin-left:auto;font-size:.7rem;font-weight:700;padding:2px 9px;border-radius:10px}
+#sec-news .sec-head{border-color:var(--blue-accent)}#sec-news .sec-head h2{color:var(--blue-accent)}#sec-news .sec-badge{background:var(--blue-light);color:var(--blue-accent)}#sec-news .card{border-left-color:var(--blue-accent)}#sec-news .card-source{background:#DBEAFE;color:var(--blue-accent)}
+#sec-video .sec-head{border-color:var(--purple-accent)}#sec-video .sec-head h2{color:var(--purple-accent)}#sec-video .sec-badge{background:var(--purple-light);color:var(--purple-accent)}#sec-video .card{border-left-color:var(--purple-accent)}#sec-video .card-source{background:#EDE9FE;color:var(--purple-accent)}
+#sec-slides .sec-head{border-color:var(--green-accent)}#sec-slides .sec-head h2{color:var(--green-accent)}#sec-slides .sec-badge{background:var(--green-light);color:var(--green-accent)}#sec-slides .card{border-left-color:var(--green-accent)}#sec-slides .card-source{background:#DCFCE7;color:var(--green-accent)}
+.cards-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px}
+.card{background:var(--card-bg);border-radius:var(--radius);padding:14px 16px;box-shadow:var(--shadow);border-left:3px solid transparent;transition:transform .18s,box-shadow .18s;cursor:default}
+.card:hover{transform:translateY(-3px);box-shadow:0 6px 20px rgba(0,0,0,.11)}
+.card-title{font-size:.88rem;font-weight:600;line-height:1.45;margin-bottom:8px}
+.card-title a{color:var(--text-primary);text-decoration:none}
+.card-title a:hover{text-decoration:underline;color:var(--blue-accent)}
+.card-meta{display:flex;align-items:center;gap:6px;margin-bottom:8px;flex-wrap:wrap}
+.card-source{font-size:.7rem;font-weight:700;padding:2px 8px;border-radius:8px}
+.card-date{font-size:.7rem;color:var(--text-secondary)}
+.card-summary{font-size:.81rem;color:#4B5563;line-height:1.65}
+.no-match{text-align:center;padding:28px;color:var(--text-secondary);font-size:.82rem;grid-column:1/-1}
+.loading-overlay{display:flex;flex-direction:column;align-items:center;justify-content:center;padding:60px 20px;gap:14px;color:var(--text-secondary)}
+.loading-spinner{width:36px;height:36px;border:3px solid #E2E8F0;border-top-color:var(--blue-accent);border-radius:50%;animation:spin .8s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}.spin{display:inline-block;animation:spin .9s linear infinite}
+</style>
+</head>
+<body>
+<div class="header">
+  <div class="header-row1">
+    <div class="logo-wrap">
+      <div class="logo-icon">📚</div>
+      <div class="logo-text">
+        <h1>AI課每日資訊看板</h1>
+        <div class="sub">AI新品 · 影片技巧 · 簡報技巧</div>
+      </div>
+    </div>
+    <div class="header-actions">
+      <span class="update-time" id="update-time">⏱ 載入中…</span>
+      <button class="refresh-btn" id="refresh-btn" onclick="handleRefresh()">↻ 立即更新</button>
+    </div>
+  </div>
+  <div class="header-row2">
+    <span class="search-icon">🔍</span>
+    <input class="search-input" type="text" id="search-input" placeholder="搜尋標題、摘要、來源…" oninput="handleSearch(this.value)">
+  </div>
+</div>
+<div class="tabs" role="tablist">
+  <button class="tab-btn active" id="tab-all"    onclick="switchTab('all')"    role="tab">📋 全部</button>
+  <button class="tab-btn"        id="tab-news"   onclick="switchTab('news')"   role="tab">🚀 AI新品與更新</button>
+  <button class="tab-btn"        id="tab-video"  onclick="switchTab('video')"  role="tab">🎬 AI影片技巧</button>
+  <button class="tab-btn"        id="tab-slides" onclick="switchTab('slides')" role="tab">📊 AI簡報技巧</button>
+</div>
+<div class="content">
+  <div id="loading-state" class="loading-overlay">
+    <div class="loading-spinner"></div>
+    <span>載入最新 AI 資訊中…</span>
+  </div>
+  <div id="main-content" style="display:none">
+    <div class="section show" id="sec-news" role="tabpanel">
+      <div class="sec-head"><span>🚀</span><h2>AI新品與韌體更新動態</h2><span class="sec-badge" id="badge-news">0 則</span></div>
+      <div class="cards-grid" id="grid-news"></div>
+    </div>
+    <div class="section show" id="sec-video" role="tabpanel">
+      <div class="sec-head"><span>🎬</span><h2>AI影片技巧精選</h2><span class="sec-badge" id="badge-video">0 則</span></div>
+      <div class="cards-grid" id="grid-video"></div>
+    </div>
+    <div class="section show" id="sec-slides" role="tabpanel">
+      <div class="sec-head"><span>📊</span><h2>AI簡報技巧精選</h2><span class="sec-badge" id="badge-slides">0 則</span></div>
+      <div class="cards-grid" id="grid-slides"></div>
+    </div>
+  </div>
+</div>
+<script>
+const FALLBACK_DATA = {"lastUpdated":"2026-06-12（台灣時間）","news":[{"title":"xAI 與美國 GSA 簽署 Grok 政府合約 | xAI Signs Grok for Government Contract","source":"Build Fast with AI","date":"2026-06-11","summary":"xAI 與美國聯邦總務署簽署合約，讓所有聯邦機構以每機構 0.42 美元的優惠價格使用 Grok 4 及 Grok 4 Fast。","url":"https://www.buildfastwithai.com/blogs/ai-news-today-june-11-2026"},{"title":"Claude 新增支援排程與 CLI 工具的託管代理功能 | Claude Adds Managed Agents","source":"Releasebot / Anthropic","date":"2026-06-10","summary":"Anthropic 為 Claude 平台新增 Managed Agents 公開測試版，支援 cron 排程自動化、加密環境變數及瀏覽器整合。","url":"https://releasebot.io/updates/anthropic/claude"},{"title":"Anthropic 發布 Claude Fable 5 旗艦創作模型 | Anthropic Releases Claude Fable 5","source":"ScriptByAI","date":"2026-06-09","summary":"Anthropic 正式推出 Claude Fable 5，在軟體工程、科學研究、視覺理解等幾乎所有測評中達到最先進水準。","url":"https://www.scriptbyai.com/anthropic-claude-timeline/"},{"title":"Anthropic 宣布上市計畫，年化營收達 470 億美元 | Anthropic Announces IPO Plans","source":"Build Fast with AI","date":"2026-06-08","summary":"Anthropic 公開表示將在 SEC 審查後上市，年化營收達 470 億美元，預計 6 月底突破 500 億美元。","url":"https://www.buildfastwithai.com/blogs/ai-news-today-june-8-2026"},{"title":"OpenAI 以 GPT-5.5 Instant 取代所有用戶預設模型 | OpenAI Launches GPT-5.5 Instant","source":"OpenAI","date":"2026-06-05","summary":"OpenAI 推出 GPT-5.5 Instant 作為新預設模型，幻覺率較前代降低 52.5%，並改善圖像、STEM 輔助及記憶能力。","url":"https://openai.com/index/gpt-5-5-instant/"},{"title":"微軟發布七款全新 MAI 自研 AI 模型 | Microsoft Launches Seven New MAI Models","source":"CNBC","date":"2026-06-02","summary":"微軟推出七款自研 AI 模型，包含旗艦推理模型 MAI-Thinking-1 與語音辨識模型 MAI Transcribe-1.5，降低對 OpenAI 的依賴。","url":"https://www.cnbc.com/2026/06/02/microsoft-unveils-new-ai-models-lessen-reliance-on-openai-lower-costs.html"},{"title":"Google Gemini 3.5 Flash 正式發布，託管代理進入公開預覽 | Gemini 3.5 Flash Goes GA","source":"Google AI for Developers","date":"2026-06-01","summary":"Google 將 Gemini 3.5 Flash 正式推出，並在 API 中發布 Managed Agents 公開預覽，支援沙盒環境執行程式碼與瀏覽網頁。","url":"https://ai.google.dev/gemini-api/docs/changelog"}],"video":[{"title":"CapCut 2026 AI 創作節，限時免費體驗 Pro 功能 | CapCut CRE[AI]TE 2026","source":"CapCut Official","date":"2026-06-10","summary":"CapCut 首屆 AI 創作節提供限時免費 Pro 權限，初學者可體驗 AI 自動剪輯、背景移除、語音克隆等進階功能。","url":"https://capcut.creaite26.com/"},{"title":"Kling 2.6：支援 4K 輸出的 AI 影片生成器 | Kling 2.6: The Only AI Video Generator","source":"AI Hub / Overchat","date":"2026-06-05","summary":"Kling 2.6 支援文字轉影片、圖片轉影片與原生 4K 輸出，初學者只需輸入文字提示即可生成高品質影片。","url":"https://overchat.ai/ai-hub/kling-2-6"},{"title":"DaVinci Resolve 21 免費版內建 AI 剪輯功能 | DaVinci Resolve 21 Free AI Features","source":"digen.ai","date":"2026-06-05","summary":"DaVinci Resolve 21 免費版內建 AI 自動剪輯、場景偵測、人聲分離等功能，是初學者學習專業剪輯的最佳入門工具。","url":"https://resource.digen.ai/free-ai-video-editing-tools-2026/"},{"title":"Sora 停服：2026 年 6 款替代 AI 影片工具 | 6 AI Video Tools Filling the Void","source":"eWeek","date":"2026-06-02","summary":"OpenAI Sora 消費版已於 4 月下線，本文整理 6 款替代工具（含 Kling、Runway、Seedance），幫初學者找到免費替代方案。","url":"https://www.eweek.com/news/sora-alternatives-ai-video-tools-2026/"},{"title":"Runway Gen-4.5 登上 Video Arena 第一名 | Runway Gen-4.5 Video Model","source":"AI Business","date":"2026-06-01","summary":"Runway Gen-4.5 登上 Video Arena 排行榜第一名，物理表現與畫面一致性大幅提升，初學者可直接在瀏覽器使用。","url":"https://aibusiness.com/generative-ai/runway-releases-gen-4-5-video-model"}],"slides":[{"title":"2026年6月 PowerPoint Copilot 一鍵技能上線 | Microsoft 365 Copilot Updates June 2026","source":"YouTube / Microsoft","date":"2026-06-01","summary":"PowerPoint Copilot 新增「一鍵技能」，初學者只需點選即可讓 AI 自動優化投影片結構、將文字轉視覺圖像。","url":"https://www.youtube.com/watch?v=XiAHSHHMY2Q"},{"title":"2026年6月最佳 AI 簡報工具 Top 10 | Best AI Presentation Maker June 2026","source":"BuildMVPFast","date":"2026-06-01","summary":"完整比較 Gamma、Plus AI、Canva、Copilot 等十大工具的免費方案，初學者可快速找到最適合自己的零設計門檻簡報工具。","url":"https://www.buildmvpfast.com/articles/best-llms-2026-guide/presentations-ai"},{"title":"Gamma AI 2026 評測：六個月實測優缺點 | Gamma AI Review 2026","source":"SlideGMM.ai Blog","date":"2026-06-01","summary":"Gamma 仍是 2026 年最推薦 AI 簡報工具，輸入主題後一分鐘即可得到有敘事結構、配圖精美的投影片，可匯出至 PowerPoint。","url":"https://www.slidegmm.ai/en/blog/gamma-ai-review-2026"},{"title":"Canva 推出全新代理式 AI 設計工具 | Canva debuts agentic AI tools","source":"Fortune","date":"2026-04-16","summary":"Canva 新增排程自動化功能，初學者可設定讓 AI 定期從信箱或行事曆自動產生簡報或社群貼文，降低重複製作負擔。","url":"https://fortune.com/2026/04/16/canva-ai-agentic-design-suite-coo-cliff-obrecht/"}]};
+
+let DATA = null;
+let activeTab='all', query='';
+
+async function loadData() {
+  try {
+    const resp = await fetch('./data.json?v=' + Date.now());
+    if (!resp.ok) throw new Error('HTTP ' + resp.status);
+    DATA = await resp.json();
+  } catch(e) {
+    console.warn('data.json 載入失敗，使用備用資料:', e.message);
+    DATA = FALLBACK_DATA;
+  }
+  document.getElementById('loading-state').style.display = 'none';
+  document.getElementById('main-content').style.display = 'block';
+  renderAll();
+  renderTimestamp();
+}
+
+document.addEventListener('DOMContentLoaded', loadData);
+
+function renderAll(){renderSection('news',DATA.news);renderSection('video',DATA.video);renderSection('slides',DATA.slides)}
+function renderSection(key,items){
+  const grid=document.getElementById('grid-'+key);
+  const badge=document.getElementById('badge-'+key);
+  const q=query.toLowerCase();
+  const filtered=q?items.filter(d=>(d.title||'').toLowerCase().includes(q)||(d.summary||'').toLowerCase().includes(q)||(d.source||'').toLowerCase().includes(q)):items;
+  badge.textContent=filtered.length+' 則';
+  if(!filtered.length){grid.innerHTML='<div class="no-match">🔍 沒有符合「'+esc(query)+'」的結果</div>';return}
+  grid.innerHTML=filtered.map(d=>'<div class="card"><div class="card-title">'+(d.url?'<a href="'+esc(d.url)+'" target="_blank" rel="noopener noreferrer">'+esc(d.title||'（無標題）')+'</a>':esc(d.title||'（無標題）'))+'</div><div class="card-meta"><span class="card-source">'+esc(d.source||'—')+'</span><span class="card-date">📅 '+esc(d.date||'—')+'</span></div><div class="card-summary">'+esc(d.summary||'')+'</div></div>').join('')
+}
+function switchTab(tab){
+  activeTab=tab;
+  document.querySelectorAll('.tab-btn').forEach(b=>b.classList.remove('active'));
+  document.getElementById('tab-'+tab).classList.add('active');
+  ['news','video','slides'].forEach(s=>{const el=document.getElementById('sec-'+s);(tab==='all'||tab===s)?el.classList.add('show'):el.classList.remove('show')});
+}
+function handleSearch(val){
+  query=val.trim();
+  if(query){['news','video','slides'].forEach(s=>document.getElementById('sec-'+s).classList.add('show'))}
+  else switchTab(activeTab);
+  renderAll();
+}
+function handleRefresh(){
+  const btn=document.getElementById('refresh-btn');
+  btn.disabled=true;
+  btn.innerHTML='<span class="spin">⟳</span> 更新中…';
+  DATA=null;
+  document.getElementById('loading-state').style.display='flex';
+  document.getElementById('main-content').style.display='none';
+  loadData().then(()=>{btn.innerHTML='↻ 立即更新';btn.disabled=false});
+}
+function renderTimestamp(){
+  document.getElementById('update-time').textContent=DATA&&DATA.lastUpdated?'⏱ 更新於 '+DATA.lastUpdated:'⏱ 尚未更新';
+}
+function esc(str){const d=document.createElement('div');d.appendChild(document.createTextNode(String(str)));return d.innerHTML}
+</script>
+</body>
+</html>
