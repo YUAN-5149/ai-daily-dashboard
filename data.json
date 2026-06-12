@@ -1,0 +1,29 @@
+{
+  "lastUpdated": "2026-06-12（台灣時間）",
+  "news": [
+    {"title":"xAI 與美國 GSA 簽署 Grok 政府合約 | xAI Signs Grok for Government Contract","source":"Build Fast with AI","date":"2026-06-11","summary":"xAI 與美國聯邦總務署簽署合約，讓所有聯邦機構以每機構 0.42 美元的優惠價格使用 Grok 4 及 Grok 4 Fast，合約期限至 2027 年 3 月。","url":"https://www.buildfastwithai.com/blogs/ai-news-today-june-11-2026"},
+    {"title":"Claude 新增支援排程與 CLI 工具的託管代理功能 | Claude Adds Managed Agents with Cron Scheduling","source":"Releasebot / Anthropic","date":"2026-06-10","summary":"Anthropic 為 Claude 平台新增 Managed Agents 公開測試版，支援 cron 排程自動化、加密環境變數及瀏覽器整合，讓代理可安全存取認證服務。","url":"https://releasebot.io/updates/anthropic/claude"},
+    {"title":"Anthropic 發布 Claude Fable 5 旗艦創作模型 | Anthropic Releases Claude Fable 5","source":"ScriptByAI","date":"2026-06-09","summary":"Anthropic 正式推出 Claude Fable 5，定位為迄今最強大的公開模型，在軟體工程、科學研究、視覺理解等幾乎所有測評中達到最先進水準。","url":"https://www.scriptbyai.com/anthropic-claude-timeline/"},
+    {"title":"Anthropic 宣布上市計畫，年化營收達 470 億美元 | Anthropic Announces IPO Plans","source":"Build Fast with AI","date":"2026-06-08","summary":"Anthropic 公開表示將在 SEC 審查後上市，年化營收達 470 億美元，預計 6 月底突破 500 億美元，並接近首個獲利季度。","url":"https://www.buildfastwithai.com/blogs/ai-news-today-june-8-2026"},
+    {"title":"OpenAI 以 GPT-5.5 Instant 取代所有用戶預設模型 | OpenAI Launches GPT-5.5 Instant","source":"OpenAI","date":"2026-06-05","summary":"OpenAI 推出 GPT-5.5 Instant 作為新預設模型，幻覺率較前代降低 52.5%，並改善圖像、STEM 輔助及跨對話情境記憶能力。","url":"https://openai.com/index/gpt-5-5-instant/"},
+    {"title":"微軟發布七款全新 MAI 自研 AI 模型 | Microsoft Launches Seven New MAI Models","source":"CNBC","date":"2026-06-02","summary":"微軟推出七款自研 AI 模型，包含旗艦推理模型 MAI-Thinking-1 與語音辨識模型 MAI Transcribe-1.5，大幅降低對 OpenAI 的依賴。","url":"https://www.cnbc.com/2026/06/02/microsoft-unveils-new-ai-models-lessen-reliance-on-openai-lower-costs.html"},
+    {"title":"Google Gemini 3.5 Flash 正式發布 | Gemini 3.5 Flash Goes GA","source":"Google AI for Developers","date":"2026-06-01","summary":"Google 將 Gemini 3.5 Flash 正式推出，並在 Gemini API 發布 Managed Agents 公開預覽，支援沙盒環境執行程式碼與瀏覽網頁。","url":"https://ai.google.dev/gemini-api/docs/changelog"},
+    {"title":"OpenAI 發布生命科學專用模型 GPT-Rosalind | OpenAI Releases GPT-Rosalind","source":"Build Fast with AI","date":"2026-06-04","summary":"OpenAI 更新了專為生命科學研究打造的 GPT-Rosalind 模型，強化藥物發現與基因組學效能，並新增生物資訊學工作流程插件。","url":"https://www.buildfastwithai.com/blogs/ai-news-today-june-8-2026"}
+  ],
+  "video": [
+    {"title":"CapCut 2026 AI 創作節，限時免費體驗 Pro 功能 | CapCut CRE[AI]TE 2026","source":"CapCut Official","date":"2026-06-10","summary":"CapCut 首屆 AI 創作節提供限時免費 Pro 權限，初學者可免費體驗 AI 自動剪輯、背景移除、語音克隆等進階功能。","url":"https://capcut.creaite26.com/"},
+    {"title":"Kling 2.6：2026 年最值得用的 AI 影片生成器 | Kling 2.6","source":"AI Hub / Overchat","date":"2026-06-05","summary":"Kling 2.6 支援文字轉影片、圖片轉影片與原生 4K 輸出，初學者只需輸入文字提示即可生成高品質影片，操作門檻極低。","url":"https://overchat.ai/ai-hub/kling-2-6"},
+    {"title":"DaVinci Resolve 21 免費版內建 AI 剪輯功能 | DaVinci Resolve 21 Free AI Features","source":"digen.ai","date":"2026-06-05","summary":"DaVinci Resolve 21 免費版內建 AI 自動剪輯、場景偵測、人聲分離功能，是初學者學習專業剪輯的最佳免費入門工具。","url":"https://resource.digen.ai/free-ai-video-editing-tools-2026/"},
+    {"title":"2026 AI 影片剪輯初學者逐步教學 | Video Editing For Beginners with AI 2026","source":"YouTube","date":"2026-06-04","summary":"這部 YouTube 教學專為零基礎初學者設計，逐步示範如何使用 AI 工具完成影片剪輯，適合完全沒有剪輯經驗的新手。","url":"https://www.youtube.com/watch?v=X025xxPGtYs"},
+    {"title":"Sora 停服：2026 年 6 款替代 AI 影片工具 | Sora Is Gone: 6 AI Video Tools","source":"eWeek","date":"2026-06-02","summary":"OpenAI Sora 消費版已於 4 月下線，本文整理 6 款替代工具（含 Kling、Runway、Seedance），幫初學者找到免費或低價的替代方案。","url":"https://www.eweek.com/news/sora-alternatives-ai-video-tools-2026/"},
+    {"title":"Runway Gen-4.5 登上 Video Arena 第一名 | Runway Gen-4.5 Video Model Released","source":"AI Business","date":"2026-06-01","summary":"Runway Gen-4.5 登上 Video Arena 排行榜第一名，物理表現與畫面一致性大幅提升，初學者可直接在瀏覽器使用。","url":"https://aibusiness.com/generative-ai/runway-releases-gen-4-5-video-model"}
+  ],
+  "slides": [
+    {"title":"2026年6月 PowerPoint Copilot 重大更新：一鍵技能上線 | Microsoft 365 Copilot June 2026","source":"YouTube / Microsoft","date":"2026-06-01","summary":"PowerPoint Copilot 新增「一鍵技能」，初學者只需點選即可讓 AI 自動優化投影片結構、將文字轉視覺圖像，不需手動下指令。","url":"https://www.youtube.com/watch?v=XiAHSHHMY2Q"},
+    {"title":"2026年6月最佳 AI 簡報工具 Top 10 | Best AI Presentation Maker June 2026","source":"BuildMVPFast","date":"2026-06-01","summary":"完整比較 Gamma、Plus AI、Canva、Copilot 等十大工具的免費方案，初學者可快速找到最適合自己的零設計門檻簡報工具。","url":"https://www.buildmvpfast.com/articles/best-llms-2026-guide/presentations-ai"},
+    {"title":"Gamma AI 2026 評測：六個月實測 | Gamma AI Review 2026","source":"SlideGMM.ai Blog","date":"2026-06-01","summary":"Gamma 仍是 2026 年最推薦 AI 簡報工具，輸入主題後一分鐘內即可得到完整敘事結構的投影片，並可匯出至 PowerPoint。","url":"https://www.slidegmm.ai/en/blog/gamma-ai-review-2026"},
+    {"title":"2026年 PowerPoint Copilot 實用教學 | PowerPoint Copilot: What Actually Works","source":"WinningPresentations.com","date":"2026-05-15","summary":"針對初學者整理 PowerPoint Copilot 真正好用的功能與下指令技巧，包含如何用一句話生成摘要投影片，省去繁瑣排版。","url":"https://winningpresentations.com/powerpoint-copilot-whats-works/"},
+    {"title":"Google I/O 2026：Slides 整合 Gemini 一鍵生成簡報 | Google I/O 2026 Announcements","source":"Google Blog","date":"2026-05-20","summary":"Google Slides 整合 Gemini，初學者可直接說「幫我把 Drive 裡的報告做成投影片」，AI 自動找檔案、萃取重點並套用樣式。","url":"https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/"},
+    {"title":"Canva 推出全新代理式 AI 設計工具 | Canva debuts agentic AI tools","source":"Fortune","date":"2026-04-16","summary":"Canva 新增排程自動化功能，初學者可設定讓 AI 定期從信箱或行事曆自動產生簡報或社群貼文，降低重複製作負擔。","url":"https://fortune.com/2026/04/16/canva-ai-agentic-design-suite-coo-cliff-obrecht/"}
+  ]
+}
