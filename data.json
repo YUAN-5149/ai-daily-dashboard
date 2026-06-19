@@ -1,29 +1,135 @@
 {
-  "lastUpdated": "2026-06-12（台灣時間）",
+  "lastUpdated": "2026-06-19 18:43（台灣時間）",
   "news": [
-    {"title":"xAI 與美國 GSA 簽署 Grok 政府合約 | xAI Signs Grok for Government Contract","source":"Build Fast with AI","date":"2026-06-11","summary":"xAI 與美國聯邦總務署簽署合約，讓所有聯邦機構以每機構 0.42 美元的優惠價格使用 Grok 4 及 Grok 4 Fast，合約期限至 2027 年 3 月。","url":"https://www.buildfastwithai.com/blogs/ai-news-today-june-11-2026"},
-    {"title":"Claude 新增支援排程與 CLI 工具的託管代理功能 | Claude Adds Managed Agents with Cron Scheduling","source":"Releasebot / Anthropic","date":"2026-06-10","summary":"Anthropic 為 Claude 平台新增 Managed Agents 公開測試版，支援 cron 排程自動化、加密環境變數及瀏覽器整合，讓代理可安全存取認證服務。","url":"https://releasebot.io/updates/anthropic/claude"},
-    {"title":"Anthropic 發布 Claude Fable 5 旗艦創作模型 | Anthropic Releases Claude Fable 5","source":"ScriptByAI","date":"2026-06-09","summary":"Anthropic 正式推出 Claude Fable 5，定位為迄今最強大的公開模型，在軟體工程、科學研究、視覺理解等幾乎所有測評中達到最先進水準。","url":"https://www.scriptbyai.com/anthropic-claude-timeline/"},
-    {"title":"Anthropic 宣布上市計畫，年化營收達 470 億美元 | Anthropic Announces IPO Plans","source":"Build Fast with AI","date":"2026-06-08","summary":"Anthropic 公開表示將在 SEC 審查後上市，年化營收達 470 億美元，預計 6 月底突破 500 億美元，並接近首個獲利季度。","url":"https://www.buildfastwithai.com/blogs/ai-news-today-june-8-2026"},
-    {"title":"OpenAI 以 GPT-5.5 Instant 取代所有用戶預設模型 | OpenAI Launches GPT-5.5 Instant","source":"OpenAI","date":"2026-06-05","summary":"OpenAI 推出 GPT-5.5 Instant 作為新預設模型，幻覺率較前代降低 52.5%，並改善圖像、STEM 輔助及跨對話情境記憶能力。","url":"https://openai.com/index/gpt-5-5-instant/"},
-    {"title":"微軟發布七款全新 MAI 自研 AI 模型 | Microsoft Launches Seven New MAI Models","source":"CNBC","date":"2026-06-02","summary":"微軟推出七款自研 AI 模型，包含旗艦推理模型 MAI-Thinking-1 與語音辨識模型 MAI Transcribe-1.5，大幅降低對 OpenAI 的依賴。","url":"https://www.cnbc.com/2026/06/02/microsoft-unveils-new-ai-models-lessen-reliance-on-openai-lower-costs.html"},
-    {"title":"Google Gemini 3.5 Flash 正式發布 | Gemini 3.5 Flash Goes GA","source":"Google AI for Developers","date":"2026-06-01","summary":"Google 將 Gemini 3.5 Flash 正式推出，並在 Gemini API 發布 Managed Agents 公開預覽，支援沙盒環境執行程式碼與瀏覽網頁。","url":"https://ai.google.dev/gemini-api/docs/changelog"},
-    {"title":"OpenAI 發布生命科學專用模型 GPT-Rosalind | OpenAI Releases GPT-Rosalind","source":"Build Fast with AI","date":"2026-06-04","summary":"OpenAI 更新了專為生命科學研究打造的 GPT-Rosalind 模型，強化藥物發現與基因組學效能，並新增生物資訊學工作流程插件。","url":"https://www.buildfastwithai.com/blogs/ai-news-today-june-8-2026"}
+    {
+      "title": "Anthropic and government face off again over AI. But they need each other. - The Christian Science Monitor",
+      "source": "\"AI model release June 2026\" - Google News",
+      "date": "2026-06-19",
+      "summary": "Anthropic and government face off again over AI. But they need each other.&nbsp;&nbsp;The Christian ",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNSHNOLVFLNXkteTdJNTVjQmt6WFNQR2dzN1NmS2hGMDVjeElVWGpkR1RzVllDSzdVYVFyZk9XZ2MwUXY2d2Jvb294dkVOSkE4amNPZUE3TlpaRHp3Ym03TFdWSGJtclp4ZlhEUTdBT0c4MGc0WWpvaEh4NGpmcTVERWxLNzlFQW5zc3FybnpXc0RsV1HSAawBQVVfeXFMTklRQXlvWjAyeE14d0dEQ19yd2hDRzNOeUF2cHNJRi1aNTVrNmdhelF1OWxXMDBweVFrVXlDNFBjTTNBdUtGUnV4TUg1V3plSDdCOTVQdFdSWTROZ1o3cm9wbFNqbS1LbkRKRF84bHBTYldOM2JGaWZ1cHRvNXVheUF0c3QwclVuSTVDaDhQV2pPRkpzZFhiWktVamszNUVCdmd0M3lzTDBiVE1KMg?oc=5"
+    },
+    {
+      "title": "Expanding Project Glasswing - Anthropic",
+      "source": "\"AI model release June 2026\" - Google News",
+      "date": "2026-06-19",
+      "summary": "Expanding Project Glasswing&nbsp;&nbsp;Anthropic",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1SRWF6VVZqQWo3VEJKQ2NDOTRXT1dQaUNzcURtbkdocEg1bnY1WEFFWF8zRGxwd0R0d1NxZFZVQ3dBeXdGU1hpNEZMd2JFcHFzU0UxLTdUVnNKXzM3dTZSanU4b2ZGM1lwUnc?oc=5"
+    },
+    {
+      "title": "Open-Source AI Models Are Eating the Frontier: Where Value Goes - ETF Database",
+      "source": "\"AI model release June 2026\" - Google News",
+      "date": "2026-06-19",
+      "summary": "Open-Source AI Models Are Eating the Frontier: Where Value Goes&nbsp;&nbsp;ETF Database",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOeFNQTUltQ09xbHlvdGg2WURhZTFyakowaW0xdG1LMktrVmJGazZWeGdncGdNdXNqd0FuN2FYYnRNamdXV1BBcG5QYkxpQVh0YUZvMEVvTVlqN2tqbExwMWpkRE9Ta0hfWjJuVXRFSkQyTnVrcGcyaHNDOGlEMDYyald6OWtwZ0lVU1ZZU3FKNk5tWDQ?oc=5"
+    },
+    {
+      "title": "Copilot Cowork is now generally available - Microsoft",
+      "source": "\"AI model release June 2026\" - Google News",
+      "date": "2026-06-19",
+      "summary": "Copilot Cowork is now generally available&nbsp;&nbsp;Microsoft",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNYl95X2hIN1lFYnFNM0EtVUtOWlJrQWp2Q25CWDFlR3VxdFF4dlZxY3FQX0V0emd5dFQ3UDZjWWRQNUpnR3VpNzRLUUpENXBvYVprQ1RhQkw0SkVwcmZDR0pHbFhQNVR5RHlhRjNuak5NWU9jclBXTkpVeXU0NUlMeHc0T3pMYXpuT1Z6azNNcjJlT294dzQyaUxFNHhTekNhQjNWOXppNA?oc=5"
+    },
+    {
+      "title": "Z.AI’s GLM-5.2 outperforms GPT-5.5 on coding benchmarks at lower cost - Crypto Briefing",
+      "source": "\"AI model release June 2026\" - Google News",
+      "date": "2026-06-19",
+      "summary": "Z.AI’s GLM-5.2 outperforms GPT-5.5 on coding benchmarks at lower cost&nbsp;&nbsp;Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOb1VyeU5jdFhseV9NcWl0U2lObkdVTkhEQS1qRExTWkd6bHdsMGJkYzNfSzFRQkI1XzFNY0tXMWE5ZUhJVDZyLS1xUTZ3Ynd2dFhGaW1QOF9MbWIzMVM1NzE2aG53WGhyNkhkU0JwRTR6OFhnRG1DRGo1eTFPWm9iM2IzaFVDZ2FoT05GTWpBbFp6a096Nl92ZA?oc=5"
+    },
+    {
+      "title": "Anthropic Pulls Its Most Powerful AI Models After U.S. Bars Foreign Access - Time Magazine",
+      "source": "\"AI model release June 2026\" - Google News",
+      "date": "2026-06-19",
+      "summary": "Anthropic Pulls Its Most Powerful AI Models After U.S. Bars Foreign Access&nbsp;&nbsp;Time Magazine",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQb3dwQVpWdEY5V28zYjAzTXY2Xzl0MDV2RDRrNTBvNVhYMGlzVzJac3k3SlRTMWh1SnpsNDJ4M0pTRXRZclkxNng0WTdCMTRLOUJ2ZkNxTE5SNG11SkZWQ3EzNWZvYnFOYVFrdmRhWGlJcGpIY0htUjVXQXFlSHM1bg?oc=5"
+    }
   ],
   "video": [
-    {"title":"CapCut 2026 AI 創作節，限時免費體驗 Pro 功能 | CapCut CRE[AI]TE 2026","source":"CapCut Official","date":"2026-06-10","summary":"CapCut 首屆 AI 創作節提供限時免費 Pro 權限，初學者可免費體驗 AI 自動剪輯、背景移除、語音克隆等進階功能。","url":"https://capcut.creaite26.com/"},
-    {"title":"Kling 2.6：2026 年最值得用的 AI 影片生成器 | Kling 2.6","source":"AI Hub / Overchat","date":"2026-06-05","summary":"Kling 2.6 支援文字轉影片、圖片轉影片與原生 4K 輸出，初學者只需輸入文字提示即可生成高品質影片，操作門檻極低。","url":"https://overchat.ai/ai-hub/kling-2-6"},
-    {"title":"DaVinci Resolve 21 免費版內建 AI 剪輯功能 | DaVinci Resolve 21 Free AI Features","source":"digen.ai","date":"2026-06-05","summary":"DaVinci Resolve 21 免費版內建 AI 自動剪輯、場景偵測、人聲分離功能，是初學者學習專業剪輯的最佳免費入門工具。","url":"https://resource.digen.ai/free-ai-video-editing-tools-2026/"},
-    {"title":"2026 AI 影片剪輯初學者逐步教學 | Video Editing For Beginners with AI 2026","source":"YouTube","date":"2026-06-04","summary":"這部 YouTube 教學專為零基礎初學者設計，逐步示範如何使用 AI 工具完成影片剪輯，適合完全沒有剪輯經驗的新手。","url":"https://www.youtube.com/watch?v=X025xxPGtYs"},
-    {"title":"Sora 停服：2026 年 6 款替代 AI 影片工具 | Sora Is Gone: 6 AI Video Tools","source":"eWeek","date":"2026-06-02","summary":"OpenAI Sora 消費版已於 4 月下線，本文整理 6 款替代工具（含 Kling、Runway、Seedance），幫初學者找到免費或低價的替代方案。","url":"https://www.eweek.com/news/sora-alternatives-ai-video-tools-2026/"},
-    {"title":"Runway Gen-4.5 登上 Video Arena 第一名 | Runway Gen-4.5 Video Model Released","source":"AI Business","date":"2026-06-01","summary":"Runway Gen-4.5 登上 Video Arena 排行榜第一名，物理表現與畫面一致性大幅提升，初學者可直接在瀏覽器使用。","url":"https://aibusiness.com/generative-ai/runway-releases-gen-4-5-video-model"}
+    {
+      "title": "Best 5 AI Video Generator for TikTok and Instagram - PC Tech Magazine",
+      "source": "\"Runway Kling CapCut AI video June 2026\" - Google News",
+      "date": "2026-06-19",
+      "summary": "Best 5 AI Video Generator for TikTok and Instagram&nbsp;&nbsp;PC Tech Magazine",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTHg3Y2FIQ0ZxVDVPa2lsTlFsTXpXbkxRVzJrV1RUUk9sclhHYXBZMS1EQ2RoVFBCRy14a2F4YXJaWDhyMzQ3ZmU0MUNyX3ZTYXltY09oNHp2WDNXRWQxNjluUzI0MkR3aE05bWRDNnIxeGZ6UEt5LWkzUW01RDdGU2JHeVhhaVY5?oc=5"
+    },
+    {
+      "title": "10 AI Video Prompt Templates for Better Results in 2026 - eWeek",
+      "source": "\"Runway Kling CapCut AI video June 2026\" - Google News",
+      "date": "2026-06-19",
+      "summary": "10 AI Video Prompt Templates for Better Results in 2026&nbsp;&nbsp;eWeek",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBBdXJhbFFncl9kMThucldlQzdDOFBrbm9lbUFVSmNxT1FVNnMya0l3REZSZXI1dm1JUFN6QkF5cUVZR3pvM3JDVjlVMXhYVUU4X0IwUXZxSWlWNXFQQVF2TTN4REQ1TkNZY0E?oc=5"
+    },
+    {
+      "title": "How to use CapCut AI to Create Amazing Cinematic AI Videos in Minutes - Geeky Gadgets",
+      "source": "\"Runway Kling CapCut AI video June 2026\" - Google News",
+      "date": "2026-06-19",
+      "summary": "How to use CapCut AI to Create Amazing Cinematic AI Videos in Minutes&nbsp;&nbsp;Geeky Gadgets",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAzZnJSam5hejhwR3NFUGxUTXo1WnFMUmJacHhJY0J3aUMtQXVkaWdyY3ZZNXpQTnZQbUNCcFo1QzE5cHQxNlZXYS1XYldDVDBYbW9pVEVXSmI3dkNSM1lZeEo5SURiMGhmMzZBTA?oc=5"
+    },
+    {
+      "title": "The Ultimate Guide To AI Video Creation: Is Seedance 2.1 The Best Tool For Creators? - Geek Vibes Nation",
+      "source": "\"AI video generation tutorial June 2026\" - Google News",
+      "date": "2026-06-19",
+      "summary": "The Ultimate Guide To AI Video Creation: Is Seedance 2.1 The Best Tool For Creators?&nbsp;&nbsp;Geek",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNdWN4Yk1iVF9MUUJ2OWkyMmRsUGxoNmdSMmViMXlQVHJ2T0xoWERsUjFPTWR4U29lR1NPbmg2ZVlOcjJPNVZ4SjRjbXBDWDFZS0pwUkJfVU8xVWEzNjNWc09YT0JsLVh1Z3ZrOU8zalRxY2dJOEJhNk50UU5JVG9ZZUZ3WkVtNERreEJLUVFMWW9oaWV6Ry1HN3FJM1VYNDJFeHRzb3JJel8tb3ltMTM0RQ?oc=5"
+    },
+    {
+      "title": "20 Best Generative AI Tools of 2026 | Top Picks and Benefits - Simplilearn.com",
+      "source": "\"AI video generation tutorial June 2026\" - Google News",
+      "date": "2026-06-19",
+      "summary": "20 Best Generative AI Tools of 2026 | Top Picks and Benefits&nbsp;&nbsp;Simplilearn.com",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdG5iaFltOWVIYkxRcjhaUGpmSEpreEVXNHNCR3FqakM5eW9DOHY4V29sbUptVndKeVVYeTNWWGlUdzBuRW0xdDR6SDVNVGZvVWVPWUd5MWljQ1ZYSV9KRnNlaklPVkRtVHZKeV9lVEpZWUtfVUd2a2plZHU4QWlIb2N1dExXLXhMSDBaUERRWGtNVUxISmZHWGF3?oc=5"
+    },
+    {
+      "title": "Midjourney Review 2026: Is It A Good Video & Image AI Generator? - Ventureburn",
+      "source": "\"AI video generation tutorial June 2026\" - Google News",
+      "date": "2026-06-19",
+      "summary": "Midjourney Review 2026: Is It A Good Video & Image AI Generator?&nbsp;&nbsp;Ventureburn",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9xbTRzZzdralFoUzRtbXFGOTN5aHZVcmNLX1p1RzZSS0ZIanRpb3dScFdQUy1lemlMSGhuWUo0YUF0MDljdHhOTUk0ZU9IbmpEWGhuQ9IBVEFVX3lxTE9xbTRzZzdralFoUzRtbXFGOTN5aHZVcmNLX1p1RzZSS0ZIanRpb3dScFdQUy1lemlMSGhuWUo0YUF0MDljdHhOTUk0ZU9IbmpEWGhuQw?oc=5"
+    }
   ],
   "slides": [
-    {"title":"2026年6月 PowerPoint Copilot 重大更新：一鍵技能上線 | Microsoft 365 Copilot June 2026","source":"YouTube / Microsoft","date":"2026-06-01","summary":"PowerPoint Copilot 新增「一鍵技能」，初學者只需點選即可讓 AI 自動優化投影片結構、將文字轉視覺圖像，不需手動下指令。","url":"https://www.youtube.com/watch?v=XiAHSHHMY2Q"},
-    {"title":"2026年6月最佳 AI 簡報工具 Top 10 | Best AI Presentation Maker June 2026","source":"BuildMVPFast","date":"2026-06-01","summary":"完整比較 Gamma、Plus AI、Canva、Copilot 等十大工具的免費方案，初學者可快速找到最適合自己的零設計門檻簡報工具。","url":"https://www.buildmvpfast.com/articles/best-llms-2026-guide/presentations-ai"},
-    {"title":"Gamma AI 2026 評測：六個月實測 | Gamma AI Review 2026","source":"SlideGMM.ai Blog","date":"2026-06-01","summary":"Gamma 仍是 2026 年最推薦 AI 簡報工具，輸入主題後一分鐘內即可得到完整敘事結構的投影片，並可匯出至 PowerPoint。","url":"https://www.slidegmm.ai/en/blog/gamma-ai-review-2026"},
-    {"title":"2026年 PowerPoint Copilot 實用教學 | PowerPoint Copilot: What Actually Works","source":"WinningPresentations.com","date":"2026-05-15","summary":"針對初學者整理 PowerPoint Copilot 真正好用的功能與下指令技巧，包含如何用一句話生成摘要投影片，省去繁瑣排版。","url":"https://winningpresentations.com/powerpoint-copilot-whats-works/"},
-    {"title":"Google I/O 2026：Slides 整合 Gemini 一鍵生成簡報 | Google I/O 2026 Announcements","source":"Google Blog","date":"2026-05-20","summary":"Google Slides 整合 Gemini，初學者可直接說「幫我把 Drive 裡的報告做成投影片」，AI 自動找檔案、萃取重點並套用樣式。","url":"https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/"},
-    {"title":"Canva 推出全新代理式 AI 設計工具 | Canva debuts agentic AI tools","source":"Fortune","date":"2026-04-16","summary":"Canva 新增排程自動化功能，初學者可設定讓 AI 定期從信箱或行事曆自動產生簡報或社群貼文，降低重複製作負擔。","url":"https://fortune.com/2026/04/16/canva-ai-agentic-design-suite-coo-cliff-obrecht/"}
+    {
+      "title": "Best AI Tools for Financial Slides in 2026: Secure, Compliance-Ready Deck Makers - FinSMEs",
+      "source": "\"PowerPoint Copilot Canva AI slides June 2026\" - Google News",
+      "date": "2026-06-19",
+      "summary": "Best AI Tools for Financial Slides in 2026: Secure, Compliance-Ready Deck Makers&nbsp;&nbsp;FinSMEs",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOclY3S09UX0hvbWp5SUxBTjhJNUVxTC02V1EzaVY3RHAxNUZ5b2Jobk00UldHaEx0S1BTMFltdFY3dHZFSjV5X1Bma01Kc2RvckdxSjliTlMzalVVRmJmWU5Pb0FvWDZSQy02QS1QQkFTZUdraDV1R3NKRWRzbVFTXzV6bUoxV3NhSHI4YmxvVlRkQ0RWRy1scW0yUTBIQmxMNnh1bkFHc3Y0SG9ZREljWGVn?oc=5"
+    },
+    {
+      "title": "Introducing a new design for Microsoft 365 Copilot - Microsoft",
+      "source": "\"PowerPoint Copilot Canva AI slides June 2026\" - Google News",
+      "date": "2026-06-19",
+      "summary": "Introducing a new design for Microsoft 365 Copilot&nbsp;&nbsp;Microsoft",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRjdjUHR6OUY0MGdQSm1NbjkwVzlEN01ibEZqd1VxaVBOT0ZwdDlEdENMbUFEdGZ1bk5CU3FmeDZRVXFkY0hZOExuSzNlRHFLeVlkNlR6OV82Q0wwcHNaMTNsMmowY3FPcTBfRXBuOFVDbmF4V0t0VkpEbm84dzFCXy04eEV2UC1tOUc5NzZLT3piQlBna0hNUUU4bXA4eGdQbmZzamt1WklCc3M0S2ZKWExYbw?oc=5"
+    },
+    {
+      "title": "What’s new in Power Platform: June 2026 feature update - Microsoft",
+      "source": "\"PowerPoint Copilot Canva AI slides June 2026\" - Google News",
+      "date": "2026-06-19",
+      "summary": "What’s new in Power Platform: June 2026 feature update&nbsp;&nbsp;Microsoft",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNWHoyb2ctVmk1NXpFVVU5a2Juck5wbWxrcUpkaGswWEh1cWdaSVd3VWYxbEsxaV9DbTZJTTdhNUkwRnBFb1Z5R3lkNl83azlkWTA4Mi1pVWFZWjE2U1E3WnU0T0I1ZE5QN2dTdkRwREdENEpoanFHcWtiejY5STY0MDdEYnFOTy03MUtmSlVFRmhGYzZKWi1qNXFYSmNWUjRpbU5vOUlrR2kxa3hSWS1OVkRLRXZ3Q1k?oc=5"
+    },
+    {
+      "title": "New tech features for Mar-May 2026: Excel, Teams, Google Sheets, Chat GPT, M365, Power BI, Canva, Claude, Zoom ++ - ICAEW.com",
+      "source": "\"PowerPoint Copilot Canva AI slides June 2026\" - Google News",
+      "date": "2026-06-19",
+      "summary": "New tech features for Mar-May 2026: Excel, Teams, Google Sheets, Chat GPT, M365, Power BI, Canva, Cl",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOOXRpXzRNOHNGbk5jbUdKRkhuWGgybk1qRHp1NURJeWMyMGktZUE5dFNWZDhQRWl2TWxjSG9fUDExZWJoM3dZWEs1TFh2MEtUbmNQenlDSGE2T0tZTVRFalBqSWhNMU5vcXBMaXZpTjJWQXFQc0V1YTExcTZBbHJ5b2xaQVpuNm8wM3U0TXpwT2hhYU9OZWFVZl9yRElXMDByUUhBQzIzRDkxSnpFTE9HYXEyczA2d25M?oc=5"
+    },
+    {
+      "title": "24 AI Tools for Work to Increase Productivity - Coursera",
+      "source": "\"PowerPoint Copilot Canva AI slides June 2026\" - Google News",
+      "date": "2026-06-19",
+      "summary": "24 AI Tools for Work to Increase Productivity&nbsp;&nbsp;Coursera",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5HN2EwNWtBcnM1dU1Qc1Y1YVpVcmk0SDJwTkxvbnhJZHl0V1p3NWJHaVZ4Ql9sSmx5QUNHVy1wMHVheloxZjlpdldDemtpekZULXBCbXJXeXRDeWhrWGExNA?oc=5"
+    },
+    {
+      "title": "10 Best AI Presentation Makers for Slides Creation - ilounge.com",
+      "source": "\"PowerPoint Copilot Canva AI slides June 2026\" - Google News",
+      "date": "2026-06-19",
+      "summary": "10 Best AI Presentation Makers for Slides Creation&nbsp;&nbsp;ilounge.com",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPVzNXQWt0MGdpOHRaUVI0MVdmeDRyeHd1VVA5SjRuUTVHemRQYmYzRFZ2ZnRNcFJmSWZwQUVJd3dtaU0yS3VKZWRWVHJhd0xXY19PTnNwNDZ0Y1RtbzRZNkN5WmZ2UkZoRVBVUVN1TlhqYjB5SW9xNDZWUjFma3RVY01BQUJXRXprLWpN?oc=5"
+    }
   ]
 }
