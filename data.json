@@ -1,65 +1,135 @@
 {
-  "lastUpdated": "2026-06-28 09:33（台灣時間）",
+  "lastUpdated": "2026-06-29 09:36（台灣時間）",
   "news": [
     {
-      "title": "Claude Code turned every engineer into three. Now companies need more product thinkers",
-      "source": "VentureBeat",
-      "date": "2026-06-28",
-      "summary": "Anthropic recently told its growth team to hire more product managers, not fewer. The reason, as rep",
-      "url": "https://venturebeat.com/infrastructure/claude-code-turned-every-engineer-into-three-now-companies-need-more-product-thinkers"
+      "title": "WIRobotics Begins Building a Physical AI Development Ecosystem: The First Technology Release Features the ALLEX Simulation Model | Corporate - EQS News",
+      "source": "\"AI model release June 2026\" - Google News",
+      "date": "2026-06-29",
+      "summary": "WIRobotics Begins Building a Physical AI Development Ecosystem: The First Technology Release Feature",
+      "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxQMHY5S1F3dFpubDExLU5rUzFUYng4WVRNemlNVEZPQVEwXzgyaXYzbUR5ZlRKU3ZyZ3BEVkR2NDBfUkRVUjZ3TDkyRldGMzdrSnpfdUtVOF8tWnc3eWFpOWdMRU1LdF9mcElFYXh1VGZqNUJYMERVUVBVak52ZDJwckxBY3BXTnhmdlJZTFFzVHpOUTNWNm1QUkxDTXFyMGtabjRQbHRyT3dOV19UYWczdzlLMEtKMHRZcEMwR3lJQjl3ZHpheFVIblhXLTFReTFPUzRUZFVZQXAySmYwY2I0ZktqT2ZYeEFudFVuR2NSMVVhcmtjTnViNW1UZmllOUVzLVhvV2hsWVpfcW9odzBmS3pfNU1VNXlsOUVTd0FyZHVCRERtck1oa21DV2hBcU5B?oc=5"
     },
     {
-      "title": "New agentic memory framework uses 118K tokens per query. LangMem burns through 3.26M.",
-      "source": "VentureBeat",
-      "date": "2026-06-28",
-      "summary": "Long-horizon reasoning exposes a core weakness in AI agents: context windows fill up fast, and retri",
-      "url": "https://venturebeat.com/orchestration/new-agentic-memory-framework-uses-118k-tokens-per-query-langmem-burns-through-3-26m"
+      "title": "US allows partial release of Anthropic's Mythos AI model - DW.com",
+      "source": "\"AI model release June 2026\" - Google News",
+      "date": "2026-06-29",
+      "summary": "US allows partial release of Anthropic's Mythos AI model&nbsp;&nbsp;DW.com",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNblZFRGxOS2hwck8tVnBHOHZ4MXdFLUFyR0IxTFpxY2hTR1FLMG1mcTJJeXF6MjJZMXQxQk0xTy1saUR6WExGblVRcFRXTU8wMEQ0ZmRaWTd2NEd4b01SZWJjeGtmMDVQMUZ3MDFYSVBzTEh5N0twbklVZmUyaGd4Yk9xU01fbklXMExaLW9HLVhSd9IBkgFBVV95cUxOSVAyLVN4NVdYOFNLRWEtUDRKaXBpeEFLNkdrZGVHWU5BWXlFR2xvbnU3UUw1VTl3LVNBZDJhVFJISGtLUkV2V2V5Rk04QWlMc1dDOVByWlBSNWlfZ2tLczE5cUFNUlB6SW5USTkwbnVwNGtZY2t1akNJWU1oYmZJX0JSXzJSNHlZVkx0YUhadmhQUQ?oc=5"
     },
     {
-      "title": "Autonomous security agents need complete data. Here's how to check if yours is ready.",
-      "source": "VentureBeat",
-      "date": "2026-06-28",
-      "summary": "An endpoint agent cannot report its own absence. The 2026 Axonius Actionability Report, conducted wi",
-      "url": "https://venturebeat.com/security/autonomous-security-agents-need-complete-data-heres-how-to-check-if-yours-is-ready"
+      "title": "Exclusive / US releases powerful Anthropic model Mythos to some US companies - Semafor",
+      "source": "\"AI model release June 2026\" - Google News",
+      "date": "2026-06-29",
+      "summary": "Exclusive / US releases powerful Anthropic model Mythos to some US companies&nbsp;&nbsp;Semafor",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQeG1SQ2UxUF9nRHQ1ejZ2VU95NllPMFBvd3d4NzVMcEU2ai1JSzlTS3p2em5naEZickIyZWw3S0RPVzl0c0JBZnM5SDBzaEViRWoxY3FXNnBvQy1OdHEySlJmS0x3ZGVaa000RFpUNWwxTjI0bmdkSkhEMGFmMTJrTmE1YWZ0RUsxYnEzS1o3QlMxdHpxTHZDbHVrbFRGQUlCMGl3TmI2Z1dPN1U?oc=5"
     },
     {
-      "title": "OpenAI unveils GPT-5.6 Sol, Terra and Luna models — but only accessible to limited preview partners for now, per US Gov",
-      "source": "VentureBeat",
-      "date": "2026-06-28",
-      "summary": "OpenAI is announcing a limited preview of its newest frontier AI model GPT-5.6 family, which comes i",
-      "url": "https://venturebeat.com/technology/openai-unveils-gpt-5-6-sol-terra-and-luna-models-but-only-accessible-to-limited-preview-partners-for-now-per-us-gov"
+      "title": "OpenAI and Anthropic Limit New AI Models to Trump-Approved Customers During Cybersecurity Review - Broadband Breakfast",
+      "source": "\"AI model release June 2026\" - Google News",
+      "date": "2026-06-29",
+      "summary": "OpenAI and Anthropic Limit New AI Models to Trump-Approved Customers During Cybersecurity Review&nbs",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQNkI3VnZEdkRvcUFGNjVlSjdYUWpUV2gxOHFiZVRTOXN2UVRDcmRQXzE1dkUtSEx2aXB0THV2Q3ZValJsd0JnaDhaaWdoSXNITHR3QWlWbHVZdlQ1TElUazNaMlpOZW1EYzA4R0M1NDRmYUFxU2x3dEFESVZIY2x0a3dNLTZCakxkOG9jdG1mRmxDUWdtRFA5a18zbDNILTdZU2JnQVdMcUpCS0pMbm8zUkxiR0hIR3c0UWo0MnVBaHlTRU1KZm9Z?oc=5"
     },
     {
-      "title": "Most companies think they're building a software factory. They're actually just shipping bugs faster.",
-      "source": "VentureBeat",
-      "date": "2026-06-28",
-      "summary": "Industrialized factories changed how the world produced physical goods: more output, lower costs, fa",
-      "url": "https://venturebeat.com/orchestration/most-companies-think-theyre-building-a-software-factory-theyre-actually-just-shipping-bugs-faster"
+      "title": "Trump admin allows Anthropic to release Mythos AI model to some companies, government agencies - CNBC",
+      "source": "\"AI model release June 2026\" - Google News",
+      "date": "2026-06-29",
+      "summary": "Trump admin allows Anthropic to release Mythos AI model to some companies, government agencies&nbsp;",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOOE9ZNnB4d2ZGbU9LSE83eHhldFlELXVmNWZjZGdmTFFGTEU3WVhkWHBieTNCS3dwS0JKejJIMDktTEprZmYxS19YS0FEbW15MW5aR1FIWi1md25uSkVBQXBjY3lCTHR3alQxMHRlVXlSMFcxZDQ3c0p6UkpBSkNPMS1NejM?oc=5"
     },
     {
-      "title": "Liquid AI's smallest model yet LFM2.5-230M beats models 4X its size at data extraction, can run 'anywhere'",
-      "source": "VentureBeat",
-      "date": "2026-06-28",
-      "summary": "Liquid AI, founded by former MIT computer scientists, today released its smallest AI language model ",
-      "url": "https://venturebeat.com/technology/liquid-ais-smallest-model-yet-lfm2-5-230m-beats-models-4x-its-size-at-data-extraction-can-run-anywhere"
+      "title": "US government allows Anthropic limited release of AI model that sparked cybersecurity concerns - CNN",
+      "source": "\"AI model release June 2026\" - Google News",
+      "date": "2026-06-29",
+      "summary": "US government allows Anthropic limited release of AI model that sparked cybersecurity concerns&nbsp;",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1lX2FHbTI1SEJfWTJ4WmMyeVdfSHo3V3NDbndfbUdaTFAyRlJtX09WY0pUWkIzTkVpOEhpcmEyY2xPeElZdW04eU9hc2Q2TU1xcDhlUzR4WU1iamN1OXJDQkY2d3NMQ3p5WTRYNg?oc=5"
     }
   ],
   "video": [
     {
-      "title": "近期暫無新資訊",
-      "source": "—",
-      "date": "—",
-      "summary": "過去 7 天內尚無符合條件的新發布內容。",
-      "url": ""
+      "title": "Seedance 2.0 vs Sora vs Runway Gen-4: AI Video API Comparison for Developers - SitePoint",
+      "source": "\"Runway Kling CapCut AI video June 2026\" - Google News",
+      "date": "2026-06-29",
+      "summary": "Seedance 2.0 vs Sora vs Runway Gen-4: AI Video API Comparison for Developers&nbsp;&nbsp;SitePoint",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4wUmR2UWdlUVEwN2Rkb094N3pmZGZwd043cmJsWW8yMlgtb2JkRjIwYnc0NGlldkFFeUpPUVphZVM1TWR6Ulh2bHFkYkh2X1I1d0JjbE1QSmRGUGhaQ29zRHVfQ3ZhNkh4YlZDbQ?oc=5"
+    },
+    {
+      "title": "Best 5 AI Video Generator for TikTok and Instagram - PC Tech Magazine",
+      "source": "\"Runway Kling CapCut AI video June 2026\" - Google News",
+      "date": "2026-06-29",
+      "summary": "Best 5 AI Video Generator for TikTok and Instagram&nbsp;&nbsp;PC Tech Magazine",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTHg3Y2FIQ0ZxVDVPa2lsTlFsTXpXbkxRVzJrV1RUUk9sclhHYXBZMS1EQ2RoVFBCRy14a2F4YXJaWDhyMzQ3ZmU0MUNyX3ZTYXltY09oNHp2WDNXRWQxNjluUzI0MkR3aE05bWRDNnIxeGZ6UEt5LWkzUW01RDdGU2JHeVhhaVY5?oc=5"
+    },
+    {
+      "title": "Best Suno Music Video Generator Tools in 2026: 10 Top Options Tested for Musicians - BBN Times",
+      "source": "\"Runway Kling CapCut AI video June 2026\" - Google News",
+      "date": "2026-06-29",
+      "summary": "Best Suno Music Video Generator Tools in 2026: 10 Top Options Tested for Musicians&nbsp;&nbsp;BBN Ti",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZGxZaS1FekRfQlNDcGZEV2RsUW41TWNtNzVQQTFDc2tSdnpYSXNGaXlETnpYanI3OVhWWE9xcnEtaF83SVBOSGVEYzV2WjRBV3JmU1Y1SURDVWlhWG9JQzlNSXdMeEdkcVB4UkRJNWd6TTh3UU1xSXd6WWkyWTVDUklxd0UxbFJuVjY5V0I4LVE3aE0yY3YtQWZmc1NfcE5mcDB5S0pTSFpRdU5SbWRaOEd1TUd6OEox?oc=5"
+    },
+    {
+      "title": "10 AI Video Prompt Templates for Better Results in 2026 - eWeek",
+      "source": "\"Runway Kling CapCut AI video June 2026\" - Google News",
+      "date": "2026-06-29",
+      "summary": "10 AI Video Prompt Templates for Better Results in 2026&nbsp;&nbsp;eWeek",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBBdXJhbFFncl9kMThucldlQzdDOFBrbm9lbUFVSmNxT1FVNnMya0l3REZSZXI1dm1JUFN6QkF5cUVZR3pvM3JDVjlVMXhYVUU4X0IwUXZxSWlWNXFQQVF2TTN4REQ1TkNZY0E?oc=5"
+    },
+    {
+      "title": "Top 10 Best AI Video Tools In The World 2026 - Nubia Magazine!",
+      "source": "\"Runway Kling CapCut AI video June 2026\" - Google News",
+      "date": "2026-06-29",
+      "summary": "Top 10 Best AI Video Tools In The World 2026&nbsp;&nbsp;Nubia Magazine!",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE8zQkk1RVBnbFlTNEJtVDU2SGYtMVVoNkVkWXlhMGpOOWhNcWYtMy1qVldEWl9VTkF6Q1ZLUGI3b2oxaXFuZXlzdzFzX1ZYNWZuTlY4R1VQTUFySU9hemZ5ejlJMHBOSEJadGdXaTlnSGI4UDByYlFfUzNHcFI?oc=5"
+    },
+    {
+      "title": "Midjourney Review 2026: Is It A Good Video & Image AI Generator? - Ventureburn",
+      "source": "\"AI video generation tutorial June 2026\" - Google News",
+      "date": "2026-06-29",
+      "summary": "Midjourney Review 2026: Is It A Good Video & Image AI Generator?&nbsp;&nbsp;Ventureburn",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9xbTRzZzdralFoUzRtbXFGOTN5aHZVcmNLX1p1RzZSS0ZIanRpb3dScFdQUy1lemlMSGhuWUo0YUF0MDljdHhOTUk0ZU9IbmpEWGhuQ9IBVEFVX3lxTE9xbTRzZzdralFoUzRtbXFGOTN5aHZVcmNLX1p1RzZSS0ZIanRpb3dScFdQUy1lemlMSGhuWUo0YUF0MDljdHhOTUk0ZU9IbmpEWGhuQw?oc=5"
     }
   ],
   "slides": [
     {
-      "title": "近期暫無新資訊",
-      "source": "—",
-      "date": "—",
-      "summary": "過去 7 天內尚無符合條件的新發布內容。",
-      "url": ""
+      "title": "Introducing a new design for Microsoft 365 Copilot - Microsoft",
+      "source": "\"PowerPoint Copilot Canva AI slides June 2026\" - Google News",
+      "date": "2026-06-29",
+      "summary": "Introducing a new design for Microsoft 365 Copilot&nbsp;&nbsp;Microsoft",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRjdjUHR6OUY0MGdQSm1NbjkwVzlEN01ibEZqd1VxaVBOT0ZwdDlEdENMbUFEdGZ1bk5CU3FmeDZRVXFkY0hZOExuSzNlRHFLeVlkNlR6OV82Q0wwcHNaMTNsMmowY3FPcTBfRXBuOFVDbmF4V0t0VkpEbm84dzFCXy04eEV2UC1tOUc5NzZLT3piQlBna0hNUUU4bXA4eGdQbmZzamt1WklCc3M0S2ZKWExYbw?oc=5"
+    },
+    {
+      "title": "Why You Should Begin Experimenting with Artificial Intelligence Tools - MedLearn Publishing",
+      "source": "\"PowerPoint Copilot Canva AI slides June 2026\" - Google News",
+      "date": "2026-06-29",
+      "summary": "Why You Should Begin Experimenting with Artificial Intelligence Tools&nbsp;&nbsp;MedLearn Publishing",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxONFV2Z0lfbE4tZGluZ3NKNjEzbDEzY2JwSEhYUXk3QmptSEhTMWkyY2U4Wng5M1Rka1o4YTR2V0hlcGdkX3FfbXFVcjlVYkU1VjVzSnRaeXlnWWx2TTBmcDBWSHVrR1o2WFBVNjJKSWFodG9hYzNoSjE5eWozaDU4Qm11VGRBM0FKX2FuNHBhQ19Ga1RmdUE?oc=5"
+    },
+    {
+      "title": "Copilot’s agentic capabilities in Word, Excel, and PowerPoint are generally available - Microsoft",
+      "source": "\"PowerPoint Copilot Canva AI slides June 2026\" - Google News",
+      "date": "2026-06-29",
+      "summary": "Copilot’s agentic capabilities in Word, Excel, and PowerPoint are generally available&nbsp;&nbsp;Mic",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPbWJKRVNIMGU2R1EwV0RGOFNVZENnUVlCcHl0TEcxU0YwbzY2dWg4QUFPYnJpNzQ2bjA2eXBqSTU3S0lZaVZkX3k1MXhrd0FJQXFWekNsbW5rRFRTVlZua0J6LTBBTTJxRU9oNFVVVlJXX3VhQmstMjk2V0s5eVlXT2p3R0RhLW9McUdnbk1PXzRHOTVGeWNham1yN2JJWmpTS1R2Q3VzSjZGbFNmQmFybU94N1Q4WWhqdndTQ29QU19iWUlpNk04aUQ5M0g0R1N6eGV3QnVsN0ZCV24ydFE?oc=5"
+    },
+    {
+      "title": "New tech features for Mar-May 2026: Excel, Teams, Google Sheets, Chat GPT, M365, Power BI, Canva, Claude, Zoom ++ - ICAEW.com",
+      "source": "\"PowerPoint Copilot Canva AI slides June 2026\" - Google News",
+      "date": "2026-06-29",
+      "summary": "New tech features for Mar-May 2026: Excel, Teams, Google Sheets, Chat GPT, M365, Power BI, Canva, Cl",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOOXRpXzRNOHNGbk5jbUdKRkhuWGgybk1qRHp1NURJeWMyMGktZUE5dFNWZDhQRWl2TWxjSG9fUDExZWJoM3dZWEs1TFh2MEtUbmNQenlDSGE2T0tZTVRFalBqSWhNMU5vcXBMaXZpTjJWQXFQc0V1YTExcTZBbHJ5b2xaQVpuNm8wM3U0TXpwT2hhYU9OZWFVZl9yRElXMDByUUhBQzIzRDkxSnpFTE9HYXEyczA2d25M?oc=5"
+    },
+    {
+      "title": "24 AI Tools for Work to Increase Productivity - Coursera",
+      "source": "\"PowerPoint Copilot Canva AI slides June 2026\" - Google News",
+      "date": "2026-06-29",
+      "summary": "24 AI Tools for Work to Increase Productivity&nbsp;&nbsp;Coursera",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5HN2EwNWtBcnM1dU1Qc1Y1YVpVcmk0SDJwTkxvbnhJZHl0V1p3NWJHaVZ4Ql9sSmx5QUNHVy1wMHVheloxZjlpdldDemtpekZULXBCbXJXeXRDeWhrWGExNA?oc=5"
+    },
+    {
+      "title": "Top SOC 2 Compliant AI Presentation Tools for 2026: Secure Slide Generators Compared - European Business Magazine",
+      "source": "\"PowerPoint Copilot Canva AI slides June 2026\" - Google News",
+      "date": "2026-06-29",
+      "summary": "Top SOC 2 Compliant AI Presentation Tools for 2026: Secure Slide Generators Compared&nbsp;&nbsp;Euro",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNM01rc3p2akJRU3ZKckVtMHllenVsOURhMjNqeWRGb3ljWGVFUWtqVWRmemtCdjhKeEN5U0NxVmV3N09xdGZReXlHTW5XZlBnQ0w5eUZ5bzh6VVBzU1F0WGtYdUUyU1pWTGx0TkdHaHhtaW83Ymo4M0R3Z3NtV2xyZHYxT1ZhSkNXZkdXQnBKUEN4Xy10ek1uc09RRXBIZ3QzNGY3bERmbWVOZVFudm1xclFzcV8xRTFDQTlNak1R?oc=5"
     }
   ]
 }
