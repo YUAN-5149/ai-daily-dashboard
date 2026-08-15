@@ -1,135 +1,65 @@
 {
-  "lastUpdated": "2026-08-15 07:48（台灣時間）",
+  "lastUpdated": "2026-08-16 07:45（台灣時間）",
   "news": [
     {
-      "title": "Introducing Gemini 3.7 Flash - blog.google",
-      "source": "\"AI model release August 2026\" - Google News",
-      "date": "2026-08-15",
-      "summary": "Introducing Gemini 3.7 Flash&nbsp;&nbsp;blog.google",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZnVHS2RsOVpIeE9xTGhZMUZHbWRtVi1IVHpZcFQ3RExDV1N2c3l2c1o2OW9iazVBQXRTaEpfRFU1UEdlZ3VYNGl6TFZYQTBoNENJRFd4dUNFTE9vYU5mYk05ZFJBWDhIRXE0T0xUQ1hrUzFuSzNPM0tTaGNTWTZyM1V5SzcxcGRLek5tUUZOYnhFSUFZanRnUDFMdGVKUkd2NDNR?oc=5"
+      "title": "An eval harness found what qualitative review couldn't: AI models are most confident when wrong",
+      "source": "VentureBeat",
+      "date": "2026-08-16",
+      "summary": "There is a step in the development process for large language model (LLM)-assisted tooling that most",
+      "url": "https://venturebeat.com/orchestration/an-eval-harness-found-what-qualitative-review-couldnt-ai-models-are-most-confident-when-wrong"
     },
     {
-      "title": "Best AI Model in August Odds & Predictions - DeFi Rate",
-      "source": "\"AI model release August 2026\" - Google News",
-      "date": "2026-08-15",
-      "summary": "Best AI Model in August Odds & Predictions&nbsp;&nbsp;DeFi Rate",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB0QUZZOXFuQkF1Qi1peEd2cUgwN21xUC10WGZsczlCaUtBb3hJakhtbE54bVFiT2x4bzgtMVptR2pCNnpaOXZCeENEa2dwZFBqemR2UXAzbUR1TlBhcktsTHU1ZU9zeGUzYW5n?oc=5"
+      "title": "GLM-5.3 is here with advanced cyber capabilities — and reportedly already found a 'serious vulnerability' in Cursor",
+      "source": "VentureBeat",
+      "date": "2026-08-16",
+      "summary": "Chinese AI startup Z.ai, known internationally for its growing lineup of powerful, largely open sour",
+      "url": "https://venturebeat.com/technology/glm-5-3-is-here-with-advanced-cyber-capabilities-and-reportedly-already-found-a-serious-vulnerability-in-cursor"
     },
     {
-      "title": "NEWSLETTER: American AI model makers smell an opportunity - Reuters",
-      "source": "\"AI model release August 2026\" - Google News",
-      "date": "2026-08-15",
-      "summary": "NEWSLETTER: American AI model makers smell an opportunity&nbsp;&nbsp;Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQTjdFeGZSYlRfS0Z2ajQwNkNMQm1vUDE2SFJiRkF2NlNMTnVMRjdDaWlSOG9BTDZhWXZ5R3M3MENRbGpBaUFrRVptYmxEbmstQXBhdEVIYmhYQUJSQmRONzcxTG9MVlhmOFRxc0Y5QUdKMF9wRkZvaS10VUc4WFNuWjNPdlE3YVV5cjRoNnUtZ3VvSnJWd3BpVWl6X1BFMUptNzBTNDBYTGNCLXhFLUZ4YkVFMHpRNFE?oc=5"
+      "title": "Three Claude agents given conflicting orders sabotaged each other on a shared server — then didn't tell users what they'd done",
+      "source": "VentureBeat",
+      "date": "2026-08-16",
+      "summary": "Every Claude model Anthropic tested turned on its own, and no attacker made them do it. Given three ",
+      "url": "https://venturebeat.com/security/three-claude-agents-given-conflicting-orders-sabotaged-each-other-on-a-shared-server-then-didnt-tell-users-what-theyd-done"
     },
     {
-      "title": "DeepSeek officially launches V4-Pro AI model in August 2026 - qz.com",
-      "source": "\"AI model release August 2026\" - Google News",
-      "date": "2026-08-15",
-      "summary": "DeepSeek officially launches V4-Pro AI model in August 2026&nbsp;&nbsp;qz.com",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5DM1B4azQ2dkZ6MUVJZnp6V3ZkTl9RMU84Q09HOWJoTXR5R1lST3JJQXQ3NlJNa25JVGRGR3NKbXRmcGZ1WGtCejF6NkJHYVd2bFdyQ1prWGRTRHdJZ29SVm9hRQ?oc=5"
+      "title": "Google’s Gemini 3.7 Flash targets coding and agents with a 50% introductory price cut",
+      "source": "VentureBeat",
+      "date": "2026-08-16",
+      "summary": "Google is rolling out Gemini 3.7 Flash, a new version of its workhorse AI model that puts coding, ag",
+      "url": "https://venturebeat.com/technology/googles-gemini-3-7-flash-targets-coding-and-agents-with-a-50-introductory-price-cut"
     },
     {
-      "title": "Expanding Daybreak as the Cyber Defense Window Narrows - OpenAI",
-      "source": "\"AI model release August 2026\" - Google News",
-      "date": "2026-08-15",
-      "summary": "Expanding Daybreak as the Cyber Defense Window Narrows&nbsp;&nbsp;OpenAI",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNHhOZWxZTjFGeVhORk1uYkFLc2tpM2d1SmxadExqMU1KM1lrMmt3VVh2SXpFZ01GRGFBSWJYcG1NSU02a1ZLTFEzb3hwd1VJcUt6bk9oam9ZYXZLdFZBTEdveF9SQjl3Z1B5Z3JlOS1uN2pnd1JTclY4b21hREdzUmxSOFZ1alE?oc=5"
+      "title": "DeepSeek Harness launches as open source rival to Claude Code, alongside V4-Pro on API with higher prices",
+      "source": "VentureBeat",
+      "date": "2026-08-16",
+      "summary": "DeepSeek is expanding beyond the model layer and deeper into the software developers use to put AI a",
+      "url": "https://venturebeat.com/technology/deepseek-harness-launches-as-open-source-rival-to-claude-code-alongside-v4-pro-on-api-with-higher-prices"
     },
     {
-      "title": "Meta Unveils an Open Version of Its Most Powerful A.I. Model - The New York Times",
-      "source": "\"AI model release August 2026\" - Google News",
-      "date": "2026-08-15",
-      "summary": "Meta Unveils an Open Version of Its Most Powerful A.I. Model&nbsp;&nbsp;The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE05SWpuNEpobjJKLVlscEY3SkRCLV95X3hSUDRydzFoejg0NjlITkg2N2szcFUxcnI0V202S1dNOWRXeTdGSjEyYldVV3FMSmZjRmhyWmRmUUpjWEZrZ1R3ZzFxNHAwU1lEUzVxaXJyQkNRN19tTWdjSHF3?oc=5"
+      "title": "Why Capital One built its multi-agent AI platform around open-weight models",
+      "source": "VentureBeat",
+      "date": "2026-08-16",
+      "summary": "Presented by Capital One At VB Transform 2026, Kel Vanee, MVP of machine learning engineering at Cap",
+      "url": "https://venturebeat.com/orchestration/why-capital-one-built-its-multi-agent-ai-platform-around-open-weight-models"
     }
   ],
   "video": [
     {
-      "title": "Best 5 AI Video Generator for TikTok and Instagram - pctechmag.com",
-      "source": "\"Runway Kling CapCut AI video August 2026\" - Google News",
-      "date": "2026-08-15",
-      "summary": "Best 5 AI Video Generator for TikTok and Instagram&nbsp;&nbsp;pctechmag.com",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTHg3Y2FIQ0ZxVDVPa2lsTlFsTXpXbkxRVzJrV1RUUk9sclhHYXBZMS1EQ2RoVFBCRy14a2F4YXJaWDhyMzQ3ZmU0MUNyX3ZTYXltY09oNHp2WDNXRWQxNjluUzI0MkR3aE05bWRDNnIxeGZ6UEt5LWkzUW01RDdGU2JHeVhhaVY5?oc=5"
-    },
-    {
-      "title": "Top 10 AI Video Generators for Marketing and Advertising in 2026 - criticalhit.net",
-      "source": "\"Runway Kling CapCut AI video August 2026\" - Google News",
-      "date": "2026-08-15",
-      "summary": "Top 10 AI Video Generators for Marketing and Advertising in 2026&nbsp;&nbsp;criticalhit.net",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPN2hmaGxKMm5PR0EweXpGOThWbEI3ZC11ZFdpdElyMVozeENpYU9jdkJoREplcWh4N25xQ1ZkRWI2UHpOc1pmV05VdTRSMUp5SzBwUHA4SXVMUzRQMm9IemthNWRPM0ZwTHN1aWl0bG5iMWNGb0V6NzlMdHdpWmlDc2Y4eG1XNG5UdmtBRm1fZDNGSGc1QTRuUnNWRUtnZ2pnUGpROTItSQ?oc=5"
-    },
-    {
-      "title": "Best Suno Music Video Generator Tools in 2026: 10 Top Options Tested for Musicians - BBN Times",
-      "source": "\"Runway Kling CapCut AI video August 2026\" - Google News",
-      "date": "2026-08-15",
-      "summary": "Best Suno Music Video Generator Tools in 2026: 10 Top Options Tested for Musicians&nbsp;&nbsp;BBN Ti",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZGxZaS1FekRfQlNDcGZEV2RsUW41TWNtNzVQQTFDc2tSdnpYSXNGaXlETnpYanI3OVhWWE9xcnEtaF83SVBOSGVEYzV2WjRBV3JmU1Y1SURDVWlhWG9JQzlNSXdMeEdkcVB4UkRJNWd6TTh3UU1xSXd6WWkyWTVDUklxd0UxbFJuVjY5V0I4LVE3aE0yY3YtQWZmc1NfcE5mcDB5S0pTSFpRdU5SbWRaOEd1TUd6OEox?oc=5"
-    },
-    {
-      "title": "How to recreate the Empire State Building flag trend | Hindustan Times - Hindustan Times",
-      "source": "\"Runway Kling CapCut AI video August 2026\" - Google News",
-      "date": "2026-08-15",
-      "summary": "How to recreate the Empire State Building flag trend | Hindustan Times&nbsp;&nbsp;Hindustan Times",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPa1lnLV9nQkxqQTFNNHIzMkJlNFVuUWc4X3AyRDJmbWt6cVYySHRvQU5ITlc1aXhNMF9QSGJIT21ra0lBZjRrZUdLNU1SaU03MGswTW9yY29uTEU1bllQWWJEbDJxZ01fZTRjSU5lS29QV3NaSXdyUExja0ROMlJQX0Z1VEJJVi00X2c1VlZaWktkT1R4RXpxVjFYTTlqT2JZd2xNN2RFaVNlVUZCb0NrcHRURHRBeXhhU2xF0gHAAUFVX3lxTE5lVWpCVDZvbS0yaFRXVmo3dnkxdHBYZTA4N3JURzJuTHhpT1Z1WHQ5bU4xQWZ0YlpscS1GUjFYWGhDZkY1TVFFWVFOZnpfSU9FQXIxbTRxbmNQUFN4eExqSEphUUhvV3JBZU5IemRtakZ3MlNSR090dXpIN0s1dTNTdEFENEctWmFmdnBlUHc5WXp6Z3ZoeGcycFBUdTktSnU5LTBKNnJWVExkYmozMzNGVzd6RXVKQ3lSSktOZUdWQg?oc=5"
-    },
-    {
-      "title": "How to Use Grok Imagine Image 2.0: 12 Steps, 70 Min [2026] - tech-insider.org",
-      "source": "\"AI video generation tutorial August 2026\" - Google News",
-      "date": "2026-08-15",
-      "summary": "How to Use Grok Imagine Image 2.0: 12 Steps, 70 Min [2026]&nbsp;&nbsp;tech-insider.org",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9rYW9VT0JQQlBPOUMwbUhNWl9LWFFoSTBOM1JJbzhqc282OTdFUGFDbTZGOHA5S0NVRy1wTWlXRHpvZWxfYTl0bDlyMjVJS2ZqX3JpeWpDc1V4SngzRDVjR3Q3SmZiNEhDbllGMDM3Yw?oc=5"
-    },
-    {
-      "title": "How to Use Midjourney in 2026: A Beginner's Guide - Memeburn",
-      "source": "\"AI video generation tutorial August 2026\" - Google News",
-      "date": "2026-08-15",
-      "summary": "How to Use Midjourney in 2026: A Beginner's Guide&nbsp;&nbsp;Memeburn",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9rWmlDSG1VQnpiZExwTEJzbjhPaUtQa2tNSEZqbENPN0F5WEdWXzlYamhHSUlLNzlHbUhYeDJVbkVRQjJ0UkhxRHB4ODVjVGJ2M0VvZ2dn?oc=5"
+      "title": "近期暫無新資訊",
+      "source": "—",
+      "date": "—",
+      "summary": "過去 7 天內尚無符合條件的新發布內容。",
+      "url": ""
     }
   ],
   "slides": [
     {
-      "title": "Presentation Software Industry Trends & Key Players - snsinsider.com",
-      "source": "\"PowerPoint Copilot Canva AI slides August 2026\" - Google News",
-      "date": "2026-08-15",
-      "summary": "Presentation Software Industry Trends & Key Players&nbsp;&nbsp;snsinsider.com",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8waGVmN0FFa29IRXNGZUdfMWoxandKUlVNclhwczFER0ZtZ3FtN0w2QlRQbkkyc1JPcWN2cmViSjdXVDBvcVhnVTFQMUFoWTB0QnN3akEzMTJ5aW1ldGgyR1VWQW1Jdk96bHNRS0ViSnU?oc=5"
-    },
-    {
-      "title": "OpenAI Quietly Bought Presentation Startup NextSlide and Folded It Into ChatGPT - Startup Fortune",
-      "source": "\"PowerPoint Copilot Canva AI slides August 2026\" - Google News",
-      "date": "2026-08-15",
-      "summary": "OpenAI Quietly Bought Presentation Startup NextSlide and Folded It Into ChatGPT&nbsp;&nbsp;Startup F",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbW5BUlNCelVndEQ4Q3NQTGpTelRYaURZMmtldTdVSXB2MEpJRVBjam1FWkw1S1lDbndhM0tyamNZM0I1UHVuMlJmTGV5ZU1ycl9HTXVjR2tOTWc4dGVybEpFTkdjUl9Ib3hZV0o4bFFfbmFYaldzc0ZEX3l3cUswS25URG5tWWNqZUVCQ2NoN3FvM0Z5UXpzakxwQVg1blVvM2ZJOE1TRXB6U0k?oc=5"
-    },
-    {
-      "title": "Introducing a new design for Microsoft 365 Copilot - Microsoft",
-      "source": "\"PowerPoint Copilot Canva AI slides August 2026\" - Google News",
-      "date": "2026-08-15",
-      "summary": "Introducing a new design for Microsoft 365 Copilot&nbsp;&nbsp;Microsoft",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRjdjUHR6OUY0MGdQSm1NbjkwVzlEN01ibEZqd1VxaVBOT0ZwdDlEdENMbUFEdGZ1bk5CU3FmeDZRVXFkY0hZOExuSzNlRHFLeVlkNlR6OV82Q0wwcHNaMTNsMmowY3FPcTBfRXBuOFVDbmF4V0t0VkpEbm84dzFCXy04eEV2UC1tOUc5NzZLT3piQlBna0hNUUU4bXA4eGdQbmZzamt1WklCc3M0S2ZKWExYbw?oc=5"
-    },
-    {
-      "title": "8 Best AI Slide Generators Worth Using in 2026 - Cybernews",
-      "source": "\"PowerPoint Copilot Canva AI slides August 2026\" - Google News",
-      "date": "2026-08-15",
-      "summary": "8 Best AI Slide Generators Worth Using in 2026&nbsp;&nbsp;Cybernews",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPWGtHeHY3cVJqZEs0V0Z4NFFySFZWNnI4MmlMejZlWUtOYzFCSC1GTDJITWRfZVltZDNzR1YzZzFpVkt4NUdKOEFrNWFBUkVsUXFQMkgxdEdtNnBzOUlldjh4dU5odTFvREx5dm9XdU85SkRVZkw4cWtJMVR3WVBGUUp2VzdNa0k5aFVINF93?oc=5"
-    },
-    {
-      "title": "Best AI Slide Generators 2026: Can Your Team Edit the Same Deck Live? - World Business Outlook",
-      "source": "\"PowerPoint Copilot Canva AI slides August 2026\" - Google News",
-      "date": "2026-08-15",
-      "summary": "Best AI Slide Generators 2026: Can Your Team Edit the Same Deck Live?&nbsp;&nbsp;World Business Outl",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTjYzVmJ6bTJ3NHZmU1pWR0ROSG11NVMxZGtKcW5ycldJRGtkN3RaYVJxcWdKNE1EMUNCNXVJM1NhUU40RHI0TVFKcFpmNW9peVYxY0F4OG5tSXo2cGZ2UExIQTJQUlF4VWE4TUh2bkNiY2ZEYjJ4LXhIRXJhd2NpM0dOZVdpX0xpdXBBc0dTdVpxNHR4UE5ab0xWSFpuLW9QclMw?oc=5"
-    },
-    {
-      "title": "Most Popular AI Tools Students Use for Learning Today - Simplilearn.com",
-      "source": "\"PowerPoint Copilot Canva AI slides August 2026\" - Google News",
-      "date": "2026-08-15",
-      "summary": "Most Popular AI Tools Students Use for Learning Today&nbsp;&nbsp;Simplilearn.com",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1seDktVlhDV1FzbGpscXYxY29PS2kzdjc2R0Rjbmt6em5mbWhPNXdDYnJUOGQ1X3hLZ25yU2c3Z2tldnV2RDdOckt5bG05ME82OVBkT3FMMmU2b25Rdmx0UWdOdTNDQVdydFdUVkFPdmhGTjQ3aU1IMFB5UQ?oc=5"
+      "title": "近期暫無新資訊",
+      "source": "—",
+      "date": "—",
+      "summary": "過去 7 天內尚無符合條件的新發布內容。",
+      "url": ""
     }
   ]
 }
