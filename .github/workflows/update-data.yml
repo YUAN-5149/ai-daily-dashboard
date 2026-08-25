@@ -1,4 +1,4 @@
-name: 每日更新 AI 資訊看板
+name: 每日更新 AI 資訊看板（RSS）
 
 on:
   schedule:
@@ -31,11 +31,9 @@ jobs:
           cache: 'pip'
 
       - name: 📦 安裝套件
-        run: pip install anthropic feedparser requests --quiet
+        run: pip install feedparser requests --quiet
 
       - name: 🤖 抓取並更新 AI 新聞
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python scripts/fetch-news.py
 
       - name: 💾 提交並推送 data.json
