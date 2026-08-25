@@ -2,11 +2,10 @@
 """
 AI 每日資訊自動更新腳本
 GitHub Actions 每天 7:30 AM 台灣時間執行
-使用 Google News RSS + Anthropic API 抓取並翻譯 AI 最新資訊
+使用 Google News RSS 抓取 AI 最新資訊
 """
 import json
 import os
-import sys
 import re
 from datetime import datetime, timezone, timedelta
 
@@ -15,12 +14,6 @@ try:
 except ImportError:
     os.system("pip install feedparser -q")
     import feedparser
-
-try:
-    import anthropic
-    HAS_ANTHROPIC = True
-except ImportError:
-    HAS_ANTHROPIC = False
 
 # 台灣時區 (UTC+8)
 TW_TZ = timezone(timedelta(hours=8))
@@ -80,76 +73,22 @@ def fetch_rss_items(feeds, max_items=12):
     return items
 
 
-def translate_with_claude(client, items, category_zh, category_hint):
-    """使用 Claude 翻譯與整理"""
-    if not items:
-        return [EMPTY_ITEM]
-
-    raw_json = json.dumps(items, ensure_ascii=False)
-
-    prompt = f"""以下是從 RSS 抓取的英文 AI {category_zh} 相關新聞，請：
-1. 從中挑選 5~8 則**最新且最有價值**的文章（優先本月份）
-2. 為每則新聞製作：
-   - title：「英文原題 | 繁體中文翻譯」格式
-   - source：來源媒體名稱（簡短，如 TechCrunch、Google Blog 等）
-   - date：YYYY-MM-DD 格式（從 published 欄位解析，若無法解析填 {now.strftime('%Y-%m-%d')}）
-   - summary：一句約 50 字的繁體中文摘要，{category_hint}
-   - url：原始連結
-
-原始資料：
-{raw_json}
-
-請只輸出合法 JSON 陣列，不要加任何說明文字：
-[{{"title":"...","source":"...","date":"YYYY-MM-DD","summary":"...","url":"https://..."}}]"""
-
-    try:
-        msg = client.messages.create(
-            model="claude-haiku-4-5-20251001",
-            max_tokens=3000,
-            messages=[{"role": "user", "content": prompt}]
-        )
-        text = msg.content[0].text.strip()
-        start, end = text.find('['), text.rfind(']') + 1
-        if start != -1 and end > start:
-            result = json.loads(text[start:end])
-            if result:
-                return result
-    except Exception as e:
-        print(f"  ⚠ Claude API 錯誤: {e}")
-
-    # 降級：直接用原始 RSS 資料（英文）
-    return [{"title": it["title"], "source": it["source"],
-             "date": now.strftime("%Y-%m-%d"), "summary": it["summary"][:100], "url": it["url"]}
-            for it in items[:6]] or [EMPTY_ITEM]
-
-
 def main():
-    api_key = os.environ.get("ANTHROPIC_API_KEY", "")
-    client = None
-    if api_key and HAS_ANTHROPIC:
-        client = anthropic.Anthropic(api_key=api_key)
-        print("✅ 使用 Claude API 翻譯與整理")
-    else:
-        print("⚠ 未設定 ANTHROPIC_API_KEY，將使用原始英文 RSS 資料")
-
     categories = [
-        ("news",   "AI新品與更新",   "強調重要性與對使用者的影響"),
-        ("video",  "AI影片技巧",     "強調對初學者的實用性"),
-        ("slides", "AI簡報技巧",     "強調對初學者的實用性"),
+        ("news",   "AI新品與更新"),
+        ("video",  "AI影片技巧"),
+        ("slides", "AI簡報技巧"),
     ]
 
     result = {"lastUpdated": now.strftime("%Y-%m-%d %H:%M（台灣時間）"), "news": [], "video": [], "slides": []}
 
-    for key, name_zh, hint in categories:
+    for key, name_zh in categories:
         print(f"\n📡 抓取 {name_zh}…")
         raw = fetch_rss_items(RSS_FEEDS[key])
         print(f"  取得 {len(raw)} 篇原始文章")
-        if client:
-            result[key] = translate_with_claude(client, raw, name_zh, hint)
-        else:
-            result[key] = [{"title": it["title"], "source": it["source"],
-                            "date": now.strftime("%Y-%m-%d"), "summary": it["summary"][:100],
-                            "url": it["url"]} for it in raw[:6]] or [EMPTY_ITEM]
+        result[key] = [{"title": it["title"], "source": it["source"],
+                        "date": now.strftime("%Y-%m-%d"), "summary": it["summary"][:100],
+                        "url": it["url"]} for it in raw[:6]] or [EMPTY_ITEM]
         print(f"  ✅ 整理後 {len(result[key])} 則")
 
     with open("data.json", "w", encoding="utf-8") as f:
