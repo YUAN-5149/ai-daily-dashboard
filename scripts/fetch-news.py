@@ -2,7 +2,7 @@
 """
 AI 每日資訊自動更新腳本
 GitHub Actions 每天 7:30 AM 台灣時間執行
-資料來源：Google News RSS + GitHub Search API（開源專案排行）
+資料來源：Google News RSS + GitHub Search API + Hugging Face API
 """
 import html
 import json
@@ -121,6 +121,37 @@ def fetch_github_trending(max_items=6, days=30):
     return out
 
 
+def fetch_hf_trending(max_items=6):
+    """Hugging Face 熱門模型排行（依 trendingScore 排序）"""
+    try:
+        resp = requests.get(
+            "https://huggingface.co/api/models",
+            params={"sort": "trendingScore", "direction": -1, "limit": max_items},
+            headers={"User-Agent": "ai-daily-dashboard"}, timeout=25,
+        )
+        resp.raise_for_status()
+        models = resp.json()
+    except Exception as e:
+        print(f"  ⚠ Hugging Face API 抓取失敗: {e}")
+        return []
+
+    out = []
+    for i, m in enumerate(models, 1):
+        mid = m.get("id", "")
+        likes = m.get("likes", 0)
+        dls = m.get("downloads", 0)
+        task = m.get("pipeline_tag") or "—"
+        lib = m.get("library_name") or ""
+        out.append({
+            "title": f"#{i} {mid} — ❤️ {likes:,}",
+            "source": task,
+            "date": (m.get("createdAt") or "")[:10],
+            "summary": f"月下載 {dls:,} 次｜任務 {task}" + (f"｜框架 {lib}" if lib else ""),
+            "url": f"https://huggingface.co/{mid}",
+        })
+    return out
+
+
 def main():
     categories = [
         ("news",   "AI新品與更新"),
@@ -129,7 +160,7 @@ def main():
     ]
 
     result = {"lastUpdated": now.strftime("%Y-%m-%d %H:%M（台灣時間）"),
-              "news": [], "video": [], "slides": [], "github": []}
+              "news": [], "video": [], "slides": [], "github": [], "hf": []}
 
     for key, name_zh in categories:
         print(f"\n📡 抓取 {name_zh}…")
@@ -144,12 +175,17 @@ def main():
     result["github"] = fetch_github_trending() or [EMPTY_ITEM]
     print(f"  ✅ 整理後 {len(result['github'])} 則")
 
+    print("\n🤗 抓取 Hugging Face 熱門模型排行…")
+    result["hf"] = fetch_hf_trending() or [EMPTY_ITEM]
+    print(f"  ✅ 整理後 {len(result['hf'])} 則")
+
     with open("data.json", "w", encoding="utf-8") as f:
         json.dump(result, f, ensure_ascii=False, indent=2)
 
     print(f"\n🎉 data.json 已更新：{result['lastUpdated']}")
     print(f"   新品 {len(result['news'])} 則 | 影片 {len(result['video'])} 則 "
-          f"| 簡報 {len(result['slides'])} 則 | 開源 {len(result['github'])} 則")
+          f"| 簡報 {len(result['slides'])} 則 | 開源 {len(result['github'])} 則 "
+          f"| HF {len(result['hf'])} 則")
 
 
 if __name__ == "__main__":
