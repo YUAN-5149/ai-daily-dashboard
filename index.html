@@ -10,7 +10,7 @@
 <meta name="apple-mobile-web-app-title" content="AI看板">
 <title>AI課每日資訊看板</title>
 <style>
-:root{color-scheme:light;--bg:#F0F4F8;--card-bg:#FFFFFF;--accent:#FF6B35;--text-primary:#1A2B3C;--text-secondary:#64748B;--blue-light:#EFF6FF;--purple-light:#F5F3FF;--green-light:#F0FDF4;--blue-accent:#2563EB;--purple-accent:#7C3AED;--green-accent:#16A34A;--amber-light:#FFFBEB;--amber-accent:#B45309;--shadow:0 1px 4px rgba(0,0,0,.07),0 4px 14px rgba(0,0,0,.06);--radius:12px}
+:root{color-scheme:light;--bg:#F0F4F8;--card-bg:#FFFFFF;--accent:#FF6B35;--text-primary:#1A2B3C;--text-secondary:#64748B;--blue-light:#EFF6FF;--purple-light:#F5F3FF;--green-light:#F0FDF4;--blue-accent:#2563EB;--purple-accent:#7C3AED;--green-accent:#16A34A;--amber-light:#FFFBEB;--amber-accent:#B45309;--rose-light:#FFF1F2;--rose-accent:#BE123C;--shadow:0 1px 4px rgba(0,0,0,.07),0 4px 14px rgba(0,0,0,.06);--radius:12px}
 *{box-sizing:border-box;margin:0;padding:0}
 body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang TC','Microsoft JhengHei','Noto Sans TC',sans-serif;background:var(--bg);color:var(--text-primary);min-height:100vh;font-size:14px;-webkit-text-size-adjust:100%;-webkit-tap-highlight-color:rgba(37,99,235,.12);overflow-x:hidden}
 .topbar{position:sticky;top:0;z-index:100}
@@ -45,6 +45,8 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang TC','Micr
 #sec-slides .sec-head{border-color:var(--green-accent)}#sec-slides .sec-head h2{color:var(--green-accent)}#sec-slides .sec-badge{background:var(--green-light);color:var(--green-accent)}#sec-slides .card{border-left-color:var(--green-accent)}#sec-slides .card-source{background:#DCFCE7;color:var(--green-accent)}
 #sec-github .sec-head{border-color:var(--amber-accent)}#sec-github .sec-head h2{color:var(--amber-accent)}#sec-github .sec-badge{background:var(--amber-light);color:var(--amber-accent)}#sec-github .card{border-left-color:var(--amber-accent)}#sec-github .card-source{background:#FEF3C7;color:var(--amber-accent)}
 #sec-github .card-title{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace;font-size:.84rem}
+#sec-hf .sec-head{border-color:var(--rose-accent)}#sec-hf .sec-head h2{color:var(--rose-accent)}#sec-hf .sec-badge{background:var(--rose-light);color:var(--rose-accent)}#sec-hf .card{border-left-color:var(--rose-accent)}#sec-hf .card-source{background:#FFE4E6;color:var(--rose-accent)}
+#sec-hf .card-title{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace;font-size:.84rem}
 .cards-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px}
 .card{background:var(--card-bg);border-radius:var(--radius);padding:14px 16px;box-shadow:var(--shadow);border-left:3px solid transparent;transition:transform .18s,box-shadow .18s;cursor:default}
 .card:hover{transform:translateY(-3px);box-shadow:0 6px 20px rgba(0,0,0,.11)}
@@ -142,6 +144,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang TC','Micr
   <button class="tab-btn"        id="tab-video"  onclick="switchTab('video')"  role="tab">🎬 AI影片技巧</button>
   <button class="tab-btn"        id="tab-slides" onclick="switchTab('slides')" role="tab">📊 AI簡報技巧</button>
   <button class="tab-btn"        id="tab-github" onclick="switchTab('github')" role="tab">⭐ 開源排行榜</button>
+  <button class="tab-btn"        id="tab-hf"     onclick="switchTab('hf')"     role="tab">🤗 HF 模型榜</button>
 </div>
 </div>
 <div class="content">
@@ -165,6 +168,10 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang TC','Micr
     <div class="section show" id="sec-github" role="tabpanel">
       <div class="sec-head"><span>⭐</span><h2>GitHub 開源專案排行（近 30 天新星）</h2><span class="sec-badge" id="badge-github">0 則</span></div>
       <div class="cards-grid" id="grid-github"></div>
+    </div>
+    <div class="section show" id="sec-hf" role="tabpanel">
+      <div class="sec-head"><span>🤗</span><h2>Hugging Face 熱門模型排行</h2><span class="sec-badge" id="badge-hf">0 則</span></div>
+      <div class="cards-grid" id="grid-hf"></div>
     </div>
   </div>
 </div>
@@ -191,7 +198,7 @@ async function loadData() {
 
 document.addEventListener('DOMContentLoaded', loadData);
 
-const SECTIONS=['news','video','slides','github'];
+const SECTIONS=['news','video','slides','github','hf'];
 function renderAll(){SECTIONS.forEach(k=>renderSection(k,(DATA&&DATA[k])||[]))}
 function renderSection(key,items){
   const grid=document.getElementById('grid-'+key);
