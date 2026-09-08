@@ -10,7 +10,7 @@
 <meta name="apple-mobile-web-app-title" content="AI看板">
 <title>AI課每日資訊看板</title>
 <style>
-:root{color-scheme:light;--bg:#F0F4F8;--card-bg:#FFFFFF;--accent:#FF6B35;--text-primary:#1A2B3C;--text-secondary:#64748B;--blue-light:#EFF6FF;--purple-light:#F5F3FF;--green-light:#F0FDF4;--blue-accent:#2563EB;--purple-accent:#7C3AED;--green-accent:#16A34A;--shadow:0 1px 4px rgba(0,0,0,.07),0 4px 14px rgba(0,0,0,.06);--radius:12px}
+:root{color-scheme:light;--bg:#F0F4F8;--card-bg:#FFFFFF;--accent:#FF6B35;--text-primary:#1A2B3C;--text-secondary:#64748B;--blue-light:#EFF6FF;--purple-light:#F5F3FF;--green-light:#F0FDF4;--blue-accent:#2563EB;--purple-accent:#7C3AED;--green-accent:#16A34A;--amber-light:#FFFBEB;--amber-accent:#B45309;--shadow:0 1px 4px rgba(0,0,0,.07),0 4px 14px rgba(0,0,0,.06);--radius:12px}
 *{box-sizing:border-box;margin:0;padding:0}
 body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang TC','Microsoft JhengHei','Noto Sans TC',sans-serif;background:var(--bg);color:var(--text-primary);min-height:100vh;font-size:14px;-webkit-text-size-adjust:100%;-webkit-tap-highlight-color:rgba(37,99,235,.12);overflow-x:hidden}
 .topbar{position:sticky;top:0;z-index:100}
@@ -43,6 +43,8 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang TC','Micr
 #sec-news .sec-head{border-color:var(--blue-accent)}#sec-news .sec-head h2{color:var(--blue-accent)}#sec-news .sec-badge{background:var(--blue-light);color:var(--blue-accent)}#sec-news .card{border-left-color:var(--blue-accent)}#sec-news .card-source{background:#DBEAFE;color:var(--blue-accent)}
 #sec-video .sec-head{border-color:var(--purple-accent)}#sec-video .sec-head h2{color:var(--purple-accent)}#sec-video .sec-badge{background:var(--purple-light);color:var(--purple-accent)}#sec-video .card{border-left-color:var(--purple-accent)}#sec-video .card-source{background:#EDE9FE;color:var(--purple-accent)}
 #sec-slides .sec-head{border-color:var(--green-accent)}#sec-slides .sec-head h2{color:var(--green-accent)}#sec-slides .sec-badge{background:var(--green-light);color:var(--green-accent)}#sec-slides .card{border-left-color:var(--green-accent)}#sec-slides .card-source{background:#DCFCE7;color:var(--green-accent)}
+#sec-github .sec-head{border-color:var(--amber-accent)}#sec-github .sec-head h2{color:var(--amber-accent)}#sec-github .sec-badge{background:var(--amber-light);color:var(--amber-accent)}#sec-github .card{border-left-color:var(--amber-accent)}#sec-github .card-source{background:#FEF3C7;color:var(--amber-accent)}
+#sec-github .card-title{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace;font-size:.84rem}
 .cards-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px}
 .card{background:var(--card-bg);border-radius:var(--radius);padding:14px 16px;box-shadow:var(--shadow);border-left:3px solid transparent;transition:transform .18s,box-shadow .18s;cursor:default}
 .card:hover{transform:translateY(-3px);box-shadow:0 6px 20px rgba(0,0,0,.11)}
@@ -139,6 +141,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang TC','Micr
   <button class="tab-btn"        id="tab-news"   onclick="switchTab('news')"   role="tab">🚀 AI新品與更新</button>
   <button class="tab-btn"        id="tab-video"  onclick="switchTab('video')"  role="tab">🎬 AI影片技巧</button>
   <button class="tab-btn"        id="tab-slides" onclick="switchTab('slides')" role="tab">📊 AI簡報技巧</button>
+  <button class="tab-btn"        id="tab-github" onclick="switchTab('github')" role="tab">⭐ 開源排行榜</button>
 </div>
 </div>
 <div class="content">
@@ -158,6 +161,10 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang TC','Micr
     <div class="section show" id="sec-slides" role="tabpanel">
       <div class="sec-head"><span>📊</span><h2>AI簡報技巧精選</h2><span class="sec-badge" id="badge-slides">0 則</span></div>
       <div class="cards-grid" id="grid-slides"></div>
+    </div>
+    <div class="section show" id="sec-github" role="tabpanel">
+      <div class="sec-head"><span>⭐</span><h2>GitHub 開源專案排行（近 30 天新星）</h2><span class="sec-badge" id="badge-github">0 則</span></div>
+      <div class="cards-grid" id="grid-github"></div>
     </div>
   </div>
 </div>
@@ -184,25 +191,26 @@ async function loadData() {
 
 document.addEventListener('DOMContentLoaded', loadData);
 
-function renderAll(){renderSection('news',DATA.news);renderSection('video',DATA.video);renderSection('slides',DATA.slides)}
+const SECTIONS=['news','video','slides','github'];
+function renderAll(){SECTIONS.forEach(k=>renderSection(k,(DATA&&DATA[k])||[]))}
 function renderSection(key,items){
   const grid=document.getElementById('grid-'+key);
   const badge=document.getElementById('badge-'+key);
   const q=query.toLowerCase();
   const filtered=q?items.filter(d=>(d.title||'').toLowerCase().includes(q)||(d.summary||'').toLowerCase().includes(q)||(d.source||'').toLowerCase().includes(q)):items;
   badge.textContent=filtered.length+' 則';
-  if(!filtered.length){grid.innerHTML='<div class="no-match">🔍 沒有符合「'+esc(query)+'」的結果</div>';return}
+  if(!filtered.length){grid.innerHTML='<div class="no-match">'+(query?'🔍 沒有符合「'+esc(query)+'」的結果':'—— 本次尚無資料 ——')+'</div>';return}
   grid.innerHTML=filtered.map(d=>'<div class="card"><div class="card-title">'+(d.url?'<a href="'+esc(d.url)+'" target="_blank" rel="noopener noreferrer">'+esc(d.title||'（無標題）')+'</a>':esc(d.title||'（無標題）'))+'</div><div class="card-meta"><span class="card-source">'+esc(d.source||'—')+'</span><span class="card-date">📅 '+esc(d.date||'—')+'</span></div><div class="card-summary">'+esc(d.summary||'')+'</div></div>').join('')
 }
 function switchTab(tab){
   activeTab=tab;
   document.querySelectorAll('.tab-btn').forEach(b=>b.classList.remove('active'));
   document.getElementById('tab-'+tab).classList.add('active');
-  ['news','video','slides'].forEach(s=>{const el=document.getElementById('sec-'+s);(tab==='all'||tab===s)?el.classList.add('show'):el.classList.remove('show')});
+  SECTIONS.forEach(s=>{const el=document.getElementById('sec-'+s);(tab==='all'||tab===s)?el.classList.add('show'):el.classList.remove('show')});
 }
 function handleSearch(val){
   query=val.trim();
-  if(query){['news','video','slides'].forEach(s=>document.getElementById('sec-'+s).classList.add('show'))}
+  if(query){SECTIONS.forEach(s=>document.getElementById('sec-'+s).classList.add('show'))}
   else switchTab(activeTab);
   renderAll();
 }
