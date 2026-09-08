@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-08 13:26（台灣時間）",
+  "lastUpdated": "2026-09-08 13:36（台灣時間）",
   "news": [
     {
       "title": "OpenAI begins rolling out Astra model after warning of its advanced cyber capabilities - CNBC",
@@ -74,18 +74,18 @@
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBBdXJhbFFncl9kMThucldlQzdDOFBrbm9lbUFVSmNxT1FVNnMya0l3REZSZXI1dm1JUFN6QkF5cUVZR3pvM3JDVjlVMXhYVUU4X0IwUXZxSWlWNXFQQVF2TTN4REQ1TkNZY0E?oc=5"
     },
     {
-      "title": "Best Suno Music Video Generator Tools in 2026: 10 Top Options Tested for Musicians - BBN Times",
-      "source": "\"Runway Kling CapCut AI video September 2026\" - Google News",
-      "date": "2026-09-08",
-      "summary": "Best Suno Music Video Generator Tools in 2026: 10 Top Options Tested for Musicians BBN Times",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZGxZaS1FekRfQlNDcGZEV2RsUW41TWNtNzVQQTFDc2tSdnpYSXNGaXlETnpYanI3OVhWWE9xcnEtaF83SVBOSGVEYzV2WjRBV3JmU1Y1SURDVWlhWG9JQzlNSXdMeEdkcVB4UkRJNWd6TTh3UU1xSXd6WWkyWTVDUklxd0UxbFJuVjY5V0I4LVE3aE0yY3YtQWZmc1NfcE5mcDB5S0pTSFpRdU5SbWRaOEd1TUd6OEox?oc=5"
-    },
-    {
       "title": "ByteDance enters AI video race with Doubao’s PixelDance and Seaweed - KrASIA",
       "source": "\"Runway Kling CapCut AI video September 2026\" - Google News",
       "date": "2026-09-08",
       "summary": "ByteDance enters AI video race with Doubao’s PixelDance and Seaweed KrASIA",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZ3NGdzNVX182eklMS1RJdDRLaHg5bUNIOWhTTnZUcldzQkQ0ODNrYkEtNG9aTTBzSlhjRl9qa2FDVlZGajQ5OHBwZ2dqalpXWjhtLS1IOFNGTHl4eXc3UXdMVlF4Zl9wT3AwVTZnRU1NcGMtNmdaVHlFVGRiVzM2QWVlQy1QdFdLSVRQanF5cw?oc=5"
+    },
+    {
+      "title": "How to Use Leonardo AI Image Generator: 12 Steps [2026] - tech-insider.org",
+      "source": "\"AI video generation tutorial September 2026\" - Google News",
+      "date": "2026-09-08",
+      "summary": "How to Use Leonardo AI Image Generator: 12 Steps [2026] tech-insider.org",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9DS3V3UDYyZERnR0dpcmNEcGxILW9wMnQyR1N4MEtrenh4YjVNbkRxTlNzRURwUVV2c0hiWDBIWFVkbnByN1pNV1NhaHpsamd5cGdxbzNIYnFOWnR1Wi1yd1BqdU5kNUk5cmlvdW54NXhaVFgxMWc?oc=5"
     }
   ],
   "slides": [
@@ -134,28 +134,28 @@
   ],
   "github": [
     {
-      "title": "#1 deepseek-ai/deepseek-harness — ⭐ 215,393",
+      "title": "#1 deepseek-ai/deepseek-harness — ⭐ 215,402",
       "source": "TypeScript",
       "date": "2026-08-13",
       "summary": "DeepSeek Harness: Everything is a Plugin.",
       "url": "https://github.com/deepseek-ai/deepseek-harness"
     },
     {
-      "title": "#2 anywhere-labs/dsh-desktop — ⭐ 24,324",
+      "title": "#2 anywhere-labs/dsh-desktop — ⭐ 24,325",
       "source": "TypeScript",
       "date": "2026-08-13",
       "summary": "为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案。万物皆「插件」，桌面本身也是「插件」。",
       "url": "https://github.com/anywhere-labs/dsh-desktop"
     },
     {
-      "title": "#3 guillaumemeyer/watermarks-remover — ⭐ 21,274",
+      "title": "#3 guillaumemeyer/watermarks-remover — ⭐ 21,276",
       "source": "Python",
       "date": "2026-08-11",
       "summary": "A privacy-first app that strips AI watermarks from content you own.",
       "url": "https://github.com/guillaumemeyer/watermarks-remover"
     },
     {
-      "title": "#4 awesome-dsh-plugin/awesome-dsh-plugin — ⭐ 14,820",
+      "title": "#4 awesome-dsh-plugin/awesome-dsh-plugin — ⭐ 14,822",
       "source": "Python",
       "date": "2026-08-13",
       "summary": "A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
@@ -174,6 +174,50 @@
       "date": "2026-08-12",
       "summary": "DeepSeek Harness (DSH) Web Plugin Aggregation Ecosystem · Everything is a plugin, distributed via the Creative Workshop",
       "url": "https://github.com/zhu1090093659/dsh-web"
+    }
+  ],
+  "hf": [
+    {
+      "title": "#1 XHToken/Spark-X2.5-4B — ❤️ 761",
+      "source": "text-generation",
+      "date": "2026-08-24",
+      "summary": "月下載 7,216 次｜任務 text-generation｜框架 transformers",
+      "url": "https://huggingface.co/XHToken/Spark-X2.5-4B"
+    },
+    {
+      "title": "#2 Qwen/Qwen3.8-27B — ❤️ 14,293",
+      "source": "image-text-to-text",
+      "date": "2026-08-05",
+      "summary": "月下載 6,416,358 次｜任務 image-text-to-text｜框架 transformers",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-27B"
+    },
+    {
+      "title": "#3 ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF — ❤️ 576",
+      "source": "image-text-to-text",
+      "date": "2026-08-28",
+      "summary": "月下載 403,292 次｜任務 image-text-to-text｜框架 gguf",
+      "url": "https://huggingface.co/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF"
+    },
+    {
+      "title": "#4 google/timesfm-3.0-pytorch — ❤️ 587",
+      "source": "time-series-forecasting",
+      "date": "2026-08-24",
+      "summary": "月下載 271,713 次｜任務 time-series-forecasting",
+      "url": "https://huggingface.co/google/timesfm-3.0-pytorch"
+    },
+    {
+      "title": "#5 Lightricks/LTX-2.5 — ❤️ 3,093",
+      "source": "image-to-video",
+      "date": "2026-07-23",
+      "summary": "月下載 1,584,382 次｜任務 image-to-video｜框架 diffusion-single-file",
+      "url": "https://huggingface.co/Lightricks/LTX-2.5"
+    },
+    {
+      "title": "#6 Qwen/Qwen3.8-Flash-Next — ❤️ 4,984",
+      "source": "image-text-to-text",
+      "date": "2026-08-24",
+      "summary": "月下載 474,693 次｜任務 image-text-to-text｜框架 transformers",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next"
     }
   ]
 }
