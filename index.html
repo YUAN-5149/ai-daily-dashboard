@@ -219,8 +219,189 @@ details.guide[open]>summary{margin-bottom:12px}
       <div class="sec-head"><span>🤗</span><h2>Hugging Face 熱門模型排行</h2><span class="sec-badge" id="badge-hf">0 則</span></div>
       <div class="cards-grid" id="grid-hf"></div>
     </div>
-    <div class="section show" id="sec-gpt" role="tabpanel">
+    <div class="section show" id="sec-gpt" role="tabpanel" data-total="本頁收錄 {n} 個外掛。標示「已裝」的是你帳號裡已經安裝的。">
       <div class="sec-head"><span>🤖</span><h2>ChatGPT / Codex 外掛（Plugins）</h2><span class="sec-badge">指南</span></div>
+
+      <div class="info-card">
+        <h3>🧰 外掛總覽</h3>
+        <p>以下取自 ChatGPT 官方外掛目錄（17 個分類的精選項目）。標 <span class="plug-tag core">已裝</span> 的是<strong>你帳號裡已經安裝的 12 個</strong>；其餘是可以加裝的。</p>
+        <input class="plug-filter" type="text" placeholder="🔍 篩選：輸入關鍵字，例如 簡報、資料、行事曆、投資…" oninput="filterPlugins(this.value,'sec-gpt')">
+        <div class="info-note plug-count">載入中…</div>
+        <div class="info-note" style="margin-top:6px">⚠️ 官方目錄持續增加，每類還有「查看更多」。這份是精選項目的快照（2026-09-17）。</div>
+      </div>
+
+      <div class="plug-group">
+        <h4>✅ 你已安裝的（12 個）</h4>
+        <div class="plug" data-k="vercel 部署 網站 前端"><div><span class="plug-n">Vercel</span><span class="plug-tag core">已裝</span></div><div class="plug-d">部署與管理網站、Web app 與 agent。</div></div>
+        <div class="plug" data-k="notion 筆記 文件 工作流 知識庫"><div><span class="plug-n">Notion</span><span class="plug-tag core">已裝</span></div><div class="plug-d">讀寫 Notion 文件、資料庫與工作流。</div></div>
+        <div class="plug" data-k="google drive docs sheets slides 雲端硬碟"><div><span class="plug-n">Google Drive</span><span class="plug-tag core">已裝</span></div><div class="plug-d">存取 Drive 檔案與 Docs／Sheets／Slides。</div></div>
+        <div class="plug" data-k="github pr issue ci 程式碼 版控"><div><span class="plug-n">GitHub</span><span class="plug-tag core">已裝</span></div><div class="plug-d">分流 PR、Issue、CI，以及發布流程。</div></div>
+        <div class="plug" data-k="presentations 簡報 投影片 ppt"><div><span class="plug-n">Presentations</span><span class="plug-tag core">已裝</span></div><div class="plug-d">建立與編輯簡報檔。對應 Claude 的 pptx 技能。</div></div>
+        <div class="plug" data-k="spreadsheets 試算表 excel 表格"><div><span class="plug-n">Spreadsheets</span><span class="plug-tag core">已裝</span></div><div class="plug-d">建立與編輯試算表檔。對應 Claude 的 xlsx 技能。</div></div>
+        <div class="plug" data-k="documents 文件 word docx"><div><span class="plug-n">Documents</span><span class="plug-tag core">已裝</span></div><div class="plug-d">建立與編輯文件檔。對應 Claude 的 docx 技能。</div></div>
+        <div class="plug" data-k="pdf 檔案 處理"><div><span class="plug-n">PDF</span><span class="plug-tag core">已裝</span></div><div class="plug-d">PDF 讀取、產生與處理。</div></div>
+        <div class="plug" data-k="template creator 範本 製作"><div><span class="plug-n">Template Creator</span><span class="plug-tag core">已裝</span></div><div class="plug-d">製作可重複使用的文件／簡報範本。</div></div>
+        <div class="plug" data-k="default templates 預設 範本"><div><span class="plug-n">Default templates</span><span class="plug-tag core">已裝</span></div><div class="plug-d">官方預設範本組，供上面幾個產檔外掛套用。</div></div>
+        <div class="plug" data-k="plugin management 外掛管理"><div><span class="plug-n">Plugin Management</span><span class="plug-tag core">已裝</span></div><div class="plug-d">管理外掛本身：安裝、停用、檢視。相當於 Claude 的 <code class="k">/plugin</code> 面板。</div></div>
+        <div class="plug" data-k="pets 寵物 趣味"><div><span class="plug-n">Pets</span><span class="plug-tag core">已裝</span></div><div class="plug-d">Codex 的桌面寵物，純趣味功能。<strong>用不到可以關掉。</strong></div></div>
+      </div>
+
+      <div class="plug-group">
+        <h4>🔥 熱門</h4>
+        <div class="plug" data-k="gmail 信箱 email 郵件"><div><span class="plug-n">Gmail</span></div><div class="plug-d">讀取與管理 Gmail 信件。</div></div>
+        <div class="plug" data-k="outlook email 信箱 郵件 微軟"><div><span class="plug-n">Outlook Email</span></div><div class="plug-d">分流 Outlook 收件匣。</div></div>
+        <div class="plug" data-k="canva 設計 圖片 平面"><div><span class="plug-n">Canva</span></div><div class="plug-d">建立、檢視與編輯 Canva 設計。</div></div>
+        <div class="plug" data-k="health 健康 數據"><div><span class="plug-n">Health</span></div><div class="plug-d">在 ChatGPT 裡查看與分析你的健康數據。</div></div>
+      </div>
+
+      <div class="plug-group">
+        <h4>📊 資料與分析</h4>
+        <div class="plug" data-k="data 資料 問答 分析"><div><span class="plug-n">Data</span></div><div class="plug-d">用自然語言問資料問題並取得答案。</div></div>
+        <div class="plug" data-k="posthog 產品分析 行為"><div><span class="plug-n">PostHog</span></div><div class="plug-d">分析產品使用數據與使用者行為。</div></div>
+        <div class="plug" data-k="mixpanel 產品分析 查詢"><div><span class="plug-n">Mixpanel</span></div><div class="plug-d">查詢與分析 Mixpanel 事件資料。</div></div>
+        <div class="plug" data-k="amplitude 產品分析"><div><span class="plug-n">Amplitude</span></div><div class="plug-d">分析 Amplitude 的產品數據。</div></div>
+        <div class="plug" data-k="power bi 微軟 商業智慧 報表"><div><span class="plug-n">Microsoft Power BI</span></div><div class="plug-d">在瀏覽器裡探索與撰寫 Power BI 分析。</div></div>
+        <div class="plug" data-k="aws data analytics 雲端 分析"><div><span class="plug-n">AWS Data Analytics</span></div><div class="plug-d">存取 AWS 上的資料分析服務。</div></div>
+        <div class="plug" data-k="clickhouse 資料庫 olap"><div><span class="plug-n">ClickHouse</span></div><div class="plug-d">探索 ClickHouse Cloud 資料庫。</div></div>
+        <div class="plug" data-k="helium 10 amazon 賣家 選品"><div><span class="plug-n">Helium 10</span></div><div class="plug-d">存取 Helium 10 的 Amazon 賣家數據。</div></div>
+        <div class="plug" data-k="tableau 視覺化 報表 淘汰"><div><span class="plug-n">Tableau</span><span class="plug-tag auth">即將淘汰</span></div><div class="plug-d">Tableau 資料視覺化。官方已標示 MCP-only 且即將 EOL，<strong>不建議現在才開始用</strong>。</div></div>
+      </div>
+
+      <div class="plug-group">
+        <h4>🛠️ 開發人員工具</h4>
+        <div class="plug" data-k="supabase 資料庫 後端 postgres"><div><span class="plug-n">Supabase</span></div><div class="plug-d">管理與查詢 Supabase 資料庫。</div></div>
+        <div class="plug" data-k="firebase google 後端 app"><div><span class="plug-n">Firebase</span></div><div class="plug-d">建立與管理 Firebase 應用。</div></div>
+        <div class="plug" data-k="railway 部署 託管"><div><span class="plug-n">Railway</span></div><div class="plug-d">建置與部署應用程式。</div></div>
+        <div class="plug" data-k="floot 全端 app 託管"><div><span class="plug-n">Floot</span></div><div class="plug-d">建置並託管全端應用。</div></div>
+        <div class="plug" data-k="exa 搜尋 agent web"><div><span class="plug-n">Exa</span></div><div class="plug-d">給 AI agent 用的網頁搜尋。</div></div>
+        <div class="plug" data-k="firecrawl 爬蟲 抓取 網頁"><div><span class="plug-n">Firecrawl</span></div><div class="plug-d">搜尋與爬取網頁內容。對應 Claude 的 brightdata。</div></div>
+        <div class="plug" data-k="codex security 資安 掃描 漏洞"><div><span class="plug-n">Codex Security</span></div><div class="plug-d">掃描程式碼資安漏洞。對應 Claude 的 security-guidance。</div></div>
+      </div>
+
+      <div class="plug-group">
+        <h4>📅 生產力</h4>
+        <div class="plug" data-k="google calendar 行事曆 會議"><div><span class="plug-n">Google Calendar</span></div><div class="plug-d">管理 Google 日曆事件。</div></div>
+        <div class="plug" data-k="outlook calendar 行事曆 微軟"><div><span class="plug-n">Outlook Calendar</span></div><div class="plug-d">管理 Outlook 行程。</div></div>
+        <div class="plug" data-k="monday 專案管理 任務 crm"><div><span class="plug-n">monday.com</span></div><div class="plug-d">管理專案、任務與 CRM。</div></div>
+        <div class="plug" data-k="fathom 會議 紀錄 洞察"><div><span class="plug-n">Fathom</span></div><div class="plug-d">會議錄音與重點洞察。</div></div>
+        <div class="plug" data-k="granola 會議 筆記 情境"><div><span class="plug-n">Granola</span></div><div class="plug-d">把會議情境帶進對話。</div></div>
+        <div class="plug" data-k="dropbox 檔案 雲端"><div><span class="plug-n">Dropbox</span></div><div class="plug-d">尋找、建立檔案並執行動作。</div></div>
+      </div>
+
+      <div class="plug-group">
+        <h4>💬 通訊</h4>
+        <div class="plug" data-k="slack 團隊 訊息 頻道"><div><span class="plug-n">Slack</span></div><div class="plug-d">讀取與管理 Slack 訊息。</div></div>
+        <div class="plug" data-k="teams 微軟 會議 摘要"><div><span class="plug-n">Teams</span></div><div class="plug-d">摘要 Teams 會議並跟進。</div></div>
+        <div class="plug" data-k="zoom 會議 洞察"><div><span class="plug-n">Zoom</span></div><div class="plug-d">從 Zoom 會議取得重點洞察。</div></div>
+        <div class="plug" data-k="superhuman mail 信箱 行事曆"><div><span class="plug-n">Superhuman Mail</span></div><div class="plug-d">郵件與行事曆助理。</div></div>
+        <div class="plug" data-k="hostinger mail 信箱"><div><span class="plug-n">Hostinger Mail</span></div><div class="plug-d">使用 Hostinger 信箱。</div></div>
+      </div>
+
+      <div class="plug-group">
+        <h4>🎨 創意設計</h4>
+        <div class="plug" data-k="figma 設計 ui 原型 程式碼"><div><span class="plug-n">Figma</span></div><div class="plug-d">建立設計並轉成程式碼。</div></div>
+        <div class="plug" data-k="runway 影片 生成 ai"><div><span class="plug-n">Runway</span></div><div class="plug-d">用各種 AI 模型生成影片。</div></div>
+        <div class="plug" data-k="higgsfield 圖片 影片 模型"><div><span class="plug-n">Higgsfield</span></div><div class="plug-d">集合各家圖片與影片生成模型。</div></div>
+        <div class="plug" data-k="invideo 影片 剪輯 生成"><div><span class="plug-n">invideo</span></div><div class="plug-d">生成任意長度的影片。</div></div>
+        <div class="plug" data-k="openart 圖片 影片 創作"><div><span class="plug-n">OpenArt</span></div><div class="plug-d">生成圖片與影片。</div></div>
+        <div class="plug" data-k="product design 產品設計 原型"><div><span class="plug-n">Product Design</span></div><div class="plug-d">探索與製作產品設計原型。</div></div>
+      </div>
+
+      <div class="plug-group">
+        <h4>💼 商務與營運</h4>
+        <div class="plug" data-k="hubspot crm 業務 行銷"><div><span class="plug-n">HubSpot</span></div><div class="plug-d">從 HubSpot 洞察直接轉成行動。</div></div>
+        <div class="plug" data-k="shopify 電商 開店 商店"><div><span class="plug-n">Shopify</span></div><div class="plug-d">建立與管理你的線上商店。</div></div>
+        <div class="plug" data-k="stripe 金流 收款 付款"><div><span class="plug-n">Stripe</span></div><div class="plug-d">收款與營收管理。</div></div>
+        <div class="plug" data-k="windsor 數據源 整合 行銷"><div><span class="plug-n">Windsor.ai</span></div><div class="plug-d">串接 350 種以上的資料來源。</div></div>
+        <div class="plug" data-k="vidiq youtube 關鍵字 統計"><div><span class="plug-n">vidIQ</span></div><div class="plug-d">YouTube 數據與關鍵字分析。</div></div>
+        <div class="plug" data-k="ubersuggest seo 關鍵字"><div><span class="plug-n">Ubersuggest</span></div><div class="plug-d">關鍵字研究與 SEO 洞察。</div></div>
+        <div class="plug" data-k="lusha b2b 名單 聯絡資料"><div><span class="plug-n">Lusha</span></div><div class="plug-d">已驗證的 B2B 聯絡資料與商業訊號。對應 Claude 的 zoominfo／apollo。</div></div>
+      </div>
+
+      <div class="plug-group">
+        <h4>🔒 安全與隱私</h4>
+        <div class="plug" data-k="malwarebytes 惡意 連結 驗證 詐騙"><div><span class="plug-n">Malwarebytes</span></div><div class="plug-d">驗證連結、網域、電話是否安全。<strong>防詐騙實用。</strong></div></div>
+        <div class="plug" data-k="privacyhawk 個資 隱私 保護"><div><span class="plug-n">PrivacyHawk</span></div><div class="plug-d">保護你的個人資料。</div></div>
+        <div class="plug" data-k="ajaxx data scrubber 個資 移除 外洩"><div><span class="plug-n">AJAXX Data Scrubber</span></div><div class="plug-d">移除網路上已外洩的個人資料。</div></div>
+        <div class="plug" data-k="soluvery google drive 權限 稽核"><div><span class="plug-n">Soluvery</span></div><div class="plug-d">稽核 Google Drive 的分享權限。</div></div>
+        <div class="plug" data-k="purevpn 隱私 瀏覽 vpn"><div><span class="plug-n">PureVPN Privacy Assistant</span></div><div class="plug-d">安全瀏覽建議。</div></div>
+      </div>
+
+      <div class="plug-group">
+        <h4>📚 教育與研究</h4>
+        <div class="plug" data-k="consensus 論文 研究 科學 文獻"><div><span class="plug-n">Consensus</span></div><div class="plug-d">檢索科學研究文獻並取得共識性結論。</div></div>
+        <div class="plug" data-k="scispace 論文 研究 閱讀"><div><span class="plug-n">SciSpace</span></div><div class="plug-d">科學與研究文獻助理。</div></div>
+        <div class="plug" data-k="undermind 論文 檢索 閱讀"><div><span class="plug-n">Undermind</span></div><div class="plug-d">深度檢索並閱讀研究論文。</div></div>
+        <div class="plug" data-k="kahoot 教學 測驗 互動"><div><span class="plug-n">Kahoot!</span></div><div class="plug-d">快速產生互動測驗。<strong>教學用很好用。</strong></div></div>
+        <div class="plug" data-k="quizlet 單字卡 記憶 學習"><div><span class="plug-n">Quizlet</span></div><div class="plug-d">產生學習用單字卡。</div></div>
+        <div class="plug" data-k="explain video generator 教學 影片 scrimba"><div><span class="plug-n">Explain Video Generator</span></div><div class="plug-d">免費把說明轉成教學影片。</div></div>
+      </div>
+
+      <div class="plug-group">
+        <h4>🔬 科學研究（生技／化學）</h4>
+        <div class="plug" data-k="boltz 蛋白質 結構 預測 分子"><div><span class="plug-n">Boltz</span></div><div class="plug-d">預測蛋白質結構、篩選分子、設計結合劑。</div></div>
+        <div class="plug" data-k="tamarind bio 蛋白質 分子 設計"><div><span class="plug-n">Tamarind Bio</span></div><div class="plug-d">蛋白質與分子設計。</div></div>
+        <div class="plug" data-k="inductive bio admet 藥物"><div><span class="plug-n">Inductive Bio</span></div><div class="plug-d">最新的 ADMET 藥物性質預測模型。</div></div>
+        <div class="plug" data-k="rowan 化學 生物 模擬"><div><span class="plug-n">Rowan</span></div><div class="plug-d">化學與生物模擬運算。</div></div>
+        <div class="plug" data-k="proto 生物 ai 模型"><div><span class="plug-n">Proto</span></div><div class="plug-d">生物領域的 AI 模型與工具。</div></div>
+      </div>
+
+      <div class="plug-group">
+        <h4>💰 金融投資</h4>
+        <div class="plug" data-k="interactive brokers ibkr 券商 股票 全球"><div><span class="plug-n">Interactive Brokers (IBKR)</span></div><div class="plug-d">分析全球市場。</div></div>
+        <div class="plug" data-k="alpaca 股票 加密貨幣 行情"><div><span class="plug-n">Alpaca</span></div><div class="plug-d">股票與加密貨幣市場資料。</div></div>
+        <div class="plug" data-k="public equity investing 股票 研究"><div><span class="plug-n">Public Equity Investing</span></div><div class="plug-d">上市公司股票研究。</div></div>
+        <div class="plug" data-k="parqet 投資組合 資產"><div><span class="plug-n">Parqet</span></div><div class="plug-d">用對話檢視你的投資組合。</div></div>
+        <div class="plug" data-k="massive 即時 股票 行情"><div><span class="plug-n">Massive</span></div><div class="plug-d">即時股票資料與更多市場資訊。</div></div>
+      </div>
+
+      <div class="plug-group">
+        <h4>🏥 健康與運動</h4>
+        <div class="plug" data-k="freddy 健康 數據 問答"><div><span class="plug-n">freddy</span></div><div class="plug-d">詢問你的健康數據。</div></div>
+        <div class="plug" data-k="calorie tracker 熱量 飲食 記錄"><div><span class="plug-n">Calorie Tracker</span></div><div class="plug-d">記錄飲食與熱量。</div></div>
+        <div class="plug" data-k="fitbod 健身 課表 重訓"><div><span class="plug-n">Fitbod</span></div><div class="plug-d">產生下一次的健身課表。</div></div>
+        <div class="plug" data-k="coros 運動 手錶 數據"><div><span class="plug-n">COROS</span></div><div class="plug-d">運動手錶的訓練數據洞察。</div></div>
+        <div class="plug" data-k="fitness ai connector garmin 運動"><div><span class="plug-n">Fitness AI Connector</span></div><div class="plug-d">用 Garmin 資料當你的 AI 教練。</div></div>
+        <div class="plug" data-k="tredict 訓練 課表 分析"><div><span class="plug-n">Tredict</span></div><div class="plug-d">分析訓練並產生課表。</div></div>
+      </div>
+
+      <div class="plug-group">
+        <h4>✈️ 旅遊</h4>
+        <div class="plug" data-k="skyscanner 機票 便宜 航班"><div><span class="plug-n">Skyscanner</span></div><div class="plug-d">搜尋便宜機票。</div></div>
+        <div class="plug" data-k="booking 訂房 住宿 飯店"><div><span class="plug-n">Booking.com</span></div><div class="plug-d">搜尋住宿與更多旅遊服務。</div></div>
+        <div class="plug" data-k="travel 101 行程 規劃 多日"><div><span class="plug-n">Travel 101</span></div><div class="plug-d">規劃多日行程。</div></div>
+        <div class="plug" data-k="tableall 日本 訂位 餐廳 米其林"><div><span class="plug-n">TABLEALL</span></div><div class="plug-d">預訂日本高級餐廳。</div></div>
+        <div class="plug" data-k="komoot 戶外 路線 單車 健行"><div><span class="plug-n">komoot</span></div><div class="plug-d">尋找戶外運動路線。</div></div>
+        <div class="plug" data-k="foreflight 飛行 航班 規劃"><div><span class="plug-n">ForeFlight Mobile</span></div><div class="plug-d">飛行計畫、簡報與紀錄。</div></div>
+      </div>
+
+      <div class="plug-group">
+        <h4>🎮 娛樂與其他</h4>
+        <div class="plug" data-k="spotify 音樂 podcast"><div><span class="plug-n">Spotify</span></div><div class="plug-d">音樂與 Podcast 推薦。</div></div>
+        <div class="plug" data-k="soundbreak 音樂 生成 ai"><div><span class="plug-n">SoundBreak</span></div><div class="plug-d">與藝人合作生成 AI 音樂。</div></div>
+        <div class="plug" data-k="chessy 西洋棋 對弈"><div><span class="plug-n">Chessy</span></div><div class="plug-d">跟 ChatGPT 下西洋棋。</div></div>
+        <div class="plug" data-k="smart chess 西洋棋 教練"><div><span class="plug-n">Smart Chess</span></div><div class="plug-d">西洋棋教練與策略訓練。</div></div>
+        <div class="plug" data-k="battleships 海戰棋 遊戲"><div><span class="plug-n">Battleships Classic</span></div><div class="plug-d">經典海戰棋對戰。</div></div>
+        <div class="plug" data-k="tarot 塔羅 占卜 astrologic 星座 命理"><div><span class="plug-n">Tarot／Astrologic 等命理類</span></div><div class="plug-d">塔羅牌、星盤、星座運勢。「其他」分類裡有 6 個以上同質外掛。</div></div>
+      </div>
+
+      <div class="info-card">
+        <h3>🧭 從 Claude 過來的人怎麼挑</h3>
+        <table class="info-table">
+          <tr><th>你在 Claude 用的</th><th>GPT 這邊裝什麼</th></tr>
+          <tr><td>anthropic-skills（產檔）</td><td><code class="k">Documents</code>＋<code class="k">Spreadsheets</code>＋<code class="k">Presentations</code>＋<code class="k">PDF</code>（你已裝）</td></tr>
+          <tr><td>desktop-commander</td><td><code class="k">Computer Use</code>（控制 Mac app）</td></tr>
+          <tr><td>brightdata-plugin</td><td><code class="k">Firecrawl</code>＋<code class="k">Exa</code></td></tr>
+          <tr><td>zoominfo／apollo</td><td><code class="k">Lusha</code></td></tr>
+          <tr><td>data</td><td><code class="k">Data</code>＋<code class="k">PostHog</code>／<code class="k">Mixpanel</code>／<code class="k">Amplitude</code></td></tr>
+          <tr><td>engineering + github</td><td><code class="k">GitHub</code>（你已裝）＋<code class="k">Codex Security</code></td></tr>
+          <tr><td>figma</td><td><code class="k">Figma</code></td></tr>
+          <tr><td>searchfit-seo</td><td><code class="k">Ubersuggest</code>＋<code class="k">vidIQ</code></td></tr>
+          <tr><td>bio-research</td><td><code class="k">Boltz</code>＋<code class="k">Tamarind Bio</code>＋<code class="k">Consensus</code></td></tr>
+          <tr><td>lseg／bigdata-com</td><td><code class="k">Interactive Brokers</code>＋<code class="k">Alpaca</code></td></tr>
+        </table>
+        <div class="info-note">💡 兩個平台的差別在深度：Claude 的外掛多半是<strong>完整工作流程</strong>（一個 sales 外掛裡有 30 幾個技能）；GPT 這邊多半是<strong>單一服務的連接器</strong>（Gmail 就是收發信）。想要流程就自己用 <code class="k">@skill-creator</code> 建技能。</div>
+      </div>
 
       <div class="info-card">
         <h3>📌 先講結論：兩邊長得很像</h3>
@@ -312,14 +493,14 @@ Codex  ：$skill-creator</pre>
         </ul>
       </div>
     </div>
-    <div class="section show" id="sec-plugins" role="tabpanel">
+    <div class="section show" id="sec-plugins" role="tabpanel" data-total="本頁收錄 {n} 個外掛，全部都已安裝在你的帳號中。">
       <div class="sec-head"><span>🔌</span><h2>Claude Code 外掛程式（Plugins）</h2><span class="sec-badge">指南</span></div>
 
       <div class="info-card">
         <h3>🧰 外掛總覽</h3>
         <p>下面這些外掛<strong>目前都已經裝在你的帳號裡</strong>。每個外掛在每一輪對話都會佔用 token 額度，所以重點不是「還要不要加」，而是<strong>哪些留著、哪些關掉</strong>。用不到的到 <code class="k">/plugin</code> → Installed 停用即可，隨時可以再開。</p>
-        <input class="plug-filter" id="plug-filter" type="text" placeholder="🔍 篩選：輸入關鍵字，例如 銷售、資料庫、PDF、合約…" oninput="filterPlugins(this.value)">
-        <div class="info-note" id="plug-count">載入中…</div>
+        <input class="plug-filter" type="text" placeholder="🔍 篩選：輸入關鍵字，例如 銷售、資料庫、PDF、合約…" oninput="filterPlugins(this.value,'sec-plugins')">
+        <div class="info-note plug-count">載入中…</div>
         <div class="info-note" style="margin-top:6px"><span class="plug-tag core">免設定</span> 裝了就能用　<span class="plug-tag auth">需授權</span> 要先連結外部帳號（在 claude.ai 的連接器設定授權）才會生效</div>
       </div>
 
@@ -818,10 +999,12 @@ function handleRefresh(){
 function renderTimestamp(){
   document.getElementById('update-time').textContent=DATA&&DATA.lastUpdated?'⏱ 更新於 '+DATA.lastUpdated:'⏱ 尚未更新';
 }
-function filterPlugins(v){
+function filterPlugins(v,scope){
+  const root=document.getElementById(scope||'sec-plugins');
+  if(!root) return;
   const q=(v||'').trim().toLowerCase();
   let n=0;
-  document.querySelectorAll('.plug-group').forEach(g=>{
+  root.querySelectorAll('.plug-group').forEach(g=>{
     let shown=0;
     g.querySelectorAll('.plug').forEach(p=>{
       const hit=!q||((p.dataset.k||'')+' '+p.textContent).toLowerCase().includes(q);
@@ -829,10 +1012,10 @@ function filterPlugins(v){
     });
     g.classList.toggle('hide',shown===0);
   });
-  const c=document.getElementById('plug-count');
-  if(c) c.textContent=q?('符合「'+v+'」的外掛：'+n+' 個'):('本頁收錄 '+n+' 個外掛，全部都已安裝在你的帳號中。');
+  const c=root.querySelector('.plug-count');
+  if(c) c.textContent=q?('符合「'+v+'」的外掛：'+n+' 個'):(root.dataset.total||'').replace('{n}',n);
 }
-document.addEventListener('DOMContentLoaded',()=>filterPlugins(''));
+document.addEventListener('DOMContentLoaded',()=>{filterPlugins('','sec-plugins');filterPlugins('','sec-gpt')});
 function esc(str){const d=document.createElement('div');d.appendChild(document.createTextNode(String(str)));return d.innerHTML}
 </script>
 </body>
