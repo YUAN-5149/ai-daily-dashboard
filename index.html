@@ -60,6 +60,25 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang TC','Micr
 code.k{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.78rem;background:#F1F5F9;color:#BE123C;padding:1px 6px;border-radius:4px;white-space:nowrap}
 pre.k{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.78rem;background:#0F172A;color:#E2E8F0;padding:11px 13px;border-radius:8px;overflow-x:auto;line-height:1.65;margin-bottom:8px}
 .info-note{font-size:.78rem;color:#475569;background:#F8FAFC;border-left:3px solid #CBD5E1;padding:9px 12px;border-radius:0 6px 6px 0;line-height:1.75}
+.plug-filter{width:100%;padding:10px 13px;border-radius:8px;border:1px solid #CBD5E1;font-size:16px;font-family:inherit;outline:none;margin:4px 0 8px}
+.plug-filter:focus{border-color:#0891B2}
+.plug-group{margin-bottom:14px}
+.plug-group h4{font-size:.85rem;font-weight:700;color:#0E7490;margin:0 0 8px;padding:7px 11px;background:#ECFEFF;border-radius:6px}
+.plug{background:var(--card-bg);border-radius:8px;padding:11px 13px;box-shadow:var(--shadow);margin-bottom:7px;border-left:3px solid #CBD5E1}
+.plug-n{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.82rem;font-weight:700;color:#0F172A}
+.plug-tag{font-size:.68rem;font-weight:700;padding:2px 7px;border-radius:8px;margin-left:7px;background:#F1F5F9;color:#64748B;white-space:nowrap}
+.plug-tag.auth{background:#FEF3C7;color:#B45309}
+.plug-tag.core{background:#DCFCE7;color:#15803D}
+.plug-d{font-size:.82rem;line-height:1.7;color:#374151;margin-top:6px}
+.plug-w{font-size:.76rem;color:#64748B;margin-top:5px}
+.plug.hide,.plug-group.hide{display:none}
+details.guide{margin-top:4px}
+details.guide>summary{cursor:pointer;font-size:.86rem;font-weight:700;color:#0E7490;background:#ECFEFF;padding:11px 13px;border-radius:8px;list-style:none;user-select:none}
+details.guide>summary::-webkit-details-marker{display:none}
+details.guide>summary::before{content:'▸ ';font-weight:700}
+details.guide[open]>summary::before{content:'▾ '}
+details.guide>summary:hover{background:#CFFAFE}
+details.guide[open]>summary{margin-bottom:12px}
 .cards-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px}
 .card{background:var(--card-bg);border-radius:var(--radius);padding:14px 16px;box-shadow:var(--shadow);border-left:3px solid transparent;transition:transform .18s,box-shadow .18s;cursor:default}
 .card:hover{transform:translateY(-3px);box-shadow:0 6px 20px rgba(0,0,0,.11)}
@@ -89,6 +108,8 @@ pre.k{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size
   .info-table{font-size:.76rem}
   .info-table th,.info-table td{padding:6px 7px}
   pre.k{font-size:.72rem}
+  .plug{padding:10px 12px}
+  .plug-d{font-size:.8rem}
   body{font-size:15px}
   .header{padding:12px 14px 10px}
   .header-row1{gap:8px}
@@ -195,6 +216,337 @@ pre.k{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size
       <div class="sec-head"><span>🔌</span><h2>Claude Code 外掛程式（Plugins）</h2><span class="sec-badge">指南</span></div>
 
       <div class="info-card">
+        <h3>🧰 外掛總覽</h3>
+        <p>下面這些外掛<strong>目前都已經裝在你的帳號裡</strong>。每個外掛在每一輪對話都會佔用 token 額度，所以重點不是「還要不要加」，而是<strong>哪些留著、哪些關掉</strong>。用不到的到 <code class="k">/plugin</code> → Installed 停用即可，隨時可以再開。</p>
+        <input class="plug-filter" id="plug-filter" type="text" placeholder="🔍 篩選：輸入關鍵字，例如 銷售、資料庫、PDF、合約…" oninput="filterPlugins(this.value)">
+        <div class="info-note" id="plug-count">載入中…</div>
+        <div class="info-note" style="margin-top:6px"><span class="plug-tag core">免設定</span> 裝了就能用　<span class="plug-tag auth">需授權</span> 要先連結外部帳號（在 claude.ai 的連接器設定授權）才會生效</div>
+      </div>
+
+      <div class="plug-group">
+        <h4>🧭 通用工具（多數人用得到）</h4>
+        <div class="plug" data-k="anthropic skills docx xlsx pptx pdf word excel powerpoint 文件 排程 海報 技能 記憶">
+          <div><span class="plug-n">anthropic-skills</span><span class="plug-tag core">內建</span></div>
+          <div class="plug-d">產生 Word／Excel／PowerPoint／PDF 檔案、做海報與程式生成藝術、建立自訂技能、設定排程任務、管理長期記憶。</div>
+          <div class="plug-w">💡 核心功能，建議一定保留</div>
+        </div>
+        <div class="plug" data-k="productivity 待辦 任務 記憶 tasks 縮寫 專案代號">
+          <div><span class="plug-n">productivity</span><span class="plug-tag core">免設定</span></div>
+          <div class="plug-d">用一份 TASKS.md 管待辦，並建立「工作記憶」讓 Claude 記住你的縮寫、專案代號、同事暱稱，之後講話不用再解釋一次。</div>
+          <div class="plug-w">💡 想讓 Claude 越用越懂你的內部術語就留著</div>
+        </div>
+        <div class="plug" data-k="desktop commander 終端機 terminal 檔案 ssh 電腦 健康檢查 obsidian 知識庫 repl">
+          <div><span class="plug-n">desktop-commander</span><span class="plug-tag core">免設定</span></div>
+          <div class="plug-d">讓 Claude 操作你的終端機與整台電腦：跑長時間程序、Python／Node REPL、SSH 連遠端、電腦健康檢查、整理 Obsidian 知識庫。</div>
+          <div class="plug-w">💡 有在寫程式或想自動化電腦操作才需要；否則可停用</div>
+        </div>
+        <div class="plug" data-k="pdf viewer 檢視 標註 螢光筆 表單 簽名 合約">
+          <div><span class="plug-n">pdf-viewer</span><span class="plug-tag core">免設定</span></div>
+          <div class="plug-d">互動式 PDF 檢視器：開啟、螢光筆標註、加註解、填寫表單欄位、放上簽名檔。</div>
+          <div class="plug-w">💡 常處理 PDF 表單或合約才需要（單純讀內容不用它）</div>
+        </div>
+        <div class="plug" data-k="cowork plugin management 自製外掛 客製">
+          <div><span class="plug-n">cowork-plugin-management</span><span class="plug-tag core">免設定</span></div>
+          <div class="plug-d">從零做一個自己的外掛，或把現成外掛客製成你公司的流程與工具。</div>
+          <div class="plug-w">💡 想自製外掛時才用，平常可停用</div>
+        </div>
+        <div class="plug" data-k="zapier 串接 整合 沒有連接器 萬用">
+          <div><span class="plug-n">zapier</span><span class="plug-tag auth">需授權</span></div>
+          <div class="plug-d">把沒有原生連接器的 app 透過 Zapier 接進 Claude，等於萬用轉接頭。</div>
+          <div class="plug-w">💡 你用的工具不在官方清單上時的解法</div>
+        </div>
+      </div>
+
+      <div class="plug-group">
+        <h4>🌐 網頁資料與研究</h4>
+        <div class="plug" data-k="brightdata 爬蟲 爬取 serp 搜尋 amazon linkedin 比價 品牌監控 seo">
+          <div><span class="plug-n">brightdata-plugin</span><span class="plug-tag auth">需授權</span></div>
+          <div class="plug-d">大規模網頁爬取與搜尋：Google／Bing SERP、Amazon／LinkedIn／IG／TikTok 結構化資料、商品比價、品牌聲量監聽、SEO 稽核。</div>
+          <div class="plug-w">💡 需要大量、穩定抓取網頁資料才值得（有反爬蟲突破能力）</div>
+        </div>
+        <div class="plug" data-k="nimble 公司調查 競品 情報 在地商家 人才 招募 會議前">
+          <div><span class="plug-n">nimble</span><span class="plug-tag auth">需授權</span></div>
+          <div class="plug-d">公司深度調查、競品情報與定位分析、在地商家探勘、人才搜尋、會議前情報整理。</div>
+          <div class="plug-w">💡 做市場研究或業務開發時很實用</div>
+        </div>
+        <div class="plug" data-k="enterprise search 跨來源 搜尋 slack gmail drive jira 找決定">
+          <div><span class="plug-n">enterprise-search</span><span class="plug-tag auth">需授權</span></div>
+          <div class="plug-d">跨 Slack、Gmail、雲端硬碟、專案工具一次搜尋，專門回答「當初那個決定是在哪討論的」。</div>
+          <div class="plug-w">💡 公司資料散在很多工具時特別有感</div>
+        </div>
+        <div class="plug" data-k="vpai 聯絡資料 公司資料 名單 prospecting 開發">
+          <div><span class="plug-n">vpai</span><span class="plug-tag auth">需授權</span></div>
+          <div class="plug-d">1.5 億家公司、8 億名專業人士的聯絡資料、職務、技術棧與商業訊號。</div>
+          <div class="plug-w">💡 B2B 名單開發用</div>
+        </div>
+        <div class="plug" data-k="searchfit seo 關鍵字 內容 結構化資料 schema 技術seo ai搜尋">
+          <div><span class="plug-n">searchfit-seo</span><span class="plug-tag core">免設定</span></div>
+          <div class="plug-d">SEO 稽核、關鍵字分群、內容簡報、JSON-LD 結構化資料、內部連結、以及 AI 搜尋可見度（在 ChatGPT／Perplexity 裡被不被提到）。</div>
+          <div class="plug-w">💡 有經營網站或內容行銷就留著</div>
+        </div>
+      </div>
+
+      <div class="plug-group">
+        <h4>💼 業務與行銷</h4>
+        <div class="plug" data-k="sales 銷售 管線 pipeline 預測 通話 開發 續約 crm">
+          <div><span class="plug-n">sales</span><span class="plug-tag auth">需授權</span></div>
+          <div class="plug-d">銷售全流程：開發名單、通話前情報、通話紀要與跟進信、管線健檢、業績預測、續約雷達、異議處理。</div>
+          <div class="plug-w">💡 做 B2B 業務的人最該留的一個</div>
+        </div>
+        <div class="plug" data-k="zoominfo b2b 資料 帳戶研究 決策圈 名單評分 tam">
+          <div><span class="plug-n">zoominfo</span><span class="plug-tag auth">需授權</span></div>
+          <div class="plug-d">B2B 資料庫加帳戶研究：公司情報、採購決策圈地圖、名單評分分級、TAM 市場規模估算、通話教練。</div>
+          <div class="plug-w">💡 有訂 ZoomInfo 才有用</div>
+        </div>
+        <div class="plug" data-k="apollo 名單 開發 聯絡資料 序列 外撥">
+          <div><span class="plug-n">apollo</span><span class="plug-tag auth">需授權</span></div>
+          <div class="plug-d">用白話描述理想客戶就產出名單，補齊 email 與電話，並批次加入 Apollo 外撥序列。</div>
+          <div class="plug-w">💡 有訂 Apollo 才有用</div>
+        </div>
+        <div class="plug" data-k="common room 社群 訊號 帳戶研究 warm lead">
+          <div><span class="plug-n">common-room</span><span class="plug-tag auth">需授權</span></div>
+          <div class="plug-d">從社群與產品使用訊號，找出哪些人其實已經在關注你，把冷開發變溫開發。</div>
+          <div class="plug-w">💡 有訂 Common Room 才有用</div>
+        </div>
+        <div class="plug" data-k="marketing 行銷 活動 內容 email 序列 seo 成效 品牌審查 競品">
+          <div><span class="plug-n">marketing</span><span class="plug-tag core">免設定</span></div>
+          <div class="plug-d">行銷活動企劃、各通路內容撰寫、Email 自動化序列、SEO 稽核、成效報告、競品簡報、品牌一致性審查。</div>
+          <div class="plug-w">💡 不需要外部帳號，自己就能跑，CP 值高</div>
+        </div>
+        <div class="plug" data-k="brand voice 品牌 語調 tone 文案 一致性">
+          <div><span class="plug-n">brand-voice</span><span class="plug-tag auth">需授權</span></div>
+          <div class="plug-d">從你的既有文件與業務通話錄音裡萃取品牌語調，之後所有文案都自動照這個調性寫。</div>
+          <div class="plug-w">💡 團隊多人產出文案、需要口吻一致時很有價值</div>
+        </div>
+        <div class="plug" data-k="adspirer 廣告 google meta facebook tiktok linkedin amazon ads 投放 roas">
+          <div><span class="plug-n">adspirer-ads-agent</span><span class="plug-tag auth">需授權</span></div>
+          <div class="plug-d">Google、Meta、TikTok、LinkedIn、Amazon、ChatGPT Ads 六大廣告平台的投放、優化與浪費預算偵測。廣告一律先建成暫停狀態，不會自動花錢。</div>
+          <div class="plug-w">💡 有在買廣告才需要</div>
+        </div>
+        <div class="plug" data-k="postiz 社群 排程 發文 instagram facebook x linkedin threads">
+          <div><span class="plug-n">postiz</span><span class="plug-tag auth">需授權</span></div>
+          <div class="plug-d">一次排程發文到 28 個以上的社群與通訊平台（X、LinkedIn、IG、FB、Threads、YouTube、Discord、Slack、Telegram…）。</div>
+          <div class="plug-w">💡 有在經營多個社群帳號才需要</div>
+        </div>
+        <div class="plug" data-k="customer support 客服 工單 分流 回覆 知識庫 升級">
+          <div><span class="plug-n">customer-support</span><span class="plug-tag core">免設定</span></div>
+          <div class="plug-d">工單分流與優先級判定、客服回覆草稿、升級給工程／主管的包裝、把解決過的問題寫成知識庫文章。</div>
+          <div class="plug-w">💡 有客服工作就留著，不需外部帳號</div>
+        </div>
+        <div class="plug" data-k="intercom 客服 對話分析 customer 360 messenger">
+          <div><span class="plug-n">intercom</span><span class="plug-tag auth">需授權</span></div>
+          <div class="plug-d">Intercom 對話分析、客戶 360 度檢視、在網站安裝 Messenger。</div>
+          <div class="plug-w">💡 有用 Intercom 才需要</div>
+        </div>
+        <div class="plug" data-k="slack salesforce 搜尋 頻道 摘要 公告 站立會議 standup">
+          <div><span class="plug-n">slack-by-salesforce</span><span class="plug-tag auth">需授權</span></div>
+          <div class="plug-d">Slack 訊息搜尋、頻道摘要、多頻道彙整、公告草稿、從你的 Slack 活動產生站立會議報告。</div>
+          <div class="plug-w">💡 公司用 Slack 就值得留</div>
+        </div>
+      </div>
+
+      <div class="plug-group">
+        <h4>🛠️ 產品、設計與工程</h4>
+        <div class="plug" data-k="product management prd 規格 路線圖 roadmap 衝刺 sprint 使用者研究 競品">
+          <div><span class="plug-n">product-management</span><span class="plug-tag core">免設定</span></div>
+          <div class="plug-d">PRD 與功能規格、路線圖排序、衝刺規劃、使用者研究彙整、競品簡報、指標檢視、利害關係人更新、腦力激盪夥伴。</div>
+          <div class="plug-w">💡 做產品的人很實用，不需外部帳號</div>
+        </div>
+        <div class="plug" data-k="design 設計 評審 critique 無障礙 accessibility wcag 設計系統 ux 文案 交付">
+          <div><span class="plug-n">design</span><span class="plug-tag core">免設定</span></div>
+          <div class="plug-d">設計評審與回饋、WCAG 2.1 AA 無障礙稽核、設計系統稽核與文件、使用者研究、UX 微文案、給工程的交付規格。</div>
+          <div class="plug-w">💡 做設計或前端都用得到</div>
+        </div>
+        <div class="plug" data-k="engineering 工程 程式碼審查 code review 除錯 debug 架構 adr 測試 事件 postmortem">
+          <div><span class="plug-n">engineering</span><span class="plug-tag core">免設定</span></div>
+          <div class="plug-d">程式碼審查（資安、效能、正確性）、系統化除錯、架構決策紀錄 ADR、系統設計、測試策略、事件處理與事後檢討、技術債盤點。</div>
+          <div class="plug-w">💡 寫程式的人建議保留</div>
+        </div>
+        <div class="plug" data-k="figma 設計轉程式 design to code 設計系統 圖表 swiftui">
+          <div><span class="plug-n">figma</span><span class="plug-tag auth">需授權</span></div>
+          <div class="plug-d">Figma 設計轉成程式碼、從程式碼反向產生 Figma 畫面、產生設計系統與變數、畫流程圖、SwiftUI 雙向轉換。</div>
+          <div class="plug-w">💡 有用 Figma 的設計師／前端必留</div>
+        </div>
+        <div class="plug" data-k="miro 白板 流程圖 uml 圖表 程式碼視覺化 code review">
+          <div><span class="plug-n">miro</span><span class="plug-tag auth">需授權</span></div>
+          <div class="plug-d">Miro 白板操作：流程圖、UML、ERD、表格、文件，還能把整個程式庫畫成架構圖，或做視覺化的程式碼審查。</div>
+          <div class="plug-w">💡 有用 Miro 才需要</div>
+        </div>
+        <div class="plug" data-k="product tracking 埋點 分析 telemetry segment amplitude mixpanel posthog ga">
+          <div><span class="plug-n">product-tracking-skills</span><span class="plug-tag core">免設定</span></div>
+          <div class="plug-d">規劃與實作產品埋點：盤點現有追蹤、設計追蹤計畫、產生對應 SDK 的實作程式碼（支援 Segment、Amplitude、Mixpanel、PostHog、GA 等 24 種）。</div>
+          <div class="plug-w">💡 要做產品數據分析時才需要</div>
+        </div>
+        <div class="plug" data-k="vanta 合規 soc2 iso27001 hipaa 稽核 修復">
+          <div><span class="plug-n">vanta</span><span class="plug-tag auth">需授權</span></div>
+          <div class="plug-d">抓出 Vanta 上失敗的合規測試（SOC 2／ISO 27001／HIPAA），直接產生修復程式碼並開 PR。</div>
+          <div class="plug-w">💡 有訂 Vanta 在做合規認證才需要</div>
+        </div>
+        <div class="plug" data-k="servicenow sdk fluent 開發">
+          <div><span class="plug-n">servicenow-sdk</span><span class="plug-tag auth">需授權</span></div>
+          <div class="plug-d">ServiceNow 應用開發（Fluent／now-sdk），查即時執行個體資料與資料表結構。</div>
+          <div class="plug-w">💡 公司用 ServiceNow 才需要</div>
+        </div>
+      </div>
+
+      <div class="plug-group">
+        <h4>🗄️ 資料庫與基礎設施</h4>
+        <div class="plug" data-k="data sql 查詢 資料探索 統計 視覺化 儀表板 dashboard">
+          <div><span class="plug-n">data</span><span class="plug-tag core">免設定</span></div>
+          <div class="plug-d">SQL 撰寫與優化（跨 Snowflake／BigQuery／Postgres 等方言）、資料探索與品質檢查、統計分析、圖表產生、互動式 HTML 儀表板。</div>
+          <div class="plug-w">💡 常做數據分析就留著，不需外部帳號</div>
+        </div>
+        <div class="plug" data-k="airtable 資料庫 營運 工作流 產品 業務 行銷">
+          <div><span class="plug-n">airtable</span><span class="plug-tag auth">需授權</span></div>
+          <div class="plug-d">Airtable 資料讀寫與結構管理，外加產品營運、業務營運、行銷營運三套現成工作流建置。</div>
+          <div class="plug-w">💡 有用 Airtable 才需要</div>
+        </div>
+        <div class="plug" data-k="atlan 資料治理 catalog 目錄">
+          <div><span class="plug-n">atlan</span><span class="plug-tag auth">需授權</span></div>
+          <div class="plug-d">Atlan 資料治理與資料目錄查詢。</div>
+          <div class="plug-w">💡 公司有導入 Atlan 才需要</div>
+        </div>
+        <div class="plug" data-k="planetscale mysql postgres vitess 資料庫 遷移 調校 安全">
+          <div><span class="plug-n">planetscale</span><span class="plug-tag auth">需授權</span></div>
+          <div class="plug-d">MySQL、Postgres、Vitess、Neki 的結構設計、查詢調校、線上遷移、流量控管與安全稽核。</div>
+          <div class="plug-w">💡 用 PlanetScale 或需要 MySQL／Postgres 調校建議時有用</div>
+        </div>
+        <div class="plug" data-k="cockroachdb 分散式 資料庫 維運 監控 安全 多區域">
+          <div><span class="plug-n">cockroachdb</span><span class="plug-tag auth">需授權</span></div>
+          <div class="plug-d">CockroachDB 分散式資料庫：schema 設計、交易模式、多區域架構、叢集健檢、升級、安全稽核、遷移工具。</div>
+          <div class="plug-w">💡 有用 CockroachDB 才需要</div>
+        </div>
+        <div class="plug" data-k="prisma orm 遷移 migrate studio">
+          <div><span class="plug-n">prisma</span><span class="plug-tag core">免設定</span></div>
+          <div class="plug-d">Prisma ORM 本地開發：Prisma Studio、資料庫遷移與狀態檢查。</div>
+          <div class="plug-w">💡 專案用 Prisma 才需要</div>
+        </div>
+        <div class="plug" data-k="sanity cms 內容 groq portable text 遷移 升級">
+          <div><span class="plug-n">sanity</span><span class="plug-tag core">免設定</span></div>
+          <div class="plug-d">Sanity CMS：內容建模、GROQ 查詢、Portable Text 轉換與渲染、從其他 CMS 遷移、Studio 升級規劃、SEO／AEO 最佳實務。</div>
+          <div class="plug-w">💡 用 Sanity 做網站才需要</div>
+        </div>
+        <div class="plug" data-k="cloudinary 圖片 影片 轉檔 優化 cdn">
+          <div><span class="plug-n">cloudinary</span><span class="plug-tag auth">需授權</span></div>
+          <div class="plug-d">Cloudinary 圖片與影片的轉檔、裁切、優化與 CDN 傳遞，可產生轉換網址與除錯。</div>
+          <div class="plug-w">💡 網站有大量圖片影片才需要</div>
+        </div>
+        <div class="plug" data-k="fastly cdn vcl compute waf 邊緣運算 快取">
+          <div><span class="plug-n">fastly-agent-toolkit</span><span class="plug-tag core">免設定</span></div>
+          <div class="plug-d">Fastly CDN：VCL 開發與本地測試、Compute 邊緣運算、WAF 安全稽核、快取與流量統計。</div>
+          <div class="plug-w">💡 用 Fastly 才需要</div>
+        </div>
+        <div class="plug" data-k="twilio 簡訊 sms 語音 whatsapp email otp 驗證 電話">
+          <div><span class="plug-n">twilio-developer-kit</span><span class="plug-tag core">免設定</span></div>
+          <div class="plug-d">Twilio 開發：簡訊／MMS／RCS／WhatsApp 發送、語音通話與 IVR、AI 語音代理、OTP 驗證、電話號碼情報、SendGrid Email 與到達率。</div>
+          <div class="plug-w">💡 要做通知、驗證碼、客服電話系統才需要</div>
+        </div>
+        <div class="plug" data-k="zoom 會議 機器人 錄影 逐字稿 sdk">
+          <div><span class="plug-n">zoom-plugin</span><span class="plug-tag auth">需授權</span></div>
+          <div class="plug-d">Zoom 整合：會議機器人、即時媒體與逐字稿串流、Meeting／Video SDK、Zoom Phone、Team Chat。</div>
+          <div class="plug-w">💡 要開發 Zoom 相關應用才需要</div>
+        </div>
+      </div>
+
+      <div class="plug-group">
+        <h4>💰 財務、法務、人資、營運</h4>
+        <div class="plug" data-k="finance 財務 報表 對帳 分錄 月結 差異分析 sox">
+          <div><span class="plug-n">finance</span><span class="plug-tag core">免設定</span></div>
+          <div class="plug-d">財務報表產出、銀行與總帳對帳、傳票分錄、月結流程管理、預實差異分析與說明、SOX 內控測試。</div>
+          <div class="plug-w">💡 做會計財務的人很實用，不需外部帳號</div>
+        </div>
+        <div class="plug" data-k="legal 法務 合約 審查 nda 合規 廠商 簽署 風險">
+          <div><span class="plug-n">legal</span><span class="plug-tag auth">需授權</span></div>
+          <div class="plug-d">合約審查（對照你公司的談判劇本，標出偏離條款並產生紅線版）、NDA 快速分流、法規合規檢查、廠商合約現況盤點、電子簽署送件。</div>
+          <div class="plug-w">💡 常簽約、沒有專職法務時特別有用</div>
+        </div>
+        <div class="plug" data-k="human resources 人資 hr 薪酬 招募 面試 績效 組織 人力規劃">
+          <div><span class="plug-n">human-resources</span><span class="plug-tag core">免設定</span></div>
+          <div class="plug-d">薪酬分析與市場對標、招募管線追蹤、面試題庫與評分表設計、offer 草擬、績效考核、組織與人力規劃、新人 onboarding 清單。</div>
+          <div class="plug-w">💡 做 HR 或帶團隊的主管用得到</div>
+        </div>
+        <div class="plug" data-k="operations 營運 流程 raci 風險評估 廠商 runbook 狀態報告 產能">
+          <div><span class="plug-n">operations</span><span class="plug-tag core">免設定</span></div>
+          <div class="plug-d">流程文件與 RACI、流程優化、風險登錄與評估、廠商評估、Runbook 撰寫、變更管理、狀態報告、產能規劃。</div>
+          <div class="plug-w">💡 做專案管理或營運的人用得到</div>
+        </div>
+        <div class="plug" data-k="small business 中小企業 現金流 請款 報稅 庫存 排班 老闆 一人公司">
+          <div><span class="plug-n">small-business</span><span class="plug-tag auth">需授權</span></div>
+          <div class="plug-d">中小企業全套：現金流預測、逾期請款追蹤、付款與薪資準備、月結與報稅整理、庫存補貨與採購單、社群內容排程、口碑與評論管理、招募篩選、報價單產生。</div>
+          <div class="plug-w">💡 一人公司或小團隊老闆最該看的一個，但功能多、吃 token 也多</div>
+        </div>
+        <div class="plug" data-k="box 檔案 法務 併購 資料室 收案 合約監控">
+          <div><span class="plug-n">box</span><span class="plug-tag auth">需授權</span></div>
+          <div class="plug-d">Box 檔案管理，加上法務工作流：併購虛擬資料室建置、客戶收案審查、合約到期與變異監控。</div>
+          <div class="plug-w">💡 公司用 Box 才需要</div>
+        </div>
+      </div>
+
+      <div class="plug-group">
+        <h4>📈 投資與金融專業</h4>
+        <div class="plug" data-k="carta cap table 股權 選擇權 safe 估值 409a 清算 瀑布">
+          <div><span class="plug-n">carta-cap-table</span><span class="plug-tag auth">需授權</span></div>
+          <div class="plug-d">股權結構表：股東與持股、員工選擇權與 vesting、SAFE／可轉債轉換試算、409A 估值歷史、出場清算瀑布、薪酬市場對標。</div>
+          <div class="plug-w">💡 新創創辦人或財務長，且公司用 Carta 才需要</div>
+        </div>
+        <div class="plug" data-k="carta investors 創投 基金 nav tvpi lp 報表 合併財報 soi">
+          <div><span class="plug-n">carta-investors</span><span class="plug-tag auth">需授權</span></div>
+          <div class="plug-d">創投基金管理：投資組合明細、NAV／TVPI／IRR 績效、LP 報表、合併損益與資產負債表、管理公司預算、AGM 簡報產生。</div>
+          <div class="plug-w">💡 創投或私募基金的營運人員才需要</div>
+        </div>
+        <div class="plug" data-k="carta crm 創投 案源 deal flow 投資 聯絡人">
+          <div><span class="plug-n">carta-crm</span><span class="plug-tag auth">需授權</span></div>
+          <div class="plug-d">創投／私募的案源 CRM：公司、聯絡人、交易、募資紀錄，加上暖引薦路徑與會議前準備。</div>
+          <div class="plug-w">💡 同上，創投專用</div>
+        </div>
+        <div class="plug" data-k="daloopa 財務模型 excel dcf 可比公司 盈餘 投行 簡報">
+          <div><span class="plug-n">daloopa</span><span class="plug-tag auth">需授權</span></div>
+          <div class="plug-d">建立多頁籤 Excel 財務模型、DCF 估值、可比公司分析、前例交易、盈餘快評與深度分析、投行等級簡報。</div>
+          <div class="plug-w">💡 賣方／買方分析師專用</div>
+        </div>
+        <div class="plug" data-k="bigdata 上市公司 研究 投資備忘錄 盈餘 估值 產業 總體">
+          <div><span class="plug-n">bigdata-com</span><span class="plug-tag auth">需授權</span></div>
+          <div class="plug-d">上市公司研究：投資備忘錄、盈餘預覽與檢討、估值快照、風險評估、情境分析、產業與國家總體分析、IPO 分析。</div>
+          <div class="plug-w">💡 做股票研究才需要</div>
+        </div>
+        <div class="plug" data-k="lseg 倫敦證交所 債券 利率 外匯 選擇權 波動率 總經">
+          <div><span class="plug-n">lseg</span><span class="plug-tag auth">需授權</span></div>
+          <div class="plug-d">LSEG 市場資料：債券相對價值與期貨基差、利率交換曲線、外匯 carry trade、選擇權波動率、總經與利率儀表板。</div>
+          <div class="plug-w">💡 機構交易員／固定收益專用</div>
+        </div>
+        <div class="plug" data-k="sp global tear sheet 公司資料 募資">
+          <div><span class="plug-n">sp-global</span><span class="plug-tag auth">需授權</span></div>
+          <div class="plug-d">S&amp;P Capital IQ 資料：公司 Tear Sheet 一頁式簡介、盈餘預覽、募資動態週報投影片。</div>
+          <div class="plug-w">💡 有訂 S&amp;P Global 才有用</div>
+        </div>
+      </div>
+
+      <div class="plug-group">
+        <h4>🔬 專業領域</h4>
+        <div class="plug" data-k="bio research 生物 單細胞 rna nextflow 文獻 pubmed 藥物 臨床試驗">
+          <div><span class="plug-n">bio-research</span><span class="plug-tag auth">需授權</span></div>
+          <div class="plug-d">生物醫學研究：單細胞 RNA 品管與分析、nf-core 定序流程、文獻檢索（PubMed／bioRxiv）、藥物與標靶資料庫、臨床試驗查詢、實驗儀器資料標準化。</div>
+          <div class="plug-w">💡 生醫研究人員專用</div>
+        </div>
+        <div class="plug" data-k="adobe pdf express 設計 照片 批次 修圖 字體 社群尺寸">
+          <div><span class="plug-n">adobe-for-creativity</span><span class="plug-tag auth">需授權</span></div>
+          <div class="plug-d">Adobe 整合：PDF 進階處理（轉檔、壓縮、OCR、標註、頁面重組）、Express 範本做傳單海報、照片批次調色與人像修圖、社群平台尺寸輸出、Adobe Fonts 字體查找。</div>
+          <div class="plug-w">💡 有 Adobe 帳號且常做設計或處理 PDF 才需要</div>
+        </div>
+      </div>
+
+      <div class="info-card">
+        <h3>🧭 沒時間看完？三個原則</h3>
+        <ul>
+          <li><strong>沒有對應帳號的直接關</strong>　標<span class="plug-tag auth">需授權</span>但你沒用那個服務（例如沒訂 ZoomInfo、公司不用 Box），留著只是白白吃 token。</li>
+          <li><strong>標<span class="plug-tag core">免設定</span>的先留</strong>　這類不用連任何外部帳號，開箱即用，通常是通用的思考框架與流程（marketing、engineering、design、finance、operations…）。</li>
+          <li><strong>不確定就先關，需要時再開</strong>　停用不會刪掉，<code class="k">/plugin</code> → Installed 一鍵切換。面板裡的 <strong>Not used recently</strong> 會直接告訴你哪些長期沒用到。</li>
+        </ul>
+      </div>
+
+      <details class="guide">
+        <summary>📘 外掛是什麼？機制說明（點開）</summary>
+      <div class="info-card">
         <h3>📌 一句話說明</h3>
         <p><strong>外掛 = 把技能、子代理、掛鉤、MCP 連線打包成一包，一行指令就能安裝、分享、做版本控管。</strong></p>
         <p>沒有外掛時，這些東西散落在專案的 <code class="k">.claude/</code> 資料夾裡，只有你自己那台電腦有；做成外掛後可以透過「市集」發佈，團隊或社群一行指令就裝好。</p>
@@ -299,6 +651,7 @@ description: 用親切的方式跟使用者打招呼
           <li><a href="https://claude.com/plugins" target="_blank" rel="noopener noreferrer">官方外掛目錄</a></li>
         </ul>
       </div>
+      </details>
     </div>
   </div>
 </div>
@@ -361,6 +714,21 @@ function handleRefresh(){
 function renderTimestamp(){
   document.getElementById('update-time').textContent=DATA&&DATA.lastUpdated?'⏱ 更新於 '+DATA.lastUpdated:'⏱ 尚未更新';
 }
+function filterPlugins(v){
+  const q=(v||'').trim().toLowerCase();
+  let n=0;
+  document.querySelectorAll('.plug-group').forEach(g=>{
+    let shown=0;
+    g.querySelectorAll('.plug').forEach(p=>{
+      const hit=!q||((p.dataset.k||'')+' '+p.textContent).toLowerCase().includes(q);
+      p.classList.toggle('hide',!hit); if(hit){shown++;n++}
+    });
+    g.classList.toggle('hide',shown===0);
+  });
+  const c=document.getElementById('plug-count');
+  if(c) c.textContent=q?('符合「'+v+'」的外掛：'+n+' 個'):('本頁收錄 '+n+' 個外掛，全部都已安裝在你的帳號中。');
+}
+document.addEventListener('DOMContentLoaded',()=>filterPlugins(''));
 function esc(str){const d=document.createElement('div');d.appendChild(document.createTextNode(String(str)));return d.innerHTML}
 </script>
 </body>
