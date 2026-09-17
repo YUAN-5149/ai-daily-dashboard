@@ -47,6 +47,19 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang TC','Micr
 #sec-github .card-title{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace;font-size:.84rem}
 #sec-hf .sec-head{border-color:var(--rose-accent)}#sec-hf .sec-head h2{color:var(--rose-accent)}#sec-hf .sec-badge{background:var(--rose-light);color:var(--rose-accent)}#sec-hf .card{border-left-color:var(--rose-accent)}#sec-hf .card-source{background:#FFE4E6;color:var(--rose-accent)}
 #sec-hf .card-title{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace;font-size:.84rem}
+#sec-plugins .sec-head{border-color:#0891B2}#sec-plugins .sec-head h2{color:#0891B2}#sec-plugins .sec-badge{background:#ECFEFF;color:#0891B2}
+.info-card{background:var(--card-bg);border-radius:var(--radius);padding:16px 18px;box-shadow:var(--shadow);border-left:3px solid #0891B2;margin-bottom:12px}
+.info-card h3{font-size:.9rem;font-weight:700;color:#0E7490;margin-bottom:10px}
+.info-card p{font-size:.85rem;line-height:1.75;color:#374151;margin-bottom:8px}
+.info-card ul{margin:0 0 8px 20px;font-size:.85rem;line-height:1.85;color:#374151}
+.info-card a{color:var(--blue-accent)}
+.info-table{width:100%;border-collapse:collapse;font-size:.8rem;margin-bottom:8px}
+.info-table th{text-align:left;padding:7px 9px;background:#F1F5F9;color:#475569;font-weight:700;border-bottom:1px solid #E2E8F0;white-space:nowrap}
+.info-table td{padding:7px 9px;border-bottom:1px solid #F1F5F9;vertical-align:top;line-height:1.65}
+.info-table tr:last-child td{border-bottom:none}
+code.k{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.78rem;background:#F1F5F9;color:#BE123C;padding:1px 6px;border-radius:4px;white-space:nowrap}
+pre.k{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.78rem;background:#0F172A;color:#E2E8F0;padding:11px 13px;border-radius:8px;overflow-x:auto;line-height:1.65;margin-bottom:8px}
+.info-note{font-size:.78rem;color:#475569;background:#F8FAFC;border-left:3px solid #CBD5E1;padding:9px 12px;border-radius:0 6px 6px 0;line-height:1.75}
 .cards-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px}
 .card{background:var(--card-bg);border-radius:var(--radius);padding:14px 16px;box-shadow:var(--shadow);border-left:3px solid transparent;transition:transform .18s,box-shadow .18s;cursor:default}
 .card:hover{transform:translateY(-3px);box-shadow:0 6px 20px rgba(0,0,0,.11)}
@@ -72,6 +85,10 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang TC','Micr
 
 /* ===== 響應式：手機 ===== */
 @media (max-width:600px){
+  .info-card{padding:14px 15px}
+  .info-table{font-size:.76rem}
+  .info-table th,.info-table td{padding:6px 7px}
+  pre.k{font-size:.72rem}
   body{font-size:15px}
   .header{padding:12px 14px 10px}
   .header-row1{gap:8px}
@@ -145,6 +162,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang TC','Micr
   <button class="tab-btn"        id="tab-slides" onclick="switchTab('slides')" role="tab">📊 AI簡報技巧</button>
   <button class="tab-btn"        id="tab-github" onclick="switchTab('github')" role="tab">⭐ 開源排行榜</button>
   <button class="tab-btn"        id="tab-hf"     onclick="switchTab('hf')"     role="tab">🤗 HF 模型榜</button>
+  <button class="tab-btn"        id="tab-plugins" onclick="switchTab('plugins')" role="tab">🔌 Claude 外掛</button>
 </div>
 </div>
 <div class="content">
@@ -173,6 +191,115 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang TC','Micr
       <div class="sec-head"><span>🤗</span><h2>Hugging Face 熱門模型排行</h2><span class="sec-badge" id="badge-hf">0 則</span></div>
       <div class="cards-grid" id="grid-hf"></div>
     </div>
+    <div class="section show" id="sec-plugins" role="tabpanel">
+      <div class="sec-head"><span>🔌</span><h2>Claude Code 外掛程式（Plugins）</h2><span class="sec-badge">指南</span></div>
+
+      <div class="info-card">
+        <h3>📌 一句話說明</h3>
+        <p><strong>外掛 = 把技能、子代理、掛鉤、MCP 連線打包成一包，一行指令就能安裝、分享、做版本控管。</strong></p>
+        <p>沒有外掛時，這些東西散落在專案的 <code class="k">.claude/</code> 資料夾裡，只有你自己那台電腦有；做成外掛後可以透過「市集」發佈，團隊或社群一行指令就裝好。</p>
+        <div class="info-note">兩種做法的差別：放 <code class="k">.claude/</code> 叫用時是 <code class="k">/hello</code>；做成外掛叫用時是 <code class="k">/外掛名:hello</code>（自動加命名空間避免撞名）。建議先用 <code class="k">.claude/</code> 快速試，要分享時再轉外掛。</div>
+      </div>
+
+      <div class="info-card">
+        <h3>🧩 外掛可以包含哪些東西</h3>
+        <table class="info-table">
+          <tr><th>元件</th><th>放在哪</th><th>做什麼</th></tr>
+          <tr><td><strong>Skills</strong><br>技能</td><td><code class="k">skills/名稱/SKILL.md</code></td><td>寫成 Markdown 的知識或流程。Claude 判斷情境自動載入，也可以打 <code class="k">/名稱</code> 手動叫</td></tr>
+          <tr><td><strong>Agents</strong><br>子代理</td><td><code class="k">agents/</code></td><td>專職子代理，例如「PR 審查員」「資安審查員」，有自己的提示詞與工具權限</td></tr>
+          <tr><td><strong>Hooks</strong><br>掛鉤</td><td><code class="k">hooks/hooks.json</code></td><td>在特定事件自動觸發指令，例如「每次改完檔案就跑 lint」</td></tr>
+          <tr><td><strong>MCP servers</strong></td><td><code class="k">.mcp.json</code></td><td>連外部服務（GitHub、Slack、Figma、資料庫…），免手動設定</td></tr>
+          <tr><td><strong>LSP servers</strong></td><td><code class="k">.lsp.json</code></td><td>語言伺服器。Claude 改完程式立刻看到型別錯誤、能跳轉定義與找引用</td></tr>
+          <tr><td><strong>Monitors</strong><br>背景監看</td><td><code class="k">monitors/monitors.json</code></td><td>背景盯著 log 或檔案，有動靜就主動通知 Claude</td></tr>
+        </table>
+        <div class="info-note">⚠️ 最常見的錯誤：只有 <code class="k">plugin.json</code> 放在 <code class="k">.claude-plugin/</code> 裡，其他資料夾一律放外掛根目錄。</div>
+      </div>
+
+      <div class="info-card">
+        <h3>⬇️ 怎麼安裝（三步驟）</h3>
+        <p><strong>1. 加市集</strong>　市集是別人整理好的外掛目錄。加了只是能瀏覽，還沒裝任何東西。</p>
+        <pre class="k">/plugin marketplace add anthropics/claude-plugins-community</pre>
+        <p><strong>2. 瀏覽</strong>　開管理面板，用 Tab 切換 Discover／Installed／Marketplaces／Errors／Stats 五個分頁。</p>
+        <pre class="k">/plugin</pre>
+        <p><strong>3. 安裝</strong>　指定「外掛名@市集名」。</p>
+        <pre class="k">/plugin install github@claude-plugins-official</pre>
+        <div class="info-note">官方市集 <code class="k">claude-plugins-official</code> 第一次啟動 Claude Code 時會自動加好，不用手動加。安裝時可選範圍：<strong>User</strong>（自己所有專案）、<strong>Project</strong>（這個 repo 的所有協作者）、<strong>Local</strong>（只有自己、只在這個 repo）。</div>
+      </div>
+
+      <div class="info-card">
+        <h3>🏪 官方市集有什麼</h3>
+        <table class="info-table">
+          <tr><th>類別</th><th>內容</th></tr>
+          <tr><td>程式碼智能<br>(LSP)</td><td><code class="k">typescript-lsp</code>、<code class="k">pyright-lsp</code>、<code class="k">gopls-lsp</code>、<code class="k">rust-analyzer-lsp</code> 等 11 種語言。需自行先裝該語言的 language server 執行檔</td></tr>
+          <tr><td>外部整合</td><td>版控 <code class="k">github</code>、<code class="k">gitlab</code>；專案管理 <code class="k">atlassian</code>、<code class="k">asana</code>、<code class="k">linear</code>、<code class="k">notion</code>；設計 <code class="k">figma</code>；基礎設施 <code class="k">vercel</code>、<code class="k">firebase</code>、<code class="k">supabase</code>；通訊 <code class="k">slack</code>；監控 <code class="k">sentry</code></td></tr>
+          <tr><td>資安審查</td><td><code class="k">security-guidance</code>：Claude 每改一次程式就自動掃常見漏洞，並在同一輪對話中修掉</td></tr>
+          <tr><td>開發流程</td><td><code class="k">commit-commands</code>（git 提交／推送／開 PR）、<code class="k">pr-review-toolkit</code>（PR 審查代理）、<code class="k">plugin-dev</code>（做外掛的工具包）、<code class="k">agent-sdk-dev</code></td></tr>
+          <tr><td>輸出風格</td><td><code class="k">explanatory-output-style</code>（解釋實作取捨）、<code class="k">learning-output-style</code>（互動教學模式）</td></tr>
+        </table>
+      </div>
+
+      <div class="info-card">
+        <h3>⌨️ 指令速查</h3>
+        <table class="info-table">
+          <tr><th>指令</th><th>用途</th></tr>
+          <tr><td><code class="k">/plugin</code></td><td>開管理面板：瀏覽、安裝、停用、看錯誤、看 token 用量</td></tr>
+          <tr><td><code class="k">/plugin marketplace add &lt;來源&gt;</code></td><td>加市集。支援 GitHub <code class="k">owner/repo</code>、Git URL、本機路徑、遠端 JSON</td></tr>
+          <tr><td><code class="k">/plugin install &lt;名&gt;@&lt;市集&gt;</code></td><td>安裝外掛</td></tr>
+          <tr><td><code class="k">/plugin list</code></td><td>列出已安裝，可加 <code class="k">--enabled</code> 或 <code class="k">--disabled</code></td></tr>
+          <tr><td><code class="k">/plugin disable｜enable｜uninstall</code></td><td>停用／啟用／移除</td></tr>
+          <tr><td><code class="k">/reload-plugins</code></td><td>不重開就套用變更；卡住時加 <code class="k">--force</code></td></tr>
+          <tr><td><code class="k">claude --plugin-dir ./我的外掛</code></td><td>開發中直接載入本機外掛測試，不必先發佈</td></tr>
+          <tr><td><code class="k">claude plugin validate ./我的外掛</code></td><td>送審社群市集前先自我檢查</td></tr>
+        </table>
+        <div class="info-note">小提醒：<code class="k">/plugin</code> 是<strong>終端機 CLI</strong> 的互動面板。桌面版或雲端 session 沒有這個指令時，改用桌面版的外掛瀏覽器，或直接在 <code class="k">.claude/settings.json</code> 的 <code class="k">enabledPlugins</code> 宣告。</div>
+      </div>
+
+      <div class="info-card">
+        <h3>🛠️ 自己做一個（最小骨架）</h3>
+        <pre class="k">my-first-plugin/
+├── .claude-plugin/
+│   └── plugin.json     &lt;- 只有這個檔放這裡
+└── skills/
+    └── hello/
+        └── SKILL.md</pre>
+        <p><code class="k">plugin.json</code></p>
+        <pre class="k">{
+  "name": "my-first-plugin",
+  "description": "A greeting plugin",
+  "version": "1.0.0"
+}</pre>
+        <p><code class="k">SKILL.md</code>（<code class="k">$ARGUMENTS</code> 會接住使用者輸入的文字）</p>
+        <pre class="k">---
+description: 用親切的方式跟使用者打招呼
+---
+
+跟名叫 "$ARGUMENTS" 的使用者打招呼，並問今天能幫上什麼忙。</pre>
+        <p>測試：<code class="k">claude --plugin-dir ./my-first-plugin</code>，然後打 <code class="k">/my-first-plugin:hello 小明</code>。</p>
+        <div class="info-note">懶得手打骨架就用 <code class="k">claude plugin init my-tool</code>，它會在 <code class="k">~/.claude/skills/</code> 生成好，下次開 session 自動載入，連市集都不用。</div>
+      </div>
+
+      <div class="info-card">
+        <h3>⚠️ 安全提醒</h3>
+        <p>外掛是<strong>高度信任</strong>的元件，安裝後能以你的使用者權限在你的電腦上執行任意程式碼。Anthropic 不控制、也無法驗證第三方外掛裡包了什麼 MCP server 或檔案。</p>
+        <ul>
+          <li>只裝你信任來源的外掛與市集</li>
+          <li>安裝前看 <strong>Will install</strong> 區塊，它會列出這個外掛會加入哪些指令、代理、技能、掛鉤、MCP／LSP server</li>
+          <li>也看 <strong>Context cost</strong>：每個外掛都會吃掉每一輪對話的 token 額度</li>
+          <li>用不到就停用——面板的 <strong>Not used recently</strong> 會標出長期沒用到的外掛</li>
+        </ul>
+      </div>
+
+      <div class="info-card">
+        <h3>📖 官方文件</h3>
+        <ul>
+          <li><a href="https://code.claude.com/docs/en/discover-plugins" target="_blank" rel="noopener noreferrer">尋找與安裝外掛</a></li>
+          <li><a href="https://code.claude.com/docs/en/plugins" target="_blank" rel="noopener noreferrer">自己做外掛</a></li>
+          <li><a href="https://code.claude.com/docs/en/plugin-marketplaces" target="_blank" rel="noopener noreferrer">建立與發佈市集</a></li>
+          <li><a href="https://code.claude.com/docs/en/plugins-reference" target="_blank" rel="noopener noreferrer">完整技術規格</a></li>
+          <li><a href="https://claude.com/plugins" target="_blank" rel="noopener noreferrer">官方外掛目錄</a></li>
+        </ul>
+      </div>
+    </div>
   </div>
 </div>
 <script>
@@ -198,7 +325,8 @@ async function loadData() {
 
 document.addEventListener('DOMContentLoaded', loadData);
 
-const SECTIONS=['news','video','slides','github','hf'];
+const SECTIONS=['news','video','slides','github','hf'];        // 由 data.json 驅動
+const ALL_TABS=SECTIONS.concat(['plugins']);                   // plugins 是靜態說明頁
 function renderAll(){SECTIONS.forEach(k=>renderSection(k,(DATA&&DATA[k])||[]))}
 function renderSection(key,items){
   const grid=document.getElementById('grid-'+key);
@@ -213,11 +341,11 @@ function switchTab(tab){
   activeTab=tab;
   document.querySelectorAll('.tab-btn').forEach(b=>b.classList.remove('active'));
   document.getElementById('tab-'+tab).classList.add('active');
-  SECTIONS.forEach(s=>{const el=document.getElementById('sec-'+s);(tab==='all'||tab===s)?el.classList.add('show'):el.classList.remove('show')});
+  ALL_TABS.forEach(s=>{const el=document.getElementById('sec-'+s);(tab==='all'||tab===s)?el.classList.add('show'):el.classList.remove('show')});
 }
 function handleSearch(val){
   query=val.trim();
-  if(query){SECTIONS.forEach(s=>document.getElementById('sec-'+s).classList.add('show'))}
+  if(query){SECTIONS.forEach(s=>document.getElementById('sec-'+s).classList.add('show'));document.getElementById('sec-plugins').classList.remove('show')}
   else switchTab(activeTab);
   renderAll();
 }
