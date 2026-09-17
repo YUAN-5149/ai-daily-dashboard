@@ -62,6 +62,47 @@ def clean_html(text):
 _TRANS_CACHE = {}
 _TRANS_OFF = False          # 額度用完後就整批停用，不再浪費時間重試
 
+# 翻譯前先用佔位符保護的專有名詞（否則 Anthropic 會被翻成「人類」）
+KEEP_TERMS = [
+    "Hugging Face", "Stable Diffusion", "Adobe Firefly", "Google DeepMind",
+    "Anthropic", "OpenAI", "ChatGPT", "Claude", "Gemini", "Copilot", "DeepSeek",
+    "Midjourney", "Perplexity", "Mistral", "Llama", "Qwen", "Grok", "Sora",
+    "NVIDIA", "Microsoft", "Google", "Meta", "Apple", "Amazon", "xAI",
+    "PowerPoint", "Canva", "Gamma", "Runway", "Kling", "CapCut", "Figma",
+    "TechCrunch", "VentureBeat", "GitHub", "YouTube", "TikTok", "LinkedIn",
+    "GPT", "LLM", "API", "AI",
+]
+
+# 機翻常吐簡體慣用語，換成台灣用語（長詞在前，避免被短詞先吃掉）
+ZH_TW_FIX = {
+    "人工智能": "人工智慧", "文件夾": "資料夾", "服務器": "伺服器",
+    "顯示屏": "螢幕", "打印": "列印", "算法": "演算法", "數字化": "數位化",
+    "智能": "智慧", "信息": "資訊", "軟件": "軟體", "硬件": "硬體",
+    "網絡": "網路", "數據": "資料", "視頻": "影片", "音頻": "音訊",
+    "程序": "程式", "默認": "預設", "集成": "整合", "檢測": "偵測",
+    "質量": "品質", "用戶": "使用者", "內存": "記憶體", "移動端": "行動裝置",
+}
+
+
+def _protect(text):
+    """把專有名詞換成不會被翻譯的佔位符，回傳 (處理後文字, 對照表)"""
+    mapping = {}
+    for i, term in enumerate(KEEP_TERMS):
+        if re.search(r"\b" + re.escape(term) + r"\b", text, flags=re.I):
+            token = f"ZXQ{i}QXZ"
+            text = re.sub(r"\b" + re.escape(term) + r"\b", token, text, flags=re.I)
+            mapping[i] = term
+    return text, mapping
+
+
+def _restore(text, mapping):
+    """還原佔位符；機翻可能改大小寫或插入空白，所以比對時放寬"""
+    for i, term in mapping.items():
+        text = re.sub(r"Z\s*X\s*Q\s*" + str(i) + r"\s*Q\s*X\s*Z", term, text, flags=re.I)
+    for src, dst in ZH_TW_FIX.items():
+        text = text.replace(src, dst)
+    return re.sub(r"\s{2,}", " ", text).strip()
+
 
 def translate_zh(text, max_chars=480):
     """英翻繁中。任何失敗都回傳原文，絕不讓看板開天窗。"""
@@ -78,10 +119,12 @@ def translate_zh(text, max_chars=480):
     if text in _TRANS_CACHE:
         return _TRANS_CACHE[text]
 
+    payload, mapping = _protect(text)
+
     try:
         resp = requests.get(
             "https://api.mymemory.translated.net/get",
-            params={"q": text[:max_chars], "langpair": "en|zh-TW"},
+            params={"q": payload[:max_chars], "langpair": "en|zh-TW"},
             headers={"User-Agent": "ai-daily-dashboard"}, timeout=20,
         )
         resp.raise_for_status()
@@ -95,6 +138,7 @@ def translate_zh(text, max_chars=480):
         if not out or "MYMEMORY WARNING" in upper or "QUOTA" in upper or "INVALID" in upper:
             raise RuntimeError(out[:100] or "空白回應")
 
+        out = _restore(out, mapping)
         _TRANS_CACHE[text] = out
         time.sleep(0.4)          # 對免費服務客氣一點
         return out
