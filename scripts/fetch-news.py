@@ -84,6 +84,34 @@ ZH_TW_FIX = {
 }
 
 
+# Hugging Face 任務名稱中文對照（固定名詞，用表最準，也不吃翻譯額度）
+HF_TASK_ZH = {
+    "text-generation": "文字生成", "image-text-to-text": "圖文轉文字",
+    "text-to-image": "文字生成圖片", "image-to-image": "圖片轉圖片",
+    "image-to-video": "圖片生成影片", "text-to-video": "文字生成影片",
+    "video-text-to-text": "影片轉文字", "audio-text-to-text": "語音轉文字",
+    "automatic-speech-recognition": "語音辨識", "text-to-speech": "語音合成",
+    "text-to-audio": "文字生成音訊", "time-series-forecasting": "時間序列預測",
+    "feature-extraction": "特徵擷取", "sentence-similarity": "語意相似度",
+    "image-classification": "影像分類", "object-detection": "物件偵測",
+    "image-segmentation": "影像分割", "depth-estimation": "深度估計",
+    "text-classification": "文字分類", "token-classification": "詞彙標註",
+    "question-answering": "問答", "summarization": "摘要", "translation": "翻譯",
+    "fill-mask": "克漏字填空", "any-to-any": "多模態", "robotics": "機器人",
+    "reinforcement-learning": "強化學習", "zero-shot-classification": "零樣本分類",
+}
+
+
+def split_source(title, feed_title):
+    """Google News 標題長成「標題 - 來源」，拆開讓標題乾淨、來源有意義"""
+    if "Google News" in (feed_title or ""):
+        m = re.match(r"^(.*?)\s+[-–—]\s+([^-–—]{2,40})$", title)
+        if m:
+            return m.group(1).strip(), m.group(2).strip()
+        return title, "Google 新聞"
+    return title, (feed_title or "RSS Feed")
+
+
 def _protect(text):
     """把專有名詞換成不會被翻譯的佔位符，回傳 (處理後文字, 對照表)"""
     mapping = {}
@@ -164,12 +192,16 @@ def fetch_rss_items(feeds, max_items=12):
                 if link in seen_urls:
                     continue
                 seen_urls.add(link)
+                raw_title = clean_html(entry.get("title", ""))
+                feed_title = clean_html(feed.feed.get("title", "RSS Feed"))
+                title, source = split_source(raw_title, feed_title)
+                summary, _ = split_source(clean_html(entry.get("summary", ""))[:400], feed_title)
                 items.append({
-                    "title": clean_html(entry.get("title", "")),
+                    "title": title,
                     "url": link,
                     "published": entry.get("published", ""),
-                    "source": clean_html(feed.feed.get("title", "RSS Feed")),
-                    "summary": clean_html(entry.get("summary", ""))[:400],
+                    "source": source,
+                    "summary": summary,
                 })
                 if len(items) >= max_items:
                     break
@@ -212,6 +244,7 @@ def fetch_github_trending(max_items=6, days=30):
             "source": lang,
             "date": (r.get("created_at") or "")[:10],
             "summary": desc[:160],
+            "summaryZh": translate_zh(desc[:160]),
             "url": r.get("html_url", ""),
         })
     return out
@@ -236,13 +269,14 @@ def fetch_hf_trending(max_items=6):
         mid = m.get("id", "")
         likes = m.get("likes", 0)
         dls = m.get("downloads", 0)
-        task = m.get("pipeline_tag") or "—"
+        task = m.get("pipeline_tag") or ""
+        task_zh = HF_TASK_ZH.get(task, task or "—")
         lib = m.get("library_name") or ""
         out.append({
             "title": f"#{i} {mid} — ❤️ {likes:,}",
-            "source": task,
+            "source": task_zh,
             "date": (m.get("createdAt") or "")[:10],
-            "summary": f"月下載 {dls:,} 次｜任務 {task}" + (f"｜框架 {lib}" if lib else ""),
+            "summary": f"月下載 {dls:,} 次｜任務 {task_zh}" + (f"｜框架 {lib}" if lib else ""),
             "url": f"https://huggingface.co/{mid}",
         })
     return out
