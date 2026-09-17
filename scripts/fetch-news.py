@@ -3,11 +3,13 @@
 AI 每日資訊自動更新腳本
 GitHub Actions 每天 7:30 AM 台灣時間執行
 資料來源：Google News RSS + GitHub Search API + Hugging Face API
+翻譯：MyMemory 免費 API（英 → 繁中），失敗一律回退原文
 """
 import html
 import json
 import os
 import re
+import time
 from datetime import datetime, timezone, timedelta
 
 try:
@@ -54,6 +56,56 @@ def clean_html(text):
     text = re.sub(r'<[^>]+>', '', text or '')
     text = html.unescape(text)                 # &nbsp; &amp; &quot; → 實際字元
     return re.sub(r'\s+', ' ', text).strip()   # 收合多餘空白（\s 已涵蓋 nbsp）
+
+
+# ---------- 翻譯（MyMemory 免費 API） ----------
+_TRANS_CACHE = {}
+_TRANS_OFF = False          # 額度用完後就整批停用，不再浪費時間重試
+
+
+def translate_zh(text, max_chars=480):
+    """英翻繁中。任何失敗都回傳原文，絕不讓看板開天窗。"""
+    global _TRANS_OFF
+    text = (text or "").strip()
+    if not text or _TRANS_OFF:
+        return text
+
+    # 已經有三成以上是中文就不用翻
+    cjk = sum(1 for c in text if "一" <= c <= "鿿")
+    if cjk > len(text) * 0.3:
+        return text
+
+    if text in _TRANS_CACHE:
+        return _TRANS_CACHE[text]
+
+    try:
+        resp = requests.get(
+            "https://api.mymemory.translated.net/get",
+            params={"q": text[:max_chars], "langpair": "en|zh-TW"},
+            headers={"User-Agent": "ai-daily-dashboard"}, timeout=20,
+        )
+        resp.raise_for_status()
+        data = resp.json()
+
+        if data.get("responseStatus") != 200:
+            raise RuntimeError(str(data.get("responseDetails"))[:100])
+
+        out = html.unescape((data.get("responseData") or {}).get("translatedText") or "").strip()
+        upper = out.upper()
+        if not out or "MYMEMORY WARNING" in upper or "QUOTA" in upper or "INVALID" in upper:
+            raise RuntimeError(out[:100] or "空白回應")
+
+        _TRANS_CACHE[text] = out
+        time.sleep(0.4)          # 對免費服務客氣一點
+        return out
+
+    except Exception as e:
+        msg = str(e)
+        print(f"  ⚠ 翻譯失敗（保留原文）: {msg[:90]}")
+        if "QUOTA" in msg.upper() or "429" in msg:
+            _TRANS_OFF = True
+            print("  ⏸ 今日翻譯額度已用完，其餘項目一律保留原文")
+        return text
 
 
 def fetch_rss_items(feeds, max_items=12):
@@ -169,7 +221,12 @@ def main():
         result[key] = [{"title": it["title"], "source": it["source"],
                         "date": now.strftime("%Y-%m-%d"), "summary": it["summary"][:100],
                         "url": it["url"]} for it in raw[:6]] or [EMPTY_ITEM]
-        print(f"  ✅ 整理後 {len(result[key])} 則")
+        print(f"  ✅ 整理後 {len(result[key])} 則，翻譯中…")
+        for it in result[key]:
+            it["titleZh"] = translate_zh(it["title"])
+            it["summaryZh"] = translate_zh(it["summary"])
+        done = sum(1 for it in result[key] if it["titleZh"] != it["title"])
+        print(f"  🌐 已翻譯 {done}/{len(result[key])} 則標題")
 
     print("\n⭐ 抓取 GitHub 開源專案排行…")
     result["github"] = fetch_github_trending() or [EMPTY_ITEM]
