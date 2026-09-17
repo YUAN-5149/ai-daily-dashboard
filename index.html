@@ -79,6 +79,11 @@ details.guide>summary::before{content:'▸ ';font-weight:700}
 details.guide[open]>summary::before{content:'▾ '}
 details.guide>summary:hover{background:#CFFAFE}
 details.guide[open]>summary{margin-bottom:12px}
+#sec-gpt .sec-head{border-color:#059669}#sec-gpt .sec-head h2{color:#059669}#sec-gpt .sec-badge{background:#ECFDF5;color:#059669}
+#sec-gpt .info-card{border-left-color:#059669}
+#sec-gpt .info-card h3{color:#047857}
+#sec-gpt details.guide>summary{color:#047857;background:#ECFDF5}
+#sec-gpt details.guide>summary:hover{background:#D1FAE5}
 .cards-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px}
 .card{background:var(--card-bg);border-radius:var(--radius);padding:14px 16px;box-shadow:var(--shadow);border-left:3px solid transparent;transition:transform .18s,box-shadow .18s;cursor:default}
 .card:hover{transform:translateY(-3px);box-shadow:0 6px 20px rgba(0,0,0,.11)}
@@ -185,6 +190,7 @@ details.guide[open]>summary{margin-bottom:12px}
   <button class="tab-btn"        id="tab-github" onclick="switchTab('github')" role="tab">⭐ 開源排行榜</button>
   <button class="tab-btn"        id="tab-hf"     onclick="switchTab('hf')"     role="tab">🤗 HF 模型榜</button>
   <button class="tab-btn"        id="tab-plugins" onclick="switchTab('plugins')" role="tab">🔌 Claude 外掛</button>
+  <button class="tab-btn"        id="tab-gpt"     onclick="switchTab('gpt')"     role="tab">🤖 GPT 外掛</button>
 </div>
 </div>
 <div class="content">
@@ -212,6 +218,99 @@ details.guide[open]>summary{margin-bottom:12px}
     <div class="section show" id="sec-hf" role="tabpanel">
       <div class="sec-head"><span>🤗</span><h2>Hugging Face 熱門模型排行</h2><span class="sec-badge" id="badge-hf">0 則</span></div>
       <div class="cards-grid" id="grid-hf"></div>
+    </div>
+    <div class="section show" id="sec-gpt" role="tabpanel">
+      <div class="sec-head"><span>🤖</span><h2>ChatGPT / Codex 外掛（Plugins）</h2><span class="sec-badge">指南</span></div>
+
+      <div class="info-card">
+        <h3>📌 先講結論：兩邊長得很像</h3>
+        <p>OpenAI 在 2026 年把原本的 Apps、Connectors、GPT Store 整併成單一的「<strong>Plugins</strong>」，<strong>ChatGPT 與 Codex 共用同一個外掛目錄</strong>。底層跟 Claude 一樣是 <strong>MCP（Model Context Protocol）</strong>，所以概念幾乎可以直接對照。</p>
+        <div class="info-note">⚠️ 2023 年那套「ChatGPT Plugins」（<code class="k">ai-plugin.json</code> 那個）早就退場了，網路上舊教學不要看。2026-07-09 起連 app directory 也併進 Plugin directory。</div>
+      </div>
+
+      <div class="info-card">
+        <h3>🔀 Claude ↔ GPT 對照表</h3>
+        <table class="info-table">
+          <tr><th>概念</th><th>Claude Code</th><th>ChatGPT / Codex</th></tr>
+          <tr><td>外掛組成</td><td>skills + agents + hooks + MCP + LSP</td><td>skills + MCP servers + 選配 UI + hooks</td></tr>
+          <tr><td>技能格式</td><td><code class="k">SKILL.md</code>（Markdown）</td><td>技能（同樣是 Markdown 式流程手冊）</td></tr>
+          <tr><td>叫用語法</td><td><code class="k">/外掛名:技能名</code></td><td>ChatGPT 用 <code class="k">@</code>，Codex 用 <code class="k">$</code></td></tr>
+          <tr><td>安裝方式</td><td><code class="k">/plugin install 名@市集</code></td><td>從共用外掛目錄點選安裝</td></tr>
+          <tr><td>市集</td><td>官方＋社群＋<strong>可自建私有市集</strong></td><td>單一官方目錄，<strong>須通過審核</strong></td></tr>
+          <tr><td>底層協定</td><td>MCP</td><td>MCP（相同）</td></tr>
+          <tr><td>管理介面</td><td><code class="k">/plugin</code> 終端機面板</td><td>ChatGPT 設定裡的外掛管理</td></tr>
+          <tr><td>建技能助手</td><td><code class="k">skill-creator</code></td><td><code class="k">@skill-creator</code>／<code class="k">$skill-creator</code></td></tr>
+          <tr><td>錄製轉技能</td><td>—</td><td><strong>Record &amp; Replay</strong>（示範一次就變技能）</td></tr>
+          <tr><td>自訂 UI</td><td>—</td><td>MCP server 可附自訂互動介面</td></tr>
+        </table>
+        <div class="info-note">💡 最大差異：<strong>Claude 可以自建私有市集</strong>（公司內部用，不必送審）；<strong>GPT 這邊只有一個官方目錄，要公開就得過審核</strong>，但企業版有 developer mode 可私下上傳測試。</div>
+      </div>
+
+      <div class="info-card">
+        <h3>🧩 外掛可以包含哪些東西</h3>
+        <table class="info-table">
+          <tr><th>元件</th><th>做什麼</th></tr>
+          <tr><td><strong>Skills</strong><br>技能</td><td>把你重複在做的流程寫成手冊：名稱、描述、步驟、輸出格式，再附上範本或範例。ChatGPT 判斷情境自動選用，也可以 <code class="k">@</code> 手動指定</td></tr>
+          <tr><td><strong>MCP server</strong></td><td>連外部服務的工具與資料（GitHub、Google Drive、Slack…），跟 Claude 的 MCP 是同一套標準</td></tr>
+          <tr><td><strong>自訂 UI</strong><br>選配</td><td>MCP server 可以附帶自己的互動介面，直接顯示在 ChatGPT 對話裡（Claude 目前沒有這個）</td></tr>
+          <tr><td><strong>Hooks</strong><br>生命週期掛鉤</td><td>在 Codex runtime（含 ChatGPT Work）的特定時機自動觸發</td></tr>
+        </table>
+      </div>
+
+      <div class="info-card">
+        <h3>⬇️ 怎麼用</h3>
+        <p><strong>1. 瀏覽並安裝</strong>　到共用外掛目錄挑，ChatGPT 與 Codex 共通，裝一次兩邊都能用。</p>
+        <p><strong>2. 叫用</strong>　裝好之後直接講需求就行，ChatGPT 會自己判斷要不要用；想指定的話：</p>
+        <pre class="k">ChatGPT：@外掛名 或 @技能名
+Codex  ：$外掛名 或 $技能名</pre>
+        <p><strong>3. 建自己的技能</strong>　不用寫程式，跟 skill-creator 對話就行：</p>
+        <pre class="k">ChatGPT：@skill-creator
+Codex  ：$skill-creator</pre>
+        <p>告訴它目標、步驟、輸出格式、一定要做和一定不能做的事，有範本就附上，它會產草稿給你測。</p>
+        <div class="info-note">💡 還有一招 <strong>Record &amp; Replay</strong>：你實際操作一次流程，它把錄下來的過程直接轉成可重用的技能。這是 Claude 沒有的功能。</div>
+      </div>
+
+      <div class="info-card">
+        <h3>🏪 官方精選外掛</h3>
+        <table class="info-table">
+          <tr><th>外掛</th><th>做什麼</th></tr>
+          <tr><td><code class="k">Computer Use</code></td><td>直接操控 Mac 上的應用程式</td></tr>
+          <tr><td><code class="k">Chrome</code></td><td>用 ChatGPT 操控 Chrome 瀏覽器</td></tr>
+          <tr><td><code class="k">Spreadsheets</code></td><td>建立與編輯試算表檔案</td></tr>
+          <tr><td><code class="k">Presentations</code></td><td>建立與編輯簡報</td></tr>
+          <tr><td><code class="k">Data Analytics</code></td><td>回答產品與營運數據問題</td></tr>
+          <tr><td><code class="k">GitHub</code></td><td>分流 PR、Issue 與 CI</td></tr>
+        </table>
+        <div class="info-note">這幾個對應到 Claude 這邊：Computer Use ≈ desktop-commander、Chrome ≈ 瀏覽器工具、Spreadsheets／Presentations ≈ anthropic-skills 的 xlsx／pptx、GitHub ≈ engineering 的 github 連接器。</div>
+      </div>
+
+      <div class="info-card">
+        <h3>🔁 好消息：Claude 的外掛可以搬過去</h3>
+        <p>OpenAI 官方文件裡有一頁叫 <strong>「Submit a Claude Code plugin」</strong>—— 因為兩邊都建在 MCP + skills 上，你為 Claude Code 寫的外掛<strong>可以直接提交到 OpenAI 的外掛目錄</strong>。</p>
+        <div class="info-note">💡 實務意義：如果你之後真的自己做外掛，寫一次可以兩邊上架，不用做兩套。</div>
+      </div>
+
+      <div class="info-card">
+        <h3>⚠️ 幾個要注意的</h3>
+        <ul>
+          <li><strong>Custom GPTs 跟 Plugins 目前還沒完全打通</strong>　Custom GPT 用的是 Actions（OpenAPI REST 呼叫），跟新的 Plugins 是兩套機制，官方社群仍有人在問相容性</li>
+          <li><strong>公開上架要送審</strong>　跟 Claude 可以自建市集不同，GPT 這邊要進官方目錄得過 MCP server review</li>
+          <li><strong>企業要私下測試用 developer mode</strong>　管理員與授權開發者可以私下上傳 MCP app 測試，不用先公開</li>
+          <li><strong>一樣要看信任</strong>　外掛會以你的身分存取你授權的資料與服務，只裝信任來源的</li>
+        </ul>
+      </div>
+
+      <div class="info-card">
+        <h3>📖 官方文件</h3>
+        <ul>
+          <li><a href="https://developers.openai.com/plugins" target="_blank" rel="noopener noreferrer">Plugins 總覽</a></li>
+          <li><a href="https://learn.chatgpt.com/docs/skills-and-plugins" target="_blank" rel="noopener noreferrer">Skills &amp; Plugins（使用者導向）</a></li>
+          <li><a href="https://developers.openai.com/plugins/concepts/plugins" target="_blank" rel="noopener noreferrer">外掛架構</a></li>
+          <li><a href="https://developers.openai.com/plugins/build/mcp-server" target="_blank" rel="noopener noreferrer">建立 MCP server</a></li>
+          <li><a href="https://developers.openai.com/plugins/guides/submit-claude-plugin" target="_blank" rel="noopener noreferrer">把 Claude Code 外掛提交過來</a></li>
+          <li><a href="https://developers.openai.com/plugins/deploy/submission" target="_blank" rel="noopener noreferrer">送審與發布</a></li>
+        </ul>
+      </div>
     </div>
     <div class="section show" id="sec-plugins" role="tabpanel">
       <div class="sec-head"><span>🔌</span><h2>Claude Code 外掛程式（Plugins）</h2><span class="sec-badge">指南</span></div>
@@ -680,7 +779,8 @@ async function loadData() {
 document.addEventListener('DOMContentLoaded', loadData);
 
 const SECTIONS=['news','video','slides','github','hf'];        // 由 data.json 驅動
-const ALL_TABS=SECTIONS.concat(['plugins']);                   // plugins 是靜態說明頁
+const ALL_TABS=SECTIONS.concat(['plugins','gpt']);             // 這兩個是靜態說明頁
+const STATIC_TABS=['plugins','gpt'];
 function renderAll(){SECTIONS.forEach(k=>renderSection(k,(DATA&&DATA[k])||[]))}
 function renderSection(key,items){
   const grid=document.getElementById('grid-'+key);
@@ -702,7 +802,7 @@ function switchTab(tab){
 }
 function handleSearch(val){
   query=val.trim();
-  if(query){SECTIONS.forEach(s=>document.getElementById('sec-'+s).classList.add('show'));document.getElementById('sec-plugins').classList.remove('show')}
+  if(query){SECTIONS.forEach(s=>document.getElementById('sec-'+s).classList.add('show'));STATIC_TABS.forEach(s=>document.getElementById('sec-'+s).classList.remove('show'))}
   else switchTab(activeTab);
   renderAll();
 }
