@@ -1,93 +1,93 @@
 {
-  "lastUpdated": "2026-09-19 09:25（台灣時間）",
+  "lastUpdated": "2026-09-20 09:25（台灣時間）",
   "news": [
+    {
+      "title": "EXCLUSIVE: Anthropic considers releasing new AI model ahead of IPO, sources say",
+      "source": "Reuters",
+      "date": "2026-09-20",
+      "summary": "EXCLUSIVE: Anthropic considers releasing new AI model ahead of IPO, sources say Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUUhNb1VBaVJWRXQwZGlnTGk1N1B2UjFyNkltbzJUOGhxZThUdXhNN1BWSGxwNkRsMWVmTjFqSlZ6eFpLY3dkZ0VVVHdIN2NTTFNURVBPd3JZM0lQS1FVQUJ3UUJ0c3RmZXNwamkzV1pkXzduU1pVSFN6bjdON1JoQlFRMzJlNFdKTndsS2tJdzhxVG12cTBfbGREUjkwQTdIdDlhYzE3czdEMU5xMHc?oc=5",
+      "titleZh": "獨家：消息人士稱， Anthropic考慮在IPO之前發布新的AI模型",
+      "summaryZh": "獨家：路透社消息人士稱， Anthropic考慮在IPO之前發布新的AI模型"
+    },
     {
       "title": "Our framework for reporting model misalignment",
       "source": "OpenAI",
-      "date": "2026-09-19",
+      "date": "2026-09-20",
       "summary": "Our framework for reporting model misalignment OpenAI",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5YcmZMVzhRdVd1WUM1QUhIZXZYSUxYZGh6WHptVzhyX1BOOWNIUlYtcW5XVV9Ec2VoNTVIU2JPUjRaX25VOWoyaVNBTVUwLUgyb1FBUEc3a0RyUS1SRjd3WG1fWlVZZkpJQUM1b0pydncwdw?oc=5",
       "titleZh": "我們的模型錯位報告架構",
       "summaryZh": "我們的模型錯位報告架構OpenAI"
     },
     {
-      "title": "Gemini AI Hacked Three Companies in a Testing Breakout, Google Says",
+      "title": "OpenAI Discloses Six New Incidents of ‘Concerning’ A.I. Behavior",
       "source": "The New York Times",
-      "date": "2026-09-19",
-      "summary": "Gemini AI Hacked Three Companies in a Testing Breakout, Google Says The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1oVmRjQVgxMHR6VnBZbUIxamFSQ1lXanpuU080VEhkWFVDNHlXbDJhMHBNNWo0MFBsd2lMSTMwcjJpREJTZUozVzVQLWUzUkdUUG9RbDJtY3hjSVhnR2ZFTFlEOFc1aVNNeTFOZHdTTzNDWHFCNlE?oc=5",
-      "titleZh": "Google表示， Gemini AI在測試突破中攻擊了三家公司",
-      "summaryZh": "Gemini AI《紐約時報》稱， Google在測試突破中攻擊了三家公司"
+      "date": "2026-09-20",
+      "summary": "OpenAI Discloses Six New Incidents of ‘Concerning’ A.I. Behavior The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPanVqWlBmM21Obkh1TWdaekdGZS1CaEphcUllWFJnc1Rvdm9Ka3NHbWEtZFFWMU9vUW85ZnJpOW1fVG41djJPeEpjOFNoT0huMWtEVndLUVh2REN3VmNfRG5neXN0eW5YRktYX2w1MGR5QlFyQUlxWjFVREE4SWNkN05oMmIwbENJ?oc=5",
+      "titleZh": "OpenAI揭露六起「關於」人工智慧行為的新事件",
+      "summaryZh": "OpenAI揭露《紐約時報》「關於」人工智慧行為的六起新事件"
     },
     {
-      "title": "Artificial Intelligence - AI Update, September 18, 2026: AI News and Views From the Past Week",
-      "source": "MarketingProfs",
-      "date": "2026-09-19",
-      "summary": "Artificial Intelligence - AI Update, September 18, 2026: AI News and Views From the Past Week Market",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNZXRhLUdFTDhNWmhNLUU4ZVVjMHR6clVxTDVPSDUzZ2FWRGg3eU5SVEtaYWRWLWpWUEw3eVh0blowTU9MZzFKcUJxbmlGSXhlRmhuaG92OF9LYnFFLW4xa3Atbkx4c1lEX09UWEdyT3Z0dWJHclJoSW4wbWZiVlFVVjRBLTR4aktpSzI1elAwblpieVFab0lEYnJsekNGeDkxWnF1aTVYWW5TZGVIUm5QcEpSTDMxZw?oc=5",
-      "titleZh": "人工智慧- AI更新， 2026年9月18日： AI過去一周的新聞和觀點",
-      "summaryZh": "人工智慧-AI更新， 2026年9月18日： AI上週市場的新聞和觀點"
+      "title": "GPT-6 Astra vs Gemini 3.8 vs DeepSeek V4.1: 83x Gap [2026] - tech-insider.org",
+      "source": "Google 新聞",
+      "date": "2026-09-20",
+      "summary": "GPT-6 Astra vs Gemini 3.8 vs DeepSeek V4.1: 83x Gap [2026] tech-insider.org",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcV81UTdBWTI2bGMwWDBxR1hIX3JRS2kxTWZrb08yUU9UYUw5dTk5ZW4wVkVrcVZJT19KYzB4clFDMldRT1F3bmlFMjNMOGxNMmhNNmNuWTcwS3lfR0VxQ1Z5UklPVDh6NXJsVmtQNDB2aEFxR3ZyNUNvaldfYnBXaGpUS1hWQQ?oc=5",
+      "titleZh": "GPT-6 Astra vs Gemini 3.8 vs DeepSeek V4.1 ： 83倍差距[2026] - tech-insider.org",
+      "summaryZh": "GPT-6 Astra vs Gemini 3.8 vs DeepSeek V4.1 ： 83倍差距[2026] tech-insider.org"
+    },
+    {
+      "title": "A new kind of AI model from a ChatGPT inventor is thrilling developers",
+      "source": "TechCrunch",
+      "date": "2026-09-20",
+      "summary": "A new kind of AI model from a ChatGPT inventor is thrilling developers TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOYW5jcDZETy15OEFacVFGV0w5Wjk3dFYtZW83VXNFdVRvMmRuWVR3RFVGSFJlclg2ejRraU83Um90ZkZvZ0R3MGxZZ2VDTnJmVEw4dWZESDQyYktyMXQydDBhZ0R1TUROVm1PWWV3NTlsd2piclFFSW5XSVBBOUFyWFFhbmt3dTM1Mm1YZHZ5WXgxNUl2cDFJM2pvNEc5YkJCZHpTSVczMm8?oc=5",
+      "titleZh": "來自ChatGPT發明家的一種新型AI模型讓開發人員興奮不已",
+      "summaryZh": "來自ChatGPT發明家的一種新型AI模型讓開發人員感到興奮TechCrunch"
     },
     {
       "title": "Detecting and countering misuse of AI: September 2026",
       "source": "Anthropic",
-      "date": "2026-09-19",
+      "date": "2026-09-20",
       "summary": "Detecting and countering misuse of AI: September 2026 Anthropic",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBBeTNVQy1tcnZPVW9SM3drbmxGN1UxRktiY3JfLW9rMDdIMm9SOUd3b3RJNHpSRXVzS1JKckctcFUyZHpNTVE3aEtWVFhka3o3UmlLUzk1ZEs3dUhyVmRJYVctb0IyN1JuNDB6N0hZdTR2TWJTVXc?oc=5",
       "titleZh": "偵測和打擊濫用AI ： 2026年9月",
       "summaryZh": "偵測和打擊AI的濫用： 2026年9月Anthropic"
-    },
-    {
-      "title": "We Must Pace the Frontier",
-      "source": "darioamodei.com",
-      "date": "2026-09-19",
-      "summary": "We Must Pace the Frontier darioamodei.com",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFByRm5SZWdmLXZJN2RBM2hteVFFT0F2Qk5GVFozVEFmZHlaRVhYRmJNZ1pOS1I3MGstU1JvQldUeklNYjBUcDRGLTdDMGpnMzk5VTlxS0k4anFpRzFpMWhGeTBMYVY?oc=5",
-      "titleZh": "我們必須加快前線步伐",
-      "summaryZh": "我們必須跟上前線的步伐darioamodei.com"
-    },
-    {
-      "title": "Notable and Large-Scale AI Models by Country, January 2025 to September 2026",
-      "source": "economy.ac",
-      "date": "2026-09-19",
-      "summary": "Notable and Large-Scale AI Models by Country, January 2025 to September 2026 economy.ac",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE80N2ZsUmJUTlg1djRZemc5WGZhMmZac3I3MV93bFBoemFjV2Vfc2dHNDgxdUduUGNPaUVGNWtkN19BY0d2eEZKZDVDUF9LT19VZ3JiWlQ4Rk0zeVk?oc=5",
-      "titleZh": "2025年1月至2026年9月按國家劃分的著名和大規模AI型號",
-      "summaryZh": "2025年1月至2026年9月按國家劃分的著名和大規模AI型號economy.ac"
     }
   ],
   "video": [
     {
       "title": "6 Best AI Music Video Generators in 2026 (Ranked & Reviewed)",
       "source": "StreetInsider",
-      "date": "2026-09-19",
+      "date": "2026-09-20",
       "summary": "6 Best AI Music Video Generators in 2026 (Ranked & Reviewed) StreetInsider",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPWk9DOGJnWWQ1Q3IzdlVLLVptTVp3XzB3WFRsTnRiXzdtMzJTMjVuOS12NXcyZ3dsMy1QZjZ0QjBzNy1HeHhJNEMxSFczYVA4UktVTm1WRkVPYnpJUXNxUW9oNUFaSUxRczdUOVo0YjlMdkFIVnkwMG83Z01yQ3BNMWJOVUZic1c1RUZ1WEptZG9fUE16TGpBRmU1YndXN21LOWJZbGxlZUI3SzJ1S3pocDZucnhVdUdURVVpdWFPbnAtN2JC?oc=5",
       "titleZh": "2026年6款最佳AI音樂影片產生器（排名和評論）",
       "summaryZh": "2026年6款最佳AI音樂影片產生器（排名和評論） StreetInsider"
     },
     {
+      "title": "Best 5 AI Video Generator for TikTok and Instagram",
+      "source": "PC Tech Magazine",
+      "date": "2026-09-20",
+      "summary": "Best 5 AI Video Generator for TikTok and Instagram PC Tech Magazine",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTHg3Y2FIQ0ZxVDVPa2lsTlFsTXpXbkxRVzJrV1RUUk9sclhHYXBZMS1EQ2RoVFBCRy14a2F4YXJaWDhyMzQ3ZmU0MUNyX3ZTYXltY09oNHp2WDNXRWQxNjluUzI0MkR3aE05bWRDNnIxeGZ6UEt5LWkzUW01RDdGU2JHeVhhaVY5?oc=5",
+      "titleZh": "最佳5 AI影片產生器，適用於TikTok和Instagram",
+      "summaryZh": "最佳5 AI影片產生器適用於TikTok和Instagram PC技術雜誌"
+    },
+    {
       "title": "Random Motion Technology Publishes 2026 Analysis of AI Music Video Generation Platforms - The Chronicle-Journal",
       "source": "Google 新聞",
-      "date": "2026-09-19",
+      "date": "2026-09-20",
       "summary": "Random Motion Technology Publishes 2026 Analysis of AI Music Video Generation Platforms The Chronicl",
       "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPU3c0RzlDa19uSHFDS2VxRTg1bGRjbDg5Y05uRkZYZHk5M1FIRTNGQ3pUY2N1YmpnbTExMy0zX2VDeXRjSHNKSnNta3JrMWhmOEZkS3NpVUFTR3FKZjB3SDRkcFRKamdueG1PTWl1bFBmQ2dVeGNFem0yOGxEX1VwaXJSelNjeVFhRUNQWGltbHp1NnJwYVBscnZ6TGlxLUxRcllSRWJNNzh6V2M4RUFERWFpZjhUbnVCQ081RTBMb1FOSll6cnhVQVhmdVBQNXpTQzV2WHZZWUdBaFFoRlExamN5NTdrcm44TWRfeW52TmlpWHhmdDZUTGN6QlBHem84?oc=5",
       "titleZh": "Random Motion Technology發布2026年AI音樂影片生成平臺分析- The Chronicle-Journal",
       "summaryZh": "Random Motion Technology發布2026年AI音樂影片生成平臺分析The Chronicl"
     },
     {
-      "title": "From FaceU to CapCut to AI Video: The Team Behind ByteDance’s Imaging Apps Turns Its Focus to Flova",
-      "source": "The Beacon Tribune",
-      "date": "2026-09-19",
-      "summary": "From FaceU to CapCut to AI Video: The Team Behind ByteDance’s Imaging Apps Turns Its Focus to Flova ",
-      "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNOHF0Y1BNR1hCUGpiTDhIazJudnBBYVMwTDZLTWpQcXNPNXBjS1ZUOVpnbWlXSElrZ2liVXZ0NXRZQktpQ1ZIUURNMVlrU3Zhem5MaldmWFVSWFZ5MXlCWi1xb2xiazBKM1BxdkNWRy14dU5LOUZIbGVVb2VDQU44ejA2RW5IeG9PMk9KeTJtUGd6X1JtbDlzdDJsbjB4ZHNubTFmU1FEZWhZMVpaeWI5R0RvNWMxX2ZKbXZ6bURwUEVkREdMVDlWY1JNeUgzSVF2b0JzODVKWklOVFdUU3FfX3JmTWJrM1ZPenNRd19JQlpuOHNCWE1iWWhraGhhZUQyRDh5dVhKVmc2Z1lHTENhTTU0Y3FFUUlyOC00?oc=5",
-      "titleZh": "從FaceU到CapCut再到AI影片： ByteDance影像應用程式背後的團隊將焦點轉向Flova",
-      "summaryZh": "從FaceU到CapCut再到AI影片： ByteDance影像應用程式背後的團隊將焦點轉向Flova"
-    },
-    {
       "title": "10 AI Video Prompt Templates for Better Results in 2026",
       "source": "eWeek",
-      "date": "2026-09-19",
+      "date": "2026-09-20",
       "summary": "10 AI Video Prompt Templates for Better Results in 2026 eWeek",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBBdXJhbFFncl9kMThucldlQzdDOFBrbm9lbUFVSmNxT1FVNnMya0l3REZSZXI1dm1JUFN6QkF5cUVZR3pvM3JDVjlVMXhYVUU4X0IwUXZxSWlWNXFQQVF2TTN4REQ1TkNZY0E?oc=5",
       "titleZh": "10個AI影片提示範本，在2026年獲得更好的結果",
@@ -96,27 +96,27 @@
     {
       "title": "Sora Shutdown: Why Disney Killed Its $150M AI Deal [2026] - tech-insider.org",
       "source": "Google 新聞",
-      "date": "2026-09-19",
+      "date": "2026-09-20",
       "summary": "Sora Shutdown: Why Disney Killed Its $150M AI Deal [2026] tech-insider.org",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE8xNl9XM2JuQy1YZnA0cGpOQng4MHY2SF8td3g1OVpEbFRCSm1SQUdFUk96Vkd0c1BwX3FCQnd0ajl2WnkzSUUwSzZnNDhzTUFuZVFUeEg5dGo2RHlBSVVLdkEwUzYydi0yVmNkeGlULTZZNndiUGhUNTNLclk?oc=5",
       "titleZh": "Sora關閉：為什麼迪士尼殺死了1.5億$ AI交易[2026] - tech-insider.org",
       "summaryZh": "Sora關閉：為什麼迪士尼殺死了1.5億$ AI交易[2026] tech-insider.org"
     },
     {
-      "title": "Best 5 AI Video Generator for TikTok and Instagram",
-      "source": "PC Tech Magazine",
-      "date": "2026-09-19",
-      "summary": "Best 5 AI Video Generator for TikTok and Instagram PC Tech Magazine",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTHg3Y2FIQ0ZxVDVPa2lsTlFsTXpXbkxRVzJrV1RUUk9sclhHYXBZMS1EQ2RoVFBCRy14a2F4YXJaWDhyMzQ3ZmU0MUNyX3ZTYXltY09oNHp2WDNXRWQxNjluUzI0MkR3aE05bWRDNnIxeGZ6UEt5LWkzUW01RDdGU2JHeVhhaVY5?oc=5",
-      "titleZh": "最佳5 AI影片產生器，適用於TikTok和Instagram",
-      "summaryZh": "最佳5 AI影片產生器適用於TikTok和Instagram PC技術雜誌"
+      "title": "How to Chain AI Video Clips Into One Shot Without the Hidden Stutter at Every Cut",
+      "source": "HackerNoon",
+      "date": "2026-09-20",
+      "summary": "How to Chain AI Video Clips Into One Shot Without the Hidden Stutter at Every Cut HackerNoon",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQVU0dHhKNjVLQ3ZyQ3Y2b0hBWEZQQXQ0eFN5bjZTUVRlOXJZOWZSMVJoYVJNRUg2Yy14Szh6RE9EZVlPMnlBMk4tVkYwQ3lhQl82NEZlbUxkZG1CQnFvZVFBQklGNmlhV1E3bnFUUFdqZGhZWXFEOXBTSUhhcDk1SjViMFllVkh0cTFMUEpLSDBjamN0dmR4YWtrTUFZR3NTZk9KTHhzTQ?oc=5",
+      "titleZh": "如何將AI影片片段鏈接到一個鏡頭中，每次切割都沒有隱藏的口吃",
+      "summaryZh": "如何將AI影片片段鏈接到一個鏡頭中，每次切割都沒有隱藏的口吃HackerNoon"
     }
   ],
   "slides": [
     {
       "title": "AI PowerPoint Maker for Sales Decks, Investor Decks and Board Presentations Reaches 12 Million Users in 2026 - Presentations.ai Trusted by Leading Global Enterprise Users",
       "source": "Yahoo Finance",
-      "date": "2026-09-19",
+      "date": "2026-09-20",
       "summary": "AI PowerPoint Maker for Sales Decks, Investor Decks and Board Presentations Reaches 12 Million Users",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOMHBLcVl6TFU1Q1M5bDZSbTBxWTRvV2lJRFM3ekJjbFZLbjBpZXJJbElkSTNOVlZvVk5KckJZMGpkazl1MVRaOXJtelJqSVZaRG9HczN0a3ltd2dNY3VKWkZyNERiZzd2YU5aQllGZmd4c0RJS3lkRmtTMk5CTHE0NHplaXJwNURCSGRIZFJGeF9Vd0pLMHZDWllXdw?oc=5",
       "titleZh": "AI PowerPoint銷售平臺、投資者平臺和董事會簡報製造商在2026年達到1200萬使用者-簡報。AI深受全球領先企業使用者的信任",
@@ -125,16 +125,25 @@
     {
       "title": "Introducing a new design for Microsoft 365 Copilot",
       "source": "Microsoft",
-      "date": "2026-09-19",
+      "date": "2026-09-20",
       "summary": "Introducing a new design for Microsoft 365 Copilot Microsoft",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNOWFDMS1yTGNvLUFhdzE5QVNGTzFxa25hNGxQc3JkSXNwNnJRWkNwZ0xneEctRm5QTVJSeFdhZklzTXR3TkJXbVBOcU1ZQ2h6WWdCRXdTSXdfU19GOE5wOEZGY0JVOHR3V1NEWlFBZnV1Q2E4M1hDVkQxekljMk85T2RVWVJJaTl5WjkwcDFPLXZHd0RzTnh2OXBUZ3BJanV6NHQ3eTNYQ25HSlE?oc=5",
       "titleZh": "推出Microsoft 365 Copilot的新設計",
       "summaryZh": "推出Microsoft 365的新設計Copilot Microsoft"
     },
     {
+      "title": "I tested AI presentation tools across Google Slides, PowerPoint, and Claude Design; one clear winner generated professional decks",
+      "source": "Android Police",
+      "date": "2026-09-20",
+      "summary": "I tested AI presentation tools across Google Slides, PowerPoint, and Claude Design; one clear winner",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdTdrSldaYWltYnhIOFl3TjdLOHY2allSSWtzX3hJZ3VwREpTN3RDa2pXNUpGMHRDaXJySlFLd01FVjNyYm5tcVZSX1JUaVBLZFRFRkR4Z3VNclg0ckZBd2FKQzVnWnhDMU1iS2dGSHN0YWVfN1Q3TWhJZVpPQnRjbW52NWFyTHpkZmRsS01rNWdFMFpIZ0k3MEo3UTZ0ZjByQU9PdjZaN0RPMjM3UlBNS3c2czg0Q3JT?oc=5",
+      "titleZh": "我在Google幻燈片、PowerPoint和Claude設計中測試了AI演示工具；一個明確的獲勝者生成了專業卡組",
+      "summaryZh": "我測試了Google幻燈片、PowerPoint和Claude設計中的AI演示工具；一個明顯的獲勝者"
+    },
+    {
       "title": "Presentations.ai Slide Generator for Investor Pitch Decks and Sales PPT's 2026 Update - 12 Million Users Trust The AI Powerpoint Maker To Automate and Scale Professional AI Slide Generation With Branding, Design and Data",
       "source": "The Manila Times",
-      "date": "2026-09-19",
+      "date": "2026-09-20",
       "summary": "Presentations.ai Slide Generator for Investor Pitch Decks and Sales PPT's 2026 Update - 12 Million U",
       "url": "https://news.google.com/rss/articles/CBMingNBVV95cUxPNnhKWW52Q3EzeXF5ZlA3QWFNZTlIVkJrb2ZBaVNDbk5NVE1Nak9EN0UzSmtnenBzbDRuUVVIYmx0Yi01cmNlN2NhU3VpdjNfTTRHRlk5U2VxTjA2TVU2T3EyWHpWMXJGUF9KODAxOGoxUGNnZFNLUVQ4TG8tZmEtVS1kWWVSalpucGphd1BEcHIxVzdjbTUwVnFPcXNUQ2ktNVhfZnpJeFFSUjZNdS1pUFEtb2FsVnZRU2laQy1wRS1jV0xnU09KNTNQNloyekdNLUd4eldpa09NWWZMaERCc1pvSnJrampzOXhUZnU2dmtTazNTYXktdmIwZms5TVYwWTMtSlhnMzRwc204STVLX2JJTldLYnU2eEFoaGhHWGF5Z25DSFFXNTRXQ2J3eHhyRXozUXJrakVsMERZNjU3SnJMUmRsdHkxTm9zOHlQbVF2SER3bno1UHBHRDRuOHBVOGJvNGV5WENzdlpiQUxmVEltSElHTWpFbHBWeVRiQ3B5NF9PRjFnNVlPU0ptZlExOUxLZGlLcHJMd1NBdUHSAaMDQVVfeXFMTm1qeGtoSldCZ2piTXE3cnZqb20wekZrS3pVd3d6QUhBb3QxbWhKTkFzS2t6dTloY2FSUlV1VkdQSFlnMmxNWVRXNTNGdXduVjNEV3h2TXNtVHA3Tm15aEVEal96Z0o3TURnaEpDZHE4RDBNT245V1NnVFczY3dybm5YcHpJbkJuVUVON0JjTUgwUXZ3UVFpWnE3R2xRUHNrWU5DaTgyS3pRR0pVbXZOY3FWd0RMUkZTbHFWX1R4b1dUZFZmNThiVGhxakFSSnBkdWE2UHN5MHRTNGoya3A3czNtQ29taU52NC1SYmtyblJ6MEpmUk5peS1PU2x4Y0ZETTdkTGhSS1VES3lla1d6UUNjckd0emlvcXh3YkRVaksxWHFRZEdld0tyVVBCNS1WdDFHTGVCME9Ncm9UR0NJd0lGakZUN2wzTjl3M2xzUHFYTXpNeE9JOUFrUHdIeEJWX3pUeG5OenF0OGtpLXJObFRHenhMQ0J2NmpyZms1ZnRzaF9vYThIaldlZElsTURLdnNRTmg5cjNPZF9wdTNnVXhOYVE?oc=5",
       "titleZh": "簡報.AI投資者簡報和銷售PPT的幻燈片產生器2026更新- 1200萬使用者信任AI PowerPoint製造商，通過品牌、設計和資料自動化和擴展專業AI幻燈片產生器",
@@ -143,66 +152,25 @@
     {
       "title": "20 Best Generative AI Tools of 2026 | Top Picks and Benefits",
       "source": "Simplilearn.com",
-      "date": "2026-09-19",
+      "date": "2026-09-20",
       "summary": "20 Best Generative AI Tools of 2026 | Top Picks and Benefits Simplilearn.com",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdG5iaFltOWVIYkxRcjhaUGpmSEpreEVXNHNCR3FqakM5eW9DOHY4V29sbUptVndKeVVYeTNWWGlUdzBuRW0xdDR6SDVNVGZvVWVPWUd5MWljQ1ZYSV9KRnNlaklPVkRtVHZKeV9lVEpZWUtfVUd2a2plZHU4QWlIb2N1dExXLXhMSDBaUERRWGtNVUxISmZHWGF3?oc=5",
       "titleZh": "2026年20款最佳生成式AI工具|最佳選擇和優勢",
       "summaryZh": "2026年20款最佳生成式AI工具| Simplilearn.com精選優惠"
     },
     {
-      "title": "Microsoft Outlook Expands Business Mailboxes to 100GB Discontinues Google Calendar Sync",
-      "source": "Geeky Gadgets",
-      "date": "2026-09-19",
-      "summary": "Microsoft Outlook Expands Business Mailboxes to 100GB Discontinues Google Calendar Sync Geeky Gadget",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE4wSXVLaGJ3ZHhCMTBlTmhSakFHYkNLMmp3SGkycGxFWkVuNGIzbHZFbE5maFl5cGptY21HcFJYd2xlcjZweEZsQVREQUZwYWgtTDczb29qdXd0X09nemhLMy1MdUZaQmNMclBR?oc=5",
-      "titleZh": "Microsoft Outlook將業務信箱擴展至100GB ，停止Google日曆同步",
-      "summaryZh": "Microsoft Outlook將業務信箱擴展到100GB ，不再提供Google日曆同步Geeky Gadget"
-    },
-    {
-      "title": "8 Best AI Slide Generators Worth Using in 2026",
-      "source": "cybernews.com",
-      "date": "2026-09-19",
-      "summary": "8 Best AI Slide Generators Worth Using in 2026 cybernews.com",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPWGtHeHY3cVJqZEs0V0Z4NFFySFZWNnI4MmlMejZlWUtOYzFCSC1GTDJITWRfZVltZDNzR1YzZzFpVkt4NUdKOEFrNWFBUkVsUXFQMkgxdEdtNnBzOUlldjh4dU5odTFvREx5dm9XdU85SkRVZkw4cWtJMVR3WVBGUUp2VzdNa0k5aFVINF93?oc=5",
-      "titleZh": "2026年值得使用的8款最佳AI幻燈片產生器",
-      "summaryZh": "2026年值得使用的8款最佳AI幻燈片產生器cybernews.com"
+      "title": "Copilot’s agentic capabilities in Word, Excel, and PowerPoint are generally available",
+      "source": "Microsoft",
+      "date": "2026-09-20",
+      "summary": "Copilot’s agentic capabilities in Word, Excel, and PowerPoint are generally available Microsoft",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQY2pBT0F5X0h2UmtVTWhtaFc3TFFZbU1ObFAxdmN0TGhkQmYxMTVWYlRaY2NfdEdwbUpqNFF5Y1RzMDFKNlM3b1FzZWFrel9CNkZoek5CUjdqMTJSQkpsVVQ5U08zV2tnVU44eUFzNGZVRXdMcWlwYnJCWGJqdVJUdVJ0MDdid3dtZjBpN21xbWdsSzRhWm9fQV9ieW1GSENYS2gwX2tUR05vR3oxampRY21FUlcyelFrbzQ2VVBudXdHM1dHa2N2NDY4YUgzNWptdlZRRHBn?oc=5",
+      "titleZh": "Copilot在Word、Excel和PowerPoint中的代理功能已普遍可用",
+      "summaryZh": "Copilot在Word、Excel和PowerPoint中的代理功能普遍可用Microsoft"
     }
   ],
   "github": [
     {
-      "title": "#1 lnkiai/m3e-canvas — ⭐ 7,420",
-      "source": "TypeScript",
-      "date": "2026-09-02",
-      "summary": "Sketch Material 3 Expressive screens in the browser and turn them into vibe-coding prompts.",
-      "summaryZh": "Sketch Material 3在瀏覽器中呈現富有表現力的畫面，並將其轉換為氛圍編碼提示。",
-      "url": "https://github.com/lnkiai/m3e-canvas"
-    },
-    {
-      "title": "#2 sapientinc/PRAXIST — ⭐ 5,982",
-      "source": "Python",
-      "date": "2026-08-27",
-      "summary": "Autonomous research system for measurable, computer-executable research.",
-      "summaryZh": "用於可測量、電腦可執行研究的自主研究系統。",
-      "url": "https://github.com/sapientinc/PRAXIST"
-    },
-    {
-      "title": "#3 MengTo/threeui — ⭐ 5,942",
-      "source": "HTML",
-      "date": "2026-08-21",
-      "summary": "Open-source ThreeUI Community catalog with live interactive components and complete Community source.",
-      "summaryZh": "開源ThreeUI社區目錄，包含即時互動元件和完整的社區來源。",
-      "url": "https://github.com/MengTo/threeui"
-    },
-    {
-      "title": "#4 rakanki911/DLSS5-Swapper — ⭐ 5,763",
-      "source": "JavaScript",
-      "date": "2026-08-29",
-      "summary": "Install, tune and restore DLSS 5 in your games with one click. Native RenoDX, DLSS5-Feeder for games without DLSS, OptiScaler and multipass routes; DirectX 8/9/",
-      "summaryZh": "只需按一下，即可在遊戲中安裝、調整和還原DLSS 5。原生RenoDX、DLSS5-Feeder ，適用於沒有DLSS、OptiScaler和多重路由的遊戲； DirectX 8/9/",
-      "url": "https://github.com/rakanki911/DLSS5-Swapper"
-    },
-    {
-      "title": "#5 browser-use/jev-ultrafast — ⭐ 5,589",
+      "title": "#1 browser-use/jev-ultrafast — ⭐ 8,530",
       "source": "Python",
       "date": "2026-09-16",
       "summary": "i. am. speed.",
@@ -210,7 +178,39 @@
       "url": "https://github.com/browser-use/jev-ultrafast"
     },
     {
-      "title": "#6 XiaoDuoYa/codex-with-chatgpt — ⭐ 5,457",
+      "title": "#2 lnkiai/m3e-canvas — ⭐ 7,557",
+      "source": "TypeScript",
+      "date": "2026-09-02",
+      "summary": "Sketch Material 3 Expressive screens in the browser and turn them into vibe-coding prompts.",
+      "summaryZh": "Sketch Material 3在瀏覽器中呈現富有表現力的畫面，並將其轉換為氛圍編碼提示。",
+      "url": "https://github.com/lnkiai/m3e-canvas"
+    },
+    {
+      "title": "#3 sapientinc/PRAXIST — ⭐ 6,214",
+      "source": "Python",
+      "date": "2026-08-27",
+      "summary": "Autonomous research system for measurable, computer-executable research.",
+      "summaryZh": "用於可測量、電腦可執行研究的自主研究系統。",
+      "url": "https://github.com/sapientinc/PRAXIST"
+    },
+    {
+      "title": "#4 eternity4719/HowToLiveBetter — ⭐ 5,973",
+      "source": "HTML",
+      "date": "2026-09-07",
+      "summary": "按性价比排序的循证生活指南：长寿防病、急救、省钱理财、法律红线、失业与工伤、医保社保、恋爱婚育、怀孕育儿、创业与做平台合规、出国与技能。每条写明成本、收益、证据等级和原始出处，只引期刊论文与官方文件。",
+      "summaryZh": "按性价比排序的循证生活指南：长寿防病、急救、省钱理财、法律红线、失业与工伤、医保社保、恋爱婚育、怀孕育儿、创业与做平台合规、出国与技能。每条写明成本、收益、证据等级和原始出处，只引期刊论文与官方文件。",
+      "url": "https://github.com/eternity4719/HowToLiveBetter"
+    },
+    {
+      "title": "#5 rakanki911/DLSS5-Swapper — ⭐ 5,933",
+      "source": "JavaScript",
+      "date": "2026-08-29",
+      "summary": "Install, tune and restore DLSS 5 in your games with one click. Native RenoDX, DLSS5-Feeder for games without DLSS, OptiScaler and multipass routes; DirectX 8/9/",
+      "summaryZh": "只需按一下，即可在遊戲中安裝、調整和還原DLSS 5。原生RenoDX、DLSS5-Feeder ，適用於沒有DLSS、OptiScaler和多重路由的遊戲； DirectX 8/9/",
+      "url": "https://github.com/rakanki911/DLSS5-Swapper"
+    },
+    {
+      "title": "#6 XiaoDuoYa/codex-with-chatgpt — ⭐ 5,578",
       "source": "TypeScript",
       "date": "2026-08-28",
       "summary": "ChatGPT thinks. Codex works. Use ChatGPT as the planning brain while keeping the Codex harness.",
@@ -220,46 +220,46 @@
   ],
   "hf": [
     {
-      "title": "#1 deepseek-ai/DeepSeek-V4.1-Flash — ❤️ 3,175",
-      "source": "圖文轉文字",
-      "date": "2026-09-10",
-      "summary": "月下載 429,865 次｜任務 圖文轉文字｜框架 transformers",
-      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash"
-    },
-    {
-      "title": "#2 prism-ml/Ternary-Bonsai-2-27B-gguf — ❤️ 926",
+      "title": "#1 prism-ml/Ternary-Bonsai-2-27B-gguf — ❤️ 1,218",
       "source": "文字生成",
       "date": "2026-09-16",
-      "summary": "月下載 405,609 次｜任務 文字生成｜框架 llama.cpp",
+      "summary": "月下載 1,516,960 次｜任務 文字生成｜框架 llama.cpp",
       "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf"
     },
     {
-      "title": "#3 Qwen/Qwen3.8-27B — ❤️ 15,652",
+      "title": "#2 deepseek-ai/DeepSeek-V4.1-Flash — ❤️ 3,303",
+      "source": "圖文轉文字",
+      "date": "2026-09-10",
+      "summary": "月下載 482,270 次｜任務 圖文轉文字｜框架 transformers",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash"
+    },
+    {
+      "title": "#3 Qwen/Qwen3.8-27B — ❤️ 15,763",
       "source": "圖文轉文字",
       "date": "2026-08-05",
-      "summary": "月下載 7,358,662 次｜任務 圖文轉文字｜框架 transformers",
+      "summary": "月下載 7,365,368 次｜任務 圖文轉文字｜框架 transformers",
       "url": "https://huggingface.co/Qwen/Qwen3.8-27B"
     },
     {
-      "title": "#4 m-a-p/YuE2-3B — ❤️ 807",
+      "title": "#4 XingChen-AGI/Xing4.0-29B-A4B — ❤️ 640",
+      "source": "文字生成",
+      "date": "2026-09-16",
+      "summary": "月下載 7,278 次｜任務 文字生成｜框架 transformers",
+      "url": "https://huggingface.co/XingChen-AGI/Xing4.0-29B-A4B"
+    },
+    {
+      "title": "#5 convaiinnovations/laya — ❤️ 543",
+      "source": "文字分類",
+      "date": "2026-09-18",
+      "summary": "月下載 0 次｜任務 文字分類｜框架 transformers",
+      "url": "https://huggingface.co/convaiinnovations/laya"
+    },
+    {
+      "title": "#6 m-a-p/YuE2-3B — ❤️ 873",
       "source": "文字生成音訊",
       "date": "2026-09-09",
-      "summary": "月下載 13,668 次｜任務 文字生成音訊",
+      "summary": "月下載 15,446 次｜任務 文字生成音訊",
       "url": "https://huggingface.co/m-a-p/YuE2-3B"
-    },
-    {
-      "title": "#5 ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF — ❤️ 1,335",
-      "source": "圖文轉文字",
-      "date": "2026-08-28",
-      "summary": "月下載 1,078,301 次｜任務 圖文轉文字｜框架 gguf",
-      "url": "https://huggingface.co/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF"
-    },
-    {
-      "title": "#6 Lightricks/LTX-2.5 — ❤️ 4,336",
-      "source": "圖片生成影片",
-      "date": "2026-07-23",
-      "summary": "月下載 1,590,087 次｜任務 圖片生成影片｜框架 diffusion-single-file",
-      "url": "https://huggingface.co/Lightricks/LTX-2.5"
     }
   ]
 }
