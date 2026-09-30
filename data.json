@@ -1,66 +1,66 @@
 {
-  "lastUpdated": "2026-09-29 10:39（台灣時間）",
+  "lastUpdated": "2026-09-30 10:17（台灣時間）",
   "news": [
+    {
+      "title": "Exclusive | OpenAI Scraps Release of New AI Model Over Safety Concerns",
+      "source": "WSJ",
+      "date": "2026-09-30",
+      "summary": "Exclusive | OpenAI Scraps Release of New AI Model Over Safety Concerns WSJ",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNcC0xNDExdTJodUowZi1yeWdFN3M5RlpvY3FvZ1lQeHltWGVkeG01ZTVlaHJ0TldqVVRhekJhWl9ZRTRLNHRqX1NQQVFKMW5NRnhBTmlUNWNpX1FBX3Myc3VlaGIxbFZTZDZYRlYwTGNVLTUtNnJScGJWcm5rX0hMMmNadFFmZw?oc=5",
+      "titleZh": "獨家| OpenAI廢棄發布新的AI模型而不是安全問題",
+      "summaryZh": "獨家| OpenAI廢棄全新AI型號，不考慮安全問題"
+    },
+    {
+      "title": "Introducing GPT-6 Sol and Luna",
+      "source": "OpenAI",
+      "date": "2026-09-30",
+      "summary": "Introducing GPT-6 Sol and Luna OpenAI",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB4SldKWWgzNDExSThTZW9MRTQ5WHE3VFRZMl9oSjIzaVhuZEZaY1ZSUTFxZTJFaFpUanlncTQySUg5SlRGVnNkQXZ0S3IxLWJScXNkLXY2Z3Jzbk5WR0UwSFp0NmUxN3c?oc=5",
+      "titleZh": "隆重推出GPT-6 Sol和Luna",
+      "summaryZh": "隆重推出GPT-6 Sol和Luna OpenAI"
+    },
     {
       "title": "OpenAI shelves new AI model release over safety concerns",
       "source": "Reuters",
-      "date": "2026-09-29",
+      "date": "2026-09-30",
       "summary": "OpenAI shelves new AI model release over safety concerns Reuters",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMXc5dDQ0V0FSdEZfMWN3YjNGcG1jZmdHaG1mTDRwMExSZ2pLcjFzRzN1aU0tZFNJa0ZBZXVDdzJJQWxqN01WTmxUbXcyOFEyU1hIUjVpLXlJMW5SVUpiTWRkOHFQd1lyYmVCRHM1UzRtc3lPQXdoRHVvQmQ2ZGp2dGFjLXA1YWNhRjhDc0Z0MmVfejhYdk1IOFEzdUVTYl9Rc0hOWWVKY0RzeENVaks0eFZR?oc=5",
       "titleZh": "出於安全考慮， OpenAI上架了新的AI型號",
       "summaryZh": "出於安全考慮， OpenAI上架全新AI型號"
     },
     {
-      "title": "OpenAI abandons plan to release upcoming model as safety concerns escalate",
-      "source": "CNBC",
-      "date": "2026-09-29",
-      "summary": "OpenAI abandons plan to release upcoming model as safety concerns escalate CNBC",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxON3J6Rk5EcVdTM1V5QmZWRVhSQW1DaDBmYU5YQ0JnM1hLMUxXbWVSVy1vdmZYWjA1T1N2WnRMNnB2N0NkVUwySjFlU05ISE5uRUFOdnIxYVVxVTkwaTlNcm5LdlduajAwZHFGcUExZ3Z5Rm5zZmNFcldST2pfN2pvWU5JRkY2US1TUVRZZ09jYjFLQUh3cnBsVHNCQmh4SHdKcC1mM0ZLRFNmV0o4R2tfUtIBtgFBVV95cUxQakpZOVlkQTEzOHdkWEI5ZmxXVUc1MFJCWkFLNkVxNld2NjA4WkRwUFV0TlM4ejJhWnZzc1JfcERhMFIwdUEtWU5pLU9tSzN6VnBLbFpKYkd3SEZqMnBJcFVJY3VLdjlqS2NWUDVKTVNXZ0otXy1RZE9XaGg4YVYydjJEM3BjSHlDXzZla2dleU9lOTZjem1oWDBqRWp1LXlyckFZcTNDd3lmazBVcGZJc0dUc0xGUQ?oc=5",
-      "titleZh": "由於安全問題升級， OpenAI放棄發布即將推出的模型的計劃",
-      "summaryZh": "由於CNBC的安全問題升級， OpenAI放棄了發布即將推出的模型的計劃"
-    },
-    {
-      "title": "OpenAI scraps release of new model over safety concerns in internal testing",
-      "source": "The Guardian",
-      "date": "2026-09-29",
-      "summary": "OpenAI scraps release of new model over safety concerns in internal testing The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNXhIYXpqMlNLUGRTTTczOExfbm9PMWNZcGZNeEFPU1g5WVBhMl9UZ0VvOUplQlZ1TEdXQThXVFY4QktncmY4T0NRbW53VlZKYXViUklCMFhNaVU5SmRnc3ZFYUt5REtEYnJQa2JuWXZsOWZGaG9aWDFfS2lHUlNiMDRmY2dCRVBaZFpWSGNoMWVtdFlm?oc=5",
-      "titleZh": "OpenAI因內部測試中的安全問題而廢棄新型號的發布",
-      "summaryZh": "OpenAI因內部測試中的安全問題而廢棄新型號的發布"
+      "title": "OpenAI scraps release of newest AI model over safety concerns",
+      "source": "Anadolu Ajansı",
+      "date": "2026-09-30",
+      "summary": "OpenAI scraps release of newest AI model over safety concerns Anadolu Ajansı",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMHJTODRUMmhvODlKYnVvMFp4R0hzOXdKaWRPcFBUdmhvaGRHYVAyLWdPbVloblJtTXFfOEFPdUhuT1RCaXVXcDh0M0g0RlZqMzFNdXg3NFp6aGhOSEhjMG1rS2J1MWxNUG41LVJOcXJrZmFsT01Rd0hoWW5JZnljTU9JNGxpSko1aGlxTXhBcEpVd3BERkhUTThEQkZRSHJvanZZeG10N2pMU3B2ZGwySWxyZw?oc=5",
+      "titleZh": "出於安全考慮， OpenAI廢棄了最新的AI型號",
+      "summaryZh": "OpenAI因Anadolu Ajansı的安全擔憂而廢棄最新的AI型號"
     },
     {
       "title": "White House Holds Back 2 AI Models From UK Testers [2026] - tech-insider.org",
       "source": "Google 新聞",
-      "date": "2026-09-29",
+      "date": "2026-09-30",
       "summary": "White House Holds Back 2 AI Models From UK Testers [2026] tech-insider.org",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE12cUFqMXJ3QzdsM3NGVVU3d2xKVlFIRENuTkpxdDBJWlc4WFp0OHFHYUVYNUFmSXhxbmI4QW1vQllCZXBJSFIxcHBMNTV4ZWlqNl8wMGkwNTRiclFYQmNrVlVYNVVjT3JWa0MtZjZYY2MwNXRBUkZOdmZ5SEE?oc=5",
       "titleZh": "白宮拒絕了來自英國測試人員的2款AI型號[2026] - tech-insider.org",
       "summaryZh": "白宮拒絕了來自英國測試人員的2款AI型號[2026] tech-insider.org"
     },
     {
-      "title": "Introducing the new Copilot with Home, Code and Autopilot",
-      "source": "The Official Microsoft Blog",
-      "date": "2026-09-29",
-      "summary": "Introducing the new Copilot with Home, Code and Autopilot The Official Microsoft Blog",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQdnBldHlfWlM4TjV6Y2NWTlNMUjFzQ0ZUa2M5MTkwX2pkaHNhbXc0TDJJbUs4bmxHZ3RSXzQ3SlFXd3VuemZFaWJFekFneHRNUDBNb2ZyTmgxVWFqR1BySzZRelo1ZjdTWXhuYjlGc1dOQm9JNTJMWHNlSHY0Z2FxS3hhMnp1OGVqWFdMTGlFYXZoZV9mc29ySDhGdUlZOW1RM3Rv?oc=5",
-      "titleZh": "全新Copilot搭配首頁、程式碼和自動駕駛功能",
-      "summaryZh": "全新Copilot搭配首頁、程式碼和自動駕駛功能Microsoft官方部落格"
-    },
-    {
-      "title": "Waters Demands OpenAI Probe as Agents Hit 5 Agencies [2026]",
-      "source": "shattered.io",
-      "date": "2026-09-29",
-      "summary": "Waters Demands OpenAI Probe as Agents Hit 5 Agencies [2026] shattered.io",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9mdGN1SDJnYUI2aHFLRUJybjIzR3lsbzFLR0E1a2VKS0dCY3Z5MlVuMk9yV1BONHU4dGZKVVgyYlRlUElZTUl6SUE4dWRDRjRUSFBTSFVEaHREaFhrbXE1Y1NVa0tNa0JVYnN4MmlTei1tN2xLeGNOS25vM00?oc=5",
-      "titleZh": "Waters要求OpenAI探針，因為代理商擊中了5個代理商[2026]",
-      "summaryZh": "沃特斯要求OpenAI探測器，因為特工擊中了5個機構[2026] shattered.io"
+      "title": "OpenAI scraps release of new model over safety concerns in internal testing",
+      "source": "The Guardian",
+      "date": "2026-09-30",
+      "summary": "OpenAI scraps release of new model over safety concerns in internal testing The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNXhIYXpqMlNLUGRTTTczOExfbm9PMWNZcGZNeEFPU1g5WVBhMl9UZ0VvOUplQlZ1TEdXQThXVFY4QktncmY4T0NRbW53VlZKYXViUklCMFhNaVU5SmRnc3ZFYUt5REtEYnJQa2JuWXZsOWZGaG9aWDFfS2lHUlNiMDRmY2dCRVBaZFpWSGNoMWVtdFlm?oc=5",
+      "titleZh": "OpenAI因內部測試中的安全問題而廢棄新型號的發布",
+      "summaryZh": "OpenAI因內部測試中的安全問題而廢棄新型號的發布"
     }
   ],
   "video": [
     {
       "title": "6 Best AI Music Video Generators in 2026 (Ranked & Reviewed)",
       "source": "StreetInsider",
-      "date": "2026-09-29",
+      "date": "2026-09-30",
       "summary": "6 Best AI Music Video Generators in 2026 (Ranked & Reviewed) StreetInsider",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPWk9DOGJnWWQ1Q3IzdlVLLVptTVp3XzB3WFRsTnRiXzdtMzJTMjVuOS12NXcyZ3dsMy1QZjZ0QjBzNy1HeHhJNEMxSFczYVA4UktVTm1WRkVPYnpJUXNxUW9oNUFaSUxRczdUOVo0YjlMdkFIVnkwMG83Z01yQ3BNMWJOVUZic1c1RUZ1WEptZG9fUE16TGpBRmU1YndXN21LOWJZbGxlZUI3SzJ1S3pocDZucnhVdUdURVVpdWFPbnAtN2JC?oc=5",
       "titleZh": "2026年6款最佳AI音樂影片產生器（排名和評論）",
@@ -69,7 +69,7 @@
     {
       "title": "Best AI Video Generators in 2026: 14 Tools Compared",
       "source": "Kingy AI",
-      "date": "2026-09-29",
+      "date": "2026-09-30",
       "summary": "Best AI Video Generators in 2026: 14 Tools Compared Kingy AI",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE81TVRYcXRWRlQ5ZnBNNHJOZmMtMDkzTEx1alpub3ZaSVljQkdxWHc4R2VzM0t3aWtwNTM5R2FSVEJBcWhKQTF2YmU1UWNBc1pPdDhoM05ZS2RxWjk4eGJOcQ?oc=5",
       "titleZh": "2026年最佳AI影片產生器： 14個工具比較",
@@ -78,45 +78,45 @@
     {
       "title": "Random Motion Technology Publishes 2026 Analysis of AI Music Video Generation Platforms",
       "source": "The Globe and Mail",
-      "date": "2026-09-29",
+      "date": "2026-09-30",
       "summary": "Random Motion Technology Publishes 2026 Analysis of AI Music Video Generation Platforms The Globe an",
       "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPVklsbk9jNU5kTktDWEpreWlURFlJV2hISWtZc1VUSThUSnlmWkdQUDhnZ0lFOGtnV09CSTdzQ1lPSlhtUG9TVDhnYmNoNndJUkx0bVVIQVpMbDhTZXAwZFUzVVN4TkZaVk1hMVFuSDg3U1Jqa0k3TktERFQxb2loSE1Xd3dWb2VSU1A5MEtyd1R0VVhLSE5XTTBoM1NSWktrcmZ3bEpHdXFlZ2QxMjdFRWk5Q3EtSFFCZDlGOVJ5Q0RnS2YzWjhyT19NenhYVkItRWVSeFY3cWNScnhGWUdOb0Fva3NNUXJRVEtNT29WN245aFp6LUE?oc=5",
       "titleZh": "Random Motion Technology發布AI音樂影片生成平臺的2026分析",
       "summaryZh": "Random Motion Technology發布2026年AI音樂影片生成平臺分析"
     },
     {
-      "title": "Sora Shutdown: Why Disney Killed Its $150M AI Deal [2026] - tech-insider.org",
-      "source": "Google 新聞",
-      "date": "2026-09-29",
-      "summary": "Sora Shutdown: Why Disney Killed Its $150M AI Deal [2026] tech-insider.org",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE8xNl9XM2JuQy1YZnA0cGpOQng4MHY2SF8td3g1OVpEbFRCSm1SQUdFUk96Vkd0c1BwX3FCQnd0ajl2WnkzSUUwSzZnNDhzTUFuZVFUeEg5dGo2RHlBSVVLdkEwUzYydi0yVmNkeGlULTZZNndiUGhUNTNLclk?oc=5",
-      "titleZh": "Sora關閉：為什麼迪士尼殺死了1.5億$ AI交易[2026] - tech-insider.org",
-      "summaryZh": "Sora關閉：為什麼迪士尼殺死了1.5億$ AI交易[2026] tech-insider.org"
-    },
-    {
       "title": "10 AI Video Prompt Templates for Better Results in 2026",
       "source": "eWeek",
-      "date": "2026-09-29",
+      "date": "2026-09-30",
       "summary": "10 AI Video Prompt Templates for Better Results in 2026 eWeek",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBBdXJhbFFncl9kMThucldlQzdDOFBrbm9lbUFVSmNxT1FVNnMya0l3REZSZXI1dm1JUFN6QkF5cUVZR3pvM3JDVjlVMXhYVUU4X0IwUXZxSWlWNXFQQVF2TTN4REQ1TkNZY0E?oc=5",
       "titleZh": "10個AI影片提示範本，在2026年獲得更好的結果",
       "summaryZh": "10個AI影片提示範本，在2026年eWeek中獲得更好的結果"
     },
     {
-      "title": "Best Suno Music Video Generator Tools in 2026: 10 Top Options Tested for Musicians",
-      "source": "BBN Times",
-      "date": "2026-09-29",
-      "summary": "Best Suno Music Video Generator Tools in 2026: 10 Top Options Tested for Musicians BBN Times",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZGxZaS1FekRfQlNDcGZEV2RsUW41TWNtNzVQQTFDc2tSdnpYSXNGaXlETnpYanI3OVhWWE9xcnEtaF83SVBOSGVEYzV2WjRBV3JmU1Y1SURDVWlhWG9JQzlNSXdMeEdkcVB4UkRJNWd6TTh3UU1xSXd6WWkyWTVDUklxd0UxbFJuVjY5V0I4LVE3aE0yY3YtQWZmc1NfcE5mcDB5S0pTSFpRdU5SbWRaOEd1TUd6OEox?oc=5",
-      "titleZh": "2026年最佳Suno音樂影片生成器工具： 10個經過音樂家測試的頂級選項",
-      "summaryZh": "2026年最佳Suno音樂影片生成器工具： 10個經過音樂家測試的頂級選項BBN Times"
+      "title": "Sora Shutdown: Why Disney Killed Its $150M AI Deal [2026] - tech-insider.org",
+      "source": "Google 新聞",
+      "date": "2026-09-30",
+      "summary": "Sora Shutdown: Why Disney Killed Its $150M AI Deal [2026] tech-insider.org",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE8xNl9XM2JuQy1YZnA0cGpOQng4MHY2SF8td3g1OVpEbFRCSm1SQUdFUk96Vkd0c1BwX3FCQnd0ajl2WnkzSUUwSzZnNDhzTUFuZVFUeEg5dGo2RHlBSVVLdkEwUzYydi0yVmNkeGlULTZZNndiUGhUNTNLclk?oc=5",
+      "titleZh": "Sora關閉：為什麼迪士尼殺死了1.5億$ AI交易[2026] - tech-insider.org",
+      "summaryZh": "Sora關閉：為什麼迪士尼殺死了1.5億$ AI交易[2026] tech-insider.org"
+    },
+    {
+      "title": "Best 5 AI Video Generator for TikTok and Instagram",
+      "source": "PC Tech Magazine",
+      "date": "2026-09-30",
+      "summary": "Best 5 AI Video Generator for TikTok and Instagram PC Tech Magazine",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTHg3Y2FIQ0ZxVDVPa2lsTlFsTXpXbkxRVzJrV1RUUk9sclhHYXBZMS1EQ2RoVFBCRy14a2F4YXJaWDhyMzQ3ZmU0MUNyX3ZTYXltY09oNHp2WDNXRWQxNjluUzI0MkR3aE05bWRDNnIxeGZ6UEt5LWkzUW01RDdGU2JHeVhhaVY5?oc=5",
+      "titleZh": "最佳5 AI影片產生器，適用於TikTok和Instagram",
+      "summaryZh": "最佳5 AI影片產生器適用於TikTok和Instagram PC技術雜誌"
     }
   ],
   "slides": [
     {
       "title": "Best AI Tools of 2026: Our Top 10 Comparison",
       "source": "Spliiit",
-      "date": "2026-09-29",
+      "date": "2026-09-30",
       "summary": "Best AI Tools of 2026: Our Top 10 Comparison Spliiit",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPLW84M1dqT1h3c0l4M1JhejJTZEJDUFpiMmhQMlprRnpSSFlwQ2VvZkxZQng0aDMzd1dPc2xZOEdRZnY1ejJnd2pWT21fc1RCeEJUdnEzbXRUbncwVEdZb01BeVQzVXljaVB1dDdMVnpvWHVNMWw1MkRjOE1USDlrLUxn?oc=5",
       "titleZh": "2026年最佳AI工具：我們的十大比較",
@@ -125,7 +125,7 @@
     {
       "title": "AI PowerPoint Maker for Sales Decks, Investor Decks and Board Presentations Reaches 12 Million Users in 2026 - Presentations.ai Trusted by Leading Global Enterprise Users",
       "source": "Yahoo Finance",
-      "date": "2026-09-29",
+      "date": "2026-09-30",
       "summary": "AI PowerPoint Maker for Sales Decks, Investor Decks and Board Presentations Reaches 12 Million Users",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOMHBLcVl6TFU1Q1M5bDZSbTBxWTRvV2lJRFM3ekJjbFZLbjBpZXJJbElkSTNOVlZvVk5KckJZMGpkazl1MVRaOXJtelJqSVZaRG9HczN0a3ltd2dNY3VKWkZyNERiZzd2YU5aQllGZmd4c0RJS3lkRmtTMk5CTHE0NHplaXJwNURCSGRIZFJGeF9Vd0pLMHZDWllXdw?oc=5",
       "titleZh": "AI PowerPoint銷售平臺、投資者平臺和董事會簡報製造商在2026年達到1200萬使用者-簡報。AI深受全球領先企業使用者的信任",
@@ -134,7 +134,7 @@
     {
       "title": "Copilot's agentic capabilities in Word, Excel, and PowerPoint are generally available | AI at Work Blog",
       "source": "Microsoft",
-      "date": "2026-09-29",
+      "date": "2026-09-30",
       "summary": "Copilot's agentic capabilities in Word, Excel, and PowerPoint are generally available | AI at Work B",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQY2pBT0F5X0h2UmtVTWhtaFc3TFFZbU1ObFAxdmN0TGhkQmYxMTVWYlRaY2NfdEdwbUpqNFF5Y1RzMDFKNlM3b1FzZWFrel9CNkZoek5CUjdqMTJSQkpsVVQ5U08zV2tnVU44eUFzNGZVRXdMcWlwYnJCWGJqdVJUdVJ0MDdid3dtZjBpN21xbWdsSzRhWm9fQV9ieW1GSENYS2gwX2tUR05vR3oxampRY21FUlcyelFrbzQ2VVBudXdHM1dHa2N2NDY4YUgzNWptdlZRRHBn?oc=5",
       "titleZh": "Copilot在Word、Excel和PowerPoint中的代理功能已正式推出| AI at Work Blog",
@@ -143,7 +143,7 @@
     {
       "title": "10 Best AI Presentation Makers in 2026 (Tested & Ranked)",
       "source": "Jaro Education",
-      "date": "2026-09-29",
+      "date": "2026-09-30",
       "summary": "10 Best AI Presentation Makers in 2026 (Tested & Ranked) Jaro Education",
       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5DR2tBaWJRdjBiVWJSZ2FKcm02ZHROSTNQNC1weTFiNjh6QzZlTmkyT2hodEJnSXBXTHFvRHZjeFdISnZqem5aSzBRNmpxN0VrSEVZQmdueTJTSENQQ0tMRHJlUmRFWjRnN0l5Wnh1aw?oc=5",
       "titleZh": "2026年10大最佳AI演示者（已測試和排名）",
@@ -152,7 +152,7 @@
     {
       "title": "Presentations.ai Slide Generator for Investor Pitch Decks",
       "source": "GlobeNewswire",
-      "date": "2026-09-29",
+      "date": "2026-09-30",
       "summary": "Presentations.ai Slide Generator for Investor Pitch Decks GlobeNewswire",
       "url": "https://news.google.com/rss/articles/CBMi7AJBVV95cUxPWTFaTWNhSTdrSjBtOXhpYVQ4T2p6WFg2elFCdHF0YTdldmRVMGdJaEZYWGpNc2RNNmlyd0FzaE1QdzJvd2FXNHlXN1cyMlNDcC1wc3hHSTVXT3ZkTFFTMkNULXJkOS1kRWwxbWRfV3BOd0NDOXMzNEpoaU45ay01T2NmcThyQmVxUndCVFFlMWRzeVZJOHU0a25XLUtRM0VTN29wdVEwLXpWVHc5Qkk3WUVqbzAzc2lsVm11Y01DRGNQZzdsUXl2WEZMLVV0VTUxV2d1UVVDbXFXSmxjLVh3UGJaT2J3XzJUaVRqdEtNV1RmSnVldVRNem1vbk5NalB5aHlITlZjb2R5VlRNVGF5N0s4SERuWTNSeHJpSTRRWXA3NzBhVVdXM0JWS010bXEyZjdzakZjN09zWWVESTBpbEJJMFRUSFIyUTBUZjUtNFZXaFBxQlZDZkNRU19GaW1DbkRQVjBmdTVzZkpT?oc=5",
       "titleZh": "Presentations.AI投資者簡報投影片產生器",
@@ -161,7 +161,7 @@
     {
       "title": "I tested AI presentation tools across Google Slides, PowerPoint, and Claude Design; one clear winner generated professional decks",
       "source": "Android Police",
-      "date": "2026-09-29",
+      "date": "2026-09-30",
       "summary": "I tested AI presentation tools across Google Slides, PowerPoint, and Claude Design; one clear winner",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdTdrSldaYWltYnhIOFl3TjdLOHY2allSSWtzX3hJZ3VwREpTN3RDa2pXNUpGMHRDaXJySlFLd01FVjNyYm5tcVZSX1JUaVBLZFRFRkR4Z3VNclg0ckZBd2FKQzVnWnhDMU1iS2dGSHN0YWVfN1Q3TWhJZVpPQnRjbW52NWFyTHpkZmRsS01rNWdFMFpIZ0k3MEo3UTZ0ZjByQU9PdjZaN0RPMjM3UlBNS3c2czg0Q3JT?oc=5",
       "titleZh": "我在Google幻燈片、PowerPoint和Claude設計中測試了AI演示工具；一個明確的獲勝者生成了專業卡組",
@@ -170,15 +170,7 @@
   ],
   "github": [
     {
-      "title": "#1 NandhaKishorM/laya — ⭐ 27,781",
-      "source": "Python",
-      "date": "2026-09-18",
-      "summary": "Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward pass, in 100+ languages, with a router t",
-      "summaryZh": "非自回歸系統1決策引擎。透過路由器，在超過100種語言的單一轉發通道中輸入任何文字的選擇、分數和是/否決定",
-      "url": "https://github.com/NandhaKishorM/laya"
-    },
-    {
-      "title": "#2 eternity4719/HowToLiveBetter — ⭐ 24,905",
+      "title": "#1 eternity4719/HowToLiveBetter — ⭐ 28,693",
       "source": "HTML",
       "date": "2026-09-07",
       "summary": "按性价比排序的循证生活指南：长寿防病、急救、省钱理财、法律红线、失业与工伤、医保社保、恋爱婚育、怀孕育儿、创业与做平台合规、出国与技能。每条写明成本、收益、证据等级和原始出处，只引期刊论文与官方文件。",
@@ -186,7 +178,15 @@
       "url": "https://github.com/eternity4719/HowToLiveBetter"
     },
     {
-      "title": "#3 browser-use/jev-ultrafast — ⭐ 21,182",
+      "title": "#2 NandhaKishorM/laya — ⭐ 28,671",
+      "source": "Python",
+      "date": "2026-09-18",
+      "summary": "Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward pass, in 100+ languages, with a router t",
+      "summaryZh": "非自回歸系統1決策引擎。透過路由器，在超過100種語言的單一轉發通道中輸入任何文字的選擇、分數和是/否決定",
+      "url": "https://github.com/NandhaKishorM/laya"
+    },
+    {
+      "title": "#3 browser-use/jev-ultrafast — ⭐ 21,414",
       "source": "Python",
       "date": "2026-09-16",
       "summary": "Fastest and cheapest web agent",
@@ -194,7 +194,7 @@
       "url": "https://github.com/browser-use/jev-ultrafast"
     },
     {
-      "title": "#4 lnkiai/m3e-canvas — ⭐ 8,414",
+      "title": "#4 lnkiai/m3e-canvas — ⭐ 8,464",
       "source": "TypeScript",
       "date": "2026-09-02",
       "summary": "Sketch Material 3 Expressive screens in the browser and turn them into vibe-coding prompts.",
@@ -202,7 +202,7 @@
       "url": "https://github.com/lnkiai/m3e-canvas"
     },
     {
-      "title": "#5 jaredpalmer/kev — ⭐ 7,669",
+      "title": "#5 jaredpalmer/kev — ⭐ 7,901",
       "source": "Python",
       "date": "2026-09-17",
       "summary": "Jev-like family of decision models built on top of Qwen3.5/3.8 you can train and run on your own",
@@ -210,7 +210,7 @@
       "url": "https://github.com/jaredpalmer/kev"
     },
     {
-      "title": "#6 tamaratran/fast-jev-compaction — ⭐ 7,147",
+      "title": "#6 tamaratran/fast-jev-compaction — ⭐ 7,206",
       "source": "TypeScript",
       "date": "2026-09-17",
       "summary": "Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or ",
@@ -220,46 +220,46 @@
   ],
   "hf": [
     {
-      "title": "#1 convaiinnovations/laya — ❤️ 4,317",
+      "title": "#1 convaiinnovations/laya — ❤️ 4,516",
       "source": "文字分類",
       "date": "2026-09-18",
       "summary": "月下載 0 次｜任務 文字分類｜框架 transformers",
       "url": "https://huggingface.co/convaiinnovations/laya"
     },
     {
-      "title": "#2 abenzerps/Qwen-Image-2.1-Uncensored-GGUF — ❤️ 2,282",
-      "source": "文字生成圖片",
-      "date": "2026-09-20",
-      "summary": "月下載 1,062,921 次｜任務 文字生成圖片｜框架 gguf",
-      "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF"
-    },
-    {
-      "title": "#3 Edge0/Audio8-ASR-Infinite — ❤️ 1,410",
+      "title": "#2 Edge0/Audio8-ASR-Infinite — ❤️ 1,534",
       "source": "語音辨識",
       "date": "2026-09-21",
-      "summary": "月下載 19,963 次｜任務 語音辨識｜框架 transformers",
+      "summary": "月下載 23,674 次｜任務 語音辨識｜框架 transformers",
       "url": "https://huggingface.co/Edge0/Audio8-ASR-Infinite"
     },
     {
-      "title": "#4 Qwen/Qwen-Image-2.1 — ❤️ 2,595",
+      "title": "#3 abenzerps/Qwen-Image-2.1-Uncensored-GGUF — ❤️ 2,443",
       "source": "文字生成圖片",
-      "date": "2026-09-14",
-      "summary": "月下載 58,693 次｜任務 文字生成圖片｜框架 diffusers",
-      "url": "https://huggingface.co/Qwen/Qwen-Image-2.1"
+      "date": "2026-09-20",
+      "summary": "月下載 1,152,523 次｜任務 文字生成圖片｜框架 gguf",
+      "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF"
     },
     {
-      "title": "#5 XingChen-AGI/TeleOCR — ❤️ 800",
+      "title": "#4 XingChen-AGI/TeleOCR — ❤️ 873",
       "source": "圖文轉文字",
       "date": "2026-08-14",
-      "summary": "月下載 27,904 次｜任務 圖文轉文字｜框架 transformers",
+      "summary": "月下載 30,354 次｜任務 圖文轉文字｜框架 transformers",
       "url": "https://huggingface.co/XingChen-AGI/TeleOCR"
     },
     {
-      "title": "#6 XingChen-AGI/Xing4.0-29B-A4B — ❤️ 1,800",
-      "source": "文字生成",
-      "date": "2026-09-16",
-      "summary": "月下載 45,834 次｜任務 文字生成｜框架 transformers",
-      "url": "https://huggingface.co/XingChen-AGI/Xing4.0-29B-A4B"
+      "title": "#5 Qwen/Qwen-Image-2.1 — ❤️ 2,658",
+      "source": "文字生成圖片",
+      "date": "2026-09-14",
+      "summary": "月下載 64,362 次｜任務 文字生成圖片｜框架 diffusers",
+      "url": "https://huggingface.co/Qwen/Qwen-Image-2.1"
+    },
+    {
+      "title": "#6 Contrastive-LM/CLM-v0.1-8B — ❤️ 531",
+      "source": "text-ranking",
+      "date": "2026-09-21",
+      "summary": "月下載 1,910 次｜任務 text-ranking｜框架 contrastive-lm",
+      "url": "https://huggingface.co/Contrastive-LM/CLM-v0.1-8B"
     }
   ]
 }
