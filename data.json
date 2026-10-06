@@ -1,75 +1,84 @@
 {
-  "lastUpdated": "2026-10-05 10:15（台灣時間）",
+  "lastUpdated": "2026-10-06 11:12（台灣時間）",
   "news": [
+    {
+      "title": "Reflection AI’s Beam Claims 4x Less Compute [2026]",
+      "source": "shattered.io",
+      "date": "2026-10-06",
+      "summary": "Reflection AI’s Beam Claims 4x Less Compute [2026] shattered.io",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4tbmNST2NleWM0SDRPSG5kYjBDQ2UtT0lzN21MQUd3eGtWcDF4RE1nNDZaQllIcXRwODAyVzNzclNyX1JPeU12M0lEN2c0ZkRuaDVsSHo5UUhaMzNBV2tIRlkxZktLNUlNd2R4cjZn?oc=5",
+      "titleZh": "Reflection AI的Beam Claims計算量減少4倍[2026]",
+      "summaryZh": "Reflection AI的Beam Claims計算量減少4倍[2026] shattered.io"
+    },
+    {
+      "title": "Reflection debuts Beam, an open-weight AI model to rival Chinese models at lower compute cost",
+      "source": "TechCrunch",
+      "date": "2026-10-06",
+      "summary": "Reflection debuts Beam, an open-weight AI model to rival Chinese models at lower compute cost TechCr",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPSDZGMTF6bG9MakF5andodEYydVRONTZqckdURmpncmI1YzBzVmNBcXdoSDRrM3JmQ1dMWWlKbXZhV3lUcEtxSkRLdFNTYm4wNV9FeWdUUThQVGFpbUpiN05Bdms2cVh2NEI1N05FaWk5SkxNUEFvM0I1MVBmc3hFalJhcHJaMHpPejgxSS1fWTVQc3dRMTBWSlFjN3czNmJrLXlfTDYtbDJrN1A4UkQ3XzlNaXhDMWU3UE5nNVZ1dHRKUFlL?oc=5",
+      "titleZh": "Reflection推出開放式重量AI型號Beam ，以更低的運算成本與中國型號相媲美",
+      "summaryZh": "Reflection推出開放式重量AI型號Beam ，以較低的運算成本與中國型號TechCr相媲美"
+    },
+    {
+      "title": "Reflection AI Beam: 501B-Param Open Model Debuts [2026] - tech-insider.org",
+      "source": "Google 新聞",
+      "date": "2026-10-06",
+      "summary": "Reflection AI Beam: 501B-Param Open Model Debuts [2026] tech-insider.org",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5aSWhVSUszemNLQm5jWnhIODUwSjgtdloyZjJ2LTlZVzh6dlBzQ1J4a3RvSFpFTld4MVY0UzUxaXBCOUNkUUh0WlRYUGlfeDRDRUlkZ2NVUHd6c1ZRYU9ULTZEcXJkVWgwVmk5b2hZZTkxRjd1dGd0d3B2MA?oc=5",
+      "titleZh": "Reflection AI Beam ： 501B-Param Open Model首次亮相[2026] - tech-insider.org",
+      "summaryZh": "Reflection AI Beam ： 501B-Param Open Model首次亮相[2026] tech-insider.org"
+    },
     {
       "title": "The latest AI news we announced in September 2026",
       "source": "blog.google",
-      "date": "2026-10-05",
+      "date": "2026-10-06",
       "summary": "The latest AI news we announced in September 2026 blog.google",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNXzhIUnNPaFVfR0U3TGVCM1AwRnY0Rk15UnVkM1Y5ajNPYUtXWE1mOE5OMjNNM1ZsN2czZS1iOUY5VVRkTnc3ZWhVVUdPUFZHTngtTFl0VjZjREpFbGRWV2VhV19ucVZhN2hra21IcFZISHNZcF81bHQ1Ti1kbnhhcll5a3dzNTl2aGpuZDhB?oc=5",
       "titleZh": "2026年9月公佈的最新AI新聞",
       "summaryZh": "2026年9月公佈的最新AI新聞blog.Google"
     },
     {
+      "title": "Reflection AI launches Beam, an open model it says beats the West on efficiency",
+      "source": "Startup Fortune",
+      "date": "2026-10-06",
+      "summary": "Reflection AI launches Beam, an open model it says beats the West on efficiency Startup Fortune",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOQ2o2OGtSVlZzNXFmZW0xbUxyS0VaNVl5Q3Fna244S1dudnNBdFZvM0NSOElOOUZNZ2ktMlNHaG1Jd0djcHcxblBRQmVma3N5cU1aWGxQMWhfZ0xMZjM2RENOU3d6Y1ZHUWlDQ0ZZSDRwcDdyTnRwSmZ2b01Eb1Z2QndyNjYwZC1LM09ZNVZ1UFU4Mkg1UHl5OVV6Y3AtdmVqQmJZTTBLVU04Zw?oc=5",
+      "titleZh": "Reflection AI推出Beam ，這是一款開放式模型，據說在效率上勝過西方",
+      "summaryZh": "Reflection AI推出Beam ，這是一款開放式模型，據稱在效率上勝過西方初創企業Fortune"
+    },
+    {
       "title": "OpenAI shelves new AI model release over safety concerns",
       "source": "Reuters",
-      "date": "2026-10-05",
+      "date": "2026-10-06",
       "summary": "OpenAI shelves new AI model release over safety concerns Reuters",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMXc5dDQ0V0FSdEZfMWN3YjNGcG1jZmdHaG1mTDRwMExSZ2pLcjFzRzN1aU0tZFNJa0ZBZXVDdzJJQWxqN01WTmxUbXcyOFEyU1hIUjVpLXlJMW5SVUpiTWRkOHFQd1lyYmVCRHM1UzRtc3lPQXdoRHVvQmQ2ZGp2dGFjLXA1YWNhRjhDc0Z0MmVfejhYdk1IOFEzdUVTYl9Rc0hOWWVKY0RzeENVaks0eFZR?oc=5",
       "titleZh": "出於安全考慮， OpenAI上架了新的AI型號",
       "summaryZh": "出於安全考慮， OpenAI上架全新AI型號"
-    },
-    {
-      "title": "MAI-Transcribe vs Grok vs Qwen-Audio Speech AI [2026] - tech-insider.org",
-      "source": "Google 新聞",
-      "date": "2026-10-05",
-      "summary": "MAI-Transcribe vs Grok vs Qwen-Audio Speech AI [2026] tech-insider.org",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNX3hTNFMxQTczNDNMYzB4M1hjSUlmZ2pLT0x6em5zTVlIWUlsNVhpd3B2c3N6TWx6c01kcFZiRHQxUjVwRnd5bWlzY2V6YVZwMmU4Y2ZwXzlkWG42ajNHRkZxWWNqTUxfV3ZaOVkwV2xhaFBDY2xoMWdpY1pVZ2pFcEdPLVlUQQ?oc=5",
-      "titleZh": "MAI-Transcribe vs Grok vs Qwen-Audio Speech AI [2026] - tech-insider.org",
-      "summaryZh": "MAI-Transcribe vs Grok vs Qwen-Audio Speech AI [2026] tech-insider.org"
-    },
-    {
-      "title": "Nvidia-backed Reflection AI prepares first open-weight model launch",
-      "source": "Dealroom",
-      "date": "2026-10-05",
-      "summary": "Nvidia-backed Reflection AI prepares first open-weight model launch Dealroom",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNeDdUMl9IVDhvZDZCR0RHX3NTX0dqQ1J5a3UwdEd6MjZneTB3bWZzYlJMOFZuNmJGWkFQOHJWUHlyTjNPOGN1VVlCTVYxOWNZb3hzczdmM0pLMkxUMzdfM2NwN0dZcUd6T296TTA5V1JPQ0RvaFZIQXpqM1NGUkZXcFJtUXF1eUVQM1Q3dzBJbHh3LUlFaW91U013eFlEel9OZmo0?oc=5",
-      "titleZh": "NVIDIA背反射AI準備首次開放重量型號推出",
-      "summaryZh": "NVIDIA支持的Reflection AI準備首次開放重量模型發布Dealroom"
-    },
-    {
-      "title": "Exclusive | OpenAI Scraps Release of New AI Model Over Safety Concerns",
-      "source": "WSJ",
-      "date": "2026-10-05",
-      "summary": "Exclusive | OpenAI Scraps Release of New AI Model Over Safety Concerns WSJ",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNcC0xNDExdTJodUowZi1yeWdFN3M5RlpvY3FvZ1lQeHltWGVkeG01ZTVlaHJ0TldqVVRhekJhWl9ZRTRLNHRqX1NQQVFKMW5NRnhBTmlUNWNpX1FBX3Myc3VlaGIxbFZTZDZYRlYwTGNVLTUtNnJScGJWcm5rX0hMMmNadFFmZw?oc=5",
-      "titleZh": "獨家| OpenAI廢棄發布新的AI模型而不是安全問題",
-      "summaryZh": "獨家| OpenAI廢棄全新AI型號，不考慮安全問題"
-    },
-    {
-      "title": "Where AI risks meet",
-      "source": "European Central Bank",
-      "date": "2026-10-05",
-      "summary": "Where AI risks meet European Central Bank",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPcFlSWTFNSXJsdm1ETFp6eS1IZkIwblpHZk55NS02TG9kQUVXNE1vUV9FajhDTVJTNkRFcnZpa3Z6V3JiWXd4WjVqU3BXMjZacFR3bVdudnJWdnR4RGJxU0FJTmFQMHBUbVkwdDdCQ09hZVVULVFENW1IVmxKSWd5WXJLeTJ6NWZNLVE?oc=5",
-      "titleZh": "AI風險在哪裡遇到",
-      "summaryZh": "AI風險遇上歐洲央行"
     }
   ],
   "video": [
     {
-      "title": "From FaceU to CapCut to AI Video: The Team Behind ByteDance’s Imaging Apps Bets on Flova.",
-      "source": "Macau Business",
-      "date": "2026-10-05",
-      "summary": "From FaceU to CapCut to AI Video: The Team Behind ByteDance’s Imaging Apps Bets on Flova. Macau Busi",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbDd0dnRPb0hTMEhEMW1uYVctZUtkVlhJNC1qVlVDMm01aFo3T2xHazRrajJPajE3RXhfNmVwTi11b3d1c1BibkU4anA2RDAtVWw5MndrMmpDbFN1UTQxNTR2V0hpTXVjN0dKT3JqbDdGMkswajJVckdjTmFnYy11QXZ5UGxNTnRKQkJhY2tnZWE4RTBkb2xYM2c2bU85ZmNGVDM4THl1cVFNdnVYR25yM3hDUQ?oc=5",
-      "titleZh": "從FaceU到CapCut再到AI影片： ByteDance成像應用程式投注Flova背後的團隊。",
-      "summaryZh": "從FaceU到CapCut再到AI影片： ByteDance成像應用程式背後的團隊投注Flova。澳門Busi"
+      "title": "From FaceU to CapCut to AI Video: The Team Behind ByteDance’s Imaging Apps Bets on Flova",
+      "source": "TradingView",
+      "date": "2026-10-06",
+      "summary": "From FaceU to CapCut to AI Video: The Team Behind ByteDance’s Imaging Apps Bets on Flova TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPcjNCZ2E2SmZzY0JNSHpJLWZ1bDhheHJ0ejk3V0EwenFJemMxaXVaSEZVdUhnMXkySlBrOC1Lc1hiTVotNWk2UEQxb0FJd1pkcmNoUzBDSlFWTTF5M19yUmFfN054bDlkYUlFaGZUeGgzZVlZX2Jnbng2X2ZNXzRlbjNuTmt6TFNNd3Q0d0w5SEtNMVNteXRzd0o0UWh2ZjQzREtXU09zWXZINHlkWUVrZzBVV0VIeDJqTnZGMzBfWllGWXo4TFM4V3RtR0RmQy14OXRGLVY5bFA?oc=5",
+      "titleZh": "從FaceU到CapCut再到AI影片： ByteDance影像應用程式投注Flova背後的團隊",
+      "summaryZh": "從FaceU到CapCut再到AI影片：在Flova TradingView上投注ByteDance影像應用程式背後的團隊"
+    },
+    {
+      "title": "Top 5 AI Video Generators Like Runway: What's Actually Free in 2026?",
+      "source": "YouTube",
+      "date": "2026-10-06",
+      "summary": "Top 5 AI Video Generators Like Runway: What's Actually Free in 2026? YouTube",
+      "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE8wYjVZM1c1SlRRRDgxc2lmOURBSnFUcTZJbGZPV0cyLWhUSkpyUFlLYnh4STZfZE9ORXVaTXBjY3d2UQ?oc=5",
+      "titleZh": "排名前5的AI影片生成器，如Runway ： 2026年的實際免費內容是什麼？",
+      "summaryZh": "排名前5的AI影片產生器，如Runway ： 2026年的實際免費內容是什麼？ YouTube"
     },
     {
       "title": "10 AI Video Prompt Templates for Better Results in 2026",
       "source": "eWeek",
-      "date": "2026-10-05",
+      "date": "2026-10-06",
       "summary": "10 AI Video Prompt Templates for Better Results in 2026 eWeek",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBBdXJhbFFncl9kMThucldlQzdDOFBrbm9lbUFVSmNxT1FVNnMya0l3REZSZXI1dm1JUFN6QkF5cUVZR3pvM3JDVjlVMXhYVUU4X0IwUXZxSWlWNXFQQVF2TTN4REQ1TkNZY0E?oc=5",
       "titleZh": "10個AI影片提示範本，在2026年獲得更好的結果",
@@ -78,7 +87,7 @@
     {
       "title": "AI-Powered “CapCut Alternative” Pollo AI Secures Nearly $14M in Seed Funding, Hits 6M MAU and Turns Profitable",
       "source": "Pandaily",
-      "date": "2026-10-05",
+      "date": "2026-10-06",
       "summary": "AI-Powered “CapCut Alternative” Pollo AI Secures Nearly $14M in Seed Funding, Hits 6M MAU and Turns ",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOeVZjSEdSdGE4MDVqeklKNmpkU2VuS1dqNTRzNFZIZ0cxS3pwWEVzdWNZNFczTVFRNGNiRlM2YVVVcUJybUZrS1RMX1NHQlNSNG5hVmRUc20wSVJBUlQyaU1LdTJZNGRqQkZLLVJ4UWRkQjFuMnRGVU1UQ0ZndGt1TE01ajZnbkkxaHE3NDZrSVY3a0FUX2dhaGJjRjdkcm5WMGZhQkdPdi1hc3Jfd2FjYmxLTllIMGtyY0ktcDRRRXNpN1FlTmk5UlZn?oc=5",
       "titleZh": "AI驅動的“CapCut替代方案” Pollo AI獲得近1400萬$的種子資金，達到600萬MAU並轉為盈利",
@@ -87,7 +96,7 @@
     {
       "title": "How to recreate the Empire State Building flag trend | Hindustan Times",
       "source": "Hindustan Times",
-      "date": "2026-10-05",
+      "date": "2026-10-06",
       "summary": "How to recreate the Empire State Building flag trend | Hindustan Times Hindustan Times",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPa1lnLV9nQkxqQTFNNHIzMkJlNFVuUWc4X3AyRDJmbWt6cVYySHRvQU5ITlc1aXhNMF9QSGJIT21ra0lBZjRrZUdLNU1SaU03MGswTW9yY29uTEU1bllQWWJEbDJxZ01fZTRjSU5lS29QV3NaSXdyUExja0ROMlJQX0Z1VEJJVi00X2c1VlZaWktkT1R4RXpxVjFYTTlqT2JZd2xNN2RFaVNlVUZCb0NrcHRURHRBeXhhU2xF0gHAAUFVX3lxTE5lVWpCVDZvbS0yaFRXVmo3dnkxdHBYZTA4N3JURzJuTHhpT1Z1WHQ5bU4xQWZ0YlpscS1GUjFYWGhDZkY1TVFFWVFOZnpfSU9FQXIxbTRxbmNQUFN4eExqSEphUUhvV3JBZU5IemRtakZ3MlNSR090dXpIN0s1dTNTdEFENEctWmFmdnBlUHc5WXp6Z3ZoeGcycFBUdTktSnU5LTBKNnJWVExkYmozMzNGVzd6RXVKQ3lSSktOZUdWQg?oc=5",
       "titleZh": "如何重現帝國大廈的旗幟趨勢|印度斯坦時報",
@@ -96,81 +105,72 @@
     {
       "title": "MixVio AI Launches Unified Creative Workspace Across 26 AI Generation Routes",
       "source": "The Manila Times",
-      "date": "2026-10-05",
+      "date": "2026-10-06",
       "summary": "MixVio AI Launches Unified Creative Workspace Across 26 AI Generation Routes The Manila Times",
       "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNT3JHd3lxLWNNMGhvS3NYcWQxQVYxMzlTZTFRRFBNLWwwQmF6d3hOTk9ZMTF1ZW82TkN4cmhGN1RmOU8xMWN4VGtoRDI5bWRzcERkRjh1YWo5RXpQcEpLTDFWS3p6dFN2ajNNYk9XWkd0bko0ZFhYMWc4dGVDYUJpZzdmSTRhTnlxTFJmQzdETnZWNmtPaWdJRXpJR09KdVdCcDVsVEx3MnhwV3k5YnRCVGgzTUc3cUhWd05NNUN1RXowdDlTNWVKSE92MDR3VFlCNzhLcXcxcWI2aDhWMnFOb2Nn0gHnAUFVX3lxTE5kTUZoWTFKelpRQ2tKOVZJSTFqQnJFR2huWVJSZmJMMzlyV2dSbXFYVDBYRlk4bWlaNzVPU05YRmdvX1BBS2YySUlNdWVORzRBWTN3VEY3cWdncFljemJFRkhOeGgwaVVPdWFNSE9wU0VuaWNlSW1XR0JrNFlOdUQ2UTIzZmFwenF2ZHVMZzBGNVVSZDJQN29pQmxDVmRkMXNaNHpQMV8td2ZEMW9ITmw2TDFGbzc0QXlCXzZJbjJjNDF5dk56U091Qnd4MkcyQ0dFczFIb2JYYjdKQzdrT3owa0ZVU2VBQQ?oc=5",
       "titleZh": "MixVio AI在26條AI生成路線上推出統一創意工作空間",
       "summaryZh": "MixVio AI推出跨越26條AI世代路線的統一創意工作空間《馬尼拉時報》"
-    },
-    {
-      "title": "The Best Laptops We've Tested (October 2026)",
-      "source": "pcmag.com",
-      "date": "2026-10-05",
-      "summary": "The Best Laptops We've Tested (October 2026) pcmag.com",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBQMzR1a2dNLUwtcEIwRmFXVFRNcnhSOHBnajFBTTJBYzlnVzY0cHVic1FSNGFoVC1ZNkFwOGlUSThZdDdQanZiUTF0SF9qVkdSLW5mMGd1NA?oc=5",
-      "titleZh": "我們測試過的最佳筆記型電腦（ 2026年10月）",
-      "summaryZh": "我們測試過的最佳筆記型電腦（ 2026年10月） pcmag.com"
     }
   ],
   "slides": [
     {
-      "title": "11 Picks for the Best AI Presentation Software & Slide Generator Tools in 2027",
-      "source": "quasa.io",
-      "date": "2026-10-05",
-      "summary": "11 Picks for the Best AI Presentation Software & Slide Generator Tools in 2027 quasa.io",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPdi1hZ3hMdENDTHZXZE94aHpkbi0zVXdGeWVMeTZ2RFcwUDd1eGd1V1ZNNHRaQU0yZXJVeHdxWGlNSW1NQmJHSzJjM1JvMUFNM19PUktYT2JUZldsaGhQZ1JnbUNvTW1mT29qSThVNGJZaGFMUGJWbWxyS2pRQUhBd21lbU82UlN0ZmVHcVpEd2dXZFlCaEU4QkFxQ0dOZWN2bE9hMg?oc=5",
-      "titleZh": "2027年最佳AI演示軟體和幻燈片生成器工具的11個選擇",
-      "summaryZh": "2027年quasa.io最佳AI演示軟體和幻燈片產生器工具11選"
-    },
-    {
       "title": "Introducing a new design for Microsoft 365 Copilot | AI at Work Blog",
       "source": "Microsoft",
-      "date": "2026-10-05",
+      "date": "2026-10-06",
       "summary": "Introducing a new design for Microsoft 365 Copilot | AI at Work Blog Microsoft",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNOWFDMS1yTGNvLUFhdzE5QVNGTzFxa25hNGxQc3JkSXNwNnJRWkNwZ0xneEctRm5QTVJSeFdhZklzTXR3TkJXbVBOcU1ZQ2h6WWdCRXdTSXdfU19GOE5wOEZGY0JVOHR3V1NEWlFBZnV1Q2E4M1hDVkQxekljMk85T2RVWVJJaTl5WjkwcDFPLXZHd0RzTnh2OXBUZ3BJanV6NHQ3eTNYQ25HSlE?oc=5",
       "titleZh": "介紹Microsoft 365的新設計Copilot | AI at Work部落格",
       "summaryZh": "介紹Microsoft 365的新設計Copilot | AI at Work部落格Microsoft"
     },
     {
-      "title": "AI PowerPoint Maker for Sales Decks, Investor Decks and Board Presentations Reaches 12 Million Users in 2026 - Presentations.ai Trusted by Leading Global Enterprise Users",
-      "source": "Yahoo Finance",
-      "date": "2026-10-05",
-      "summary": "AI PowerPoint Maker for Sales Decks, Investor Decks and Board Presentations Reaches 12 Million Users",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOMHBLcVl6TFU1Q1M5bDZSbTBxWTRvV2lJRFM3ekJjbFZLbjBpZXJJbElkSTNOVlZvVk5KckJZMGpkazl1MVRaOXJtelJqSVZaRG9HczN0a3ltd2dNY3VKWkZyNERiZzd2YU5aQllGZmd4c0RJS3lkRmtTMk5CTHE0NHplaXJwNURCSGRIZFJGeF9Vd0pLMHZDWllXdw?oc=5",
-      "titleZh": "AI PowerPoint銷售平臺、投資者平臺和董事會簡報製造商在2026年達到1200萬使用者-簡報。AI深受全球領先企業使用者的信任",
-      "summaryZh": "AI PowerPoint銷售平臺、投資者平臺和董事會簡報製造商達到1200萬使用者"
+      "title": "8 Best AutoPPT Alternatives for AI Slides Generation",
+      "source": "North Penn Now",
+      "date": "2026-10-06",
+      "summary": "8 Best AutoPPT Alternatives for AI Slides Generation North Penn Now",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNcnlTbXJ3cnBucFQyVm1XZzhHWE5wNDYtMEhlUFB6aDdTenBnaTQzQUZCWElYci1zT0xJSVFoa2w4Z3lwYV9LMjdibDEzUk5OTy0xanM2SndiT2gwZVp0d2lSNWZVYUJWbnM3OThHa1JuRmxMcFZqbnVHZlhTc3NDazFmVXktMGVBSkJreEpFeDJSNmRMaGc?oc=5",
+      "titleZh": "AI幻燈片生成的8種最佳AutoPPT替代方案",
+      "summaryZh": "AI Slides Generation North Penn Now的8種最佳AutoPPT替代品"
     },
     {
       "title": "RIP Microsoft Publisher: As a Pro Designer, Here Are the 8 Alternatives I Actually Recommend",
-      "source": "pcmag.com",
-      "date": "2026-10-05",
-      "summary": "RIP Microsoft Publisher: As a Pro Designer, Here Are the 8 Alternatives I Actually Recommend pcmag.c",
+      "source": "PCMag",
+      "date": "2026-10-06",
+      "summary": "RIP Microsoft Publisher: As a Pro Designer, Here Are the 8 Alternatives I Actually Recommend PCMag",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPS3B5Z09ocTF5WlczOVRsdWpSWmFUaGRLTkNJSXJEajUyaU40QnoxT0pNV1p0UTZmSDZWeUV2YTZXSVRPWmp1ZXFPMmZJT2pDRll1RWFMOFpBa1JlWTNReEFuZmxzT0U5TVJkNEdyYnFmV3k0WFlZT3hRTkd2NUowYklOOWl0RldHcUpPYTljUUc1TWNEMVhyMk1XOXp2eXdmYkpzTmYtRTA?oc=5",
       "titleZh": "RIP Microsoft發行商：作為專業設計師，以下是我實際上推薦的8種替代方案",
-      "summaryZh": "RIP Microsoft發行商：作為專業設計師，以下是我實際上推薦的8種替代方案pcmag.c"
+      "summaryZh": "RIP Microsoft發行商：作為專業設計師，以下是我實際上推薦的8種替代方案PCMag"
     },
     {
       "title": "Gamma AI Review 2026: Features, Pricing & Honest Verdict",
-      "source": "memeburn.com",
-      "date": "2026-10-05",
-      "summary": "Gamma AI Review 2026: Features, Pricing & Honest Verdict memeburn.com",
+      "source": "Memeburn",
+      "date": "2026-10-06",
+      "summary": "Gamma AI Review 2026: Features, Pricing & Honest Verdict Memeburn",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1malRneml6MGxnaGdGMm9tQktudG5iWFBlTHF6NXhQOXFXZUp5XzdXbGVSbktxTWlpcmFvQklwOHRralJ1dGFMMkpsMDBGdw?oc=5",
       "titleZh": "Gamma AI評論2026 ：功能、定價和誠實判斷",
-      "summaryZh": "Gamma AI評論2026 ：功能、定價和誠實判斷memeburn.com"
+      "summaryZh": "Gamma AI評論2026 ：功能、定價和誠實判斷Memeburn"
     },
     {
       "title": "Most Popular AI Tools Students Use for Learning Today",
-      "source": "simplilearn.com",
-      "date": "2026-10-05",
-      "summary": "Most Popular AI Tools Students Use for Learning Today simplilearn.com",
+      "source": "Simplilearn.com",
+      "date": "2026-10-06",
+      "summary": "Most Popular AI Tools Students Use for Learning Today Simplilearn.com",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1seDktVlhDV1FzbGpscXYxY29PS2kzdjc2R0Rjbmt6em5mbWhPNXdDYnJUOGQ1X3hLZ25yU2c3Z2tldnV2RDdOckt5bG05ME82OVBkT3FMMmU2b25Rdmx0UWdOdTNDQVdydFdUVkFPdmhGTjQ3aU1IMFB5UQ?oc=5",
       "titleZh": "當今最受歡迎的AI學生學習工具",
-      "summaryZh": "最受歡迎的AI學生今天學習工具simplilearn.com"
+      "summaryZh": "最受歡迎的AI學生今天學習工具Simplilearn.com"
+    },
+    {
+      "title": "Presentations.ai Slide Generator for Investor Pitch Decks and Sales PPT's 2026 Update - 12 Million Users Trust The AI Powerpoint Maker To Automate and Scale Professional AI Slide Generation With Branding, Design and Data",
+      "source": "The Manila Times",
+      "date": "2026-10-06",
+      "summary": "Presentations.ai Slide Generator for Investor Pitch Decks and Sales PPT's 2026 Update - 12 Million U",
+      "url": "https://news.google.com/rss/articles/CBMingNBVV95cUxPNnhKWW52Q3EzeXF5ZlA3QWFNZTlIVkJrb2ZBaVNDbk5NVE1Nak9EN0UzSmtnenBzbDRuUVVIYmx0Yi01cmNlN2NhU3VpdjNfTTRHRlk5U2VxTjA2TVU2T3EyWHpWMXJGUF9KODAxOGoxUGNnZFNLUVQ4TG8tZmEtVS1kWWVSalpucGphd1BEcHIxVzdjbTUwVnFPcXNUQ2ktNVhfZnpJeFFSUjZNdS1pUFEtb2FsVnZRU2laQy1wRS1jV0xnU09KNTNQNloyekdNLUd4eldpa09NWWZMaERCc1pvSnJrampzOXhUZnU2dmtTazNTYXktdmIwZms5TVYwWTMtSlhnMzRwc204STVLX2JJTldLYnU2eEFoaGhHWGF5Z25DSFFXNTRXQ2J3eHhyRXozUXJrakVsMERZNjU3SnJMUmRsdHkxTm9zOHlQbVF2SER3bno1UHBHRDRuOHBVOGJvNGV5WENzdlpiQUxmVEltSElHTWpFbHBWeVRiQ3B5NF9PRjFnNVlPU0ptZlExOUxLZGlLcHJMd1NBdUHSAaMDQVVfeXFMTm1qeGtoSldCZ2piTXE3cnZqb20wekZrS3pVd3d6QUhBb3QxbWhKTkFzS2t6dTloY2FSUlV1VkdQSFlnMmxNWVRXNTNGdXduVjNEV3h2TXNtVHA3Tm15aEVEal96Z0o3TURnaEpDZHE4RDBNT245V1NnVFczY3dybm5YcHpJbkJuVUVON0JjTUgwUXZ3UVFpWnE3R2xRUHNrWU5DaTgyS3pRR0pVbXZOY3FWd0RMUkZTbHFWX1R4b1dUZFZmNThiVGhxakFSSnBkdWE2UHN5MHRTNGoya3A3czNtQ29taU52NC1SYmtyblJ6MEpmUk5peS1PU2x4Y0ZETTdkTGhSS1VES3lla1d6UUNjckd0emlvcXh3YkRVaksxWHFRZEdld0tyVVBCNS1WdDFHTGVCME9Ncm9UR0NJd0lGakZUN2wzTjl3M2xzUHFYTXpNeE9JOUFrUHdIeEJWX3pUeG5OenF0OGtpLXJObFRHenhMQ0J2NmpyZms1ZnRzaF9vYThIaldlZElsTURLdnNRTmg5cjNPZF9wdTNnVXhOYVE?oc=5",
+      "titleZh": "簡報.AI投資者簡報和銷售PPT的幻燈片產生器2026更新- 1200萬使用者信任AI PowerPoint製造商，通過品牌、設計和資料自動化和擴展專業AI幻燈片產生器",
+      "summaryZh": "Presentations.AI投資者簡報和銷售PPT的幻燈片產生器2026年更新- 1200萬U"
     }
   ],
   "github": [
     {
-      "title": "#1 eternity4719/HowToLiveBetter — ⭐ 40,690",
+      "title": "#1 eternity4719/HowToLiveBetter — ⭐ 43,735",
       "source": "HTML",
       "date": "2026-09-07",
       "summary": "高性价比人生指南: 长寿防病、急救、省钱理财、法律红线、失业与工伤、医保社保、恋爱婚育、怀孕育儿、创业与做平台合规、出国与技能。每条写明成本、收益、证据等级和原始出处，只引期刊论文与官方文件。",
@@ -178,7 +178,7 @@
       "url": "https://github.com/eternity4719/HowToLiveBetter"
     },
     {
-      "title": "#2 NandhaKishorM/laya — ⭐ 30,718",
+      "title": "#2 NandhaKishorM/laya — ⭐ 30,997",
       "source": "Python",
       "date": "2026-09-18",
       "summary": "Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward pass, in 100+ languages, with a router t",
@@ -186,7 +186,7 @@
       "url": "https://github.com/NandhaKishorM/laya"
     },
     {
-      "title": "#3 browser-use/jev-ultrafast — ⭐ 21,999",
+      "title": "#3 browser-use/jev-ultrafast — ⭐ 22,113",
       "source": "Python",
       "date": "2026-09-16",
       "summary": "Fastest and cheapest web agent",
@@ -194,7 +194,7 @@
       "url": "https://github.com/browser-use/jev-ultrafast"
     },
     {
-      "title": "#4 Niko1221/Strata — ⭐ 11,219",
+      "title": "#4 Niko1221/Strata — ⭐ 14,112",
       "source": "C++",
       "date": "2026-09-24",
       "summary": "Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image i",
@@ -202,7 +202,7 @@
       "url": "https://github.com/Niko1221/Strata"
     },
     {
-      "title": "#5 jaredpalmer/kev — ⭐ 8,440",
+      "title": "#5 jaredpalmer/kev — ⭐ 8,522",
       "source": "Python",
       "date": "2026-09-17",
       "summary": "Jev-like family of decision models built on top of Qwen3.5/3.8 you can train and run on your own",
@@ -210,7 +210,7 @@
       "url": "https://github.com/jaredpalmer/kev"
     },
     {
-      "title": "#6 robbietilton/Compositor — ⭐ 7,585",
+      "title": "#6 robbietilton/Compositor — ⭐ 8,384",
       "source": "Swift",
       "date": "2026-09-16",
       "summary": "The Photoshop alternative for Mac",
@@ -220,46 +220,46 @@
   ],
   "hf": [
     {
-      "title": "#1 Cloudflare/clef — ❤️ 1,221",
+      "title": "#1 Cloudflare/clef — ❤️ 1,519",
       "source": "圖文轉文字",
       "date": "2026-09-30",
-      "summary": "月下載 4,214 次｜任務 圖文轉文字｜框架 transformers",
+      "summary": "月下載 5,416 次｜任務 圖文轉文字｜框架 transformers",
       "url": "https://huggingface.co/Cloudflare/clef"
     },
     {
-      "title": "#2 convaiinnovations/laya — ❤️ 5,165",
-      "source": "文字分類",
-      "date": "2026-09-18",
-      "summary": "月下載 3,752 次｜任務 文字分類｜框架 transformers",
-      "url": "https://huggingface.co/convaiinnovations/laya"
-    },
-    {
-      "title": "#3 abenzerps/Qwen-Image-2.1-Uncensored-GGUF — ❤️ 3,147",
+      "title": "#2 abenzerps/Qwen-Image-2.1-Uncensored-GGUF — ❤️ 3,275",
       "source": "文字生成圖片",
       "date": "2026-09-20",
-      "summary": "月下載 1,553,744 次｜任務 文字生成圖片｜框架 gguf",
+      "summary": "月下載 1,638,838 次｜任務 文字生成圖片｜框架 gguf",
       "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF"
     },
     {
-      "title": "#4 Lightricks/LTX-2.5 — ❤️ 6,318",
-      "source": "圖片生成影片",
-      "date": "2026-07-23",
-      "summary": "月下載 1,626,951 次｜任務 圖片生成影片｜框架 diffusion-single-file",
-      "url": "https://huggingface.co/Lightricks/LTX-2.5"
+      "title": "#3 convaiinnovations/laya — ❤️ 5,244",
+      "source": "文字分類",
+      "date": "2026-09-18",
+      "summary": "月下載 11,733 次｜任務 文字分類｜框架 transformers",
+      "url": "https://huggingface.co/convaiinnovations/laya"
     },
     {
-      "title": "#5 Cloudflare/clef-flash — ❤️ 429",
-      "source": "圖文轉文字",
-      "date": "2026-09-30",
-      "summary": "月下載 6,372 次｜任務 圖文轉文字｜框架 transformers",
-      "url": "https://huggingface.co/Cloudflare/clef-flash"
-    },
-    {
-      "title": "#6 Aleph-Alpha/Kolibri-1 — ❤️ 404",
+      "title": "#4 Aleph-Alpha/Kolibri-1 — ❤️ 635",
       "source": "文字生成",
       "date": "2026-10-02",
-      "summary": "月下載 1,135 次｜任務 文字生成｜框架 vllm",
+      "summary": "月下載 2,453 次｜任務 文字生成｜框架 vllm",
       "url": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+    },
+    {
+      "title": "#5 autotrust/JEV-27B-VL — ❤️ 663",
+      "source": "圖文轉文字",
+      "date": "2026-09-30",
+      "summary": "月下載 1,278,569 次｜任務 圖文轉文字｜框架 transformers",
+      "url": "https://huggingface.co/autotrust/JEV-27B-VL"
+    },
+    {
+      "title": "#6 Cloudflare/clef-flash — ❤️ 537",
+      "source": "圖文轉文字",
+      "date": "2026-09-30",
+      "summary": "月下載 8,075 次｜任務 圖文轉文字｜框架 transformers",
+      "url": "https://huggingface.co/Cloudflare/clef-flash"
     }
   ]
 }
