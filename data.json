@@ -1,66 +1,66 @@
 {
-  "lastUpdated": "2026-10-13 11:44（台灣時間）",
+  "lastUpdated": "2026-10-14 10:04（台灣時間）",
   "news": [
     {
-      "title": "Investigating unintended model actions in our evaluations and internal use",
-      "source": "Anthropic",
-      "date": "2026-10-13",
-      "summary": "Investigating unintended model actions in our evaluations and internal use Anthropic",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5fZEVTbmhab3RBQ25rOVd6cDg2akF0NlUwbVJnM1RjalBjd2ZlYWd5Q25UU2I3TjNUTno3WERteFQyTGtBb1UxTmZtOHpTZFZpbC1LMlFyMXVsbS1kWDUwVHM3aGtSWjA1c3FMU3JVcjZrRDZtQlViT3hEd1ZGQQ?oc=5",
-      "titleZh": "在評估和內部使用中調查意外的模型動作",
-      "summaryZh": "在我們的評估和內部使用中調查意外的模型動作Anthropic"
+      "title": "Google launches flagship AI model Gemini 4 Argon for developers, businesses",
+      "source": "Reuters",
+      "date": "2026-10-14",
+      "summary": "Google launches flagship AI model Gemini 4 Argon for developers, businesses Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQclhsaXp4NUtqeVJDQTNIUjVXQVdJcnNXYnpYZUFTZm4wY3UxcTM1SzJvdzRBNE9HaURlNG1obzFGQ0o3R0pWNVJfNGFDOUdFZnhfdEJxSkszQ2hZQlowMjdCbVliRE9uX3A5ak1CYkJHOEV1elBYRWgtUHBwdF9lcWEyUGdjbmhQb2JONkpNeWhLTHgzQzRhRFRnZTEwcDRCa3k3RkpxY0c5Z1RsSlFCSmQwNmRmQQ?oc=5",
+      "titleZh": "Google為開發商、企業推出旗艦產品AI型號Gemini 4 Argon",
+      "summaryZh": "Google為開發商、企業推出旗艦AI型號Gemini 4 Argon路透社"
+    },
+    {
+      "title": "Apple unveils the new Apple TV 4K, supercharged by Siri AI",
+      "source": "Apple",
+      "date": "2026-10-14",
+      "summary": "Apple unveils the new Apple TV 4K, supercharged by Siri AI Apple",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE56MFZGTVRFRTNtZ2pzazQ5aEJ6eV9ZWTBfLWVUanFQUGlYWHZZOFhtZVlRdGFESE14eWMwWmMtWEMtbFRSVUh4S2xxbWkyM25oelRBSXU5QkZRUE0ta09SSDY5VVBnZ2hpd1ZjXzR4dXpJSW4tQjZMQXhRREFvUQ?oc=5",
+      "titleZh": "Apple推出全新Apple TV 4K ，由Siri增壓AI",
+      "summaryZh": "Apple推出全新Apple TV 4K ，由Siri增壓AI Apple"
+    },
+    {
+      "title": "UK Regains AI Model Access After 17-Day Freeze [2026] - https://tech-insider.org/",
+      "source": "Google 新聞",
+      "date": "2026-10-14",
+      "summary": "UK Regains AI Model Access After 17-Day Freeze [2026] https://tech-insider.org/",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE94bDRaR3dnUzhzZkRnbTUwc1I5bllVZ1R1c2pJdFo1UTR4cDBScU9PTlpRcFQteUxpcmFMTVBCM0RRSDBzX2hwRUVXc0ZkMVU0ZkRZeS0zTi1yX0NQb2Z4VVpyeWlaaUdSVUZMa3BvZTF6VkJXZldkZkpxY1A?oc=5",
+      "titleZh": "英國在17天凍結後重新獲得AI模型訪問權限[2026] - https://tech-insider.org/",
+      "summaryZh": "英國在17天凍結後重新獲得AI模型訪問權限[2026] https://tech-insider.org/"
+    },
+    {
+      "title": "Introducing Muse Wonder and Muse Wonder Full: Frontier Models for Agents",
+      "source": "Facebook",
+      "date": "2026-10-14",
+      "summary": "Introducing Muse Wonder and Muse Wonder Full: Frontier Models for Agents Facebook",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE91ZEsySi16NFVPeGtFbHE2SWRCalRUMjNWYnhKNVI2eFg3aC1ocEJwYWRvdC1zaHhYYXRWNjNna3FfOFQxZXZMMXhRcnpHSGpnR204cGpzMzcxQmxXUkZCcmNXNDFfUXNCTzlMQ2Nmb0ZHaWPSAXhBVV95cUxQd0VSRVJsQ2M3eEtsZXpISkd5VWlMRTlCd29BZ3E2MUNWWUNhczVIOEhMSFFaSjNuemNlZ3l4aW5QdjVBWG15d21rVlRGbV93eUgyVzZOa19tYjVuNktQVDZ4RGYzMjJQU3R4cUUzZFdkM0o3U2pLRUQ?oc=5",
+      "titleZh": "隆重推出《Muse Wonder》和《Muse Wonder Full: Frontier Models for Agents》",
+      "summaryZh": "隆重推出《Muse Wonder》和《Muse Wonder Full: Frontier Models for Agents》Facebook"
     },
     {
       "title": "Meta releases its first frontier model, Muse Wonder",
       "source": "TechCrunch",
-      "date": "2026-10-13",
+      "date": "2026-10-14",
       "summary": "Meta releases its first frontier model, Muse Wonder TechCrunch",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPRkdnR0wyZkdNUGRYU2hGTDdfWTRncjBxeThHRUVhWXRndW5OYU1Ya3FJWEtCdWwwY2d0c1FEd29KWExNN2N1VkRCU01hVW9NYjE5UWFFV3MzNDRpREQ3ZWJVaEhZbXJkN2JEdlV0QXpYcWtETVNXYXFfU1NrWXN6RzI2VjhpcjNtdmhpdnBB?oc=5",
       "titleZh": "Meta推出首款前沿機型Muse Wonder",
       "summaryZh": "Meta推出首款前沿機型Muse Wonder TechCrunch"
     },
     {
-      "title": "ChatGPT vs Gemini vs Grok: AI Checkout at 52% Share [2026] - tech-insider.org",
-      "source": "Google 新聞",
-      "date": "2026-10-13",
-      "summary": "ChatGPT vs Gemini vs Grok: AI Checkout at 52% Share [2026] tech-insider.org",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPajN5UkZGbUxDZzR1c3NnX2k5R1YzODNzTmhrMkxQY0ZxMjI0dnhpZGpVRHVyeW1MZDIwV05EZjdVd3k0VERXTGgxSU02TWFYSExEU2JiRXA0U0YydVdUYUxmR1F4aWdKUzZNR1ZaMllyNWpmVlFzX1prQkxHNTJkeXJn?oc=5",
-      "titleZh": "ChatGPT vs Gemini vs Grok ： AI結帳52%份額[2026] - tech-insider.org",
-      "summaryZh": "ChatGPT vs Gemini vs Grok ： AI結帳52%份額[2026] tech-insider.org"
-    },
-    {
-      "title": "China AI developers publish safety tests for just 3.6% of model releases, report finds",
-      "source": "Reuters",
-      "date": "2026-10-13",
-      "summary": "China AI developers publish safety tests for just 3.6% of model releases, report finds Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPU1kwS2tKWU51ZmxkNThtck5qd0NXamNrM3c5TVZnaFVjTnRiamRRTWMxSDNHMlJzXzlKTi1KTGRob1h1b200LWs4Sl9TM3lvNWp1YmNkQ3N6ODg2Rk1CNjExRTFUZkVEY2QzVjJPbzhpTjRKRVZ1ZUVISlJpSVlvdTJ4LWUyNTNxWW1ZQjRQTWx0b3djX1NTdzRvaUl3N2M4RjhkVFVycWdjLW5pMzJNVU1jdkJkYTd2N1NUWWlCOGJ3YXQtRGp3TA?oc=5",
-      "titleZh": "報告發現，中國AI開發人員僅針對3.6%的型號發布了安全測試",
-      "summaryZh": "報告發現，中國AI開發商僅發布了3.6 ％的模型版本的安全測試"
-    },
-    {
-      "title": "GPT-6 and Intelligent UI for everyone",
-      "source": "OpenAI",
-      "date": "2026-10-13",
-      "summary": "GPT-6 and Intelligent UI for everyone OpenAI",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9ZcDg5SXNmVWFZbnFGQkVMYjVFNjBxeUVDWlN2RFJNREhRb0xXbmRsUWhWRnkzOWNHSjgxT3ROQk96VkZ3OHR4X2JrZDNmUThOa3ZJWU9zcw?oc=5",
-      "titleZh": "GPT-6和大家智慧使用者界面",
-      "summaryZh": "GPT-6和大家智慧UI OpenAI"
-    },
-    {
-      "title": "Meta launches Muse Wonder and Wonder Full for AI agents",
-      "source": "TestingCatalog AI News",
-      "date": "2026-10-13",
-      "summary": "Meta launches Muse Wonder and Wonder Full for AI agents TestingCatalog AI News",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQmozQXdwSmV5RkNPaUk3OHM3WjlobDFnX2l3WGM5NmhMRkFnVFVJZ2FjY3ozUy11aFFjM1ZsOFpGWHRnMHFfVC11Z2dTMXlLa29tYnhFZnIzNTQ5TW1uZUNHaVFkRXhhZ2xoRjdEcXl4UmQ3dnNtRTZYNFZDM2hQbTJNN1h6b1BiSUJQNkhXeno?oc=5",
-      "titleZh": "Meta爲AI代理推出Muse Wonder和Wonder Full",
-      "summaryZh": "Meta為AI代理商推出Muse Wonder和Wonder Full TestingCatalog AI新聞"
+      "title": "Investigating unintended model actions in our evaluations and internal use",
+      "source": "Anthropic",
+      "date": "2026-10-14",
+      "summary": "Investigating unintended model actions in our evaluations and internal use Anthropic",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5fZEVTbmhab3RBQ25rOVd6cDg2akF0NlUwbVJnM1RjalBjd2ZlYWd5Q25UU2I3TjNUTno3WERteFQyTGtBb1UxTmZtOHpTZFZpbC1LMlFyMXVsbS1kWDUwVHM3aGtSWjA1c3FMU3JVcjZrRDZtQlViT3hEd1ZGQQ?oc=5",
+      "titleZh": "在評估和內部使用中調查意外的模型動作",
+      "summaryZh": "在我們的評估和內部使用中調查意外的模型動作Anthropic"
     }
   ],
   "video": [
     {
       "title": "Best AI Video Generators in 2026: 14 Tools Compared",
       "source": "Kingy AI",
-      "date": "2026-10-13",
+      "date": "2026-10-14",
       "summary": "Best AI Video Generators in 2026: 14 Tools Compared Kingy AI",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE81TVRYcXRWRlQ5ZnBNNHJOZmMtMDkzTEx1alpub3ZaSVljQkdxWHc4R2VzM0t3aWtwNTM5R2FSVEJBcWhKQTF2YmU1UWNBc1pPdDhoM05ZS2RxWjk4eGJOcQ?oc=5",
       "titleZh": "2026年最佳AI影片產生器： 14個工具比較",
@@ -69,7 +69,7 @@
     {
       "title": "From FaceU to CapCut to AI Video: The Team Behind ByteDance’s Imaging Apps Bets on Flova.",
       "source": "Macau Business",
-      "date": "2026-10-13",
+      "date": "2026-10-14",
       "summary": "From FaceU to CapCut to AI Video: The Team Behind ByteDance’s Imaging Apps Bets on Flova. Macau Busi",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbDd0dnRPb0hTMEhEMW1uYVctZUtkVlhJNC1qVlVDMm01aFo3T2xHazRrajJPajE3RXhfNmVwTi11b3d1c1BibkU4anA2RDAtVWw5MndrMmpDbFN1UTQxNTR2V0hpTXVjN0dKT3JqbDdGMkswajJVckdjTmFnYy11QXZ5UGxNTnRKQkJhY2tnZWE4RTBkb2xYM2c2bU85ZmNGVDM4THl1cVFNdnVYR25yM3hDUQ?oc=5",
       "titleZh": "從FaceU到CapCut再到AI影片： ByteDance成像應用程式投注Flova背後的團隊。",
@@ -78,7 +78,7 @@
     {
       "title": "Top 5 AI Video Generators Like Runway: What's Actually Free in 2026?",
       "source": "YouTube",
-      "date": "2026-10-13",
+      "date": "2026-10-14",
       "summary": "Top 5 AI Video Generators Like Runway: What's Actually Free in 2026? YouTube",
       "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE8wYjVZM1c1SlRRRDgxc2lmOURBSnFUcTZJbGZPV0cyLWhUSkpyUFlLYnh4STZfZE9ORXVaTXBjY3d2UQ?oc=5",
       "titleZh": "排名前5的AI影片生成器，如Runway ： 2026年的實際免費內容是什麼？",
@@ -87,45 +87,63 @@
     {
       "title": "10 AI Video Prompt Templates for Better Results in 2026",
       "source": "eWeek",
-      "date": "2026-10-13",
+      "date": "2026-10-14",
       "summary": "10 AI Video Prompt Templates for Better Results in 2026 eWeek",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBBdXJhbFFncl9kMThucldlQzdDOFBrbm9lbUFVSmNxT1FVNnMya0l3REZSZXI1dm1JUFN6QkF5cUVZR3pvM3JDVjlVMXhYVUU4X0IwUXZxSWlWNXFQQVF2TTN4REQ1TkNZY0E?oc=5",
       "titleZh": "10個AI影片提示範本，在2026年獲得更好的結果",
       "summaryZh": "10個AI影片提示範本，在2026年eWeek中獲得更好的結果"
     },
     {
-      "title": "How to recreate the Empire State Building flag trend | Hindustan Times",
-      "source": "Hindustan Times",
-      "date": "2026-10-13",
-      "summary": "How to recreate the Empire State Building flag trend | Hindustan Times Hindustan Times",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPa1lnLV9nQkxqQTFNNHIzMkJlNFVuUWc4X3AyRDJmbWt6cVYySHRvQU5ITlc1aXhNMF9QSGJIT21ra0lBZjRrZUdLNU1SaU03MGswTW9yY29uTEU1bllQWWJEbDJxZ01fZTRjSU5lS29QV3NaSXdyUExja0ROMlJQX0Z1VEJJVi00X2c1VlZaWktkT1R4RXpxVjFYTTlqT2JZd2xNN2RFaVNlVUZCb0NrcHRURHRBeXhhU2xF0gHAAUFVX3lxTE5lVWpCVDZvbS0yaFRXVmo3dnkxdHBYZTA4N3JURzJuTHhpT1Z1WHQ5bU4xQWZ0YlpscS1GUjFYWGhDZkY1TVFFWVFOZnpfSU9FQXIxbTRxbmNQUFN4eExqSEphUUhvV3JBZU5IemRtakZ3MlNSR090dXpIN0s1dTNTdEFENEctWmFmdnBlUHc5WXp6Z3ZoeGcycFBUdTktSnU5LTBKNnJWVExkYmozMzNGVzd6RXVKQ3lSSktOZUdWQg?oc=5",
-      "titleZh": "如何重現帝國大廈的旗幟趨勢|印度斯坦時報",
-      "summaryZh": "如何重現帝國大廈的旗幟趨勢|印度斯坦時報印度斯坦時報"
+      "title": "AI-Powered “CapCut Alternative” Pollo AI Secures Nearly $14M in Seed Funding, Hits 6M MAU and Turns Profitable",
+      "source": "Pandaily",
+      "date": "2026-10-14",
+      "summary": "AI-Powered “CapCut Alternative” Pollo AI Secures Nearly $14M in Seed Funding, Hits 6M MAU and Turns ",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOeVZjSEdSdGE4MDVqeklKNmpkU2VuS1dqNTRzNFZIZ0cxS3pwWEVzdWNZNFczTVFRNGNiRlM2YVVVcUJybUZrS1RMX1NHQlNSNG5hVmRUc20wSVJBUlQyaU1LdTJZNGRqQkZLLVJ4UWRkQjFuMnRGVU1UQ0ZndGt1TE01ajZnbkkxaHE3NDZrSVY3a0FUX2dhaGJjRjdkcm5WMGZhQkdPdi1hc3Jfd2FjYmxLTllIMGtyY0ktcDRRRXNpN1FlTmk5UlZn?oc=5",
+      "titleZh": "AI驅動的“CapCut替代方案” Pollo AI獲得近1400萬$的種子資金，達到600萬MAU並轉為盈利",
+      "summaryZh": "AI驅動的“CapCut替代方案” Pollo AI獲得近1400萬$的種子資金，達到600萬MAU並轉彎"
     },
     {
-      "title": "10 Best Free AI Video Generators From Images, Tested",
+      "title": "11 Best AI Video Editing Tools Worth Using (Mobile, Desktop, Web)",
       "source": "BestForAndroid",
-      "date": "2026-10-13",
-      "summary": "10 Best Free AI Video Generators From Images, Tested BestForAndroid",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBqYWJxdUI0dkFQWWJtTGpoRF9ZeF96TnBNampSc3ItZjU0SkFBaXV1aGdmTmVYaGc4R2t3SV9xTGg4dl9BNVJJOFlvcmEzV01WM0V5c1JpdjUycjNTTjFtRkJ2bUhxZw?oc=5",
-      "titleZh": "10款最佳免費AI影片產生器，經過測試",
-      "summaryZh": "10款最佳免費AI影片產生器，經過測試的BestForAndroid"
+      "date": "2026-10-14",
+      "summary": "11 Best AI Video Editing Tools Worth Using (Mobile, Desktop, Web) BestForAndroid",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9OM3JPV091Tksxb1lVVHpMY25XYWtZb1JkeElhd1FnOVVfSzl4dmh2cGtxZkJlZlB5elBxOHJ1QlBSaU9YTk1HSkVwSERaRXBsRFB0NHl4RS1XNko4N0ZOdkVqMzhkdw?oc=5",
+      "titleZh": "11款最值得使用的AI影片編輯工具（行動版、桌面版、網頁版）",
+      "summaryZh": "11款最值得使用的AI影片編輯工具（行動版、桌面版、網頁版） BestForAndroid"
     }
   ],
   "slides": [
     {
+      "title": "The Best AI Presentation Makers in 2026 - https://tech-insider.org/",
+      "source": "Google 新聞",
+      "date": "2026-10-14",
+      "summary": "The Best AI Presentation Makers in 2026 https://tech-insider.org/",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5zWjFqUWl3anRZQ0NNTFZjOHZtRVNIT0FvMm01b2RfcjhOS3hMbUItUkpYTUVWN0ZTaTIzazBTdVpEbzF0WkN3N1k1eHl5QjI1S0NQVEt5UTh0QnROZ0UwdkdhLUY1eE00Rl9aT3BUQVAwc28?oc=5",
+      "titleZh": "2026年最佳AI演示文稿制作者- https://tech-insider.org/",
+      "summaryZh": "2026年最佳AI演示者https://tech-insider.org/"
+    },
+    {
       "title": "Copilot's agentic capabilities in Word, Excel, and PowerPoint are generally available | AI at Work Blog",
       "source": "Microsoft",
-      "date": "2026-10-13",
+      "date": "2026-10-14",
       "summary": "Copilot's agentic capabilities in Word, Excel, and PowerPoint are generally available | AI at Work B",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQY2pBT0F5X0h2UmtVTWhtaFc3TFFZbU1ObFAxdmN0TGhkQmYxMTVWYlRaY2NfdEdwbUpqNFF5Y1RzMDFKNlM3b1FzZWFrel9CNkZoek5CUjdqMTJSQkpsVVQ5U08zV2tnVU44eUFzNGZVRXdMcWlwYnJCWGJqdVJUdVJ0MDdid3dtZjBpN21xbWdsSzRhWm9fQV9ieW1GSENYS2gwX2tUR05vR3oxampRY21FUlcyelFrbzQ2VVBudXdHM1dHa2N2NDY4YUgzNWptdlZRRHBn?oc=5",
       "titleZh": "Copilot在Word、Excel和PowerPoint中的代理功能已正式推出| AI at Work Blog",
       "summaryZh": "Copilot在Word、Excel和PowerPoint中的代理功能已正式推出| AI at Work B"
     },
     {
+      "title": "Microsoft previews Office editing in Copilot Notebooks",
+      "source": "NeoTeo",
+      "date": "2026-10-14",
+      "summary": "Microsoft previews Office editing in Copilot Notebooks NeoTeo",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPdXFsazhXWTRFblhKVkFlU19sWkVaUnNEdWtkQks1Y01sV2M1aVMtTHE5bnZ4ejVmNEVlSUk5TWlmeHI1WUlRNHhlVXlGdTBtM2Z4QnZLTDlGOWd4Z05lZXo1N3pDZE5rUkc4ZWk4ZWdncTQ3TFc2ZGJxNE8yRVRYS2w2OER1UWM?oc=5",
+      "titleZh": "Microsoft在Copilot筆記本中預覽Office編輯",
+      "summaryZh": "Microsoft在Copilot筆記型電腦NeoTeo中預覽Office編輯"
+    },
+    {
       "title": "Presentations.ai Slide Generator for Investor Pitch Decks",
       "source": "GlobeNewswire",
-      "date": "2026-10-13",
+      "date": "2026-10-14",
       "summary": "Presentations.ai Slide Generator for Investor Pitch Decks GlobeNewswire",
       "url": "https://news.google.com/rss/articles/CBMi7AJBVV95cUxPWTFaTWNhSTdrSjBtOXhpYVQ4T2p6WFg2elFCdHF0YTdldmRVMGdJaEZYWGpNc2RNNmlyd0FzaE1QdzJvd2FXNHlXN1cyMlNDcC1wc3hHSTVXT3ZkTFFTMkNULXJkOS1kRWwxbWRfV3BOd0NDOXMzNEpoaU45ay01T2NmcThyQmVxUndCVFFlMWRzeVZJOHU0a25XLUtRM0VTN29wdVEwLXpWVHc5Qkk3WUVqbzAzc2lsVm11Y01DRGNQZzdsUXl2WEZMLVV0VTUxV2d1UVVDbXFXSmxjLVh3UGJaT2J3XzJUaVRqdEtNV1RmSnVldVRNem1vbk5NalB5aHlITlZjb2R5VlRNVGF5N0s4SERuWTNSeHJpSTRRWXA3NzBhVVdXM0JWS010bXEyZjdzakZjN09zWWVESTBpbEJJMFRUSFIyUTBUZjUtNFZXaFBxQlZDZkNRU19GaW1DbkRQVjBmdTVzZkpT?oc=5",
       "titleZh": "Presentations.AI投資者簡報投影片產生器",
@@ -134,7 +152,7 @@
     {
       "title": "RIP Microsoft Publisher: As a Pro Designer, Here Are the 8 Alternatives I Actually Recommend",
       "source": "PCMag",
-      "date": "2026-10-13",
+      "date": "2026-10-14",
       "summary": "RIP Microsoft Publisher: As a Pro Designer, Here Are the 8 Alternatives I Actually Recommend PCMag",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPS3B5Z09ocTF5WlczOVRsdWpSWmFUaGRLTkNJSXJEajUyaU40QnoxT0pNV1p0UTZmSDZWeUV2YTZXSVRPWmp1ZXFPMmZJT2pDRll1RWFMOFpBa1JlWTNReEFuZmxzT0U5TVJkNEdyYnFmV3k0WFlZT3hRTkd2NUowYklOOWl0RldHcUpPYTljUUc1TWNEMVhyMk1XOXp2eXdmYkpzTmYtRTA?oc=5",
       "titleZh": "RIP Microsoft發行商：作為專業設計師，以下是我實際上推薦的8種替代方案",
@@ -143,34 +161,16 @@
     {
       "title": "20 Best Generative AI Tools of 2026 | Top Picks and Benefits",
       "source": "Simplilearn.com",
-      "date": "2026-10-13",
+      "date": "2026-10-14",
       "summary": "20 Best Generative AI Tools of 2026 | Top Picks and Benefits Simplilearn.com",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdG5iaFltOWVIYkxRcjhaUGpmSEpreEVXNHNCR3FqakM5eW9DOHY4V29sbUptVndKeVVYeTNWWGlUdzBuRW0xdDR6SDVNVGZvVWVPWUd5MWljQ1ZYSV9KRnNlaklPVkRtVHZKeV9lVEpZWUtfVUd2a2plZHU4QWlIb2N1dExXLXhMSDBaUERRWGtNVUxISmZHWGF3?oc=5",
       "titleZh": "2026年20款最佳生成式AI工具|最佳選擇和優勢",
       "summaryZh": "2026年20款最佳生成式AI工具| Simplilearn.com精選優惠"
-    },
-    {
-      "title": "Introducing a new design for Microsoft 365 Copilot | AI at Work Blog",
-      "source": "Microsoft",
-      "date": "2026-10-13",
-      "summary": "Introducing a new design for Microsoft 365 Copilot | AI at Work Blog Microsoft",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNOWFDMS1yTGNvLUFhdzE5QVNGTzFxa25hNGxQc3JkSXNwNnJRWkNwZ0xneEctRm5QTVJSeFdhZklzTXR3TkJXbVBOcU1ZQ2h6WWdCRXdTSXdfU19GOE5wOEZGY0JVOHR3V1NEWlFBZnV1Q2E4M1hDVkQxekljMk85T2RVWVJJaTl5WjkwcDFPLXZHd0RzTnh2OXBUZ3BJanV6NHQ3eTNYQ25HSlE?oc=5",
-      "titleZh": "介紹Microsoft 365的新設計Copilot | AI at Work部落格",
-      "summaryZh": "介紹Microsoft 365的新設計Copilot | AI at Work部落格Microsoft"
-    },
-    {
-      "title": "AI PowerPoint Maker for Sales Decks, Investor Decks and",
-      "source": "GlobeNewswire",
-      "date": "2026-10-13",
-      "summary": "AI PowerPoint Maker for Sales Decks, Investor Decks and GlobeNewswire",
-      "url": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxQdXh5QW1KUnBkTUVzbnUya1RSNFVlbnU1c1N0ZkxwU05SZkJWY2NkSmJZMVk5VXpKNHhHMmhWSnMyTmJ2TU5BRUZ2MDR5SlFubEpQRGowbG1iWFNKM2RXczZWeGhFbFRFQ19leFo2OVJwOW1FTDExZHVCRjNPanBud2s1bXJmN2hkTjh2S05RY2xxVGcxcEtvbUR1NTN0cDV5QVJkek1JQy1ZVTItQ3ZkSmlpcERqSmFHYTg5bEQ4VHJKUWNubTRWbUZ4aWhvcy1tb0ljNFhhYl9HUjlCUWFWTTFfLWhfcnNDaUgzZk5WeXFVR2dqMEJwNUFwOEEyWDJaZkN4aWRQamJyZHd6anJoTjhteF9nLU02Nk9CTGliLUFoZmlEWEtPYkRSTTl1R0xVaDd0Q29KUW5fT0k2WGVsQUpxM2Zzc2s1R0hRMjVWcUVRN1BTb0xONWFiWQ?oc=5",
-      "titleZh": "AI PowerPoint銷售平臺、投資者平臺和",
-      "summaryZh": "AI PowerPoint Maker適用於銷售平臺、投資者平臺和GlobeNewswire"
     }
   ],
   "github": [
     {
-      "title": "#1 storytold/photocraft — ⭐ 54,089",
+      "title": "#1 storytold/photocraft — ⭐ 58,113",
       "source": "Rust",
       "date": "2026-09-30",
       "summary": "PhotoCraft: An open-source, photo editor written by scratch in pure Rust",
@@ -178,7 +178,7 @@
       "url": "https://github.com/storytold/photocraft"
     },
     {
-      "title": "#2 NandhaKishorM/laya — ⭐ 32,594",
+      "title": "#2 NandhaKishorM/laya — ⭐ 32,782",
       "source": "Python",
       "date": "2026-09-18",
       "summary": "Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward pass, in 100+ languages, with a router t",
@@ -186,7 +186,7 @@
       "url": "https://github.com/NandhaKishorM/laya"
     },
     {
-      "title": "#3 Niko1221/Strata — ⭐ 22,861",
+      "title": "#3 Niko1221/Strata — ⭐ 23,768",
       "source": "C++",
       "date": "2026-09-24",
       "summary": "Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image i",
@@ -194,7 +194,7 @@
       "url": "https://github.com/Niko1221/Strata"
     },
     {
-      "title": "#4 browser-use/jev-ultrafast — ⭐ 22,763",
+      "title": "#4 browser-use/jev-ultrafast — ⭐ 22,833",
       "source": "Python",
       "date": "2026-09-16",
       "summary": "Fastest and cheapest web agent",
@@ -202,7 +202,7 @@
       "url": "https://github.com/browser-use/jev-ultrafast"
     },
     {
-      "title": "#5 robbietilton/Compositor — ⭐ 16,461",
+      "title": "#5 robbietilton/Compositor — ⭐ 16,736",
       "source": "Swift",
       "date": "2026-09-16",
       "summary": "The Photoshop alternative for Mac",
@@ -210,7 +210,7 @@
       "url": "https://github.com/robbietilton/Compositor"
     },
     {
-      "title": "#6 openai/math — ⭐ 14,470",
+      "title": "#6 openai/math — ⭐ 14,686",
       "source": "Lean",
       "date": "2026-10-06",
       "summary": "（此專案未提供說明）",
@@ -220,45 +220,45 @@
   ],
   "hf": [
     {
-      "title": "#1 google/embeddinggemma-2 — ❤️ 1,958",
+      "title": "#1 google/embeddinggemma-2 — ❤️ 2,112",
       "source": "特徵擷取",
       "date": "2026-09-14",
-      "summary": "月下載 115,763 次｜任務 特徵擷取｜框架 transformers",
+      "summary": "月下載 124,930 次｜任務 特徵擷取｜框架 transformers",
       "url": "https://huggingface.co/google/embeddinggemma-2"
     },
     {
-      "title": "#2 jialinyyzz/humanizer — ❤️ 1,342",
+      "title": "#2 jialinyyzz/humanizer — ❤️ 1,527",
       "source": "文字生成",
       "date": "2026-09-11",
-      "summary": "月下載 46,070 次｜任務 文字生成｜框架 gguf",
+      "summary": "月下載 54,039 次｜任務 文字生成｜框架 gguf",
       "url": "https://huggingface.co/jialinyyzz/humanizer"
     },
     {
-      "title": "#3 Qwen/Qwen-Image-2.1-Turbo — ❤️ 645",
+      "title": "#3 Qwen/Qwen-Image-2.1-Turbo — ❤️ 710",
       "source": "文字生成圖片",
       "date": "2026-10-09",
-      "summary": "月下載 6,787 次｜任務 文字生成圖片｜框架 diffusers",
+      "summary": "月下載 9,665 次｜任務 文字生成圖片｜框架 diffusers",
       "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo"
     },
     {
-      "title": "#4 abenzerps/Qwen-Image-2.1-Uncensored-Quantized — ❤️ 4,110",
+      "title": "#4 abenzerps/Qwen-Image-2.1-Uncensored-Quantized — ❤️ 4,208",
       "source": "文字生成圖片",
       "date": "2026-09-20",
-      "summary": "月下載 2,188,658 次｜任務 文字生成圖片｜框架 gguf",
+      "summary": "月下載 2,247,929 次｜任務 文字生成圖片｜框架 gguf",
       "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized"
     },
     {
-      "title": "#5 Cloudflare/clef — ❤️ 2,099",
+      "title": "#5 openbmb/MiniCPM-V-4.7-35B-A3B — ❤️ 469",
       "source": "圖文轉文字",
-      "date": "2026-09-30",
-      "summary": "月下載 15,064 次｜任務 圖文轉文字｜框架 transformers",
-      "url": "https://huggingface.co/Cloudflare/clef"
+      "date": "2026-10-07",
+      "summary": "月下載 630 次｜任務 圖文轉文字｜框架 transformers",
+      "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B"
     },
     {
-      "title": "#6 Lightricks/LTX-2.5 — ❤️ 7,498",
+      "title": "#6 Lightricks/LTX-2.5 — ❤️ 7,650",
       "source": "圖片生成影片",
       "date": "2026-07-23",
-      "summary": "月下載 1,719,766 次｜任務 圖片生成影片｜框架 diffusion-single-file",
+      "summary": "月下載 1,724,548 次｜任務 圖片生成影片｜框架 diffusion-single-file",
       "url": "https://huggingface.co/Lightricks/LTX-2.5"
     }
   ]
