@@ -1,75 +1,75 @@
 {
-  "lastUpdated": "2026-11-12 12:01（台灣時間）",
+  "lastUpdated": "2026-11-13 11:30（台灣時間）",
   "news": [
     {
       "title": "What's new in geospatial AI (November 2026)",
       "source": "Esri",
-      "date": "2026-11-12",
+      "date": "2026-11-13",
       "summary": "What's new in geospatial AI (November 2026) Esri",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUXUwYmlrY2RpckN3Y3dzajFJQ2pyYVFqZXpCWFFXamx0cnl1MFl6SHUwT0NvaE9ES1JkWnptVVBqY0l4YUNfWmRRanhWalVHUzVtSlZYN3AwTDFOR0hRdnhYZjUzZktWR0JSSjJQLWhLTEp2SUo3RFVxXzVPcDMtQ2hhYVJZdFdMQmU0enlVVGdIOVhERUFRMGhYTQ?oc=5",
       "titleZh": "地理空間 AI 的新功能 (2026 年 11 月)",
       "summaryZh": "地理空間 AI (2026 年 11 月) Esri 的新功能"
     },
     {
-      "title": "Anthropic releases first frontier models since Amodei's call for slowdown as IPO buzz builds",
-      "source": "CNBC",
-      "date": "2026-11-12",
-      "summary": "Anthropic releases first frontier models since Amodei's call for slowdown as IPO buzz builds CNBC",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1EZ19OSTNSY1dhR3hRS1h5MWdBMnQtbDBZRG9lNUl6c2Z3Sy1hYlh2LUY2elVFd1BzbUVrYkdHcC1XQVBuTFZ3d2p3ME9uTkRRb0k5NE1OdjB1eU5XNFFWb3pTcTd1OUw0cTF2Ynd4M25tSGFQaHdhVFFoZVZyR1U?oc=5",
-      "titleZh": "自阿莫代 (Amodei) 呼籲放緩以來，隨著 IPO 的熱度不斷升溫，Anthropic 推出了首批前沿模型",
-      "summaryZh": "自阿莫戴 (Amodei) 呼籲放緩以來，Anthropic 首次推出前沿模型，同時 IPO 的話題也越來越熱 CNBC"
+      "title": "AI roadmap for ecology foundation models, Nov 2026",
+      "source": "CASRAI",
+      "date": "2026-11-13",
+      "summary": "AI roadmap for ecology foundation models, Nov 2026 CASRAI",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPYlNpby13bkFEZWlBcHVsZDNYUFQ1TWNMTjgyTzd2d294d2dNNXJ2aG95S1VJY2lsWE9EQThCdEtTelJDMjlFRFp3al94Mm9jVWh6YWFBc1B3aDNkaWVGQkxlYjdPcHRTTTlnTmNwbllVM1h4aHVVMDR6LVdha0Fnag?oc=5",
+      "titleZh": "AI 生態基礎模型的藍圖，2026 年 11 月",
+      "summaryZh": "AI 生態基礎模型藍圖，2026 年 11 月 CASRAI"
     },
     {
-      "title": "Meta releases Muse Ember, a new lightweight model for agent execution",
-      "source": "TechCrunch",
-      "date": "2026-11-12",
-      "summary": "Meta releases Muse Ember, a new lightweight model for agent execution TechCrunch",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNaXRwOW9rQ1ljTFVFZ1I0eEVvYmJ4ei1waUR1X2ZBcWNwS0VSSWN3eHpXTi1NOHpLelVwdTM0OGlyUUdnUjA1M2w0T19aaGRKN1J1a21VX0tFYnlYRC13bWZwQWxWcHNqTXBIMFdHR21icFdzYVQ1MENmSXMwREFQVmpLcGVmeS1NcXJTclVYT0ZYZVREeUZmQ0U4eXVqbkF3WUtDN1JR?oc=5",
-      "titleZh": "Meta 發布 Muse Ember，一款適用於代理程式執行的全新輕量級模型",
-      "summaryZh": "Meta 發布 Muse Ember，一款適用於代理執行的新型輕量化模型 TechCrunch"
+      "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2",
+      "source": "Anthropic",
+      "date": "2026-11-13",
+      "summary": "Introducing Claude Fable 5.2 and Claude Mythos 5.2 Anthropic",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBvemRsWlN1U1g0NDQ5VUdhajBhZVVfd3J1eGRGV1lubnZQc3J6UVA1STMwdmlUM0k3a2c0SkN3VmdxYkplTnp4TWlheWV0NHlUUzFTYTU1b3Vmbmh1ZjVBakVlcw?oc=5",
+      "titleZh": "隆重推出 Claude Fable 5.2 和 Claude Mythos 5.2",
+      "summaryZh": "隆重推出 Claude Fable 5.2 和 Claude Mythos 5.2 Anthropic"
+    },
+    {
+      "title": "Claude 6 Release Date: When Will Claude Opus 6 and Fable 6 Come Out?",
+      "source": "Fello AI",
+      "date": "2026-11-13",
+      "summary": "Claude 6 Release Date: When Will Claude Opus 6 and Fable 6 Come Out? Fello AI",
+      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBDOTIyU1lXSE9mNHVFNWJ6QnJFMWwwV3lxa1VlcUxaUHdVTF80MnBRcl84YmlDMnM5WTZKaE1XU0FYTTA?oc=5",
+      "titleZh": "Claude 6 發售日期：Claude Opus 6 和《Fable 6》何時會發售？",
+      "summaryZh": "Claude 6 發售日期：Claude Opus 6 和《Fable 6》何時會推出？Fello AI"
+    },
+    {
+      "title": "Independent Assessment of AI R&D Acceleration at Anthropic in October 2026",
+      "source": "METR",
+      "date": "2026-11-13",
+      "summary": "Independent Assessment of AI R&D Acceleration at Anthropic in October 2026 METR",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1fS2w0NHNjZzd4OFBHcklxdzBmYmdnV2hyQ0xKVHA0Tm1ENFY3Z1FsemZNZ2J1eU9Xa2VQSExGTEVmOVpiYkJrZVpjRUlnMVRNUnlxTEdWSWVsZ2JFR0UxU2dKd2FXOXJDN2dTOUZmZk5UdTVJdS1jdEtRM1B6QQ?oc=5",
+      "titleZh": "2026 年 10 月對 Anthropic 的 AI 研發加速進行獨立評估",
+      "summaryZh": "2026 年 10 月 METR 對 Anthropic 的 AI 研發加速進行獨立評估"
     },
     {
       "title": "Gemini 4 Carbon is now available",
       "source": "blog.google",
-      "date": "2026-11-12",
+      "date": "2026-11-13",
       "summary": "Gemini 4 Carbon is now available blog.google",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNcFFDTTNsamEzRWp6RmVZemczQjAwQTlCMGhneldpY0gwUnpsS1JQY3o4NnZiSDd3bm56ZkZfM1lEZ1Y1WFN1MUNoTjV3cGNMOHdPc1NfcEhtbVNyMVlTdVpFYjlEZjczN29BUzdOdl9rUDhkNVZHY3ZIUjd1b0lOSEVhN3dMcWgxaVprSDAySnpIZWItVjhRcUg4c3NhbjBmRmh1dw?oc=5",
       "titleZh": "Gemini 4 Carbon 現已上市",
-      "summaryZh": "Gemini 4 Carbon 現已上市部落格。Google"
-    },
-    {
-      "title": "Helsing unveils Clarity, a sovereign software platform for military intelligence",
-      "source": "Helsing",
-      "date": "2026-11-12",
-      "summary": "Helsing unveils Clarity, a sovereign software platform for military intelligence Helsing",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZnh5VWprV1dSU1RZTmpzbENjZGl5c2s1ekgwTzlBMV9pa1c0Z0kxc09BVDNmV1YtbkNpbmh3d3FGOHNIMnJ6eUxxM1duM3g1dTZIN1FUQXJ3d21oZHpPbUdwMEk3a0oySjhCU3BJWE9TcElXTnE2ZUZaZEpCd2k2ZjVSUk0wem40QjNJR3RwSDlITTdCVGZsZVNOZElVd0pvUko2M2ZwcFpReEE?oc=5",
-      "titleZh": "Helsing 推出 Clarity，一款用於軍事情報的主權軟體平台",
-      "summaryZh": "Helsing 推出 Clarity，一款用於軍事情報的主權軟體平台 Helsing"
-    },
-    {
-      "title": "Number of ChatGPT Users (2026)",
-      "source": "Exploding Topics",
-      "date": "2026-11-12",
-      "summary": "Number of ChatGPT Users (2026) Exploding Topics",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1XeXN2SHhyRDh3X3pwTlB4VUJDMkxGZ0lKWENzakFtaWY2WmlZQ2FqdlFtZUZ5X1dHNExSQmx1V2tzTE93N08xWjZwbXdCQ2VlZnkxeTAzd29Sdw?oc=5",
-      "titleZh": "ChatGPT 使用者人數 (2026 年)",
-      "summaryZh": "ChatGPT 使用者人數 (2026 年) Exploding Topics"
+      "summaryZh": "Gemini 4 Carbon 現已上市 blog.Google"
     }
   ],
   "video": [
     {
       "title": "From FaceU to CapCut to AI Video: The Team Behind ByteDance’s Imaging Apps Bets on Flova",
       "source": "TradingView",
-      "date": "2026-11-12",
+      "date": "2026-11-13",
       "summary": "From FaceU to CapCut to AI Video: The Team Behind ByteDance’s Imaging Apps Bets on Flova TradingView",
       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPcjNCZ2E2SmZzY0JNSHpJLWZ1bDhheHJ0ejk3V0EwenFJemMxaXVaSEZVdUhnMXkySlBrOC1Lc1hiTVotNWk2UEQxb0FJd1pkcmNoUzBDSlFWTTF5M19yUmFfN054bDlkYUlFaGZUeGgzZVlZX2Jnbng2X2ZNXzRlbjNuTmt6TFNNd3Q0d0w5SEtNMVNteXRzd0o0UWh2ZjQzREtXU09zWXZINHlkWUVrZzBVV0VIeDJqTnZGMzBfWllGWXo4TFM4V3RtR0RmQy14OXRGLVY5bFA?oc=5",
-      "titleZh": "從 FaceU 到 CapCut 再到 AI 影片：字節跳動影像應用程式背後的團隊押寶 Flova",
+      "titleZh": "從 FaceU 到 CapCut 再到 AI 影片：ByteDance 相片應用程式背後的團隊押寶 Flova",
       "summaryZh": "從 FaceU 到 CapCut 再到 AI 影片：字節跳動影像應用程式背後的團隊押注 Flova TradingView"
     },
     {
       "title": "Best AI Video Generators 2026: Prices, Limits & Uses",
       "source": "Kingy AI",
-      "date": "2026-11-12",
+      "date": "2026-11-13",
       "summary": "Best AI Video Generators 2026: Prices, Limits & Uses Kingy AI",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE81TVRYcXRWRlQ5ZnBNNHJOZmMtMDkzTEx1alpub3ZaSVljQkdxWHc4R2VzM0t3aWtwNTM5R2FSVEJBcWhKQTF2YmU1UWNBc1pPdDhoM05ZS2RxWjk4eGJOcQ?oc=5",
       "titleZh": "2026 年最佳 AI 影片產生器：價格、限制與用途",
@@ -78,34 +78,34 @@
     {
       "title": "Best AI Video Generators: 3 Tested, Veo Wins [2026]",
       "source": "shattered.io",
-      "date": "2026-11-12",
+      "date": "2026-11-13",
       "summary": "Best AI Video Generators: 3 Tested, Veo Wins [2026] shattered.io",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOcWdWdjNuSDJwRW55Z1RvUTlNRS0tUzFQZ0xVekg0ZzBYS09MTVRueXNhVDFZV0QxOWlQdG9EbW9UWWFIQXA4S0EyTDJqck5HTlRfNkZVa1RGUTd2dWR3cm9CNGZvV1h6QzFOQjJxY0VMMlpqalNzRXRMWW52bUdlalBqUTllYm9O?oc=5",
-      "titleZh": "最佳 AI 影片產生器：經測試的 3 款產品，Veo 脫穎而出 [2026]",
+      "titleZh": "最佳 AI 影片產生器：已測試 3 款，Veo 脫穎而出 [2026]",
       "summaryZh": "最佳 AI 影片產生器：經測試的 3 款，Veo 拔得頭籌 [2026] shattered.io"
     },
     {
-      "title": "Will AI Video Content Creation Replace Human Video Editors and Animators?",
-      "source": "TechBullion",
-      "date": "2026-11-12",
-      "summary": "Will AI Video Content Creation Replace Human Video Editors and Animators? TechBullion",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQcHk4a2NKQ2R0dDg5Z001N3lEcUE2Y0t1SVUzVUVfUGd6QlZlQlh1ZTA5Y1ZnSXJYcnd4VnAxNW5iTW03ajZ0RFJ0WU1WRk1UOGFtNllreElQWFByOW00RjE5MjlXMUVtNU1fSjFOTks1aklkY29sVDZPY0RJNml3dERobjdlb3RKNEFZLWc1UmJqUmUwaGhaY1lxNUpyQQ?oc=5",
-      "titleZh": "AI 影片內容創作是否會取代人類影片剪輯師與動畫師？",
-      "summaryZh": "AI 影片內容創作是否會取代人類影片剪輯師與動畫師？TechBullion"
+      "title": "AI Music Video Generators for Rappers and Artists 2026",
+      "source": "Respect My Region",
+      "date": "2026-11-13",
+      "summary": "AI Music Video Generators for Rappers and Artists 2026 Respect My Region",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5HWVJRWV9tRjEtc1hWbkJRaHdXZkpMUm9lYVZrZFVvVmNYNUVQQVFLQTFYWEtrcE55djM5VjRfemVDam1DVFFHaHZLeDlPd0JaaU9JS3JObmRjcWw0WGZLajVPbS1JeWxLOVQ3WFpISEFJYlA2YnJyUE9B?oc=5",
+      "titleZh": "AI 2026 年適用於饒舌歌手與藝術家的音樂影片製作工具",
+      "summaryZh": "AI 饒舌歌手與藝術家專用音樂影片製作工具 2026 Respect My Region"
     },
     {
-      "title": "Investing in Phaze",
-      "source": "Andreessen Horowitz",
-      "date": "2026-11-12",
-      "summary": "Investing in Phaze Andreessen Horowitz",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE44QXBuOVZOU0hkRy10Rk0zZ3BPNDV6MTdERWlUS2xwUlhrN2p0RXJPS0g2dkNzaTVlMlhTRmg5ODBFb0FpOURJWk5VVk5DUUdHYWJCdTA0OHlGQ3dGRXc?oc=5",
-      "titleZh": "投資 Phaze",
-      "summaryZh": "投資 Phaze Andreessen Horowitz"
+      "title": "Best AI Music Video Generator Apps for 2027: 7 Tools Compared",
+      "source": "Critical Hit",
+      "date": "2026-11-13",
+      "summary": "Best AI Music Video Generator Apps for 2027: 7 Tools Compared Critical Hit",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQNkZnbi1fZXNzYkN3NXpCTzZldG9rZ2xOODVoZTN1dXNUOWRERmhrMlEwS0IybWtEZGRhUFRHODVWLUo3SjdOUFVIc25pS0JBZFQxRlB5azBhUDhBaUQ2Q2IxNEpYNGVwQU9FeXdWanZNNzd1OVdmVkpVaGh6ejNtUVFBa1ViUQ?oc=5",
+      "titleZh": "2027 年最佳 AI 音樂影片製作器應用程式：7 款工具比較",
+      "summaryZh": "2027 年最佳 AI 音樂影片製作器應用程式：7 款工具比較大評比"
     },
     {
       "title": "10 AI Video Prompt Templates for Better Results in 2026",
       "source": "eWeek",
-      "date": "2026-11-12",
+      "date": "2026-11-13",
       "summary": "10 AI Video Prompt Templates for Better Results in 2026 eWeek",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBBdXJhbFFncl9kMThucldlQzdDOFBrbm9lbUFVSmNxT1FVNnMya0l3REZSZXI1dm1JUFN6QkF5cUVZR3pvM3JDVjlVMXhYVUU4X0IwUXZxSWlWNXFQQVF2TTN4REQ1TkNZY0E?oc=5",
       "titleZh": "10 個 AI 影片提示範本，助您在 2026 年取得更佳成果",
@@ -116,7 +116,7 @@
     {
       "title": "Best AI Presentation Makers in 2026: 10 Tools Compared, Including the One You Might Already Own",
       "source": "Memeburn",
-      "date": "2026-11-12",
+      "date": "2026-11-13",
       "summary": "Best AI Presentation Makers in 2026: 10 Tools Compared, Including the One You Might Already Own Meme",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBYVkx0SERxNlZWOHNET3g1dW1TcTdXRTVLRHM4cE5uaUhrMmtfSzEzMk40ZXpSRmg0RWtZYkxkZ0h3YkRaY0FmenBLeTh5QnYxMExzQkVPamtQR3c1d2c?oc=5",
       "titleZh": "2026 年最佳 AI 簡報製作工具：比較 10 款工具，包括您可能已經擁有的工具",
@@ -125,16 +125,16 @@
     {
       "title": "Best AI presentation makers for business in 2026: 6 tools compared - London Business News",
       "source": "London Business News",
-      "date": "2026-11-12",
+      "date": "2026-11-13",
       "summary": "Best AI presentation makers for business in 2026: 6 tools compared - London Business News London Bus",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOY21Gd0dBYkZOdkhWcDdsWm5ncjNNdXRBZzMwZXVRYXNKcmYweVlMVkNZREpiTG9CZDFNbzlQQnpTZU1XYk9LSnlTbjgwUURKSVpmUE1PQ3ZDaExzd2liaW5hbUh1ZzdMVmc3TmpZaUd6TV85YUt4Yk9TazlOUmtGOXJwZ2hkUENC?oc=5",
-      "titleZh": "2026 年最適合商務使用的 AI 簡報製作工具：6 款工具比較 - London Business News",
-      "summaryZh": "2026 年最適合商務使用的 AI 簡報製作工具：6 款工具比較 - London Business News London Bus"
+      "titleZh": "2026 年最適合企業使用的 AI 簡報製作工具：6 款工具比較 - London Business News",
+      "summaryZh": "2026 年最適合商用的 AI 簡報製作工具：6 款工具比較 - London Business News London Bus"
     },
     {
       "title": "Copilot’s agentic capabilities in Word, Excel, and PowerPoint are generally available",
       "source": "Microsoft",
-      "date": "2026-11-12",
+      "date": "2026-11-13",
       "summary": "Copilot’s agentic capabilities in Word, Excel, and PowerPoint are generally available Microsoft",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQY2pBT0F5X0h2UmtVTWhtaFc3TFFZbU1ObFAxdmN0TGhkQmYxMTVWYlRaY2NfdEdwbUpqNFF5Y1RzMDFKNlM3b1FzZWFrel9CNkZoek5CUjdqMTJSQkpsVVQ5U08zV2tnVU44eUFzNGZVRXdMcWlwYnJCWGJqdVJUdVJ0MDdid3dtZjBpN21xbWdsSzRhWm9fQV9ieW1GSENYS2gwX2tUR05vR3oxampRY21FUlcyelFrbzQ2VVBudXdHM1dHa2N2NDY4YUgzNWptdlZRRHBn?oc=5",
       "titleZh": "Copilot 在 Word、Excel 和 PowerPoint 中的代理功能已正式推出",
@@ -143,16 +143,16 @@
     {
       "title": "8 AI Sales Presentation Maker Tools That Actually Help Reps Close Deals",
       "source": "Technology Org",
-      "date": "2026-11-12",
+      "date": "2026-11-13",
       "summary": "8 AI Sales Presentation Maker Tools That Actually Help Reps Close Deals Technology Org",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9hQXdHWC1WUlRpR3NyNm1FTURERkJOSVd0N0ZGS2dfNHhrZDRtR1VOQzlZemhqVkswTzhtZjJCaG9yMWF2YWZ5d0hlcUZ1Rm4xMU1nVEd5S2V3X1hqWTRjTUdJWlRsSWJON3VrdVVzR0pFeGtJMUc0NVdINVk?oc=5",
-      "titleZh": "8 AI 真正能幫助銷售人員成交的銷售簡報製作工具",
-      "summaryZh": "8 AI 真正有助於銷售人員成交的銷售簡報製作工具技術部門"
+      "titleZh": "8 AI 真正有助於銷售人員成交的銷售簡報製作工具",
+      "summaryZh": "8 AI 真正有助於銷售人員成交的銷售簡報製作工具技術組織"
     },
     {
       "title": "Introducing a new design for Microsoft 365 Copilot",
       "source": "Microsoft",
-      "date": "2026-11-12",
+      "date": "2026-11-13",
       "summary": "Introducing a new design for Microsoft 365 Copilot Microsoft",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNOWFDMS1yTGNvLUFhdzE5QVNGTzFxa25hNGxQc3JkSXNwNnJRWkNwZ0xneEctRm5QTVJSeFdhZklzTXR3TkJXbVBOcU1ZQ2h6WWdCRXdTSXdfU19GOE5wOEZGY0JVOHR3V1NEWlFBZnV1Q2E4M1hDVkQxekljMk85T2RVWVJJaTl5WjkwcDFPLXZHd0RzTnh2OXBUZ3BJanV6NHQ3eTNYQ25HSlE?oc=5",
       "titleZh": "隆重推出 Microsoft 365 Copilot 的全新設計",
@@ -161,7 +161,7 @@
     {
       "title": "Free presentation templates live in about seven places, and each one charges you in branding, slide…",
       "source": "DataDrivenInvestor",
-      "date": "2026-11-12",
+      "date": "2026-11-13",
       "summary": "Free presentation templates live in about seven places, and each one charges you in branding, slide…",
       "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOd09vU3dmMkhDa1JlTko1ZGZENmFfZDUwTTEzejQzWWVqeHg4bERsaE1CVFBZdHVmN1NibXFJdEU0ckhLVllPaWl4Qkk0cGMtT2hobEF0Sl9fb3ZXaVdmY2xueFJoSlc4M1ZyNnRwblFERFpqV3FzSGZkd2c2NHI5TkhkUW1CRnVYdEpxZzUwNVF4c2M0ejhzcC12X2ozSzFUNm9nUndRNFg4TU1TWnRGdUZURjgxU2poeGppMmQ4NC1QMWxLak9fbkVJcGo0RkxjY3JlSmhWd3B3YlNySzdtbE53?oc=5",
       "titleZh": "免費簡報範本大約有七個來源，每個來源都會在品牌、投影片等方面向您收取費用……",
@@ -170,7 +170,7 @@
   ],
   "github": [
     {
-      "title": "#1 Gathin23/cleanyourtv — ⭐ 56,609",
+      "title": "#1 Gathin23/cleanyourtv — ⭐ 57,068",
       "source": "Python",
       "date": "2026-10-17",
       "summary": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
@@ -178,7 +178,7 @@
       "url": "https://github.com/Gathin23/cleanyourtv"
     },
     {
-      "title": "#2 storytold/craft-anything — ⭐ 28,695",
+      "title": "#2 storytold/craft-anything — ⭐ 30,159",
       "source": "Rust",
       "date": "2026-10-31",
       "summary": "Craft Anything: understand how any software works, and craft your own.",
@@ -186,7 +186,7 @@
       "url": "https://github.com/storytold/craft-anything"
     },
     {
-      "title": "#3 deepseek-ai/DeepInfer — ⭐ 25,876",
+      "title": "#3 deepseek-ai/DeepInfer — ⭐ 25,917",
       "source": "Python",
       "date": "2026-10-16",
       "summary": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
@@ -194,7 +194,7 @@
       "url": "https://github.com/deepseek-ai/DeepInfer"
     },
     {
-      "title": "#4 deepseek-ai/dsh-superagent-prototype — ⭐ 22,547",
+      "title": "#4 deepseek-ai/dsh-superagent-prototype — ⭐ 22,789",
       "source": "TypeScript",
       "date": "2026-10-31",
       "summary": "Towards a More Autonomous Agent System",
@@ -202,7 +202,7 @@
       "url": "https://github.com/deepseek-ai/dsh-superagent-prototype"
     },
     {
-      "title": "#5 ccch1mneyyy/dsh-Go — ⭐ 19,920",
+      "title": "#5 ccch1mneyyy/dsh-Go — ⭐ 20,942",
       "source": "Dart",
       "date": "2026-10-25",
       "summary": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
@@ -210,56 +210,56 @@
       "url": "https://github.com/ccch1mneyyy/dsh-Go"
     },
     {
-      "title": "#6 Zagitta/gpu-unlock — ⭐ 18,779",
+      "title": "#6 Zagitta/gpu-unlock — ⭐ 18,990",
       "source": "C",
       "date": "2026-10-18",
       "summary": "Your GeForce runs AI at half speed. This fixes it for 20/30/40 series cards. Up to 2× FP16 / BF16 / TF32 tensor throughput",
-      "summaryZh": "您的 GeForce 以半速執行 AI。這能解決 20/30/40 系列顯示卡的問題。最高可達 2 倍的 FP16 / BF16 / TF32 張量處理量",
+      "summaryZh": "您的 GeForce 以半速執行 AI。這能解決 20/30/40 系列顯示卡的問題。最高 2 倍的 FP16 / BF16 / TF32 張量處理量",
       "url": "https://github.com/Zagitta/gpu-unlock"
     }
   ],
   "hf": [
     {
-      "title": "#1 xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic — ❤️ 3,759",
+      "title": "#1 xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic — ❤️ 4,749",
       "source": "文字生成",
       "date": "2026-10-30",
-      "summary": "月下載 16,693 次｜任務 文字生成｜框架 transformers",
+      "summary": "月下載 18,933 次｜任務 文字生成｜框架 transformers",
       "url": "https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic"
     },
     {
-      "title": "#2 MiniMaxAI/MiniMax-H3-Image — ❤️ 743",
+      "title": "#2 MiniMaxAI/MiniMax-H3-Image — ❤️ 879",
       "source": "文字生成圖片",
       "date": "2026-11-03",
-      "summary": "月下載 142,989 次｜任務 文字生成圖片｜框架 minimax-h3",
+      "summary": "月下載 306,718 次｜任務 文字生成圖片｜框架 minimax-h3",
       "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image"
     },
     {
-      "title": "#3 speridlabs/idol — ❤️ 2,154",
-      "source": "image-to-3d",
-      "date": "2026-10-28",
-      "summary": "月下載 28,250 次｜任務 image-to-3d｜框架 idol",
-      "url": "https://huggingface.co/speridlabs/idol"
-    },
-    {
-      "title": "#4 NousResearch/Arete-27B — ❤️ 440",
+      "title": "#3 NousResearch/Arete-27B — ❤️ 491",
       "source": "文字生成",
       "date": "2026-11-06",
-      "summary": "月下載 4,023 次｜任務 文字生成",
+      "summary": "月下載 4,669 次｜任務 文字生成",
       "url": "https://huggingface.co/NousResearch/Arete-27B"
     },
     {
-      "title": "#5 Lightricks/LTX-2.5 — ❤️ 11,530",
+      "title": "#4 speridlabs/idol — ❤️ 2,238",
+      "source": "image-to-3d",
+      "date": "2026-10-28",
+      "summary": "月下載 29,904 次｜任務 image-to-3d｜框架 idol",
+      "url": "https://huggingface.co/speridlabs/idol"
+    },
+    {
+      "title": "#5 Lightricks/LTX-2.5 — ❤️ 11,645",
       "source": "圖片生成影片",
       "date": "2026-07-23",
-      "summary": "月下載 2,848,771 次｜任務 圖片生成影片｜框架 diffusion-single-file",
+      "summary": "月下載 2,782,513 次｜任務 圖片生成影片｜框架 diffusion-single-file",
       "url": "https://huggingface.co/Lightricks/LTX-2.5"
     },
     {
-      "title": "#6 moonshotai/Kimi-K3.1-Pro — ❤️ 1,938",
+      "title": "#6 Qwen/Qwen3.8-27B — ❤️ 19,751",
       "source": "圖文轉文字",
-      "date": "2026-11-02",
-      "summary": "月下載 33,617 次｜任務 圖文轉文字｜框架 transformers",
-      "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro"
+      "date": "2026-08-05",
+      "summary": "月下載 7,094,218 次｜任務 圖文轉文字｜框架 transformers",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-27B"
     }
   ]
 }
