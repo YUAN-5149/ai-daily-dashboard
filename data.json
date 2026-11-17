@@ -1,28 +1,46 @@
 {
-  "lastUpdated": "2026-11-16 10:56（台灣時間）",
+  "lastUpdated": "2026-11-17 13:10（台灣時間）",
   "news": [
     {
-      "title": "Lara Mini Base Tests Multilingual AI Pretraining in EU Languages",
+      "title": "Alibaba details new AI safeguards as Chinese developers step up test disclosures",
+      "source": "Reuters",
+      "date": "2026-11-17",
+      "summary": "Alibaba details new AI safeguards as Chinese developers step up test disclosures Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOUVhrY1I2NEhJUndRTG5sMWlxRXUxTS0wOHdOLVg2bG83NS10R0RuM1h2VWpMVTFrcHd3SmlsVy1hWFhiNld3NGdzcGxLWVVwN0UtUjhjUTdwaFdzMnVoSEkwZWR0MHYxMUw1NDVxbW5GZkFNbWZuaXlGZlRHUjRaTU1JM3FiVGRONXNCaTNtb3dFa1hmZlYxbUd6ZWRBdmgxVk1od0RDT3dscl9XaDRncU84RkxmYnNlcVFF?oc=5",
+      "titleZh": "隨著中國開發商加強測試資訊揭露，阿里巴巴詳述新的 AI 防護措施",
+      "summaryZh": "隨著中國開發人員加強測試資訊揭露，阿里巴巴詳述新的 AI 防護措施。《路透社》"
+    },
+    {
+      "title": "Tencent launches lower-cost Hy4 flash AI model",
       "source": "CASRAI",
-      "date": "2026-11-16",
-      "summary": "Lara Mini Base Tests Multilingual AI Pretraining in EU Languages CASRAI",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQV1ZLSmhHQzVhLTVFQ3BLT2RtQ0kxanhYMF9IZ2JMWVF6d0ZQQkhNMzc2V2VaaFNWTmYzQ0xpWXkwQ3J4ak9yTGFnNFVnTFdYZVFjVjZBWl9jdE9tQjAwNzVnaEljUG94Wkc0NUhHN0loUF9NUXFUSmRidi11ci13bHVBdWRUVjNKV0NZRG9WY20?oc=5",
-      "titleZh": "Lara Mini Base 測試歐盟語言的多語言 AI 預訓練",
-      "summaryZh": "Lara Mini 基測多語言 AI 預訓練（歐盟語言）CASRAI"
+      "date": "2026-11-17",
+      "summary": "Tencent launches lower-cost Hy4 flash AI model CASRAI",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5RdGltdnhmQl9CMEk0Q2l6Z2VXWXkwREJQbmwyaE5aUFhtTFozQXFfU25sN1lOQXN1UlEyTnI0ZjRBRU1EYWllczJXZFhuakFTR1cwY2tueWd0SDQ0ajhWYlhQQWhCaHc2RklFd0h5QmtUOUpyV0VaYkg3R0FwQQ?oc=5",
+      "titleZh": "騰訊推出低成本 Hy4 快閃 AI 機型",
+      "summaryZh": "騰訊推出低成本 Hy4 快閃 AI 型號 CASRAI"
     },
     {
       "title": "Independent Assessment of AI R&D Acceleration at Anthropic in October 2026",
       "source": "METR",
-      "date": "2026-11-16",
+      "date": "2026-11-17",
       "summary": "Independent Assessment of AI R&D Acceleration at Anthropic in October 2026 METR",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1fS2w0NHNjZzd4OFBHcklxdzBmYmdnV2hyQ0xKVHA0Tm1ENFY3Z1FsemZNZ2J1eU9Xa2VQSExGTEVmOVpiYkJrZVpjRUlnMVRNUnlxTEdWSWVsZ2JFR0UxU2dKd2FXOXJDN2dTOUZmZk5UdTVJdS1jdEtRM1B6QQ?oc=5",
       "titleZh": "2026 年 10 月對 Anthropic 的 AI 研發加速進行獨立評估",
-      "summaryZh": "2026 年 10 月 METR 對 Anthropic 的 AI 研發加速進行的獨立評估"
+      "summaryZh": "2026 年 10 月 METR 對 Anthropic 的 AI 研發加速進行獨立評估"
+    },
+    {
+      "title": "Alibaba unveils Qwen3.8-Max AI model, challenging US rivals Anthropic, OpenAI",
+      "source": "Crypto Briefing",
+      "date": "2026-11-17",
+      "summary": "Alibaba unveils Qwen3.8-Max AI model, challenging US rivals Anthropic, OpenAI Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZFdKOG5tbVJQbG43cVFoU24zS2JzMF9hVlh6MFBRZDJ1bzQ4QnAtdFVlQ0pZNHVIOVdPaXUxaUVQeDltTEU4QnNLcGpLdmNhdkR6R3A4a0xRaFBUYU05NTlMUjVtMnJqdU5qS2NzcUlQZGViSVZDZExyUE91YTJEVHB2b3dtWGhiWmN2VFBzV3ZEUm5QcjdqTFpkdDZfTXhQaWpoYg?oc=5",
+      "titleZh": "阿里巴巴推出 Qwen3.8-Max AI 模型，挑戰美國競爭對手 Anthropic、OpenAI",
+      "summaryZh": "阿里巴巴推出 Qwen3.8-Max AI 模型，向美國競爭對手 Anthropic、OpenAI 發起挑戰｜Crypto Briefing"
     },
     {
       "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2",
       "source": "Anthropic",
-      "date": "2026-11-16",
+      "date": "2026-11-17",
       "summary": "Introducing Claude Fable 5.2 and Claude Mythos 5.2 Anthropic",
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBvemRsWlN1U1g0NDQ5VUdhajBhZVVfd3J1eGRGV1lubnZQc3J6UVA1STMwdmlUM0k3a2c0SkN3VmdxYkplTnp4TWlheWV0NHlUUzFTYTU1b3Vmbmh1ZjVBakVlcw?oc=5",
       "titleZh": "隆重推出 Claude Fable 5.2 和 Claude Mythos 5.2",
@@ -31,63 +49,45 @@
     {
       "title": "Introducing Gemini 4 Hydrogen for Agentic Workflows",
       "source": "blog.google",
-      "date": "2026-11-16",
+      "date": "2026-11-17",
       "summary": "Introducing Gemini 4 Hydrogen for Agentic Workflows blog.google",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbnlqelBIT1ZXblFBa25zdHlXalhPR2Z2b2xLZ2lmeEtFbUFXS3Mya3FtU0tyeGJrOXpHVEJOdFpDVUZSUTVOUHA0WjRiakw2a2hIRzc3ZHBfM3pDT3dKTDdfMExNQ2FnU1NWSHI3UGpXX2lVSEUxeVYwb2FfNE5vRGJnMjhWSzU5WkFrdmtOdW5Fb0lja1dFN3JUMkQ5R01JRXhNUA?oc=5",
       "titleZh": "為代理工作流程推出 Gemini 4 Hydrogen",
       "summaryZh": "隆重介紹 Gemini 4 Hydrogen for Agentic Workflows 部落格。Google"
-    },
-    {
-      "title": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen!",
-      "source": "TechCrunch",
-      "date": "2026-11-16",
-      "summary": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen! TechCrunch",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQM2RjMXJ5cnYyUmVXT3FXVVVIeENJN0hQT3E0ZTg1YlpRSEItczBNaW1SZzlIM2hBNEZldVVzUjEwQzRDczhvVkQwMjZlLXh4U1pqd1NFcTFJOHh6MUMtQktSVmFmZUtzTUowb2hCdU1tVzY5NFFwWURpT3c5RW9zMUJOVHNvcG5aVG9lTUIzVUNqMW8yWkNzcXpidmtNRnlia3hySVpfbGRfQ3phbjJmbGZuYlhwS0E?oc=5",
-      "titleZh": "被禁止出口的 NVIDIA 晶片是中國最強大的 AI 機型的核心元件——哎呀，Jensen！",
-      "summaryZh": "中國最強大的 AI 機型背後，正是被禁止出口的 NVIDIA 晶片——哎呀，Jensen！TechCrunch"
-    },
-    {
-      "title": "Introducing Images 2.6 I n t r o d u c i n g I m a g e s 2 6",
-      "source": "OpenAI",
-      "date": "2026-11-16",
-      "summary": "Introducing Images 2.6 I n t r o d u c i n g I m a g e s 2 6 OpenAI",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5aRllmMHFwSmtFNVhMV0dnNXpZa0RkejJ2bDkzYUlTLXRBaHF5TXd0VldHSEZxbWEyQ25EdlM1azgxV2p5dGs0cnZ2dG56ekEzQTJDY1FFWjN5MzZh?oc=5",
-      "titleZh": "影像 2.6 介 紹 影 像 2 6",
-      "summaryZh": "介紹圖片 2.6 介 紹 圖 片 2 6 OpenAI"
     }
   ],
   "video": [
     {
       "title": "From FaceU to CapCut to AI Video: The Team Behind ByteDance’s Imaging Apps Bets on Flova",
       "source": "TradingView",
-      "date": "2026-11-16",
+      "date": "2026-11-17",
       "summary": "From FaceU to CapCut to AI Video: The Team Behind ByteDance’s Imaging Apps Bets on Flova TradingView",
       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPcjNCZ2E2SmZzY0JNSHpJLWZ1bDhheHJ0ejk3V0EwenFJemMxaXVaSEZVdUhnMXkySlBrOC1Lc1hiTVotNWk2UEQxb0FJd1pkcmNoUzBDSlFWTTF5M19yUmFfN054bDlkYUlFaGZUeGgzZVlZX2Jnbng2X2ZNXzRlbjNuTmt6TFNNd3Q0d0w5SEtNMVNteXRzd0o0UWh2ZjQzREtXU09zWXZINHlkWUVrZzBVV0VIeDJqTnZGMzBfWllGWXo4TFM4V3RtR0RmQy14OXRGLVY5bFA?oc=5",
-      "titleZh": "從 FaceU 到 CapCut 再到 AI 影片：字節跳動影像應用程式背後的團隊押寶 Flova",
+      "titleZh": "從 FaceU 到 CapCut 再到 AI 影片：ByteDance 影像應用程式背後的團隊押寶 Flova",
       "summaryZh": "從 FaceU 到 CapCut 再到 AI 影片：字節跳動影像應用程式背後的團隊押注 Flova TradingView"
     },
     {
       "title": "Best AI Video Generators 2026: Prices, Limits & Uses",
       "source": "Kingy AI",
-      "date": "2026-11-16",
+      "date": "2026-11-17",
       "summary": "Best AI Video Generators 2026: Prices, Limits & Uses Kingy AI",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE81TVRYcXRWRlQ5ZnBNNHJOZmMtMDkzTEx1alpub3ZaSVljQkdxWHc4R2VzM0t3aWtwNTM5R2FSVEJBcWhKQTF2YmU1UWNBc1pPdDhoM05ZS2RxWjk4eGJOcQ?oc=5",
       "titleZh": "2026 年最佳 AI 影片產生器：價格、限制與用途",
       "summaryZh": "2026 年最佳 AI 影片產生器：價格、限制與用途 Kingy AI"
     },
     {
-      "title": "Best AI Video Generators: 3 Tested, Veo Wins [2026]",
+      "title": "Best AI Video Generators: 5 Tested, Veo Wins [2026]",
       "source": "shattered.io",
-      "date": "2026-11-16",
-      "summary": "Best AI Video Generators: 3 Tested, Veo Wins [2026] shattered.io",
+      "date": "2026-11-17",
+      "summary": "Best AI Video Generators: 5 Tested, Veo Wins [2026] shattered.io",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOcWdWdjNuSDJwRW55Z1RvUTlNRS0tUzFQZ0xVekg0ZzBYS09MTVRueXNhVDFZV0QxOWlQdG9EbW9UWWFIQXA4S0EyTDJqck5HTlRfNkZVa1RGUTd2dWR3cm9CNGZvV1h6QzFOQjJxY0VMMlpqalNzRXRMWW52bUdlalBqUTllYm9O?oc=5",
-      "titleZh": "最佳 AI 影片產生器：已測試 3 款，Veo 拔得頭籌 [2026]",
-      "summaryZh": "最佳 AI 影片產生器：經測試的 3 款，Veo 拔得頭籌 [2026] shattered.io"
+      "titleZh": "最佳 AI 影片產生器：5 款已測試，Veo 拔得頭籌 [2026]",
+      "summaryZh": "最佳 AI 影片產生器：5 款已測試，Veo 脫穎而出 [2026] shattered.io"
     },
     {
       "title": "AI Music Video Generators for Rappers and Artists 2026",
       "source": "Respect My Region",
-      "date": "2026-11-16",
+      "date": "2026-11-17",
       "summary": "AI Music Video Generators for Rappers and Artists 2026 Respect My Region",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5HWVJRWV9tRjEtc1hWbkJRaHdXZkpMUm9lYVZrZFVvVmNYNUVQQVFLQTFYWEtrcE55djM5VjRfemVDam1DVFFHaHZLeDlPd0JaaU9JS3JObmRjcWw0WGZLajVPbS1JeWxLOVQ3WFpISEFJYlA2YnJyUE9B?oc=5",
       "titleZh": "AI 饒舌歌手與藝術家專用音樂影片產生器 2026",
@@ -96,27 +96,27 @@
     {
       "title": "10 AI Video Prompt Templates for Better Results in 2026",
       "source": "eWeek",
-      "date": "2026-11-16",
+      "date": "2026-11-17",
       "summary": "10 AI Video Prompt Templates for Better Results in 2026 eWeek",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBBdXJhbFFncl9kMThucldlQzdDOFBrbm9lbUFVSmNxT1FVNnMya0l3REZSZXI1dm1JUFN6QkF5cUVZR3pvM3JDVjlVMXhYVUU4X0IwUXZxSWlWNXFQQVF2TTN4REQ1TkNZY0E?oc=5",
       "titleZh": "10 個 AI 影片提示範本，助您在 2026 年取得更佳成果",
       "summaryZh": "10 個 AI 影片提示範本，助您在 2026 年 eWeek 取得更佳成果"
     },
     {
-      "title": "Best 5 AI Video Generator for TikTok and Instagram",
-      "source": "PC Tech Magazine",
-      "date": "2026-11-16",
-      "summary": "Best 5 AI Video Generator for TikTok and Instagram PC Tech Magazine",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTHg3Y2FIQ0ZxVDVPa2lsTlFsTXpXbkxRVzJrV1RUUk9sclhHYXBZMS1EQ2RoVFBCRy14a2F4YXJaWDhyMzQ3ZmU0MUNyX3ZTYXltY09oNHp2WDNXRWQxNjluUzI0MkR3aE05bWRDNnIxeGZ6UEt5LWkzUW01RDdGU2JHeVhhaVY5?oc=5",
-      "titleZh": "適用於 TikTok 和 Instagram 的 5 大最佳 AI 影片產生器",
-      "summaryZh": "適用於 TikTok 和 Instagram 的 5 大 AI 影片產生器《PC Tech Magazine》"
+      "title": "Best AI Music Video Generator Apps for 2027: 7 Tools Compared",
+      "source": "Critical Hit",
+      "date": "2026-11-17",
+      "summary": "Best AI Music Video Generator Apps for 2027: 7 Tools Compared Critical Hit",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQNkZnbi1fZXNzYkN3NXpCTzZldG9rZ2xOODVoZTN1dXNUOWRERmhrMlEwS0IybWtEZGRhUFRHODVWLUo3SjdOUFVIc25pS0JBZFQxRlB5azBhUDhBaUQ2Q2IxNEpYNGVwQU9FeXdWanZNNzd1OVdmVkpVaGh6ejNtUVFBa1ViUQ?oc=5",
+      "titleZh": "2027 年最佳 AI 音樂影片製作器應用程式：7 款工具比較",
+      "summaryZh": "2027 年最佳 AI 音樂影片製作 App：7 款工具比較大公開"
     }
   ],
   "slides": [
     {
       "title": "Best AI Presentation Makers in 2026: 10 Tools Compared, Including the One You Might Already Own",
       "source": "Memeburn",
-      "date": "2026-11-16",
+      "date": "2026-11-17",
       "summary": "Best AI Presentation Makers in 2026: 10 Tools Compared, Including the One You Might Already Own Meme",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBYVkx0SERxNlZWOHNET3g1dW1TcTdXRTVLRHM4cE5uaUhrMmtfSzEzMk40ZXpSRmg0RWtZYkxkZ0h3YkRaY0FmenBLeTh5QnYxMExzQkVPamtQR3c1d2c?oc=5",
       "titleZh": "2026 年最佳 AI 簡報製作工具：比較 10 款工具，包括您可能已經擁有的工具",
@@ -125,60 +125,60 @@
     {
       "title": "Best AI presentation makers for business in 2026: 6 tools compared - London Business News",
       "source": "London Business News",
-      "date": "2026-11-16",
+      "date": "2026-11-17",
       "summary": "Best AI presentation makers for business in 2026: 6 tools compared - London Business News London Bus",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOY21Gd0dBYkZOdkhWcDdsWm5ncjNNdXRBZzMwZXVRYXNKcmYweVlMVkNZREpiTG9CZDFNbzlQQnpTZU1XYk9LSnlTbjgwUURKSVpmUE1PQ3ZDaExzd2liaW5hbUh1ZzdMVmc3TmpZaUd6TV85YUt4Yk9TazlOUmtGOXJwZ2hkUENC?oc=5",
-      "titleZh": "2026 年最適合商務用途的 AI 簡報製作工具：6 款工具比較 - London Business News",
-      "summaryZh": "2026 年最適合商用的 AI 簡報製作工具：6 款工具比較 - London Business News London Bus"
+      "titleZh": "2026 年最適合企業使用的 AI 簡報製作工具：6 款工具比較 - 倫敦商業新聞",
+      "summaryZh": "2026 年最適合商務使用的 AI 簡報製作工具：6 款工具比較 - London Business News London Bus"
     },
     {
-      "title": "Copilot’s agentic capabilities in Word, Excel, and PowerPoint are generally available",
+      "title": "New ways to get creative with Microsoft Designer, powered by AI",
       "source": "Microsoft",
-      "date": "2026-11-16",
-      "summary": "Copilot’s agentic capabilities in Word, Excel, and PowerPoint are generally available Microsoft",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQY2pBT0F5X0h2UmtVTWhtaFc3TFFZbU1ObFAxdmN0TGhkQmYxMTVWYlRaY2NfdEdwbUpqNFF5Y1RzMDFKNlM3b1FzZWFrel9CNkZoek5CUjdqMTJSQkpsVVQ5U08zV2tnVU44eUFzNGZVRXdMcWlwYnJCWGJqdVJUdVJ0MDdid3dtZjBpN21xbWdsSzRhWm9fQV9ieW1GSENYS2gwX2tUR05vR3oxampRY21FUlcyelFrbzQ2VVBudXdHM1dHa2N2NDY4YUgzNWptdlZRRHBn?oc=5",
-      "titleZh": "Copilot 在 Word、Excel 和 PowerPoint 中的代理功能現已全面推出",
-      "summaryZh": "Copilot 在 Word、Excel 和 PowerPoint 中的代理程式功能現已正式推出 Microsoft"
+      "date": "2026-11-17",
+      "summary": "New ways to get creative with Microsoft Designer, powered by AI Microsoft",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQMGw3c0tIVFpJS0pwZzNTdUVRb0hxZWstQ19BVDRiLU5Ob3o4dWh6UDNUUm10V1BycVhnWmpHS0tmUjZHcGRwZWhHQ0hKbTV6ejlTaDdHWHJTenFzYU5VdlI3V2Jfb0w1VUE0UVYzVHNFY2NYMTVUYnVSbnlaM2NZbGh5NUV3eTNzc2dYaGFsOEhXQ2VlZGJoOEZ3TnZ3Y2VmMGFUdEhaVEtfMWQyMlU1OTB4Q3hwcUJTNzVR?oc=5",
+      "titleZh": "由 AI 提供技術支援的 Microsoft Designer，為您帶來發揮創意的全新方式",
+      "summaryZh": "由 AI 提供技術支援的 Microsoft Designer，為您帶來發揮創意的全新方式"
     },
     {
       "title": "8 AI Sales Presentation Maker Tools That Actually Help Reps Close Deals",
       "source": "Technology Org",
-      "date": "2026-11-16",
+      "date": "2026-11-17",
       "summary": "8 AI Sales Presentation Maker Tools That Actually Help Reps Close Deals Technology Org",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9hQXdHWC1WUlRpR3NyNm1FTURERkJOSVd0N0ZGS2dfNHhrZDRtR1VOQzlZemhqVkswTzhtZjJCaG9yMWF2YWZ5d0hlcUZ1Rm4xMU1nVEd5S2V3X1hqWTRjTUdJWlRsSWJON3VrdVVzR0pFeGtJMUc0NVdINVk?oc=5",
       "titleZh": "8 AI 真正有助於銷售人員成交的銷售簡報製作工具",
-      "summaryZh": "8 AI 真正有助於銷售人員成交的銷售簡報製作工具技術組織"
-    },
-    {
-      "title": "Introducing a new design for Microsoft 365 Copilot",
-      "source": "Microsoft",
-      "date": "2026-11-16",
-      "summary": "Introducing a new design for Microsoft 365 Copilot Microsoft",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNOWFDMS1yTGNvLUFhdzE5QVNGTzFxa25hNGxQc3JkSXNwNnJRWkNwZ0xneEctRm5QTVJSeFdhZklzTXR3TkJXbVBOcU1ZQ2h6WWdCRXdTSXdfU19GOE5wOEZGY0JVOHR3V1NEWlFBZnV1Q2E4M1hDVkQxekljMk85T2RVWVJJaTl5WjkwcDFPLXZHd0RzTnh2OXBUZ3BJanV6NHQ3eTNYQ25HSlE?oc=5",
-      "titleZh": "隆重推出 Microsoft 365 Copilot 的全新設計",
-      "summaryZh": "隆重推出 Microsoft 365 Copilot Microsoft 的全新設計"
+      "summaryZh": "8 AI 真正有助於銷售人員成交的銷售簡報製作工具技術部門"
     },
     {
       "title": "8 Best AutoPPT Alternatives for AI Slides Generation",
       "source": "North Penn Now",
-      "date": "2026-11-16",
+      "date": "2026-11-17",
       "summary": "8 Best AutoPPT Alternatives for AI Slides Generation North Penn Now",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNcnlTbXJ3cnBucFQyVm1XZzhHWE5wNDYtMEhlUFB6aDdTenBnaTQzQUZCWElYci1zT0xJSVFoa2w4Z3lwYV9LMjdibDEzUk5OTy0xanM2SndiT2gwZVp0d2lSNWZVYUJWbnM3OThHa1JuRmxMcFZqbnVHZlhTc3NDazFmVXktMGVBSkJreEpFeDJSNmRMaGc?oc=5",
-      "titleZh": "8 款最佳 AutoPPT 替代方案，用於產生 AI 投影片",
+      "titleZh": "8 款適用於 AI 投影片製作的最佳 AutoPPT 替代方案",
       "summaryZh": "8 款最佳 AutoPPT 替代方案，用於 AI 投影片製作 North Penn Now"
+    },
+    {
+      "title": "Can’t wait for Microsoft’s AI-generated presentations? Canva has it now",
+      "source": "PCWorld",
+      "date": "2026-11-17",
+      "summary": "Can’t wait for Microsoft’s AI-generated presentations? Canva has it now PCWorld",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPb1BqSndTQTFSZkNMTTZ2NWNibC0tWTM2ZGNCMHcyMUp4MnFmVUZFUkdOUHNPemlEQkRhczVvZFdDSjU0M3h5anE5bmg3NEo4MmlmR2F5Mk81STh1R1l1N3NhblQ3NlZqYlN5cl9pcUo4Y1lOczQ0MGFXZEV3UHJfVjZ0d3E3dE12RVg2Q0ZvUUdJdW9uNWVTaFJ6eEVhYnVDLVBYX1N3dnJuTG8?oc=5",
+      "titleZh": "迫不及待想看 Microsoft 的 AI 生成簡報了嗎？Canva 現在就有",
+      "summaryZh": "迫不及待想看 Microsoft 用 AI 製作的簡報了嗎？Canva 現在已經有了 PCWorld"
     }
   ],
   "github": [
     {
-      "title": "#1 storytold/craft-anything — ⭐ 33,890",
+      "title": "#1 storytold/craft-anything — ⭐ 34,984",
       "source": "Rust",
       "date": "2026-10-31",
       "summary": "Craft Anything: understand how any software works, and craft your own.",
-      "summaryZh": "打造任何事物：了解任何軟體的運作方式，並打造屬於自己的軟體。",
+      "summaryZh": "打造任何事物：瞭解任何軟體的運作方式，並打造屬於自己的軟體。",
       "url": "https://github.com/storytold/craft-anything"
     },
     {
-      "title": "#2 ccch1mneyyy/dsh-Go — ⭐ 23,872",
+      "title": "#2 ccch1mneyyy/dsh-Go — ⭐ 25,050",
       "source": "Dart",
       "date": "2026-10-25",
       "summary": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
@@ -186,7 +186,7 @@
       "url": "https://github.com/ccch1mneyyy/dsh-Go"
     },
     {
-      "title": "#3 deepseek-ai/dsh-superagent-prototype — ⭐ 23,324",
+      "title": "#3 deepseek-ai/dsh-superagent-prototype — ⭐ 23,535",
       "source": "TypeScript",
       "date": "2026-10-31",
       "summary": "Towards a More Autonomous Agent System",
@@ -194,71 +194,71 @@
       "url": "https://github.com/deepseek-ai/dsh-superagent-prototype"
     },
     {
-      "title": "#4 Zagitta/gpu-unlock — ⭐ 19,733",
-      "source": "C",
-      "date": "2026-10-18",
-      "summary": "Your GeForce runs AI at half speed. This fixes it for 20/30/40 series cards. Up to 2× FP16 / BF16 / TF32 tensor throughput",
-      "summaryZh": "您的 GeForce 以半速執行 AI。此解決方案適用於 20/30/40 系列顯示卡。最高 2 倍的 FP16 / BF16 / TF32 張量處理量",
-      "url": "https://github.com/Zagitta/gpu-unlock"
-    },
-    {
-      "title": "#5 heydamir/unslop — ⭐ 16,800",
+      "title": "#4 heydamir/unslop — ⭐ 17,344",
       "source": "JavaScript",
       "date": "2026-10-29",
       "summary": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
-      "summaryZh": "一種 Claude 技能，可將看起來像 AI 的 vibecoded 使用者介面轉換為設計介面",
+      "summaryZh": "一種 Claude 技能，可將看起來像 AI 的 Vibecode UI 轉換為設計介面",
       "url": "https://github.com/heydamir/unslop"
     },
     {
-      "title": "#6 pengchujin/aerial-tv — ⭐ 12,051",
+      "title": "#5 pengchujin/aerial-tv — ⭐ 12,222",
       "source": "Kotlin",
       "date": "2026-10-20",
       "summary": "给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs.",
-      "summaryZh": "給國產電視的一塊乾淨桌面：參考 tvOS 設計的開源 Android TV 桌面，沒有廣告，開機自動接管。適用於小米、TCL 及其他中國市場電視的 tvOS 風格啟動器。",
+      "summaryZh": "給國產電視的一塊乾淨桌面：參考 tvOS 設計的開放原始碼 Android TV 桌面，沒有廣告，開機自動接管。適用於小米、TCL 及其他中國市場電視的 tvOS 風格啟動器。",
       "url": "https://github.com/pengchujin/aerial-tv"
+    },
+    {
+      "title": "#6 anefzaoui/misterdownloadmanager — ⭐ 11,269",
+      "source": "Rust",
+      "date": "2026-10-29",
+      "summary": "misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windows, Mac, and Linux",
+      "summaryZh": "misterdownloadmanager：終極的開放原始碼、無污染下載管理員，完全使用純 Rust 語言從頭撰寫，適用於 Windows、Mac 和 Linux。",
+      "url": "https://github.com/anefzaoui/misterdownloadmanager"
     }
   ],
   "hf": [
     {
-      "title": "#1 xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic — ❤️ 7,551",
+      "title": "#1 xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic — ❤️ 9,167",
       "source": "文字生成",
       "date": "2026-10-30",
-      "summary": "月下載 27,037 次｜任務 文字生成｜框架 transformers",
+      "summary": "月下載 29,567 次｜任務 文字生成｜框架 transformers",
       "url": "https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic"
     },
     {
-      "title": "#2 MiniMaxAI/MiniMax-H3-Image — ❤️ 1,194",
+      "title": "#2 MiniMaxAI/MiniMax-H3-Image — ❤️ 1,336",
       "source": "文字生成圖片",
       "date": "2026-11-03",
-      "summary": "月下載 571,067 次｜任務 文字生成圖片｜框架 minimax-h3",
+      "summary": "月下載 609,130 次｜任務 文字生成圖片｜框架 minimax-h3",
       "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image"
     },
     {
-      "title": "#3 Qwen/Qwen3.8-27B — ❤️ 20,131",
+      "title": "#3 Qwen/Qwen3.8-27B — ❤️ 20,292",
       "source": "圖文轉文字",
       "date": "2026-08-05",
-      "summary": "月下載 6,547,772 次｜任務 圖文轉文字｜框架 transformers",
+      "summary": "月下載 6,763,402 次｜任務 圖文轉文字｜框架 transformers",
       "url": "https://huggingface.co/Qwen/Qwen3.8-27B"
     },
     {
-      "title": "#4 Lightricks/LTX-2.5 — ❤️ 12,070",
+      "title": "#4 Lightricks/LTX-2.5 — ❤️ 12,277",
       "source": "圖片生成影片",
       "date": "2026-07-23",
-      "summary": "月下載 2,754,355 次｜任務 圖片生成影片｜框架 diffusion-single-file",
+      "summary": "月下載 2,789,021 次｜任務 圖片生成影片｜框架 diffusion-single-file",
       "url": "https://huggingface.co/Lightricks/LTX-2.5"
     },
     {
-      "title": "#5 Comfy-Org/MiniMax-H3-Image — ❤️ 414",
+      "title": "#5 Comfy-Org/MiniMax-H3-Image — ❤️ 496",
       "source": "文字生成圖片",
       "date": "2026-11-08",
-      "summary": "月下載 1,973,388 次｜任務 文字生成圖片｜框架 diffusion-single-file",
+      "summary": "月下載 2,294,065 次｜任務 文字生成圖片｜框架 diffusion-single-file",
       "url": "https://huggingface.co/Comfy-Org/MiniMax-H3-Image"
     },
     {
-      "title": "#6 Zyphra/ZONOS3-Mini — ❤️ 398",
+      "title": "#6 Zyphra/ZONOS3-Mini — ❤️ 489",
       "source": "語音合成",
       "date": "2026-11-09",
-      "summary": "月下載 39,862 次｜任務 語音合成｜框架 zonos3",
+      "summary": "月下載 69,946 次｜任務 語音合成｜框架 zonos3",
       "url": "https://huggingface.co/Zyphra/ZONOS3-Mini"
     }
   ]
